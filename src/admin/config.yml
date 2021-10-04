@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main 
 
 # Enable local backend for working with local repo
 # https://www.netlifycms.org/docs/beta-features/
