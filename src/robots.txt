@@ -1,0 +1,4 @@
+Sitemap: https://www.parabolacenter.com/sitemap.xml
+
+User-agent: *
+Disallow:

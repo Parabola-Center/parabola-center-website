@@ -1,0 +1,97 @@
+footer {
+    background:black;
+    color:white;
+    padding:2rem;
+    a {
+        color: white;
+      }
+}
+
+.partial-mail {
+    form {
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+
+        
+        .input-flex{
+            display:flex;
+            flex-direction: column;
+            gap:10px;
+            width: 100%;
+        }
+        input {
+            height:40px;
+            padding:5px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-breakpoint) {
+// Sitemap
+
+.sitemap {
+    grid-column: 1 / 3;
+
+    ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    }
+
+    li {
+        list-style: none;
+        font-size: 1.25rem;
+    }
+}
+
+// Mailing List
+
+.partial-mail {
+    grid-column: 5 / 9;
+    text-align:center;
+    form {
+        align-items: center;
+    }
+}
+
+// Contact
+
+.footer-contact {
+    grid-column: 11 / 14;
+    
+    text-align:right;
+    ul {
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:10px;
+        li {
+            list-style: none;
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.footer-social {
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+    img {
+        width: 36px;
+        height: 36px;
+    }
+}
+}
+
+.copyright {
+    margin: auto;
+    p {
+        font-size: 1rem;
+        margin-top: 5rem;
+        text-align: center;
+        max-width: 100%;
+    }
+}

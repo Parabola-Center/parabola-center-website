@@ -1,0 +1,25 @@
+---
+layout: base
+---
+<section class="parabola-grid pdf">
+  <h1 class="big:parabola-cols-full parabola-cols-full">{{policy.header1}}</h1>
+  {% for item in policy.portfolio %}
+  <a class="parabola-cols-full big:parabola-cols-quarter" href="{{ item.url }}">
+        {{ item.title }}
+  </a>
+  {% endfor %}
+  <h1 class="parabola-cols-full big:parabola-cols-full">{{policy.header2}}</h1>
+  {% for item in policy.positions %}
+  <a class="parabola-cols-full big:parabola-cols-quarter"
+    href=" {{ item.url }}">
+
+        {{ item.title }}
+
+  </a>
+  {% endfor %}
+</section>
+<section>
+<div class="parabola-cols-full big:parabola-cols-full">
+  {{policy.content | markdown | safe}}
+</div>
+</section>

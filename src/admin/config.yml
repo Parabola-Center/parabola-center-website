@@ -1,0 +1,150 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# Enable local backend for working with local repo
+# https://www.netlifycms.org/docs/beta-features/
+# npx netlify-cms-proxy-server
+local_backend: true
+
+# Enable drafts
+# publish_mode: editorial_workflow
+
+media_folder: "src/img"
+public_folder: "/img"
+collections:
+  - label: "Site configuraiton"
+    name: "site"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "src/_data/navigation.json"
+        fields:
+          - {label: Logo, name: logo , widget: image}
+      - label: "Footer"
+        name: "footer"
+        file: "src/_data/footer.json"
+        fields:
+          - {label: Copyright, name: copyright , widget: string}
+          - label: Social Media
+            name: socials
+            widget: list
+            fields:
+              - {label: url, name: url, widget: string}
+              - {label: Logo, name: image, widget: image}
+              - {label: Alt, name: alt, widget: string}
+      - label: "Meta-Data"
+        name: "site"
+        file: "src/_data/site.json"
+        fields: 
+          - {label: Name, name: name, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Apple Touch Logo, name: apple_touch_logo, widget: image}
+          - {label: Favicon 32x32, name: favicon_32x32, widget: image}
+          - {label: Favicon 16x16, name: favicon_16x16, widget: image} 
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "index"
+        file: "src/_data/index.json"
+        fields:
+          - {label: Header 1, name: header1, widget: string}          
+          - {label: Description 1, name: policy, widget: string}          
+          - {label: Header 2, name: header2, widget: string}
+          - {label: Description 2, name: services, widget: string}          
+          - {label: About, name: about, widget: markdown}
+          - {label: Redirect Text, name: aboutUrl, widget: string}
+          - {label: Button Text, name: buttonText, widget: string}
+          - {label: Card 1, name: card_one, widget: markdown}          
+          - {label: Card 2, name: card_two, widget: markdown}          
+          - {label: Card 3, name: card_three, widget: markdown}          
+          - {label: Card 4, name: card_four, widget: markdown}                    
+          - label: Articles
+            name: articles
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: File, name: url, widget: file}
+      - label: "About Page"
+        name: "about"
+        file: "src/_data/about.json"
+        fields:
+          - {label: Main Image, name: main_image, widget: image}          
+          - {label: Main Image Alt, name: main_image_alt, widget: string}
+          - {label: Content, name: content, widget: markdown}
+          - {label: Header, name: about_header, widget: string}
+          - {label: Advisors Text, name: advisors_text, widget: markdown}
+          - label: Founders
+            name: founders
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image Alt, name: alt, widget: string}
+              - {label: Caption, name: caption, widget: string}
+              - {label: Description, name: description, widget: markdown}
+          - label: Advisors
+            name: advisors
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+              - {label: Title, name: title, widget: string}
+      - label: "Contact Page"
+        name: "contact"
+        file: "src/_data/contact.json"
+        fields:
+          - {label: Image, name: image, widget: image}          
+          - {label: Alt, name: alt, widget: string}
+          - {label: Content, name: content, widget: markdown}
+      - label: "Policy Page"
+        name: "policy"
+        file: "src/_data/policy.json"
+        fields:
+          - {label: Header 1, name: header1, widget: string}          
+          - label: Policy Portfolio
+            name: portfolio
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: file}
+          - {label: Header 2, name: header2, widget: string}          
+          - label: Policy Positions
+            name: positions
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: file}
+          - {label: Content, name: content, widget: markdown}
+      - label: "Media Page"
+        name: "media"
+        file: "src/_data/media.json"
+        fields:
+          - {label: Header , name: header, widget: string}
+          - {label: Contact , name: contact, widget: markdown}
+          - label: In The News
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: file}
+      - label: "Services Page"
+        name: "services"
+        file: "src/_data/services.json"
+        fields:
+          - {label: Image 1, name: imageOne, widget: image}
+          - {label: Image 2, name: imageTwo, widget: image}
+          - {label: Alt 1, name: imageOneAlt, widget: string}
+          - {label: Alt 2, name: imageTwoAlt, widget: string}
+          - {label: Header, name: header, widget: string}
+          - {label: Content, name: content, widget: markdown}
+          - {label: Message, name: message, widget: markdown}
+          - label: Services
+            name: services
+            widget: list
+            fields:
+              - {label: Text, name: text, widget: string}
+             
+        
+             

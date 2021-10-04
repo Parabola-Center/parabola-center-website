@@ -1,0 +1,35 @@
+{
+  "logo": "/img/pc_logo.png",  
+  "items": [
+      {
+        "text": "Home",
+        "url": "/",
+        "external": false
+      },
+      {
+        "text": "About",
+        "url": "/about",
+        "external": false
+      },
+      {
+        "text": "Contact",
+        "url": "/contact",
+        "external": false
+      },
+      {
+        "text": "Media",
+        "url": "/media",
+        "external": false
+      },
+      {
+        "text": "Policy",
+        "url": "/policy",
+        "external": false
+      },
+      {
+        "text": "Services",
+        "url": "/services",
+        "external": false
+      }
+    ]
+  }

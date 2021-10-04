@@ -1,0 +1,31 @@
+{
+    "card_one": "We formed the Parabola Center in 2021 when we noticed that the debate about federal marijuana legalization was starting to leave behind the mass movement that made legalization possible. As the conversation has been shifting from “whether” to “how” to legalize, the policy discussions about the most crucial details have also shifted.",
+    "card_two": "Organizations backed by police, Big Tobacco, and other big funders have no expertise or credibility on the subject. So we decided to write the law that the millions of people who want cannabis to be legal want instead.",
+    "card_three": "At a certain stage, the only stakeholders who can be influential tend to be those who can afford to pay people with specialized skills. We created the Parabola Center to use our specialized skills to represent everyone else.",
+    "card_four": "We do not work for or accept contributions from multistate cannabis corporations, tobacco companies, or alcohol companies, as we do not believe that our incentives align.",
+    "header1": "Policy",
+    "header2": "Services",
+    "about": "The Parabola Center for Law and Policy exists so that everyday people can be part of the arena where policy gets made. By creating the type of testimony, legal research, and model language typically provided to policymakers only by corporate-backed lobbyists, we turn the ideas that people support into concrete policy.",
+    "aboutUrl": "Learn more about us",
+    "policy": "Our policy positions, model legal language, testimony, bill markups, and other work is available for free",
+    "services": "We decide how to focus our efforts based on feedback and on our best judgment of what will be most impactful",
+    "buttonText": "Read more",
+    "articles": [
+        {
+            "url": "/pdf/Big tobacco is coming for legal marijuana - The Boston Globe.pdf",
+            "title": "Big Tobacco is Coming for Legal Marijuana - The Boston Globe (PDF)"
+        },
+        {
+            "url": "/pdf/Congress Only Has One Chance To Legalize Marijuana The Right Way.pdf",
+            "title": "Congress Only Has Only One Chance to Legalize Marijuana the Right Way (PDF)"
+        },
+        {
+            "url": "/pdf/Parabola Center CAOA Megathread.pdf",
+            "title": "Parabola Center CAOA Megathread (PDF)"
+        },
+        {
+            "url": "/pdf/Vaping bans like Massachusetts’ will not stop illness outbreak - Philadelphia Inquirer.pdf",
+            "title": "Vaping Bans Like Massachusetts’ Will Not Stop Illness Outbreak - Philadelphia Inquirer (PDF)"
+        }
+    ]
+}

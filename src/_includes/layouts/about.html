@@ -1,0 +1,33 @@
+---
+layout: base
+---
+<img class="max-width" src="{{about.main_image}}" alt="{{about.main_image_alt}}">
+<div class="about-cont">
+  <section class="parabola-grid about-md bg-white" style="margin-top: -10px; padding-top: 2rem;">
+    <div class="big:parabola-cols-center parabola-cols-full">{{ about.content | markdown | safe }}</div>
+  </section>
+  <section class="parabola-grid about-board bg-white">
+    <div class="big:parabola-cols-full parabola-cols-full">
+      <h2>{{about.about_header}}</h2>
+    </div>
+    {% for founder in about.founders %}
+    <div class="big:parabola-cols-half parabola-cols-full">
+      <figure>
+        <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
+        <figcaption>{{founder.caption}}</figcaption>
+      </figure>
+      <p>{{founder.description | markdown | safe}}</p>
+    </div>
+    {% endfor %}
+    <div class="big:parabola-cols-center parabola-cols-full">
+      <h2>Advisors</h2>
+      <p style="max-width: 650px">{{about.advisors_text | markdown | safe}}</p>
+      <ul>
+        {% for advisor in about.advisors %}
+        <li><a href="{{advisor.link}}">{{advisor.name}}</a>, {{advisor.title}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+</section>
+</div>

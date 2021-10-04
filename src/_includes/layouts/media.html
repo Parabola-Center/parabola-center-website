@@ -1,0 +1,19 @@
+---
+layout: base
+---
+<section class="parabola-grid pdf">
+    <h1 class="parabola-cols-full big:parabola-cols-full">{{media.header}}</h1>
+    {% for item in media.items %}
+    <a class="parabola-cols-full big:parabola-cols-quarter"
+        href="{{ item.url }}">
+
+                {{ item.title }}
+
+    </a>
+    {% endfor %}
+</section>
+<section class="parabola-grid">
+    <div class="parabola-cols-full big:parabola-cols-full">
+        {{ media.contact | markdown | safe}}
+    </div>
+</section>

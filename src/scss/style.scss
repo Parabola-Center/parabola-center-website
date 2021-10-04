@@ -1,0 +1,354 @@
+@import "colors";
+@import "layout";
+@import "navigation";
+@import "footer";
+
+$main-margin: 2rem;
+
+@font-face {
+  font-family: "FranklinGothic";
+  src: url("/fonts/framd.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic";
+  src: url("/fonts/framdit.ttf") format("truetype");
+  font-display: swap;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "FranklinGothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: inherit;
+  transition: text-decoration-color 0.25s ease-in-out;
+}
+
+a:focus {
+  outline: 2px $red dashed;
+  outline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: $red;
+}
+
+.active-nav {
+  background: $gold;
+  color: black;
+  padding: 4px 2px;
+  text-decoration-color: transparent;
+}
+
+body {
+  line-height: 1.3;
+}
+
+.btn-1 {
+  cursor: pointer;
+  font-size: 1.1rem;
+  height: 50px;
+  width: 200px;
+  border: black 2px solid;
+  border-radius: 4px;
+  color: white;
+  background: $grey;
+  box-shadow: inset 0 0 0 0 $gold;
+  transition: ease-in-out 0.25s;
+  outline:none;
+}
+
+.btn-1:hover {
+  background: $gold;
+  color:black;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: $main-margin;
+}
+
+.max-width {
+  height: auto;
+  width: 100%;
+}
+
+input {
+  max-width: 600px;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+li::before {
+  content: "\200B";
+}
+
+details,
+figure,
+p,
+ul {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+ul {
+  padding: 0;
+}
+
+// Index
+
+.two-column {
+  display: flex;
+  margin-bottom: $main-margin;
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 100vh;
+    text-align: center;
+  }
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    section {
+      width: 100%;
+    }
+  }
+}
+
+.index-policy {
+  background: url("../img/Jess-531.webp");
+  background-size: cover;
+  background-position: center;
+  div {
+    background: rgba($color: #ffffff, $alpha: 0.6);
+    padding: 25px 10px;
+    p {
+      max-width: 500px;
+      @media only screen and (max-width: 1024px) {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+.index-services {
+  background: url("../img/home-services.webp");
+  background-size: cover;
+  background-position: top center;
+  div {
+    background: rgba($color: #ffffff, $alpha: 0.6);
+    padding: 25px 10px;
+    p {
+      max-width: 500px;
+      @media only screen and (max-width: 1024px) {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+.center-copy {
+  text-align: center;
+  margin-bottom: 2 rem;
+  p {
+    margin: auto;
+    max-width: 500px;
+  }
+}
+
+.center-copy-large {
+  text-align: center;
+  margin-bottom: 2rem;
+  h1 {
+    font-size: 2.5rem;
+    // color:$red;
+  }
+  p {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    padding: 0 10px;
+    font-size: 1.75rem;
+  }
+  a {
+    font-size: 1.75rem;
+  }
+}
+
+.alt-grid {
+  display: grid;
+  grid-template-columns: 40% repeat(3, 20%);
+  margin-bottom: $main-margin;
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-card {
+  display: flex;
+  background: #ffffff81;
+  box-sizing: border-box;
+  flex: 1;
+  margin: $main-margin;
+  padding: 1rem;
+}
+
+.alt-one,
+.alt-two,
+.alt-three,
+.alt-four {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alt-one {
+  background: $red;
+  .grid-card {
+    flex-direction: column;
+    @media only screen and (min-width: 769px) {
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+.alt-two {
+  background: $gold;
+}
+
+.alt-three {
+  background: $blue;
+}
+
+.alt-four {
+  background: $green;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 2rem;
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-white {
+  background: white;
+}
+
+.pdf {
+  margin-bottom: $main-margin;
+}
+
+.pdf figure {
+  padding-top: 1px;
+}
+
+.pdf img {
+  display: block;
+  margin: 40px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// About
+
+.main-about {
+  background-color: $gold;
+  p {
+    max-width: 650px;
+  }
+}
+
+.about-board {
+  @media only screen and (min-width: 768px) {
+    img {
+      width: 600px;
+      height: auto;
+      max-width: 100% !important;
+    }
+  }
+}
+
+// contact
+
+//   @media only screen and (max-width:768px) {
+//     .main-contact img {
+//     display: none;
+//   }
+// }
+.contact {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  p {
+    max-width: 600px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    max-width: 500px;
+
+    input {
+      display: flex;
+      justify-content: space-between;
+      height: 2rem;
+      width: 100%;
+    }
+
+    select {
+      height: 2rem;
+    }
+    textarea {
+      width: 100%;
+      padding: 6px 10px;
+      resize: none;
+    }
+  }
+}
+
+.main-media,
+.main-policy {
+  margin-top: 4rem;
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.main-services {
+  margin: 4rem 0;
+  p {
+    max-width: 600px;
+  }
+}

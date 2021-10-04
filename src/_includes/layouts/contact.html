@@ -1,0 +1,55 @@
+---
+layout: base
+---
+
+<section class="parabola-grid contact">
+    <div class="parabola-cols-full big:parabola-cols-half">
+    {{ contact.content | markdown | safe }}
+    <div >
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name*
+                    <input type="text" name="Name" aria-required="true" required/>
+                </label>
+            </p>
+            <p>
+                <label>Email Address*
+                    <input type="email" name="Email" aria-required="true" required/>
+                </label>
+            </p>
+            <p class="">
+                <label>Subject*</label><br>
+                <select name="subject_of_inquiry" required>
+                    <option value="services">Services</option>
+                    <option value="media">Media</option>
+                    <option value="speaking">Speaking</option>
+                    <option value="other">Other</option>
+                </optgroup>
+                </select>
+            <p>
+                <label>Message*
+                    <textarea name="message" rows="10" placeholder="" aria-required="true" required></textarea>
+                </label>
+            </p>
+            <p>
+                <label>Organization
+                    <input type="text" name="organization" />
+                </label>
+            </p>
+            <p>
+                <label>How did you hear about us?
+                    <input type="text" name="source" />
+                </label>
+            </p>
+            <p class="">
+                <button class="submit-btn btn-1" type="submit">Send</button>
+            </p>
+        </form>
+    </div>
+    </div> 
+    <div class="big:parabola-cols-half parabola-cols-full">
+        <img src="{{contact.image}}" alt="{{contact.alt}}" class="max-width">
+    </div>
+    
+
+</section>

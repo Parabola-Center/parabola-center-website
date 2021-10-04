@@ -1,0 +1,65 @@
+---
+layout: base
+---
+
+<div class="two-column">
+  <!--Experience-->
+  <section class="index-policy">
+    <div>
+      <h1>{{index.header1}}</h1>
+      <p>{{index.policy}}</p>
+      <a href="/policy"><button class="btn-1">{{index.buttonText}}</button></a>
+    </div>
+  </section>
+  <!--Services-->
+  <section class="index-services">
+    <div>
+      <h1>{{index.header2}}</h1>
+      <p>{{index.services}}
+      </p>
+      <a href="/services"><button class="btn-1">{{index.buttonText}}</button></a>
+    </div>
+  </section>
+</div>
+<!-- First paragraph of `About` & Link -->
+<section class="center-copy-large index-about">
+  <p>
+    {{index.about}}
+  </p>
+  <a href="/about">{{index.aboutUrl}}</a>
+</section>
+<section>
+  <div class="alt-grid">
+    <div class="alt-one">
+      <div class="grid-card">
+        <p>{{index.card_one}}</p>
+      </div>
+    </div>
+    <div class="alt-two">
+      <div class="grid-card">
+        <p>{{index.card_two}}</p>
+      </div>
+    </div>
+    <div class="alt-three">
+      <div class="grid-card">
+        <p>{{index.card_three}}</p>
+      </div>
+    </div>
+    <div class="alt-four">
+      <div class="grid-card">
+        <p>{{index.card_four}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Article Card Reel -->
+<section class="parabola-grid pdf">
+  {% for item in index.articles %}
+  <a class="parabola-cols-full big:parabola-cols-quarter text-center"
+    href="{{item.url}}">
+      {{item.title}}
+  </a>
+  {% endfor %}
+ 
+</section>

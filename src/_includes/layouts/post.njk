@@ -1,0 +1,28 @@
+---
+layout: base
+
+---
+{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.posts | getNextCollectionItem(page) %}
+
+<article class="post">
+    <h1 class="" itemprop="name headline">{{ title }}</h1>
+    <figure>
+        <img class="post-img" src="{{image}}" alt="{{alt}}" width="250px" height="250" />
+        <figcaption>{{description}}</figcaption>
+    </figure>
+    
+    <div class="" itemprop="articleBody">
+        {{ content | safe }}
+    </div>
+    <div class="prev-next">
+        <div>{% if previousPost %}<p>Previous Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></p>{% endif %}</div>
+        <div>{% if nextPost %}<p>Next Blog Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p>{% endif %}</div>
+    </div>
+</article>
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+{
+  "name": "parabola-center",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gulp watch & npx @11ty/eleventy --serve",
+    "build": "gulp css && npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogdenstudios/parabola-center.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogdenstudios/parabola-center/issues"
+  },
+  "homepage": "https://github.com/ogdenstudios/parabola-center#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

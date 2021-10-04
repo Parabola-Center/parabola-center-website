@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<section class="parabola-grid">
+  <div class="parabola-cols-full big:parabola-cols-half">
+    {{ services.content | markdown | safe }}
+  </div>
+  <div class="big:parabola-cols-half parabola-cols-full">
+    <img src="{{services.imageOne}}" alt="{{services.imageOneAlt}}" class="max-width">
+  </div>
+  <div class="big:parabola-cols-half parabola-cols-full">
+    <p>{{services.header}}</p>
+    <ul>
+      {% for service in services.services %}
+        <li>{{service.text}}</li>
+      {% endfor %}
+    </ul>
+    {{services.message | markdown | safe}}
+  </div>
+  <div class="big:parabola-cols-half parabola-cols-full">
+    <img src="{{services.imageTwo}}" alt="{{services.imageTwoAlt}}" class="max-width">
+  </div>
+</section>
