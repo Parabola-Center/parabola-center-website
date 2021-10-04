@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: ogdenstudios/parabola-center-website
   branch: main 
 
 # Enable local backend for working with local repo
