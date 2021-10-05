@@ -102,9 +102,9 @@ collections:
           - {label: Image, name: image, widget: image}          
           - {label: Alt, name: alt, widget: string}
           - {label: Content, name: content, widget: markdown}
-      - label: "Policy Page"
-        name: "policy"
-        file: "src/_data/policy.json"
+      - label: "Resources Page"
+        name: "resources"
+        file: "src/_data/resources.json"
         fields:
           - {label: Header 1, name: header1, widget: string}          
           - label: Policy Portfolio

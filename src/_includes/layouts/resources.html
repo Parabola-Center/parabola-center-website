@@ -2,14 +2,14 @@
 layout: base
 ---
 <section class="parabola-grid pdf">
-  <h1 class="big:parabola-cols-full parabola-cols-full">{{policy.header1}}</h1>
-  {% for item in policy.portfolio %}
+  <h1 class="big:parabola-cols-full parabola-cols-full">{{resources.header1}}</h1>
+  {% for item in resources.portfolio %}
   <a class="parabola-cols-full big:parabola-cols-quarter" href="{{ item.url }}">
         {{ item.title }}
   </a>
   {% endfor %}
-  <h1 class="parabola-cols-full big:parabola-cols-full">{{policy.header2}}</h1>
-  {% for item in policy.positions %}
+  <h1 class="parabola-cols-full big:parabola-cols-full">{{resources.header2}}</h1>
+  {% for item in resources.positions %}
   <a class="parabola-cols-full big:parabola-cols-quarter"
     href=" {{ item.url }}">
 
@@ -20,6 +20,6 @@ layout: base
 </section>
 <section>
 <div class="parabola-cols-full big:parabola-cols-full">
-  {{policy.content | markdown | safe}}
+  {{resources.content | markdown | safe}}
 </div>
 </section>
