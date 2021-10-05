@@ -4,21 +4,21 @@ layout: base
 
 <section class="parabola-grid">
   <div class="parabola-cols-full big:parabola-cols-half">
-    {{ services.content | markdown | safe }}
+    {{ training.content | markdown | safe }}
   </div>
   <div class="big:parabola-cols-half parabola-cols-full">
-    <img src="{{services.imageOne}}" alt="{{services.imageOneAlt}}" class="max-width">
+    <img src="{{training.imageOne}}" alt="{{training.imageOneAlt}}" class="max-width">
   </div>
   <div class="big:parabola-cols-half parabola-cols-full">
-    <p>{{services.header}}</p>
+    <p>{{training.header}}</p>
     <ul>
-      {% for service in services.services %}
+      {% for service in training.services %}
         <li>{{service.text}}</li>
       {% endfor %}
     </ul>
-    {{services.message | markdown | safe}}
+    {{training.message | markdown | safe}}
   </div>
   <div class="big:parabola-cols-half parabola-cols-full">
-    <img src="{{services.imageTwo}}" alt="{{services.imageTwoAlt}}" class="max-width">
+    <img src="{{training.imageTwo}}" alt="{{training.imageTwoAlt}}" class="max-width">
   </div>
 </section>
