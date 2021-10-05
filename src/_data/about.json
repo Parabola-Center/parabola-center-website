@@ -26,6 +26,11 @@
   ],
   "advisors": [
     {
+      "name": "Jane Allen",
+      "link": "https://www.rti.org/expert/jane-allen",
+      "title": "health research"
+    },
+    {
       "name": "Leo Beletsky",
       "link": "https://law.northeastern.edu/faculty/beletsky/",
       "title": "public health law"
@@ -34,6 +39,11 @@
       "name": "Doug Berman",
       "link": "https://moritzlaw.osu.edu/faculty/douglas-a-berman/",
       "title": "criminal law"
+    },
+    {
+      "name": "Kassandra Frederique",
+      "link": "https://drugpolicy.org/kassandra-frederique",
+      "title": "strategy"
     },
     {
       "name": "Dr. Peter Grinspoon",
@@ -66,9 +76,24 @@
       "title": "economic policy"
     },
     {
+      "name": "Danielle Schumacher",
+      "title": "worker policy",
+      "link": "https://thcstaffinggroup.com/about/"
+    },
+    {
+      "name": "Justin Strekal",
+      "title": "federal legislation",
+      "link": "https://twitter.com/justinstrekal"
+    },
+    {
       "name": "Sanho Tree",
       "link": "https://ips-dc.org/ips-authors/sanho-tree/",
       "title": "international drug policy"
+    },
+    {
+      "name": "Jeannette Ward Horton",
+      "title": "justice grants and loans",
+      "link": "https://cannabisforjustice.com/jeannette-ward-horton-co-founder-of-nuleaf-project/"
     }
   ]
 }
