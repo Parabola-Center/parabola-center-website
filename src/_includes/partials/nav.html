@@ -9,6 +9,11 @@
         <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
           <a href="{{nav.url}}" {% if page.url==nav.url %} class="active-nav" {% endif %}>{{nav.data.title}}</a>
         </li>
+          {% if nav.url=="/media/" %}
+            <li>
+              <a href="https://www.patreon.com/parabolacenter">Donate</a>
+            </li>
+          {% endif %}
         {%- endfor %}
       </ul>
       <button class="mobile-button" id="navbar__mobileButton">Menu</button>
