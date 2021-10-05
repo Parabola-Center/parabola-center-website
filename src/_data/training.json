@@ -1,29 +1,6 @@
 {
   "imageOne": "/img/services-1.webp",
-  "imageTwo": "/img/services-2.webp",
   "imageOneAlt": "Richard Juang",
-  "imageTwoAlt": "Shaleen Title",
-  "content": "# Our Services\n\n* We offer training for organizations on the following topics: \n* Participating in the legislative and regulatory process\n* Reviewing bills and draft regulations\n* Writing model policy\n* Drafting effective testimony or public comment\n* Communication with policymakers and media",
+  "content": "# Training Services\n\n* We offer training for organizations on the following topics: \n* Participating in the legislative and regulatory process\n* Reviewing bills and draft regulations\n* Writing model policy\n* Drafting effective testimony or public comment\n* Communication with policymakers and media",
   "message": "For more information about training, send us a message on our [Contact page](/contact).",
-  "header": "Our services to individuals and organizations include: ",
-  "services": [
-    {
-      "text": "Reviewing bills and regulations"
-    },
-    {
-      "text": "Writing model legislation or regulations"
-    },
-    {
-      "text": "Legal research and analysis"
-    },
-    {
-      "text": "Assistance with drafting effective testimony or public comment"
-    },
-    {
-      "text": "Consultation on working with policymakers and media"
-    },
-    {
-      "text": "Training and education on marijuana regulations and related topics"
-    }
-  ]
 }

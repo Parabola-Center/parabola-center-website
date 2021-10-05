@@ -9,16 +9,4 @@ layout: base
   <div class="big:parabola-cols-half parabola-cols-full">
     <img src="{{training.imageOne}}" alt="{{training.imageOneAlt}}" class="max-width">
   </div>
-  <div class="big:parabola-cols-half parabola-cols-full">
-    <p>{{training.header}}</p>
-    <ul>
-      {% for service in training.services %}
-        <li>{{service.text}}</li>
-      {% endfor %}
-    </ul>
-    {{training.message | markdown | safe}}
-  </div>
-  <div class="big:parabola-cols-half parabola-cols-full">
-    <img src="{{training.imageTwo}}" alt="{{training.imageTwoAlt}}" class="max-width">
-  </div>
 </section>
