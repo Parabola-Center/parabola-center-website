@@ -1,6 +1,9 @@
 {
-  "aboutUrl": "Learn more about us",
+  "aboutLinkText": "Learn more about us",
+  "aboutLink": "/about",
   "header1": "Read our latest reports and model policies, available for free",
+  "button1Link": "/policy",
+  "button2Link": "/about",
   "header2": "Donate",
   "about": "Parabola Center is a nonpartisan think tank of legal and drug policy experts\ncoming together to protect people, not corporations. Our mission is to provide everyone with the tools\nto be part of the arena where policy gets made.",
   "card_three": "At a certain stage of policymaking, the only stakeholders who can be influential tend to be those who can afford to pay professionals with specialized skills. We created Parabola Center so everyone can have the tools to be influential.",

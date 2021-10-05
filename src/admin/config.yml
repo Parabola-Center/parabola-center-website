@@ -53,10 +53,13 @@ collections:
         fields:
           - {label: Header 1, name: header1, widget: string}          
           - {label: Description 1, name: policy, widget: string}          
+          - {label: Button 1 Link, name: button1Link, widget: string}
           - {label: Header 2, name: header2, widget: string}
           - {label: Description 2, name: services, widget: string}          
+          - {label: Button 2 Link, name: button2Link, widget: string}
           - {label: About, name: about, widget: markdown}
-          - {label: Redirect Text, name: aboutUrl, widget: string}
+          - {label: Link Text, name: aboutLinkText, widget: string}
+          - {label: Link destination: name: aboutLink, widget: string}
           - {label: Button Text, name: buttonText, widget: string}
           - {label: Card 1, name: card_one, widget: markdown}          
           - {label: Card 2, name: card_two, widget: markdown}          
