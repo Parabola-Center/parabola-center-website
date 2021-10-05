@@ -1,38 +1,42 @@
 {
-    "contact": "## For media inquiries, contact <shaleen@parabolacenter.com>",
-    "header": "Parabola Center In The News",
-    "items": [
-        {
-            "title": "Interview with Parabola Center’s Shaleen Title, Cannabis Diversity Report, 7/24/2021",
-            "url": "https://anchor.fm/cannabisdiversity/episodes/044-Shaleen-Title---The-Parabola-Center-e14uhnu"
-        },
-        {
-            "title": "What’s the Deal with Schumer’s Federal Legalization Bill? An Interview with Shaleen Title, Cannabitch, 7/22/2021",
-            "url": "https://cannabitch.substack.com/p/the-art-of-cannabonsai"
-        },
-        {
-            "title": "Catch Up and Confusion: Fallout From Sha'Carri Richardson's Marijuana Ban, NECN, 7/15/2021",
-            "url": "https://www.necn.com/on-air/as-seen-on/catch-up-and-confusion-fallout-from-shacarri-richardsons-marijuana-ban/2505084"
-        },
-        {
-            "title": "Federal Marijuana Legalization Bill, KBOO Portland Community Radio, 7/14/2021",
-            "url": "https://direct.kboo.fm/media/103856-federal-marijuana-legalization-bill"
-        },
-        {
-            "title": "Chuck Schumer Reveals the First-Ever Senate Marijuana Legalization Bill, KBOO Portland Community Radio, 7/14/2021",
-            "url": "https://direct.kboo.fm/media/103856-federal-marijuana-legalization-bill"
-        },
-        {
-            "title": "Local Response to News That CAOA is Coming, Dig Boston, 7/13/2021",
-            "url": "https://digboston.com/local-response-to-news-that-cannabis-admin-opportunity-act-is-coming/"
-        },
-        {
-            "title": "Marijuana Equity Advocates Propose Changes To Federal Legalization Bill To Stop Big Business Takeover, Marijuana Moment, 6/17/2021",
-            "url": "https://www.marijuanamoment.net/marijuana-equity-advocates-propose-changes-to-federal-legalization-bill-to-stop-big-business-takeover/"
-        },
-        {
-            "title": "Former cannabis regulator cautions against bill that would expand cannabis nationally. Here's why, Boston Business Journal, 6/18/2021",
-            "url": "https://www.bizjournals.com/boston/news/2021/06/18/former-cannabis-regulator-says.html"
-        }
-    ]
+  "contact": "## For media inquiries, contact <shaleen@parabolacenter.com>",
+  "header": "Parabola Center In The News",
+  "items": [
+    {
+      "title": "Interview with Parabola Center’s Shaleen Title, Cannabis Diversity Report, 7/24/2021",
+      "url": "https://anchor.fm/cannabisdiversity/episodes/044-Shaleen-Title---The-Parabola-Center-e14uhnu"
+    },
+    {
+      "title": "What’s the Deal with Schumer’s Federal Legalization Bill? An Interview with Shaleen Title, Cannabitch, 7/22/2021",
+      "url": "https://cannabitch.substack.com/p/the-art-of-cannabonsai"
+    },
+    {
+      "title": "Catch Up and Confusion: Fallout From Sha'Carri Richardson's Marijuana Ban, NECN, 7/15/2021",
+      "url": "https://www.necn.com/on-air/as-seen-on/catch-up-and-confusion-fallout-from-shacarri-richardsons-marijuana-ban/2505084"
+    },
+    {
+      "title": "Federal Marijuana Legalization Bill, KBOO Portland Community Radio, 7/14/2021",
+      "url": "https://direct.kboo.fm/media/103856-federal-marijuana-legalization-bill"
+    },
+    {
+      "title": "Chuck Schumer Reveals the First-Ever Senate Marijuana Legalization Bill, KBOO Portland Community Radio, 7/14/2021",
+      "url": "https://direct.kboo.fm/media/103856-federal-marijuana-legalization-bill"
+    },
+    {
+      "title": "Local Response to News That CAOA is Coming, Dig Boston, 7/13/2021",
+      "url": "https://digboston.com/local-response-to-news-that-cannabis-admin-opportunity-act-is-coming/"
+    },
+    {
+      "title": "Marijuana Equity Advocates Propose Changes To Federal Legalization Bill To Stop Big Business Takeover, Marijuana Moment, 6/17/2021",
+      "url": "https://www.marijuanamoment.net/marijuana-equity-advocates-propose-changes-to-federal-legalization-bill-to-stop-big-business-takeover/"
+    },
+    {
+      "title": "Former cannabis regulator cautions against bill that would expand cannabis nationally. Here's why, Boston Business Journal, 6/18/2021",
+      "url": "https://www.bizjournals.com/boston/news/2021/06/18/former-cannabis-regulator-says.html"
+    },
+    {
+      "title": "Massachusetts Lawmakers Discuss Drug Decriminalization and Safe Injection Sites at Hearing, Marijuana Moment, 9/27/2021",
+      "url": "https://www.marijuanamoment.net/massachusetts-lawmakers-discuss-drug-decriminalization-and-safe-injection-sites-at-hearing/"
+    }
+  ]
 }
