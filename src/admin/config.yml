@@ -14,7 +14,7 @@ local_backend: true
 media_folder: "src/img"
 public_folder: "/img"
 collections:
-  - label: "Site configuraiton"
+  - label: "Site configuration"
     name: "site"
     files:
       - label: "Navigation"
