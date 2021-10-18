@@ -9,7 +9,7 @@ layout: base
       </div>        
       <div class="big:parabola-cols-half parabola-cols-full">
           <figure>
-            <img class="max-width" src="{{about.imageRichard}}" alt="Richard Juang" width="100%"  />
+            <img class="max-width" src="{{ about.founders[1].image }}" alt="Richard Juang" width="100%"  />
             <figcaption>Richard Juang: Legal Director</figcaption>
           </figure>
           <p>Legal Director <a href="/richard-juang">Richard M. Juang</a> is a Massachusetts attorney with several decades of experience in a wide range of civil rights and social justice movements. He is a co-founder of the Parabola Center. Previously, he served as assistant general counsel for AIDS Action Committee of Massachusetts and as a staff attorney for Alternatives for Community & Environment. Richard holds a JD from Northeastern University School of Law, a PhD in English from Cornell University, and bachelor’s and master’s degrees from Stanford University.</p>
