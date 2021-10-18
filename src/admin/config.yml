@@ -152,3 +152,8 @@ collections:
         file: "src/_data/richard-juang.json"
         fields:
           - {label: Content, name: content, widget: markdown}              
+      - label: "Shanel Bio Page"
+        name: "shanel-lindsay"
+        file: "src/_data/shanel-lindsay.json"
+        fields:
+          - {label: Content, name: content, widget: markdown}              
