@@ -142,5 +142,9 @@ collections:
           - {label: Image 1, name: imageOne, widget: image}
           - {label: Alt 1, name: imageOneAlt, widget: string}
           - {label: Content, name: content, widget: markdown}
-        
+      - label: "Shaleen Bio Page"
+        name: "shaleen-title"
+        file: "src/_data/shaleen-title.json"
+        fields:
+          - {label: Content, name: content, widget: markdown} 
              
