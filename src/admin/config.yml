@@ -140,17 +140,7 @@ collections:
         file: "src/_data/training.json"
         fields:
           - {label: Image 1, name: imageOne, widget: image}
-          - {label: Image 2, name: imageTwo, widget: image}
           - {label: Alt 1, name: imageOneAlt, widget: string}
-          - {label: Alt 2, name: imageTwoAlt, widget: string}
-          - {label: Header, name: header, widget: string}
           - {label: Content, name: content, widget: markdown}
-          - {label: Message, name: message, widget: markdown}
-          - label: Services
-            name: services
-            widget: list
-            fields:
-              - {label: Text, name: text, widget: string}
-             
         
              

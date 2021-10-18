@@ -353,4 +353,14 @@ ul {
   p {
     max-width: 600px;
   }
+
+  ul {
+    padding: revert;
+  }
+
+  li {
+    list-style: revert;
+    padding: revert;
+  }
+
 }
