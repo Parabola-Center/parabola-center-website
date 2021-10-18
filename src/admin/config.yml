@@ -147,4 +147,8 @@ collections:
         file: "src/_data/shaleen-title.json"
         fields:
           - {label: Content, name: content, widget: markdown} 
-             
+      - label: "Richard Bio Page"
+        name: "richard-juang"
+        file: "src/_data/richard-juang.json"
+        fields:
+          - {label: Content, name: content, widget: markdown}              
