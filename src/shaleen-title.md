@@ -3,26 +3,6 @@ title: Shaleen Title
 layout: base
 ---
 
-  <section class="parabola-grid about-board" style="margin-top: 4rem">
-    <div class="big:parabola-cols-full parabola-cols-full">
-      <h1>Shaleen Title, CEO</h1>
-      </div>
-        <div class="big:parabola-cols-half parabola-cols-full">
-          <figure>
-            <img class="max-width" src="{{ about.imageShaleen }}" alt="Shaleen Title" width="100%" />
-            <figcaption>Shaleen Title: CEO</figcaption>
-          </figure>
-          <p>Shaleen Title is an Indian-American attorney and longtime drug policy activist who has been writing, passing, and implementing equitable cannabis laws for over 20 years. She currently serves as Distinguished Cannabis Policy Practitioner in Residence at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center and as vice-chair of the Cannabis Regulators of Color Coalition. She is a frequent keynote speaker and consultant on cannabis policy and has testified before governmental bodies around the world about restorative justice in marijuana laws. As CEO of the drug policy think tank Parabola Center, she co-authored 2021 model federal amendments focused on protecting people rather than corporate profits.
-          </p>
-          <p>
-          In 2017, she was appointed by the Massachusetts governor, attorney general, and treasurer to serve as one of five inaugural commissioners of the Cannabis Control Commission, the agency tasked with regulating legal and medical marijuana in the commonwealth. Described as “the people’s weed watchdog” in Boston Magazine’s 2019 Power List, she was widely recognized during her term for her focus on racial justice and her efforts to make the cannabis industry more fair and inclusive. Her three-year term was extended to December 31, 2020.
-          </p>
-          <p>
-          Previously, in her role as a founding board member of the Minority Cannabis Business Association, she led the creation of the MCBA Model Bill, the first state-level model legislation created to guide states in the process of reinvestment and reconciliation. She was a co-founder of THC Staffing, the first recruiting firm focused on inclusion in the cannabis industry, and was part of the multistate tax group at Deloitte Tax. She served as a trustee for Students for Sensible Drug Policy and a board member of the National Lawyers Guild, and is currently an advisor to Supernova Women, a nonprofit organization providing a space for women of color in cannabis.
-          </p>
-          <p>
-          Shaleen’s interviews have been featured in outlets including PBS NewsHour, Politico, NPR, Rolling Stone, Newsweek, The Guardian, and VICE News. Her op-eds and other written work has appeared in The Boston Globe, Philadelphia Inquirer, Commonwealth Magazine, Marijuana Moment, and the Boston Business Journal. She is an alumna of the Illinois Mathematics and Science Academy, a public magnet school with an emphasis on developing problem-solvers, and holds a business degree, law degree, and graduate degree in accounting from the University of Illinois.
-          </p>
-        </div>
-    </div>
- </div>
+<section class="parabola-grid about-board" style="margin-top: 4rem">
+  <div class="big:parabola-cols-half parabola-cols-full">{{ shaleen-title.content | markdown | safe }}</div>
+</section>

@@ -17,6 +17,7 @@ layout: base
         <figcaption>{{founder.caption}}</figcaption>
       </figure>
       <p>{{founder.description | markdown | safe}}</p>
+      <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
     </div>
     {% endfor %}
     <div class="big:parabola-cols-center parabola-cols-full">
