@@ -17,6 +17,14 @@ layout: base
 
   </a>
   {% endfor %}
+  <h1 class="parabola-cols-full big:parabola-cols-full">{{resources.header3}}</h1>
+  {% for item in resources.videos %}
+  <a class="parabola-cols-full big:parabola-cols-quarter"
+    href=" {{ item.url }}">
+
+        {{ item.title }}
+</a>
+{% endfor %}
 </section>
 <section>
 <div class="parabola-cols-full big:parabola-cols-full">

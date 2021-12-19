@@ -122,6 +122,13 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: URL, name: url, widget: file}
+          - {label: Header 3, name: header3, widget: string}
+          - label: Policy Videos
+            name: videos
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
           - {label: Content, name: content, widget: markdown, required: false}
       - label: "Media Page"
         name: "media"
