@@ -1,58 +1,65 @@
 {
-    "header1": "Policy Portfolio",
-    "header2": "Policy Positions",
-    "content": "",
-    "portfolio": [
-        {
-            "title": "CAOA Feedback on Open and Fair Competition (Submitted by Parabola Center to the U.S. Senate, 2021)",
-            "url": "/pdf/Parabola%20Center%20CAOA%20Comments%208-31-21.pdf"
-        },
-        {
-            "title": "MORE Act of 2021 Amendments and Alternate Approaches (2021, a Parabola Center project)",
-            "url": "/pdf/MORE%20Act%20Rewrite%20by%20Parabola%20Center.pdf"
-        },
-        {
-            "title": "Minority Cannabis Business Association Model Legislation (2017, drafting led by Richard M. Juang as contracted attorney and Shaleen Title as a founding board member of MCBA)",
-            "url": "https://minoritycannabis.org/mcba-model-state-legalization-bill/"
-        }
-    ],
-    "positions": [
-        {
-            "title": "Op-Ed: Congress Only Has One Chance to Legalize Marijuana the Right Way (2021, by Shaleen Title, Marijuana Moment)",
-            "url": "https://www.marijuanamoment.net/congress-only-has-one-chance-to-legalize-marijuana-the-right-way-op-ed/"
-        },
-        {
-            "title": "Equity Centered Principles (2021, by Cannabis Regulators of Coalition including Shaleen Title)",
-            "url": "https://www.crc-coalition.org/principles"
-        },
-        {
-            "title": "Op-Ed: Big Tobacco is Coming for Legal Marijuana (2021, by Shaleen Title and Dr. Andy Tan, Boston Globe)",
-            "url": "https://www.bostonglobe.com/2021/04/08/opinion/big-tobacco-is-coming-legal-marijuana/"
-        },
-        {
-            "title": "Perils of the Tipping Point of Big Tobacco 2.0 Taking Over the Legal Cannabis Industry (2021, by Dr. Andy Tan and Shaleen Title, BMJ Tobacco Control Blog)",
-            "url": "https://blogs.bmj.com/tc/2021/04/10/perils-of-the-tipping-point-of-big-tobacco-2-0-taking-over-the-legal-cannabis-industry/"
-        },
-        {
-            "title": "Principles for Federal Cannabis Regulations and Reform (2021, by Drug Policy Alliance Federal Cannabis Regulations Working Group including Shaleen Title)",
-            "url": "https://drugpolicy.org/press-release/2021/04/federal-cannabis-regulations-working-group-releases-its-principles-federal"
-        },
-        {
-            "title": "Op-Ed: Communities of Color Need Access to the Cannabis Economy (2020, by Steven Hoffman and Shaleen Title, Boston Globe)",
-            "url": "https://www.bostonglobe.com/2020/07/17/opinion/communities-color-need-access-cannabis-economy/"
-        },
-        {
-            "title": "Top Ten Equity Must Haves in Any Legalization Bill (2019, by Shaleen Title)",
-            "url": "https://www.linkedin.com/pulse/top-ten-equity-must-haves-any-legalization-bill-shaleen-title/"
-        },
-        {
-            "title": "Op-Ed: Vaping Bans Like Massachusetts’ Will Not Stop Illness Outbreak (2019, by Shaleen Title and Dr. Michael Sinha, Philadelphia Inquirer)",
-            "url": "https://www.inquirer.com/opinion/commentary/vaping-ban-massachusetts-new-jersey-pennsylvania-deaths-20191007.html"
-        },
-        {
-            "title": "Op-Ed: Marijuana Law Must Address Race Impact of War on Drugs (2017, by Ayanna Pressley, Shanel Lindsay and Shaleen Title, Commonwealth Magazine)",
-            "url": "https://commonwealthmagazine.org/politics/marijuana-law-must-address-race-impact-of-war-on-drugs/"
-        }
-        
-    ]
+  "header1": "Policy Portfolio",
+  "header2": "Policy Positions",
+  "content": "",
+  "portfolio": [
+    {
+      "title": "CAOA Feedback on Open and Fair Competition (Submitted by Parabola Center to the U.S. Senate, 2021)",
+      "url": "/pdf/Parabola%20Center%20CAOA%20Comments%208-31-21.pdf"
+    },
+    {
+      "title": "MORE Act of 2021 Amendments and Alternate Approaches (2021, a Parabola Center project)",
+      "url": "/pdf/MORE%20Act%20Rewrite%20by%20Parabola%20Center.pdf"
+    },
+    {
+      "title": "Minority Cannabis Business Association Model Legislation (2017, drafting led by Richard M. Juang as contracted attorney and Shaleen Title as a founding board member of MCBA)",
+      "url": "https://minoritycannabis.org/mcba-model-state-legalization-bill/"
+    },
+    {
+      "title": "Up In The Air: Residency Requirements in Cannabis Policy (2021 by Parabola Center in collaboration with The Ohio State University Drug Enforcement and Policy Center)",
+      "url": "https://www.youtube.com/watch?v=Anb5uDWpTsg"
+    }
+  ],
+  "positions": [
+    {
+      "title": "Op-Ed: Congress Only Has One Chance to Legalize Marijuana the Right Way (2021, by Shaleen Title, Marijuana Moment)",
+      "url": "https://www.marijuanamoment.net/congress-only-has-one-chance-to-legalize-marijuana-the-right-way-op-ed/"
+    },
+    {
+      "title": "Equity Centered Principles (2021, by Cannabis Regulators of Coalition including Shaleen Title)",
+      "url": "https://www.crc-coalition.org/principles"
+    },
+    {
+      "title": "Op-Ed: Big Tobacco is Coming for Legal Marijuana (2021, by Shaleen Title and Dr. Andy Tan, Boston Globe)",
+      "url": "https://www.bostonglobe.com/2021/04/08/opinion/big-tobacco-is-coming-legal-marijuana/"
+    },
+    {
+      "title": "Perils of the Tipping Point of Big Tobacco 2.0 Taking Over the Legal Cannabis Industry (2021, by Dr. Andy Tan and Shaleen Title, BMJ Tobacco Control Blog)",
+      "url": "https://blogs.bmj.com/tc/2021/04/10/perils-of-the-tipping-point-of-big-tobacco-2-0-taking-over-the-legal-cannabis-industry/"
+    },
+    {
+      "title": "Principles for Federal Cannabis Regulations and Reform (2021, by Drug Policy Alliance Federal Cannabis Regulations Working Group including Shaleen Title)",
+      "url": "https://drugpolicy.org/press-release/2021/04/federal-cannabis-regulations-working-group-releases-its-principles-federal"
+    },
+    {
+      "title": "Op-Ed: Communities of Color Need Access to the Cannabis Economy (2020, by Steven Hoffman and Shaleen Title, Boston Globe)",
+      "url": "https://www.bostonglobe.com/2020/07/17/opinion/communities-color-need-access-cannabis-economy/"
+    },
+    {
+      "title": "Top Ten Equity Must Haves in Any Legalization Bill (2019, by Shaleen Title)",
+      "url": "https://www.linkedin.com/pulse/top-ten-equity-must-haves-any-legalization-bill-shaleen-title/"
+    },
+    {
+      "title": "Op-Ed: Vaping Bans Like Massachusetts’ Will Not Stop Illness Outbreak (2019, by Shaleen Title and Dr. Michael Sinha, Philadelphia Inquirer)",
+      "url": "https://www.inquirer.com/opinion/commentary/vaping-ban-massachusetts-new-jersey-pennsylvania-deaths-20191007.html"
+    },
+    {
+      "title": "Op-Ed: Marijuana Law Must Address Race Impact of War on Drugs (2017, by Ayanna Pressley, Shanel Lindsay and Shaleen Title, Commonwealth Magazine)",
+      "url": "https://commonwealthmagazine.org/politics/marijuana-law-must-address-race-impact-of-war-on-drugs/"
+    },
+    {
+      "title": "Fair and Square: How to Effectively Incorporate Social Equity Into Cannabis Laws and Regulations (2021 by Shaleen Title, The Ohio State University Drug Enforcement and Policy Center)",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3978766"
+    }
+  ]
 }

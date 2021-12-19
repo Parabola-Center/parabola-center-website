@@ -122,7 +122,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: URL, name: url, widget: file}
-          - {label: Content, name: content, widget: markdown}
+          - {label: Content, name: content, widget: markdown, required: false}
       - label: "Media Page"
         name: "media"
         file: "src/_data/media.json"
@@ -142,6 +142,7 @@ collections:
           - {label: Image 1, name: imageOne, widget: image}
           - {label: Alt 1, name: imageOneAlt, widget: string}
           - {label: Content, name: content, widget: markdown}
+          - {label: Contact , name: contact, widget: markdown}
       - label: "Shaleen Bio Page"
         name: "shaleen-title"
         file: "src/_data/shaleen-title.json"

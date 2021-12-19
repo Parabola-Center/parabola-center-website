@@ -2,5 +2,6 @@
   "imageOne": "/img/services-1.webp",
   "imageOneAlt": "Richard Juang",
   "content": "# Training Services\n\nWe offer training for organizations on the following topics: \n\n* Participating in the legislative and regulatory process\n* Reviewing bills and draft regulations\n* Writing model policy\n* Drafting effective testimony or public comment\n* Communication with policymakers and media",
-  "message": "For more information about training, send us a message on our [Contact page](/contact)."
+  "message": "For more information about training, send us a message on our [Contact page](/contact).",
+  "contact": "## For training inquiries, contact [richard@parabolacenter.com](mailto:richard@parabolacenter.com)"
 }

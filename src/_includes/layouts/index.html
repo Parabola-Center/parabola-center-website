@@ -32,22 +32,22 @@ layout: base
   <div class="alt-grid">
     <div class="alt-one">
       <div class="grid-card">
-        <p>{{index.card_one}}</p>
+        {{ index.card_one | markdown | safe }}
       </div>
     </div>
     <div class="alt-two">
       <div class="grid-card">
-        <p>{{index.card_two}}</p>
+        {{ index.card_two | markdown | safe }}
       </div>
     </div>
     <div class="alt-three">
       <div class="grid-card">
-        <p>{{index.card_three}}</p>
+        {{ index.card_three | markdown | safe }}
       </div>
     </div>
     <div class="alt-four">
       <div class="grid-card">
-        <p>{{index.card_four}}</p>
+        {{ index.card_four | markdown | safe }}
       </div>
     </div>
   </div>
