@@ -347,6 +347,16 @@ ul {
   }
 }
 
+.main-resources {
+  h1 {
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+}
+
 .main-training {
   margin: 4rem 0;
   p {
