@@ -1,17 +1,21 @@
 {
-  "aboutLinkText": "Learn more about us",
-  "aboutLink": "/about",
   "header1": "Policy",
+  "header2": "Donate",
+  "aboutLink": "/about",
+  "about": "Parabola Center is a nonpartisan think tank of legal professionals and drug policy experts coming together to protect people, not corporations. Our mission is to provide everyone with access and tools to participate in the drug policy arena.",
+  "card_three": "## Why We Do It\n\nWe make policy resources accessible to everyone, especially consumers, workers, and people impacted by the policies. In our experience, the more people who engage with policy, the better the results. We created Parabola Center so everyone can have the tools to be influential.",
+  "policy": "Read our latest reports and model policies, available for free",
+  "aboutLinkText": "Learn more about us",
+  "card_four": "Cannabis policy for people, not corporations.",
+  "card_one": "## Who We Are\n\nWe are a group of attorneys with the collective goal to keep the power of cannabis policy with the people. With 20+ years of experience working in government, practicing law and serving the public, we are well equipped to support the individuals advocating for equitable policies that put people over corporations.",
   "button1Link": "/resources",
   "button2Link": "https://www.patreon.com/parabolacenter",
-  "header2": "Donate",
-  "about": "Parabola Center is a nonpartisan think tank of legal professionals and drug policy experts coming together to protect people, not corporations. Our mission is to provide everyone with access and tools to participate in the drug policy arena.",
-  "card_three": "At a certain stage of policymaking, the only stakeholders who can be influential tend to be those who can afford to pay professionals with specialized skills. We created Parabola Center so everyone can have the tools to be influential.",
-  "policy": "Read our latest reports and model policies, available for free",
-  "card_four": "We're not funded by multistate cannabis corporations, tobacco companies, or alcohol companies, and we don’t care about their profits. Parabola Center offers people-centered policy alternatives to the big corporate model of industry.",
-  "card_one": "We formed the Parabola Center in 2021 when we noticed that the debate about federal marijuana legalization was starting to leave behind the social justice movement that made legalization possible. As the conversation shifts from \"whether\" to \"how\" to legalize, policy discussions about the most crucial details have also shifted.", 
-  "card_two": "Organizations backed by police, Big Tobacco, and other big funders lack expertise and credibility on the subject of fair and equitable drug policy. We decided to help create policies that the millions of people who continue to form the movement for legal cannabis want instead.", 
+  "card_two": "## What We Do\n\nOur team was the first in the nation to devise a clear path for small businesses and historically disenfranchised groups to enter the market. We are here to help create polices that reflect the needs of the millions of people who continue to form the legal cannabis movement.",
   "articles": [
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3978766",
+      "title": "Fair and Square: How to Effectively Incorporate Social Equity Into Cannabis Laws and Regulations"
+    },
     {
       "url": "/pdf/Big tobacco is coming for legal marijuana - The Boston Globe.pdf",
       "title": "Big Tobacco is Coming for Legal Marijuana - The Boston Globe (PDF)"
@@ -23,10 +27,6 @@
     {
       "url": "/pdf/Parabola Center CAOA Megathread.pdf",
       "title": "Parabola Center CAOA Megathread (PDF)"
-    },
-    {
-      "url": "/pdf/Vaping bans like Massachusetts’ will not stop illness outbreak - Philadelphia Inquirer.pdf",
-      "title": "Vaping Bans Like Massachusetts’ Will Not Stop Illness Outbreak - Philadelphia Inquirer (PDF)"
     }
   ],
   "services": "Support drug policy for people, not corporations",

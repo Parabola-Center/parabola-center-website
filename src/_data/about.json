@@ -2,7 +2,7 @@
   "main_image": "/img/Jess-462.webp",
   "main_image_alt": "Parabola Center",
   "content": "# About the Parabola Center\n\n*\"If you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else.\"* – Toni Morrison\n\nParabola Center is a nonpartisan think tank of legal professionals and drug policy experts coming together to protect people, not corporations. Our mission is to provide everyone with access and tools to participate in the drug policy arena.\n\nDrug laws are changing because of a mass movement of everyday people. Our work is for that civil rights movement, which puts equity and justice at the heart of drug policy and promotes a fair, open, and regulated marketplace.\n\nAfter 20+ years learning and creating cannabis policy, working on campaigns, practicing law, and serving the public, we'd rather use that experience to benefit everyday people over rich clients. We see our job as keeping the power with the people.\n\nIt's a myth that people don't care about policy details -- in our experience, the more people get involved, the better the policy. That’s where Parabola Center comes in. We provide the resources necessary to advocate for concrete, equitable, workable policies that put people ahead of corporate profits.",
-  "advisors_text": "Parabola Center is grateful to our respected advisors who have been generous with their evidence-based and integrity-based expertise. Our advisors collectively bring deep experience and a wide range of legal, science, and policy perspectives aligned with our goals of equity and justice.",
+  "advisors_text": "Parabola Center is grateful to our advisors who have been generous with their evidence-based and integrity-based guidance. They collectively bring deep expertise and a wide range of legal, science, and policy perspectives aligned with our goals of equity and justice.",
   "about_header": "About the Founders",
   "founders": [
     {
@@ -14,11 +14,11 @@
       "link": "shaleen-title"
     },
     {
-      "name": "Richard Juang", 
+      "name": "Richard Juang",
       "image": "/img/richard-about-headshot.jpg",
       "alt": "Richard Juang",
       "caption": "Richard Juang: Legal Director",
-      "description": "[Richard Juang](/richard-juang) is a Massachusetts attorney with several decades of experience in a wide range of civil rights and justice movements. He is a co-founder of the Parabola Center. Previously, he served as assistant general counsel for AIDS Action Committee of Massachusetts and as a staff attorney for Alternatives for Community & Environment. Richard holds a JD from Northeastern University School of Law, a PhD in English from Cornell University, and bachelor’s and master’s degrees from Stanford University.",
+      "description": "[Richard Juang](/richard-juang) is a Massachusetts attorney with several decades of experience in a wide range of civil rights and justice movements. He is a co-founder of Parabola Center and serves as its Legal Director. Previously, he served as assistant general counsel for AIDS Action Committee of Massachusetts and as a staff attorney for Alternatives for Community & Environment. Richard holds a JD from Northeastern University School of Law, a PhD in English from Cornell University, and bachelor’s and master’s degrees from Stanford University.",
       "link": "richard-juang"
     },
     {
@@ -32,17 +32,12 @@
   ],
   "advisors": [
     {
-      "name": "Jane Allen",
-      "link": "https://www.rti.org/expert/jane-allen",
-      "title": "health research"
-    },
-    {
       "name": "Leo Beletsky",
       "link": "https://law.northeastern.edu/faculty/beletsky/",
       "title": "public health law"
     },
     {
-      "name": "Doug Berman",
+      "name": "Douglas A. Berman",
       "link": "https://moritzlaw.osu.edu/faculty/douglas-a-berman/",
       "title": "criminal law"
     },
@@ -65,6 +60,11 @@
       "name": "Major Neill Franklin",
       "link": "https://lawenforcementactionpartnership.org/wp-content/uploads/2017/12/Neill-Franklin2017.pdf",
       "title": "law enforcement policy"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": "structural reform",
+      "link": "https://rankthevote.us/our-strategy/#approachrcv"
     },
     {
       "name": "Jason Ortiz",
