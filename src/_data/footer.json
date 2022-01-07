@@ -2,14 +2,14 @@
   "copyright": "© 2021 Parabola Center for Law and Policy",
   "socials": [
     {
-      "url": "https://instagram.com/parabolacenter",
-      "image": "/img/instagram.png",
-      "alt": "Instagram"
-    },
-    {
       "url": "https://facebook.com/parabolacenterforlawandpolicy",
       "image": "/img/facebook.png",
       "alt": "Facebook"
+    },
+    {
+      "url": "https://instagram.com/parabolacenter",
+      "image": "/img/instagram.png",
+      "alt": "Instagram"
     },
     {
       "url": "https://twitter.com/parabolacenter",
