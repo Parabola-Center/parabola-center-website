@@ -17,7 +17,10 @@
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+{% if stripe %}
+<script src="https://js.stripe.com/v3/"></script>
+{% endif %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"

@@ -1,3 +1,36 @@
 ---
 layout: base
 ---
+
+<section class="parabola-grid donate">
+    <div class="big:parabola-cols-half parabola-cols-full">
+        {{ content | safe }}
+        <form action="">
+            <p style="text-align: right; padding-bottom: 0; margin-bottom: 0">
+                <span style="font-size: 12px; font-weight: bold">
+                    <span style="color:red">
+                        *
+                    </span> 
+                    indicates required
+                </span>
+            </p>
+            <p>
+                <label>Name<span style="color:red">*</span>
+                    <input type="text" name="Name" aria-required="true" required/>
+                </label>
+            </p>
+            <p>
+                <label>Email address
+                    <input type="email" name="Email" aria-required="false"/>
+                </label>
+            </p>
+            <p class="">
+                <button class="submit-btn btn-1" type="submit">Donate</button>
+            </p>
+        </form>
+    </div>
+    <div class="big:parabola-cols-half parabola-cols-full">
+        <img src="{{donate.image}}" alt="{{donate.alt}}" class="max-width">
+    </div>
+    
+</section>

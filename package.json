@@ -23,5 +23,9 @@
     "@11ty/eleventy": "^0.12.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "stripe": "^9.9.0"
   }
 }

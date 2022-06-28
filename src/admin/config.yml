@@ -104,6 +104,11 @@ collections:
           - {label: Image, name: image, widget: image}          
           - {label: Alt, name: alt, widget: string}
           - {label: Content, name: content, widget: markdown}
+      - label: "Donate Page"
+        name: "donate"
+        file: "src/_data/donate.json"
+        fields:
+          - {label: Content, name: content, widget: markdown}
       - label: "Resources Page"
         name: "resources"
         file: "src/_data/resources.json"
