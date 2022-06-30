@@ -308,7 +308,7 @@ ul {
 //     display: none;
 //   }
 // }
-.contact {
+.contact, .donate {
   margin-top: 4rem;
   margin-bottom: 4rem;
   p {
@@ -340,10 +340,20 @@ ul {
 }
 
 .main-media,
-.main-resources {
+.main-resources,
+.main-partners {
   margin-top: 4rem;
   h2 {
     margin-bottom: 2rem;
+  }
+}
+
+.main-partners {
+  a, figcaption {
+    text-align: center;
+  }
+  p {
+    margin-bottom:0;
   }
 }
 

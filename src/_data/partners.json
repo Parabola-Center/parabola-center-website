@@ -1,0 +1,33 @@
+{
+    "header": "Parabola Partners",
+    "items": [
+      {
+        "title": "Partner 1",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 1"
+      },
+      {
+        "title": "Partner 2",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 2"
+      },
+      {
+        "title": "Partner 3",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 3"
+      },
+      {
+        "title": "Partner 4",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 4"
+      }
+    ]
+  }
