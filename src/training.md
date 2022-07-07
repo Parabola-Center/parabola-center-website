@@ -1,7 +1,7 @@
 ---
 title: Training
 layout: layouts/training
-tags: nav
+tags: 
 weight: 15
 ---
 
