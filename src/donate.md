@@ -1,7 +1,7 @@
 ---
 title: Donate
 layout: layouts/donate
-stripe: true
+checkout: true
 tags: nav
 weight: 24
 ---

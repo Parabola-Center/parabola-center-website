@@ -1,38 +1,39 @@
 ---
 layout: base
 ---
-
 <section class="parabola-grid donate">
     <div class="big:parabola-cols-half parabola-cols-full">
         {{ content | safe }}
-        <form action="">
-            <p style="text-align: right; padding-bottom: 0; margin-bottom: 0">
-                <span style="font-size: 12px; font-weight: bold">
-                    <span style="color:red">
-                        *
-                    </span> 
-                    indicates required
-                </span>
-            </p>
-            <p>
-                <label>Name<span style="color:red">*</span>
-                    <input type="text" name="Name" aria-required="true" required/>
-                </label>
-            </p>
-            <p>
-                <label>Email address
-                    <input type="email" name="Email" aria-required="false"/>
-                </label>
-            </p>
-            <p>
-                <label>Organization
-                    <input type="text" name="Organization" aria-required="false"/>
-                </label>
-            </p>
-            <p class="">
-                <button class="submit-btn btn-1" type="submit">Donate</button>
-            </p>
-        </form>
+        <div class="donate-buttons"> 
+               
+            <p><button
+                class="submit-btn btn-1"
+                id="checkout-button-price_1LKnlTCeHdK1kOc2U4GXEiRK" role="link" type="button">
+                Donate $25
+            </button></p>
+            
+            <p><button
+                class="submit-btn btn-1"
+                id="checkout-button-price_1LKnlTCeHdK1kOc2CNXsAUdV" role="link" type="button">
+                Donate $100
+            </button></p>
+            
+            <p><button
+                class="submit-btn btn-1"
+                id="checkout-button-price_1LKnlTCeHdK1kOc2L8IN1zrl" role="link" type="button">
+                Donate $500
+            </button></p>
+            
+            <p><button onclick="location.href='https://buy.stripe.com/14kbK80GrbS10FOaEI'" class="submit-btn btn-1" type="button">
+                Custom Amount
+            </button></p>           
+        </div>
     </div>
+    <div class="parabola-cols-full big:parabola-cols-half">
     
+        <div id="error-message"></div>
+    </div>
+
 </section>
+
+
