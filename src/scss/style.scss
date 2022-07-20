@@ -142,6 +142,7 @@ ul {
   div {
     background: rgba($color: #ffffff, $alpha: 0.6);
     border: 1px solid $gold;
+    margin-top: 70px;
     padding: 25px 10px;
     p {
       max-width: 500px;
@@ -153,12 +154,17 @@ ul {
 }
 
 .index-services {
-  background: url("../img/home-services.webp");
+  background: url("../img/22155_066.webp");
   background-size: cover;
   background-position: top center;
+  @media only screen and (min-width:$grid-breakpoint) {
+    background-size: cover;
+    background-position: top right;
+  }
   div {
     background: rgba($color: #ffffff, $alpha: 0.6);
     border: 1px solid $blue;
+    margin-top: 70px; 
     padding: 25px 10px;
     p {
       max-width: 500px;
