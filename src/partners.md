@@ -1,6 +1,6 @@
 ---
 title: Partners
 layout: layouts/partners
-tags: nav
+tags: 
 weight: 23
 ---

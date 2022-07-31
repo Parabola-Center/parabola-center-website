@@ -108,7 +108,43 @@ collections:
         name: "donate"
         file: "src/_data/donate.json"
         fields:
+          - {label: Heading, name: heading, widget: string}
           - {label: Content, name: content, widget: markdown}
+      - label: "Media Page"
+        name: "media"
+        file: "src/_data/media.json"
+        fields:
+          - {label: Header , name: header, widget: string}
+          - {label: Contact , name: contact, widget: markdown}
+          - label: In The News
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+      - label: "Partners Page"
+        name: "partners"
+        file: "src/_data/partners.json"
+        fields:
+          - {label: Header, name: header, widget: string}
+          - label: Small Partners
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Alt Text, name: alt, widget: string}
+              - {label: Caption, name: caption, widget: string}
+          - label: Large Partners
+            name: lrg-items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Alt Text, name: alt, widget: string}
+              - {label: Caption, name: caption, widget: string}
       - label: "Resources Page"
         name: "resources"
         file: "src/_data/resources.json"
@@ -135,36 +171,12 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: URL, name: url, widget: string}
           - {label: Content, name: content, widget: markdown, required: false}
-      - label: "Media Page"
-        name: "media"
-        file: "src/_data/media.json"
-        fields:
-          - {label: Header , name: header, widget: string}
-          - {label: Contact , name: contact, widget: markdown}
-          - label: In The News
-            name: items
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: URL, name: url, widget: string}
-      - label: "Training Page"
-        name: "training"
-        file: "src/_data/training.json"
-        fields:
-          - {label: Image 1, name: imageOne, widget: image}
-          - {label: Alt 1, name: imageOneAlt, widget: string}
-          - {label: Content, name: content, widget: markdown}
-          - {label: Contact , name: contact, widget: markdown}
+      
       - label: "Shaleen Bio Page"
         name: "shaleen-title"
         file: "src/_data/shaleen-title.json"
         fields:
-          - {label: Content, name: content, widget: markdown} 
-      - label: "Richard Bio Page"
-        name: "richard-juang"
-        file: "src/_data/richard-juang.json"
-        fields:
-          - {label: Content, name: content, widget: markdown}              
+          - {label: Content, name: content, widget: markdown}             
       - label: "Shanel Bio Page"
         name: "shanel-lindsay"
         file: "src/_data/shanel-lindsay.json"

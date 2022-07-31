@@ -4,23 +4,27 @@ layout: base
 <section class="parabola-grid donate">
     <div class="big:parabola-cols-half parabola-cols-full">
         {{ content | safe }}
+        <h1>{{ donate.heading }}</h1>
+        <p> {{donate.patreon }}</p>
+        <p>Learn more and become a patron <a href="https://patreon.com/parabolacenter">here</a>.</p>
+        <p>{{ donate.content }}</p>
         <div class="donate-buttons"> 
                
             <p><button
                 class="submit-btn btn-1"
-                id="checkout-button-price_1LKnlTCeHdK1kOc2U4GXEiRK" role="link" type="button">
+                id="checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM" role="link" type="button">
                 Donate $25
             </button></p>
             
             <p><button
                 class="submit-btn btn-1"
-                id="checkout-button-price_1LKnlTCeHdK1kOc2CNXsAUdV" role="link" type="button">
+                id="checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm" role="link" type="button">
                 Donate $100
             </button></p>
             
             <p><button
                 class="submit-btn btn-1"
-                id="checkout-button-price_1LKnlTCeHdK1kOc2L8IN1zrl" role="link" type="button">
+                id="checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh" role="link" type="button">
                 Donate $500
             </button></p>
             
@@ -28,6 +32,9 @@ layout: base
                 Custom Amount
             </button></p>           
         </div>
+    </div>
+    <div class="parabola-cols-full big:parabola-cols-half">
+        <img src="{{donate.image}}" alt="Photo of water" />
     </div>
     <div class="parabola-cols-full big:parabola-cols-half">
     
