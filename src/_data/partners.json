@@ -1,0 +1,77 @@
+{
+    "header": "Parabola Partners",
+    "items": [
+      {
+        "title": "Partner 1",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 1"
+      },
+      {
+        "title": "Partner 2",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 2"
+      },
+      {
+        "title": "Partner 3",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 3"
+      },
+      {
+        "title": "Partner 4",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 4"
+      },
+      {
+        "title": "Partner 5",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 5"
+      },
+      {
+        "title": "Partner 6",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 6"
+      },
+      {
+        "title": "Partner 7",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 7"
+      },
+      {
+        "title": "Partner 8",
+        "url": " ",
+        "image": " ",
+        "alt": " ",
+        "caption": "Partner caption 8"
+      }
+    ],
+    "lrg-items": [
+      {
+        "title": "Partner 9",
+        "url": " ",
+        "alt": " ",
+        "image": " ",
+        "caption": "Partner caption 9"
+      },
+      {
+        "title": "Partner 10",
+        "url": " ",
+        "alt": " ",
+        "image": " ",
+        "caption": "Partner caption 10"
+      }
+    ]
+  }

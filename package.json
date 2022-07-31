@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "gulp watch & npx @11ty/eleventy --serve",
-    "build": "gulp css && npx @11ty/eleventy"
+    "build": "gulp css && npx @11ty/eleventy",
+    "proxy": "npx netlify-cms-proxy-server"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
     "@11ty/eleventy": "^0.12.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "stripe": "^9.9.0"
   }
 }

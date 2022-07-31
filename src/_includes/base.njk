@@ -7,6 +7,10 @@
       {{ content | safe }}
       </main>
     <script src="/js/main.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
+    {% if checkout %}
+      <script src="/js/payment.js"></script>
+    {% endif %}
   </body>
-  {% include "partials/footer.html" %}
+  {% include "partials/footer.html" %}  
 </html>
