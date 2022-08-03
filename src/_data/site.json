@@ -1,11 +1,11 @@
 {
-    "name": "Parabola Center for Policy and Law",
-    "url": "https://parabolacenter.com",
-    "authorName": "Ogden Studios",
-    "authorUrl": "https://ogdenstudios.xyz",
-    "description": "The Parabola Center for Law and Policy exists so that everyday people can be part of the arena where policy gets made.",
-    "title": "Parabola Center for Policy and Law",
-    "apple_touch_logo": "/img/apple-touch-icon.png",
-    "favicon_32x32": "/img/favicon-32x32.png",
-    "favicon_16x16": "/img/favicon-16x16.png"    
+  "authorUrl": "https://ogdenstudios.xyz",
+  "name": "Parabola Center for Law and Policy",
+  "favicon_32x32": "/img/favicon-32x32.png",
+  "favicon_16x16": "/img/favicon-16x16.png",
+  "url": "https://parabolacenter.com",
+  "apple_touch_logo": "/img/apple-touch-icon.png",
+  "authorName": "Ogden Studios",
+  "title": "Parabola Center for Law and Policy",
+  "description": "Parabola Center for Law and Policy is a nonpartisan think tank of legal professionals coming together to provide everyone with the access and tools to participate in the drug policy arena. Our goal is to design a legal framework that centers consumers, workers, and small businesses, and ensures that revenue goes back to the communities that are most impacted by the War on Drugs. Instead of letting multistate conglomerates hijack the legal cannabis movement, we work to keep the power with the people."
 }
