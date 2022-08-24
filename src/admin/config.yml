@@ -182,4 +182,9 @@ collections:
         name: "shanel-lindsay"
         file: "src/_data/shanel-lindsay.json"
         fields:
-          - {label: Content, name: content, widget: markdown}              
+          - {label: Content, name: content, widget: markdown}  
+      - label: "Laury Bio Page"
+        name: "laury-lucien"
+        file: "src/_data/laury-lucien.json"
+        fields:
+          - {label: Content, name: content, widget: markdown}                
