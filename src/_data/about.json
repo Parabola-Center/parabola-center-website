@@ -9,8 +9,8 @@
       "name": "Shaleen Title",
       "image": "/img/shaleen-about-headshot.jpg",
       "alt": "Shaleen Title",
-      "caption": "Shaleen Title: CEO",
-      "description": "[Shaleen Title](/shaleen-title) is an attorney and drug policy activist who has been writing, passing, and implementing equitable cannabis laws for over 20 years. In addition to her role as CEO of Parabola Center, she currently serves as a distinguished fellow in cannabis policy at The Ohio State University College of Law’s Drug Enforcement and Policy Center and as vice chair of the Cannabis Regulators of Color Coalition. She is a frequent lecturer and consultant on cannabis policy and has testified before governmental bodies around the world about restorative justice in marijuana laws. From 2017 to 2020, she served as an inaugural commissioner of the Massachusetts Cannabis Control Commission, implementing that state’s voter-passed legalization law.",
+      "caption": "Shaleen Title: Founder",
+      "description": "[Shaleen Title](/shaleen-title) is an attorney and drug policy activist who has been writing, passing, and implementing cannabis laws for over 20 years. In addition to her role as founder and chief executive of Parabola Center, she currently serves as a distinguished fellow at The Ohio State University College of Law’s Drug Enforcement and Policy Center. She is a frequent lecturer and consultant on cannabis policy and has testified before governmental bodies around the world about restorative justice in marijuana laws. From 2017 to 2020, she served as an inaugural commissioner of the Massachusetts Cannabis Control Commission, implementing that state’s voter-passed legalization law.",
       "link": "shaleen-title"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Laury Lucien",
       "image": "/img/laury-headshot-two.png",
       "alt": "Laury Lucien",
-      "caption": "Laury Lucien",
+      "caption": "Laury Lucien: Education Director",
       "description": "[Laury Lucien](/laury-lucien) is an attorney, professor, serial entrepreneur, and transformational speaker. In addition to her role as Education Director of the Parabola Center, she is the founder of the Legally Great Academy, a consulting and education company that supports entrepreneurs through every step of starting their companies. She was a vendor for the Cannabis Control Commission’s Social Equity Program, providing training and technical support to program participants. She is a founder of a co-located marijuana retailer, manufacturer, and delivery courier in Massachusetts. She was appointed to the Massachusetts Cannabis Advisory Board. Laury currently teaches Cannabis Law at Suffolk University Law School and Clark University.",
       "link": "laury-lucien"
     }
@@ -37,14 +37,29 @@
       "link": "https://www.linkedin.com/in/ismail-ali-07377198"
     },
     {
-      "name": "Leo Beletsky",
+      "name": "Professor Leo Beletsky",
       "link": "https://law.northeastern.edu/faculty/beletsky/",
       "title": "public health law"
     },
     {
-      "name": "Douglas A. Berman",
+      "name": "Professor Douglas A. Berman",
       "link": "https://moritzlaw.osu.edu/faculty/douglas-a-berman/",
       "title": "criminal law"
+    },
+    {
+      "name": "Professor Scott Bloomberg",
+      "link": "https://mainelaw.maine.edu/faculty/profile/scott-bloomberg/",
+      "title": "constitutional law"
+    },
+    {
+      "name": "Dr. Malik Burnett",
+      "link": "https://www.linkedin.com/in/malikburnett",
+      "title": "harm reduction and medicine"
+    },
+    {
+      "name": "Rafi Aliya Crockett",
+      "link": "https://www.linkedin.com/in/rafi-aliya-crockett",
+      "title": "financial services policy"
     },
     {
       "name": "Kassandra Frederique",
@@ -80,6 +95,11 @@
       "name": "Jason Ortiz",
       "link": "https://ssdp.org/about/team/jason-ortiz/",
       "title": "youth and racial justice policy"
+    },
+    {
+      "name": "Cat Packer",
+      "link": "https://www.linkedin.com/in/cat-packer-b4881611b",
+      "title": "tax and community reinvestment"
     },
     {
       "name": "Steve Rolles",
