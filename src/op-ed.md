@@ -9,6 +9,8 @@ permalink: /cannabis-legalization-must-address-monopoly-dangers/
 
 <h2 style="margin-bottom: 2rem;">By Shaleen Title and Matt Stoller (September 21, 2022)</h2> 
 
+*This article was [originally published](https://www.law360.com/cannabis/articles/1531181/cannabis-legalization-must-address-monopoly-dangers) as an Expert Opinion Analysis*
+
 This year, as a majority of voters in both parties continue to favor cannabis legalization, more people in the U.S. reported smoking marijuana than tobacco cigarettes.[[1]](https://www.cnn.com/2022/08/28/politics/marijuana-tobacco-cigarettes-polling-trump-search/index.html) With public support still growing, it's only a matter of time before the federal government finally repeals its prohibition of the drug.
 
 Such a change should be exciting to anyone who wants a more just, humane society. But a dangerous trend lurks behind the good news: Big Tobacco, among other powerful industry groups, is now lobbying for control over the legal cannabis market. The reasons why should worry us.
