@@ -11,13 +11,13 @@ permalink: /laissez-faire-is-the-wrong-approach-to-cannabis/
 
 A common refrain from well funded multistate cannabis operators (MSOs) and their front groups is that government oversight of the fledgling cannabis industry will stifle the legal market and “hurt small operators and consumers the most.” But without a robust regulatory scheme to protect homegrow rights, ensure equity, and enforce antitrust provisions, legalization will be nothing more than a handout to corporate actors who specialize in leveraging first-mover advantage to sell inferior quality products for exorbitant prices.
 
-### The idea of “corporate liberty” is flawed
+<h3 style="margin-bottom:2rem;">The idea of “corporate liberty” is flawed</h3>
 
 In fact, a well built regulatory scheme that wards off corporate oligopolies/monopolies, has low barriers to entry for smaller companies or those owned by equity operators, protects homegrow rights, and rejects the use of police resources to target the unregulated market would be impossible to create in the absence of government.
 
 For those reasons and more, an approach to legal cannabis that rejects any and all regulatory oversight in the name of “corporate liberty” is flawed on a fundamental level. Intentional or otherwise, such rhetoric poses a direct threat to equitable market access for smaller companies nationwide at a time of unprecedented change that will shape the future of cannabis in this country.
 
-### Monopolists will destroy mom-and-pop shops
+<h3 style="margin-bottom:2rem;">Monopolists will destroy mom-and-pop shops</h3>
 
 Looking back at the history of a “no-holds-barred” approach to oversight of emerging markets in the United States highlights how these concerns are more than simply conjecture. 
 
@@ -33,11 +33,11 @@ Those half-price shipping rates allowed Standard Oil to undercut the locally own
 
 With the competition eliminated, Standard Oil quickly increased its prices. With no other options left on the market, consumers then had no choice but to pay higher rates for an inferior quality product from a company with no incentive to compete for their business. 
 
-### “Cutting red tape” is code for cutting off your rights
+<h3 style="margin-bottom:2rem;">“Cutting red tape” is code for cutting off your rights</h3>
 
 The tale of Standard Oil, recounted in the excellent book “Standard Oil,” by the founder of investigative journalism, Ida Tarbell, reflects exactly what will happen in the cannabis market if corporate operators are permitted to consolidate control in the name of “cutting regulatory red tape.” A corporate-controlled market would almost certainly result in [a ban on homegrow](https://www.marijuanamoment.net/marijuana-companies-urged-governor-to-ban-cannabis-home-cultivation-document-shows/), police task forces designed to [target the unregulated market](https://www.wgbh.org/news/local-news/2019/12/17/task-force-would-target-illegal-marijuana-sellers), and a wholesale [rejection of equity provisions for cannabis licenses](https://www.bostonglobe.com/news/marijuana/2019/07/01/follow-money-fight-over-cambridge-pot-policy/GORrl0PgO5J9jRSt1yYsYO/story.html). The balance of interests demands government actors capable and willing to ward off such behavior and, just as importantly, a grassroots community willing to call out those public officials if they fail to uphold that standard.
 
-### Support consumers not monopolies
+<h3 style="margin-bottom:2rem;">Support consumers not monopolies</h3>
 
 The public was able to force our government to do just that in the case of Standard Oil, eventually compelling regulators to break up the company and create new rules to prevent similar abuses in the future. 
 
