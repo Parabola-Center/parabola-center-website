@@ -2,76 +2,56 @@
     "header": "Parabola Partners",
     "items": [
       {
-        "title": "Partner 1",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 1"
+        "title": "Coast Cannabis Co.",
+        "url": "https://coastcannabisco.com/",
+        "image": "/img/partners_tbearinc.png",
+        "alt": "Coast Cannabis Co.",
+        "caption": ""
       },
       {
-        "title": "Partner 2",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 2"
+        "title": "The Healing Rose Co.",
+        "url": "https://www.thehealingroseco.com/",
+        "image": "/img/partners_healingrose.png",
+        "alt": "The Healing Rose Co.",
+        "caption": "What makes me proud is making the highest quality products using all certified organic ingredients, to help change the lives of our customers, our employees, and our community. Working with the cannabis plant and sharing her wonders with the world, is what I live and breathe for.  Our products impact our customers' lives in such profound ways and when they reach out with that feedback - those are my proudest moments."
       },
       {
-        "title": "Partner 3",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 3"
+        "title": "Blackstone Valley Cannabis",
+        "url": "https://bvcannabis.com/",
+        "image": "/img/partners_bvcannabis.jpg",
+        "alt": "Blackstone Valley Cannabis",
+        "caption": "Massachusetts small batch vertical licensee operated with social impact at the heart of it all."
       },
       {
-        "title": "Partner 4",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 4"
+        "title": "Fernway",
+        "url": "https://fernway.com",
+        "image": "/img/partners_fernway.jpg",
+        "alt": "Fernway",
+        "caption": "We're Massachusetts' #1 cannabis vape brand, and we got there by working hard, helping people, and following our vision. I couldn't be prouder of my team and the amazing things we've accomplished in such a short time."
       },
       {
-        "title": "Partner 5",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 5"
+        "title": "Trella",
+        "url": "https://trella.io",
+        "image": "/img/partners_trella.jpg",
+        "alt": "Trella",
+        "caption": "Due to climate change, outdoor agriculture has been compromised and the risk of food and plant medicine insecurity has increased. We must be able to grow what we want, where we want in order to meet the needs of all communities regardless of geography or economic status.  At Trella, our goal is to disrupt the status quo in traditional indoor farming and bring innovative and environmentally sustainable technologies to industry growers.  To ensure this mission remains at the foundation of the company, we changed our entity to a Benefit Corporation registered in the state of Massachusetts in early 2021"
       },
       {
-        "title": "Partner 6",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 6"
+        "title": "Different Leaf",
+        "url": "https://differentleaf.com",
+        "image": "/img/partners_differentleaf.jpeg",
+        "alt": "Different Leaf",
+        "caption": ""
       },
       {
-        "title": "Partner 7",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 7"
-      },
-      {
-        "title": "Partner 8",
-        "url": " ",
-        "image": " ",
-        "alt": " ",
-        "caption": "Partner caption 8"
+        "title": "Ounce",
+        "url": "https://getounce.com/",
+        "image": "/img/partners_getounce.jpg",
+        "alt": "Ounce",
+        "caption": "Ounce believes the future of flower is female and solely focuses on creating a space within cannabis for women by women."
       }
     ],
     "lrg-items": [
-      {
-        "title": "Partner 9",
-        "url": " ",
-        "alt": " ",
-        "image": " ",
-        "caption": "Partner caption 9"
-      },
-      {
-        "title": "Partner 10",
-        "url": " ",
-        "alt": " ",
-        "image": " ",
-        "caption": "Partner caption 10"
-      }
+      
     ]
   }
