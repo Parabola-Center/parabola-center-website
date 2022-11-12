@@ -29,6 +29,11 @@ npm run build
 ```
 
 ## Starting Netlify CMS proxy server
+
 ```sh
 npx netlify-cms-proxy-server
 ```
+
+TODO:
+
+Add "partners" as option on contact page
