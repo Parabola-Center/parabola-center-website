@@ -7,10 +7,20 @@ layout: base
     <div class="big:parabola-cols-center parabola-cols-full">{{ about.content | markdown | safe }}</div>
   </section>
   <section class="parabola-grid about-board bg-white">
-    <div class="big:parabola-cols-full parabola-cols-full">
+    <div class="big:parabola-cols-center parabola-cols-full">
       <h2>{{about.about_header}}</h2>
     </div>
-    {% for founder in about.founders %}
+    {% for founder in about.founders limit:1 %}
+    <div class="big:parabola-cols-center parabola-cols-full">
+      <figure>
+        <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
+        <figcaption>{{founder.caption}}</figcaption>
+      </figure>
+      <p>{{founder.description | markdown | safe}}</p>
+      <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+    </div>
+    {% endfor %}
+    {% for founder in about.founders offset:1 %}
     <div class="big:parabola-cols-half parabola-cols-full">
       <figure>
         <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
