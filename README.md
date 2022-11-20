@@ -29,6 +29,7 @@ npm run build
 ```
 
 ## Starting Netlify CMS proxy server
+
 ```sh
 npx netlify-cms-proxy-server
 ```
