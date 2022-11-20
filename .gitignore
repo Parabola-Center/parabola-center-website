@@ -1,4 +1,8 @@
 _site/
 node_modules/
 .env
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> 3ac5be9 (Feature: add frontend for partners page)
