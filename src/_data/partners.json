@@ -5,10 +5,10 @@
   "ctaLink": "/contact",
   "partners": [
     {
-      "partnerName": "Nulla Lobortis",
-      "partnerDescription": "This is 70 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Trella Technologies",
+      "partnerDescription": "Trella brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
+      "partnerImage": "/img/trella-image.jpg",
+      "partnerWebsite": "https://www.trella.io/"
     },
     {
       "partnerName": "Proin Tincidunt",
