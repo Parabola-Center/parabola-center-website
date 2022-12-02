@@ -5,16 +5,34 @@
   "ctaLink": "/contact",
   "partners": [
     {
-      "partnerName": "Trella Technologies",
-      "partnerDescription": "Trella brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
-      "partnerImage": "/img/trella-image.jpg",
-      "partnerWebsite": "https://www.trella.io/"
+      "partnerName": "Alliance for Cannabis Transparency ",
+      "partnerDescription": "The Alliance for Cannabis Transparency (ACT) is a coalition of professionals and advocates working to increase cannabis access for North Carolinians for the betterment of our community and state. ACT is non-partisan, community-centered and backed by research and data. Our goal is to increase safe access, while providing education around the plant to constituents and politicians.",
+      "partnerImage": "/img/copy-of-act-logo-option-500-×-250-px-instagram-post-square-.png",
+      "partnerWebsite": "https://www.act4nc.com/"
+    },
+    {
+      "partnerName": "Big Hope Project",
+      "partnerDescription": "Big Hope Project, a 501c3 organization based in Boston, MA conducts free restorative justice services to uplift and empower communities disproportionately harmed by the War On Drugs. Big Hope Project is a Black, Returning-Citizen, & Veteran led organization specializing in education, digital marketing, advocacy, and consulting with deep roots to the inner-cities of Massachusetts.",
+      "partnerImage": "/img/img_0246.jpeg",
+      "partnerWebsite": "https://www.bighopeproject.org/"
+    },
+    {
+      "partnerName": "Different Leaf",
+      "partnerDescription": "Part reference, part lifestyle guide, and never stuffy, Different Leaf’s award-winning design and editorial is high-quality, thought-provoking, and authoritative on the issues of legalized cannabis, and crafted to be useful to those who have little to some experience with cannabis, and are drawn to incorporating it more into their lives.",
+      "partnerImage": "/img/different-leaf-500x500.jpg",
+      "partnerWebsite": "https://www.differentleaf.com/"
     },
     {
       "partnerName": "Fernway",
       "partnerDescription": "Fernway is the top-selling cannabis vape brand in Massachusetts. An independent local business run by people who are passionate cannabis consumers themselves, Fernway is known for its top-shelf terpenes, award-winning recyclable products, and its innovative commitment to minimizing waste and promoting sustainability.",
       "partnerImage": "/img/fernway-image.jpg",
       "partnerWebsite": "https://fernway.com/"
+    },
+    {
+      "partnerName": "Garden Remedies",
+      "partnerDescription": "Originally founded by a physician who fought for the rights of medical cannabis patients and survived cancer herself, Garden Remedies operates three popular dispensaries in Massachusetts offering products from its own local cultivation facility. Through consistency, quality, and craft, Garden Remedies helps patients and consumers live their best life through safe, responsible and healthy cannabis consumption.",
+      "partnerImage": "/img/microsoftteams-image-24-.png",
+      "partnerWebsite": "https://www.gardenremedies.com/"
     },
     {
       "partnerName": "Marijuana Justice ",
@@ -29,10 +47,10 @@
       "partnerWebsite": "https://mcrlabs.com/"
     },
     {
-      "partnerName": "Big Hope Project",
-      "partnerDescription": "Big Hope Project, a 501c3 organization based in Boston, MA conducts free restorative justice services to uplift and empower communities disproportionately harmed by the War On Drugs. Big Hope Project is a Black, Returning-Citizen, & Veteran led organization specializing in education, digital marketing, advocacy, and consulting with deep roots to the inner-cities of Massachusetts.",
-      "partnerImage": "/img/img_0246.jpeg",
-      "partnerWebsite": "https://www.bighopeproject.org/"
+      "partnerName": "National Association of Black Cannabis Lawyers",
+      "partnerDescription": "Founded in 2021, NABCL is the country’s largest, most effective organization of Black attorneys and allies focused on inclusive, equitable, reparative justice in cannabis. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote greed based agendas, NABCL is an equalizer, championing inclusion as the game changer pivotal to greater success for us all. ",
+      "partnerImage": "/img/nabcl-logo.jpeg",
+      "partnerWebsite": "https://www.nabcl.com/?fbclid=IwAR0bY9oviubZ-RjPuAUvFs4Krx5UDh-h3VIKJ6XEOT4Y4Ah00WNRqBOPb_c"
     },
     {
       "partnerName": "Stonedware",
@@ -41,28 +59,10 @@
       "partnerWebsite": "https://stonedwarecompany.com/"
     },
     {
-      "partnerName": "Alliance for Cannabis Transparency ",
-      "partnerDescription": "The Alliance for Cannabis Transparency (ACT) is a coalition of professionals and advocates working to increase cannabis access for North Carolinians for the betterment of our community and state. ACT is non-partisan, community-centered and backed by research and data. Our goal is to increase safe access, while providing education around the plant to constituents and politicians.",
-      "partnerImage": "/img/copy-of-act-logo-option-500-×-250-px-instagram-post-square-.png",
-      "partnerWebsite": "https://www.act4nc.com/"
-    },
-    {
-      "partnerName": "National Association of Black Cannabis Lawyers",
-      "partnerDescription": "Founded in 2021, NABCL is the country’s largest, most effective organization of Black attorneys and allies focused on inclusive, equitable, reparative justice in cannabis. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote greed based agendas, NABCL is an equalizer, championing inclusion as the game changer pivotal to greater success for us all. ",
-      "partnerImage": "/img/nabcl-logo.jpeg",
-      "partnerWebsite": "https://www.nabcl.com/?fbclid=IwAR0bY9oviubZ-RjPuAUvFs4Krx5UDh-h3VIKJ6XEOT4Y4Ah00WNRqBOPb_c"
-    },
-    {
-      "partnerName": "Garden Remedies",
-      "partnerDescription": "Originally founded by a physician who fought for the rights of medical cannabis patients and survived cancer herself, Garden Remedies operates three popular dispensaries in Massachusetts offering products from its own local cultivation facility. Through consistency, quality, and craft, Garden Remedies helps patients and consumers live their best life through safe, responsible and healthy cannabis consumption.",
-      "partnerImage": "/img/microsoftteams-image-24-.png",
-      "partnerWebsite": "https://www.gardenremedies.com/"
-    },
-    {
-      "partnerName": "Different Leaf",
-      "partnerDescription": "Part reference, part lifestyle guide, and never stuffy, Different Leaf’s award-winning design and editorial is high-quality, thought-provoking, and authoritative on the issues of legalized cannabis, and crafted to be useful to those who have little to some experience with cannabis, and are drawn to incorporating it more into their lives.",
-      "partnerImage": "/img/different-leaf-500x500.jpg",
-      "partnerWebsite": "https://www.differentleaf.com/"
+      "partnerName": "Trella Technologies",
+      "partnerDescription": "Trella brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
+      "partnerImage": "/img/trella-image.jpg",
+      "partnerWebsite": "https://www.trella.io/"
     },
     {
       "partnerName": "Top Flor",
@@ -71,9 +71,9 @@
       "partnerWebsite": "#"
     },
     {
-      "partnerName": "Nulla Lobortis",
-      "partnerDescription": "This is 50 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-      "partnerImage": "https://via.placeholder.com/500",
+      "partnerName": "The High End",
+      "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
+      "partnerImage": "/img/high-end-1-.jpg",
       "partnerWebsite": "#"
     },
     {
