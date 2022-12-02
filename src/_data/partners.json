@@ -59,6 +59,12 @@
       "partnerWebsite": "https://stonedwarecompany.com/"
     },
     {
+      "partnerName": "The High End",
+      "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
+      "partnerImage": "/img/high-end-1-.jpg",
+      "partnerWebsite": "#"
+    },
+    {
       "partnerName": "Trella Technologies",
       "partnerDescription": "Trella brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
       "partnerImage": "/img/trella-image.jpg",
@@ -71,16 +77,10 @@
       "partnerWebsite": "#"
     },
     {
-      "partnerName": "The High End",
-      "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
-      "partnerImage": "/img/high-end-1-.jpg",
-      "partnerWebsite": "#"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 100 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Ravengrass",
+      "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
+      "partnerImage": "/img/raven.png",
+      "partnerWebsite": "https://www.ravengrass.com/"
     },
     {
       "partnerName": "Proin Tincidunt",
