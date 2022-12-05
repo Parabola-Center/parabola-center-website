@@ -17,6 +17,12 @@
       "partnerWebsite": "https://www.bighopeproject.org/"
     },
     {
+      "partnerName": "Boston Garden",
+      "partnerDescription": "The Boston Garden Dispensary is an innovative cannabis company striving to build an incredible Massachusetts-native brand that celebrates authentic New England culture. As a team with roots in Boston and Newton, maintaining its reputation within the local civic, business, and philanthropic communities is essential to its moral standards of success.",
+      "partnerImage": "/img/boston-garden.png",
+      "partnerWebsite": "https://boston.garden/"
+    },
+    {
       "partnerName": "Calyx Berkshire",
       "partnerDescription": "Calyx Berkshire Dispensary is a neighborhood fine cannabis boutique in downtown Great Barrington, MA. It is proud to be the only 100% women-owned cannabis dispensary in Berkshire County and prides itself on the ability to cater to experienced cannabis customers as well as educate the canna-curious, first-time consumer. ",
       "partnerImage": "/img/calyx.png",
@@ -35,6 +41,12 @@
       "partnerWebsite": "https://www.differentleaf.com/"
     },
     {
+      "partnerName": "EOS Farms",
+      "partnerDescription": "EOS envisions an industry that elevates communities and enriches the U.S. food system by integrating with local farms to produce the highest-quality, purest, sun and soil grown cannabis. It envisions a consumer who honors the impact of their purchase decisions and helps support food security in their community.",
+      "partnerImage": "/img/eos-farms.png",
+      "partnerWebsite": "https://eosfarms.com"
+    },
+    {
       "partnerName": "Fernway",
       "partnerDescription": "Fernway is the top-selling cannabis vape brand in Massachusetts. An independent local business run by people who are passionate cannabis consumers themselves, Fernway is known for its top-shelf terpenes, award-winning recyclable products, and its innovative commitment to minimizing waste and promoting sustainability.",
       "partnerImage": "/img/fernway-image.jpg",
@@ -51,6 +63,12 @@
       "partnerDescription": "The Healing Rose is a family-owned, woman-led company handcrafting body care products using certified organic oils and other ingredients infused with hemp cannabinoids. Licensed as a MA hemp processor, The Healing Rose has been heavily involved in regulations and focused on making a positive impact in the lives of its customers, employees, and community.",
       "partnerImage": "/img/healing-rose.png",
       "partnerWebsite": "https://www.thehealingroseco.com"
+    },
+    {
+      "partnerName": "Kind Run",
+      "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e- commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
+      "partnerImage": "/img/kind-run-k.png",
+      "partnerWebsite": "https://www.kindrun.com/"
     },
     {
       "partnerName": "Marijuana Justice",
@@ -105,24 +123,6 @@
       "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
       "partnerImage": "/img/terptown.png",
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
-    },
-    {
-      "partnerName": "Boston Garden",
-      "partnerDescription": "The Boston Garden Dispensary is an innovative cannabis company striving to build an incredible Massachusetts-native brand that celebrates authentic New England culture. As a team with roots in Boston and Newton, maintaining its reputation within the local civic, business, and philanthropic communities is essential to its moral standards of success.",
-      "partnerImage": "/img/boston-garden.png",
-      "partnerWebsite": "https://boston.garden/"
-    },
-    {
-      "partnerName": "EOS Farms",
-      "partnerDescription": "EOS envisions an industry that elevates communities and enriches the U.S. food system by integrating with local farms to produce the highest-quality, purest, sun and soil grown cannabis. It envisions a consumer who honors the impact of their purchase decisions and helps support food security in their community.",
-      "partnerImage": "/img/eos-farms.png",
-      "partnerWebsite": "https://eosfarms.com"
-    },
-    {
-      "partnerName": "Kind Run",
-      "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e- commerce platform. Kindrun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
-      "partnerImage": "/img/kind-run.png",
-      "partnerWebsite": "https://www.kindrun.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
