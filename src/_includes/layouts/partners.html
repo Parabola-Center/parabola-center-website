@@ -73,7 +73,9 @@
 
             {% for partner in partners.partners limit:12 %}
                 <article>
-                    <img src="{{partner.partnerImage}}" width="458px" height="458px" alt="{{partner.partnerName}} logo"/>
+                    <div class="partner__image__wrapper">
+                      <img src="{{partner.partnerImage}}" width="458px" height="458px" alt="{{partner.partnerName}} logo"/>
+                    </div>
                     <h3>{{partner.partnerName}}</h3>
                     <a href="{{partner.partnerLink}}">Website</a>
                     <div>{{partner.partnerDescription}}</div>
@@ -84,7 +86,9 @@
         <div class="partners">
             {% for partner in partners.partners offset:12 limit:12 %}
                 <article>
-                  <img src="{{partner.partnerImage}}" width="458px" height="458px" alt="{{partner.partnerName}} logo"/>
+                  <div class="partner__image__wrapper">
+                    <img src="{{partner.partnerImage}}" width="458px" height="458px" alt="{{partner.partnerName}} logo"/>
+                  </div>
                   <h3>{{partner.partnerName}}</h3>
                     <a href="{{partner.partnerLink}}">Website</a>
                     <div>{{partner.partnerDescription}}</div>
@@ -95,7 +99,9 @@
         <div class="partners">
           {% for partner in partners.partners offset:24 limit:12 %}
               <article>
-                <img src="{{partner.partnerImage}}" width="458px" height="458px" alt="{{partner.partnerName}} logo"/>
+                <div class="partner__image__wrapper">
+                  <img src="{{partner.partnerImage}}" width="458px" height="458px" alt="{{partner.partnerName}} logo"/>
+                </div>
                 <h3>{{partner.partnerName}}</h3>
                   <a href="{{partner.partnerLink}}">Website</a>
                   <div>{{partner.partnerDescription}}</div>
