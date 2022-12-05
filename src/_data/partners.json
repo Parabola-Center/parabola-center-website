@@ -35,6 +35,12 @@
       "partnerWebsite": "https://www.calyxberkshire.com"
     },
     {
+      "partnerName": "Civera Software",
+      "partnerDescription": "Civera Software provides technology to build a better democracy by making civic information more available to everyday people, and to improve government transparency and accountability. Civera believes that access to government data is a human right, and building generous and meaningful public access will lead to a better world.",
+      "partnerImage": "/img/civera.png",
+      "partnerWebsite": "https://civera.com/"
+    },
+    {
       "partnerName": "COAST",
       "partnerDescription": "Local, woman-owned, and family operated, COAST Cannabis Co.™ is on a mission to make feeling good feel good. To COAST, cannabis is a wellness tool that should help you be your best self. It crafts quality products to give its customers the high-quality cannabis its own people wanted to see in the world.",
       "partnerImage": "/img/coast-blue-logo-.png",
@@ -57,6 +63,12 @@
       "partnerDescription": "Fernway is the top-selling cannabis vape brand in Massachusetts. An independent local business run by people who are passionate cannabis consumers themselves, Fernway is known for its top-shelf terpenes, award-winning recyclable products, and its innovative commitment to minimizing waste and promoting sustainability.",
       "partnerImage": "/img/fernway-image.jpg",
       "partnerWebsite": "https://fernway.com/"
+    },
+    {
+      "partnerName": "Freshly Baked",
+      "partnerDescription": "Freshly Baked Company is a Black-owned social equity microbusiness known for its small batch craft edibles and pre-rolls. Founded by two disabled veterans who found cannabis helped their PTSD symptoms, Freshly Baked was the first company in MA authorized to deliver its product directly to consumers at home.",
+      "partnerImage": "/img/freshly-baked.jpg",
+      "partnerWebsite": "https://freshlybakedcompany.com/"
     },
     {
       "partnerName": "Garden Remedies",
@@ -131,22 +143,10 @@
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
-      "partnerName": "Civera Software",
-      "partnerDescription": "Civera Software provides technology to build a better democracy by making civic information more available to everyday people, and to improve government transparency and accountability. Civera believes that access to government data is a human right, and building generous and meaningful public access will lead to a better world.",
-      "partnerImage": "/img/civera.png",
-      "partnerWebsite": "https://civera.com/"
-    },
-    {
-      "partnerName": "Freshly Baked",
-      "partnerDescription": "Freshly Baked Company is a Black-owned social equity microbusiness known for its small batch craft edibles and pre-rolls. Founded by two disabled veterans who found cannabis helped their PTSD symptoms, Freshly Baked was the first company in MA authorized to deliver its product directly to consumers at home.",
-      "partnerImage": "/img/freshly-baked.jpg",
-      "partnerWebsite": "https://freshlybakedcompany.com/"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Burn After Reading",
+      "partnerDescription": "Burn After Reading is an independent weekly newsletter written through a lens of social equity, accountability, and workers' rights. Run by Eric Casey, an experienced cannabis voice in MA, Burn After Reading analyzes the week’s cannabis news for all and provides bonus content for paid subscribers.",
+      "partnerImage": "/img/burn-after-reading.png",
+      "partnerWebsite": "https://ericcasey.substack.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
