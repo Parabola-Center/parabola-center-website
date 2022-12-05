@@ -17,6 +17,18 @@
       "partnerWebsite": "https://www.bighopeproject.org/"
     },
     {
+      "partnerName": "Calyx Berkshire",
+      "partnerDescription": "Calyx Berkshire Dispensary is a neighborhood fine cannabis boutique in downtown Great Barrington, MA. It is proud to be the only 100% women-owned cannabis dispensary in Berkshire County and prides itself on the ability to cater to experienced cannabis customers as well as educate the canna-curious, first-time consumer. ",
+      "partnerImage": "/img/calyx.png",
+      "partnerWebsite": "https://www.calyxberkshire.com"
+    },
+    {
+      "partnerName": "COAST",
+      "partnerDescription": "Local, woman-owned and family-operated, COAST Cannabis Company is on a mission to make feeling good feel good because, for us, cannabis is a wellness tool that should help you be your best self. Unfortunately, all the additives and junk that often come with it can make it anything but healthy. COAST Cannabis Co.™ crafts quality products to give its customers the cannabis its own people wanted to see in the world. That means using only high-quality, natural, artisanal ingredients, with no artificial dyes or colorings. COAST consistently chooses fair trade, ethically grown ingredients because they're better for you.",
+      "partnerImage": "/img/coast-blue-logo-.png",
+      "partnerWebsite": "https://coastcannabisco.com/"
+    },
+    {
       "partnerName": "Different Leaf",
       "partnerDescription": "Part reference, part lifestyle guide, and never stuffy, Different Leaf’s award-winning design and editorial is high-quality, thought-provoking, and authoritative on the issues of legalized cannabis, and crafted to be useful to those who have little to some experience with cannabis, and are drawn to incorporating it more into their lives.",
       "partnerImage": "/img/different-leaf-500x500.jpg",
@@ -41,6 +53,12 @@
       "partnerWebsite": "https://www.thehealingroseco.com"
     },
     {
+      "partnerName": "Marijuana Justice",
+      "partnerDescription": "Marijuana Justice is a Black-led nonprofit organization leading the Virginia movement for legalization centered on repairing the harms of the drug war. Marijuana Justice is well known for its work educating residents about the benefits of evidence-based social equity policies, and the harms of marijuana monopolies. ",
+      "partnerImage": "/img/marijuana-justice.png",
+      "partnerWebsite": "https://www.marijuanajustice.org/"
+    },
+    {
       "partnerName": "MCR Labs",
       "partnerDescription": "As one of the first independent cannabis testing labs established on the East Coast, MCR is proud to offer analytical testing and R&D services to licensed MMJ and adult-use cannabis producers, patients, doctors, researchers, and homegrowers.  MCR Labs partners with advocacy groups, educators, and fellow researchers to inform the public and encourage safe consumption practices.",
       "partnerImage": "/img/mcr-logo-purp_grey.png",
@@ -51,6 +69,12 @@
       "partnerDescription": "Founded in 2021, NABCL is the country’s largest, most effective organization of Black attorneys and allies focused on inclusive, equitable, reparative justice in cannabis. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote greed based agendas, NABCL is an equalizer, championing inclusion as the game changer pivotal to greater success for us all. ",
       "partnerImage": "/img/nabcl-logo.jpeg",
       "partnerWebsite": "https://www.nabcl.com/?fbclid=IwAR0bY9oviubZ-RjPuAUvFs4Krx5UDh-h3VIKJ6XEOT4Y4Ah00WNRqBOPb_c"
+    },
+    {
+      "partnerName": "Ravengrass",
+      "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
+      "partnerImage": "/img/raven.png",
+      "partnerWebsite": "https://www.ravengrass.com/"
     },
     {
       "partnerName": "Stonedware",
@@ -77,40 +101,16 @@
       "partnerWebsite": "#"
     },
     {
-      "partnerName": "Ravengrass",
-      "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
-      "partnerImage": "/img/raven.png",
-      "partnerWebsite": "https://www.ravengrass.com/"
-    },
-    {
-      "partnerName": "COAST",
-      "partnerDescription": "Local, woman-owned and family-operated, COAST Cannabis Company is on a mission to make feeling good feel good because, for us, cannabis is a wellness tool that should help you be your best self. Unfortunately, all the additives and junk that often come with it can make it anything but healthy. COAST Cannabis Co.™ crafts quality products to give its customers the cannabis its own people wanted to see in the world. That means using only high-quality, natural, artisanal ingredients, with no artificial dyes or colorings. COAST consistently chooses fair trade, ethically grown ingredients because they're better for you.",
-      "partnerImage": "/img/coast-blue-logo-.png",
-      "partnerWebsite": "https://coastcannabisco.com/"
-    },
-    {
       "partnerName": "Terptown Throwdown",
       "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
       "partnerImage": "/img/terptown.png",
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
-      "partnerName": "Calyx Berkshire",
-      "partnerDescription": "Calyx Berkshire Dispensary is a neighborhood fine cannabis boutique in downtown Great Barrington, MA. It is proud to be the only 100% women-owned cannabis dispensary in Berkshire County and prides itself on the ability to cater to experienced cannabis customers as well as educate the canna-curious, first-time consumer. ",
-      "partnerImage": "/img/calyx.png",
-      "partnerWebsite": "https://www.calyxberkshire.com"
-    },
-    {
-      "partnerName": "Marijuana Justice",
-      "partnerDescription": "Marijuana Justice is a Black-led nonprofit organization leading the Virginia movement for legalization centered on repairing the harms of the drug war. Marijuana Justice is well known for its work educating residents about the benefits of evidence-based social equity policies, and the harms of marijuana monopolies. ",
-      "partnerImage": "/img/marijuana-justice.png",
-      "partnerWebsite": "https://www.marijuanajustice.org/"
-    },
-    {
-      "partnerName": "Nulla Lobortis",
-      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Boston Garden",
+      "partnerDescription": "The Boston Garden Dispensary is an innovative cannabis company striving to build an incredible Massachusetts-native brand that celebrates authentic New England culture. As a team with roots in Boston and Newton, maintaining its reputation within the local civic, business, and philanthropic communities is essential to its moral standards of success.",
+      "partnerImage": "/img/boston-garden.png",
+      "partnerWebsite": "https://boston.garden/"
     },
     {
       "partnerName": "Nulla Lobortis",
