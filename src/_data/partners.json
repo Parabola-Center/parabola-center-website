@@ -17,6 +17,12 @@
       "partnerWebsite": "https://www.bighopeproject.org/"
     },
     {
+      "partnerName": "Blackstone Valley",
+      "partnerDescription": "Blackstone Valley Cannabis (BVC) is a mission-driven organization founded by local cannabis industry pioneers. Its goal is simple: to become a place its customers love to shop and learn, and a business that our neighbors are proud to have in our historic community.",
+      "partnerImage": "/img/blackstone.png",
+      "partnerWebsite": "https://bvcannabis.com/"
+    },
+    {
       "partnerName": "Boston Garden",
       "partnerDescription": "The Boston Garden Dispensary is an innovative cannabis company striving to build an incredible Massachusetts-native brand that celebrates authentic New England culture. As a team with roots in Boston and Newton, maintaining its reputation within the local civic, business, and philanthropic communities is essential to its moral standards of success.",
       "partnerImage": "/img/boston-garden.png",
@@ -30,7 +36,7 @@
     },
     {
       "partnerName": "COAST",
-      "partnerDescription": "Local, woman-owned and family-operated, COAST Cannabis Company is on a mission to make feeling good feel good because, for us, cannabis is a wellness tool that should help you be your best self. Unfortunately, all the additives and junk that often come with it can make it anything but healthy. COAST Cannabis Co.™ crafts quality products to give its customers the cannabis its own people wanted to see in the world. That means using only high-quality, natural, artisanal ingredients, with no artificial dyes or colorings. COAST consistently chooses fair trade, ethically grown ingredients because they're better for you.",
+      "partnerDescription": "Local, woman-owned, and family operated, COAST Cannabis Co.™ is on a mission to make feeling good feel good. To COAST, cannabis is a wellness tool that should help you be your best self. It crafts quality products to give its customers the high-quality cannabis its own people wanted to see in the world.",
       "partnerImage": "/img/coast-blue-logo-.png",
       "partnerWebsite": "https://coastcannabisco.com/"
     },
@@ -123,12 +129,6 @@
       "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
       "partnerImage": "/img/terptown.png",
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
-    },
-    {
-      "partnerName": "Blackstone Valley",
-      "partnerDescription": "Blackstone Valley Cannabis (BVC) is a mission-driven organization founded by local cannabis industry pioneers. Its goal is simple: to become a place its customers love to shop and learn, and a business that our neighbors are proud to have in our historic community.",
-      "partnerImage": "/img/blackstone.png",
-      "partnerWebsite": "https://bvcannabis.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
