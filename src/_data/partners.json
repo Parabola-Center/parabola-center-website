@@ -29,6 +29,12 @@
       "partnerWebsite": "https://boston.garden/"
     },
     {
+      "partnerName": "Burn After Reading",
+      "partnerDescription": "Burn After Reading is an independent weekly newsletter written through a lens of social equity, accountability, and workers' rights. Run by Eric Casey, an experienced cannabis voice in MA, Burn After Reading analyzes the week’s cannabis news for all and provides bonus content for paid subscribers.",
+      "partnerImage": "/img/burn-after-reading.png",
+      "partnerWebsite": "https://ericcasey.substack.com/"
+    },
+    {
       "partnerName": "Calyx Berkshire",
       "partnerDescription": "Calyx Berkshire Dispensary is a neighborhood fine cannabis boutique in downtown Great Barrington, MA. It is proud to be the only 100% women-owned cannabis dispensary in Berkshire County and prides itself on the ability to cater to experienced cannabis customers as well as educate the canna-curious, first-time consumer. ",
       "partnerImage": "/img/calyx.png",
@@ -119,6 +125,12 @@
       "partnerWebsite": "https://stonedwarecompany.com/"
     },
     {
+      "partnerName": "Students for Sensible Drug Policy",
+      "partnerDescription": "Students for Sensible Drug Policy (SSDP) is replacing the disastrous war on drugs with policies rooted in evidence, compassion, and human rights. Our 5,000 active members, made up of young people and students, mobilize from 300 schools around the globe to make change from the campus to the United Nations.",
+      "partnerImage": "/img/ssdp.png",
+      "partnerWebsite": "https://ssdp.org/"
+    },
+    {
       "partnerName": "The High End",
       "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
       "partnerImage": "/img/high-end-1-.jpg",
@@ -143,22 +155,10 @@
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
-      "partnerName": "Burn After Reading",
-      "partnerDescription": "Burn After Reading is an independent weekly newsletter written through a lens of social equity, accountability, and workers' rights. Run by Eric Casey, an experienced cannabis voice in MA, Burn After Reading analyzes the week’s cannabis news for all and provides bonus content for paid subscribers.",
-      "partnerImage": "/img/burn-after-reading.png",
-      "partnerWebsite": "https://ericcasey.substack.com/"
-    },
-    {
       "partnerName": "Veridis Quo",
       "partnerDescription": "Veridis Quo, LLC, is a Latina-owned educational and consulting company providing speaking, educational and cannabis consulting services to institutions of higher education, state agencies, and private companies. Owner Jessica Gonzalez has presented at both the municipal and state level on topics including social justice, IP protection, cannabis legislation, banking, and licensing.",
-      "partnerImage": "https://via.placeholder.com/500",
+      "partnerImage": "/img/veridis-quo.jpg",
       "partnerWebsite": "#"
-    },
-    {
-      "partnerName": "Students for Sensible Drug Policy",
-      "partnerDescription": "Students for Sensible Drug Policy (SSDP) is replacing the disastrous war on drugs with policies rooted in evidence, compassion, and human rights. Our 5,000 active members, made up of young people and students, mobilize from 300 schools around the globe to make change from the campus to the United Nations.",
-      "partnerImage": "/img/ssdp.png",
-      "partnerWebsite": "https://ssdp.org/"
     },
     {
       "partnerName": "Nulla Lobortis",
