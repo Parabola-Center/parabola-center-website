@@ -149,6 +149,18 @@
       "partnerWebsite": "https://www.ravengrass.com/"
     },
     {
+      "partnerName": "Rolling Releaf",
+      "partnerDescription": "Founded by two longtime friends, Rolling Releaf is a Black-owned, social equity delivery company bringing much needed “releaf” to its customers with safe, fast and affordable delivery. The founders were highly influential in creating Massachusetts delivery regulations and focus on partnering with other local producers and farmers.",
+      "partnerImage": "/img/rolling-releaf.jpg",
+      "partnerWebsite": "https://rollingreleaf.org/"
+    },
+    {
+      "partnerName": "Stem Haverhill",
+      "partnerDescription": "Stem is a woman-owned, designated economic empowerment business in downtown Haverhill, Massachusetts. Run by cannabis enthusiasts, its mission is to provide premium cannabis products to all customers from first-time shoppers to experienced consumers. Stem is well known for supporting its community and standing up for other small, local businesses.",
+      "partnerImage": "/img/stem_social_logo.png",
+      "partnerWebsite": "https://stemhaverhill.com/"
+    },
+    {
       "partnerName": "Stonedware",
       "partnerDescription": "Stonedware was born out of the desire to create designer smokeware that is not only functional, but beautiful enough to leave sitting on your coffee table. A woman-owned and operated small business, Stonedware’s handcrafted and USA-made products encourage the normalization and elevation of people who use cannabis.",
       "partnerImage": "/img/stonedware-500x500.jpg",
@@ -197,22 +209,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "Stem Haverhill",
-      "partnerDescription": "Stem is a woman-owned, designated economic empowerment business in downtown Haverhill, Massachusetts. Run by cannabis enthusiasts, its mission is to provide premium cannabis products to all customers from first-time shoppers to experienced consumers. Stem is well known for supporting its community and standing up for other small, local businesses.",
-      "partnerImage": "/img/stem_social_logo.png",
-      "partnerWebsite": "https://stemhaverhill.com/"
-    },
-    {
-      "partnerName": "Rolling Releaf",
-      "partnerDescription": "Founded by two longtime friends, Rolling Releaf is a Black-owned, social equity delivery company bringing much needed “releaf” to its customers with safe, fast and affordable delivery. The founders were highly influential in creating Massachusetts delivery regulations and focus on partnering with other local producers and farmers.",
-      "partnerImage": "/img/rolling-releaf.jpg",
-      "partnerWebsite": "https://rollingreleaf.org/"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Ardent",
+      "partnerDescription": "Ardent is a Black Woman-owned biotech and medical cannabis device company with pioneering technologies that drastically improve administration and effectiveness. Based in Boston, owner Shanel Lindsay invented the first ever home decarboxylation machine – a lab-grade device that perfectly activates cannabis in just one click. ",
+      "partnerImage": "/img/ardent-cannabis.jpeg",
+      "partnerWebsite": "https://ardentcannabis.com/"
     },
     {
       "partnerName": "Proin Tincidunt",
