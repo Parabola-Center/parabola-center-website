@@ -89,6 +89,12 @@
       "partnerWebsite": "https://www.thehealingroseco.com"
     },
     {
+      "partnerName": "The High End",
+      "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
+      "partnerImage": "/img/high-end-1-.jpg",
+      "partnerWebsite": "http://www.thehighendcannabis.com/"
+    },
+    {
       "partnerName": "KindRun",
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
       "partnerImage": "/img/kind-run-k.png",
@@ -99,6 +105,18 @@
       "partnerDescription": "Marijuana Justice is a Black-led nonprofit organization leading the Virginia movement for legalization centered on repairing the harms of the drug war. Marijuana Justice is well known for its work educating residents about the benefits of evidence-based social equity policies, and the harms of marijuana monopolies. ",
       "partnerImage": "/img/marijuana-justice.png",
       "partnerWebsite": "https://www.marijuanajustice.org/"
+    },
+    {
+      "partnerName": "Mary and Main",
+      "partnerDescription": " a space to learn about the plant and become educated about efforts to end the \"war on drugs\" that has disproportionately affected minority communities.",
+      "partnerImage": "/img/mary-and-main.webp",
+      "partnerWebsite": "https://maryandmain.com/"
+    },
+    {
+      "partnerName": "The Mensing Group",
+      "partnerDescription": "The Mensing Group, LLC, is a cannabis advisory firm that provides sound guidance to some of the most exciting cannabis business ventures in Massachusetts. As founder and attorney Blake Mensing puts it, he’s not interested in “clients growing mids to make a quick million.”",
+      "partnerImage": "/img/mensing-group.png",
+      "partnerWebsite": "https://www.mensinggroup.com#"
     },
     {
       "partnerName": "MCR Labs",
@@ -143,18 +161,6 @@
       "partnerWebsite": "https://ssdp.org/"
     },
     {
-      "partnerName": "The High End",
-      "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
-      "partnerImage": "/img/high-end-1-.jpg",
-      "partnerWebsite": "http://www.thehighendcannabis.com/"
-    },
-    {
-      "partnerName": "The Mensing Group",
-      "partnerDescription": "The Mensing Group, LLC, is a cannabis advisory firm that provides sound guidance to some of the most exciting cannabis business ventures in Massachusetts. As founder and attorney Blake Mensing puts it, he’s not interested in “clients growing mids to make a quick million.”",
-      "partnerImage": "/img/mensing-group.png",
-      "partnerWebsite": "https://www.mensinggroup.com#"
-    },
-    {
       "partnerName": "Trella Tech",
       "partnerDescription": "Trella Technologies brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
       "partnerImage": "/img/trella-image.jpg",
@@ -189,12 +195,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": " a space to learn about the plant and become educated about efforts to end the \"war on drugs\" that has disproportionately affected minority communities.",
-      "partnerImage": "/img/mary-and-main.webp",
-      "partnerWebsite": "https://maryandmain.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
