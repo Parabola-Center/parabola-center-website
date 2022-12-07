@@ -161,6 +161,12 @@
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
+      "partnerName": "Underground Legacy",
+      "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
+      "partnerImage": "/img/underground-legacy.png",
+      "partnerWebsite": "#"
+    },
+    {
       "partnerName": "Veridis Quo",
       "partnerDescription": "Veridis Quo, LLC, is a Latina-owned company that provides educational and cannabis consulting services to institutions of higher education, state agencies, and private companies. Owner, Jessica F. Gonzalez, is an attorney, advocate and professor that has presented at the municipal, state and federal level on topics including social justice, intellectual property, cannabis legislation and licensing.",
       "partnerImage": "/img/veridis-quo.jpg",
@@ -173,16 +179,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "Underground Legacy",
-      "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
-      "partnerImage": "/img/underground-legacy.png",
-      "partnerWebsite": "#"
-    },
-    {
-      "partnerName": "Nulla Lobortis",
-      "partnerDescription": "This is 50 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Point Seven Group",
+      "partnerDescription": "Point Seven Group (Point7) is a certified, 100% WBE management consulting firm supporting cannabis operators since 2014. Point7 has worked in 42 U.S. states and six countries providing services including business planning and financial modeling/valuations, cannabis business licensing and permitting, brand building and exit strategy planning. ",
+      "partnerImage": "/img/p7_stacked_color.png",
+      "partnerWebsite": "pointsevengroup.com "
     },
     {
       "partnerName": "Proin Tincidunt",
