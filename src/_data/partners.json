@@ -119,6 +119,12 @@
       "partnerWebsite": "https://www.parkjordan.com/"
     },
     {
+      "partnerName": "Point Seven Group",
+      "partnerDescription": "Point Seven Group (Point7) is a certified, 100% WBE management consulting firm supporting cannabis operators since 2014. Point7 has worked in 42 U.S. states and six countries providing services including business planning and financial modeling/valuations, cannabis business licensing and permitting, brand building and exit strategy planning. ",
+      "partnerImage": "/img/p7_stacked_color.png",
+      "partnerWebsite": "pointsevengroup.com "
+    },
+    {
       "partnerName": "Ravengrass",
       "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
       "partnerImage": "/img/raven.png",
@@ -177,12 +183,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "Point Seven Group",
-      "partnerDescription": "Point Seven Group (Point7) is a certified, 100% WBE management consulting firm supporting cannabis operators since 2014. Point7 has worked in 42 U.S. states and six countries providing services including business planning and financial modeling/valuations, cannabis business licensing and permitting, brand building and exit strategy planning. ",
-      "partnerImage": "/img/p7_stacked_color.png",
-      "partnerWebsite": "pointsevengroup.com "
     },
     {
       "partnerName": "Proin Tincidunt",
