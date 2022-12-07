@@ -101,6 +101,12 @@
       "partnerWebsite": "http://www.thehighendcannabis.com/"
     },
     {
+      "partnerName": "The Honeybee Collective",
+      "partnerDescription": "The Honeybee Collective is a Colorado-based employee-owned, community-driven, sustainable cannabis brand focused on creating community wealth and a more equitable future. Thanks to a dynamic team of talented individuals from various backgrounds, the dream is made a reality, exemplifying the importance of community and equity with every decision.",
+      "partnerImage": "/img/honeybee-collective.png",
+      "partnerWebsite": "https://www.honeybeecollective.com/"
+    },
+    {
       "partnerName": "KindRun",
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
       "partnerImage": "/img/kind-run-k.png",
@@ -225,12 +231,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "Honeybee Collective",
-      "partnerDescription": "The Honeybee Collective is a Colorado-based employee-owned, community-driven, sustainable cannabis brand focused on creating community wealth and a more equitable future. Thanks to a dynamic team of talented individuals from various backgrounds, the dream is made a reality, exemplifying the importance of community and equity with every decision.",
-      "partnerImage": "/img/honeybee-collective.png",
-      "partnerWebsite": "https://www.honeybeecollective.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
