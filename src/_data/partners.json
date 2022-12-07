@@ -113,6 +113,12 @@
       "partnerWebsite": "https://www.legallygreat.com/"
     },
     {
+      "partnerName": "LOWD",
+      "partnerDescription": "LOWD™ is an award-winning cannabis production company named one of the top 10 hottest Black-led brand by MJ Unpacked. Lowd practices the art of craft cannabis cultivation in the Pacific Northwest, the space known worldwide for producing the finest cannabis flowers. Lowd holds the cannabis culture flag, high, proud, and with unapologetic humility.",
+      "partnerImage": "/img/lowd.png",
+      "partnerWebsite": "https://www.lowd.com/"
+    },
+    {
       "partnerName": "Marijuana Justice",
       "partnerDescription": "Marijuana Justice is a Black-led nonprofit organization leading the Virginia movement for legalization centered on repairing the harms of the drug war. Marijuana Justice is well known for its work educating residents about the benefits of evidence-based social equity policies, and the harms of marijuana monopolies. ",
       "partnerImage": "/img/marijuana-justice.png",
@@ -219,12 +225,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "LOWD",
-      "partnerDescription": "LOWD™ is an award-winning cannabis production company named one of the top 10 hottest Black-led brand by MJ Unpacked. Lowd practices the art of craft cannabis cultivation in the Pacific Northwest, the space known worldwide for producing the finest cannabis flowers. Lowd holds the cannabis culture flag, high, proud, and with unapologetic humility.",
-      "partnerImage": "/img/lowd.png",
-      "partnerWebsite": "https://www.lowd.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
