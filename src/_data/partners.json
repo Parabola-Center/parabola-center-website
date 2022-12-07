@@ -11,6 +11,12 @@
       "partnerWebsite": "https://www.act4nc.com/"
     },
     {
+      "partnerName": "Ardent",
+      "partnerDescription": "Ardent is a Black Woman-owned biotech and medical cannabis device company with pioneering technologies that drastically improve administration and effectiveness. Based in Boston, owner Shanel Lindsay invented the first ever home decarboxylation machine – a lab-grade device that perfectly activates cannabis in just one click. ",
+      "partnerImage": "/img/ardent-cannabis.jpeg",
+      "partnerWebsite": "https://ardentcannabis.com/"
+    },
+    {
       "partnerName": "Big Hope Project",
       "partnerDescription": "Big Hope Project, a 501c3 organization based in Boston, MA conducts free restorative justice services to uplift and empower communities disproportionately harmed by the War On Drugs. Big Hope Project is a Black, Returning-Citizen, & Veteran led organization specializing in education, digital marketing, advocacy, and consulting with deep roots to the inner-cities of Massachusetts.",
       "partnerImage": "/img/img_0246.jpeg",
@@ -99,6 +105,12 @@
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
       "partnerImage": "/img/kind-run-k.png",
       "partnerWebsite": "https://www.kindrun.com/"
+    },
+    {
+      "partnerName": "Legally Great Academy",
+      "partnerDescription": "Legally Great Academy, LLC, is a Black Woman-owned premiere educational and consulting platform that helps cannabis entrepreneurs take their businesses from conception to compliant operation by offering cannabis business courses, executive and employee training, self-development courses, as well as group and one-on-one consulting.",
+      "partnerImage": "/img/legally-great-academy.png",
+      "partnerWebsite": "https://www.legallygreat.com/"
     },
     {
       "partnerName": "Marijuana Justice",
@@ -209,22 +221,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "Ardent",
-      "partnerDescription": "Ardent is a Black Woman-owned biotech and medical cannabis device company with pioneering technologies that drastically improve administration and effectiveness. Based in Boston, owner Shanel Lindsay invented the first ever home decarboxylation machine – a lab-grade device that perfectly activates cannabis in just one click. ",
-      "partnerImage": "/img/ardent-cannabis.jpeg",
-      "partnerWebsite": "https://ardentcannabis.com/"
-    },
-    {
-      "partnerName": "Legally Great Academy",
-      "partnerDescription": "Legally Great Academy, LLC, is a Black Woman-owned premiere educational and consulting platform that helps cannabis entrepreneurs take their businesses from conception to compliant operation by offering cannabis business courses, executive and employee training, self-development courses, as well as group and one-on-one consulting.",
-      "partnerImage": "/img/legally-great-academy.png",
-      "partnerWebsite": "https://www.legallygreat.com/"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 100 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "LOWD",
+      "partnerDescription": "LOWD™ is an award-winning cannabis production company named one of the top 10 hottest Black-led brand by MJ Unpacked. Lowd practices the art of craft cannabis cultivation in the Pacific Northwest, the space known worldwide for producing the finest cannabis flowers. Lowd holds the cannabis culture flag, high, proud, and with unapologetic humility.",
+      "partnerImage": "/img/lowd.png",
+      "partnerWebsite": "https://www.lowd.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
