@@ -221,6 +221,12 @@
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
+      "partnerName": "THC Staffing Group",
+      "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
+      "partnerImage": "/img/thc_staffingtrademarkcolor.jpg",
+      "partnerWebsite": "https://thcstaffinggroup.com/"
+    },
+    {
       "partnerName": "Underground Legacy",
       "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
       "partnerImage": "/img/underground-legacy.png",
@@ -239,16 +245,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "THC Staffing Group",
-      "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
-      "partnerImage": "/img/thc_staffingtrademarkcolor.jpg",
-      "partnerWebsite": "https://thcstaffinggroup.com/"
-    },
-    {
-      "partnerName": "Nulla Lobortis",
-      "partnerDescription": "This is 100 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Nuvé",
+      "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Our mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. We develop cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
+      "partnerImage": "/img/nuve-logo_500x500.png",
+      "partnerWebsite": "www.enternuve.com"
     },
     {
       "partnerName": "Nulla Lobortis",
