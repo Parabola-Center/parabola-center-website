@@ -161,6 +161,12 @@
       "partnerWebsite": "https://www.nabcl.com/?fbclid=IwAR0bY9oviubZ-RjPuAUvFs4Krx5UDh-h3VIKJ6XEOT4Y4Ah00WNRqBOPb_c"
     },
     {
+      "partnerName": "Nuvé",
+      "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Our mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. We develop cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
+      "partnerImage": "/img/nuve-logo_500x500.png",
+      "partnerWebsite": "www.enternuve.com"
+    },
+    {
       "partnerName": "Park Jordan",
       "partnerDescription": "Shaleen Title <shaleen@parabolacenter.com> \t 2:14 PM (10 minutes ago) \t to Kristin, danielle Thank you! May I sneak in POC and women-run, like so?:  With over fifty years of experience in commercial real estate, land use, and hospitality, coupled with a decade of industry knowledge, Park Jordan is a woman- and POC-run real estate firm consistently delivering strategic real estate solutions for the emerging, dynamic sector.",
       "partnerImage": "/img/park-jordan.png",
@@ -230,7 +236,7 @@
       "partnerName": "Underground Legacy",
       "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
       "partnerImage": "/img/underground-legacy.png",
-      "partnerWebsite": "#"
+      "partnerWebsite": " http://undergroundlegacy.net "
     },
     {
       "partnerName": "Veridis Quo",
@@ -243,12 +249,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "Nuvé",
-      "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Our mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. We develop cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
-      "partnerImage": "/img/nuve-logo_500x500.png",
-      "partnerWebsite": "www.enternuve.com"
     },
     {
       "partnerName": "Nulla Lobortis",
