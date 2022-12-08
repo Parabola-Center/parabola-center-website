@@ -89,6 +89,12 @@
       "partnerWebsite": "https://www.gardenremedies.com/"
     },
     {
+      "partnerName": "Hammerhead Strategies",
+      "partnerDescription": "Hammerhead Strategies is a full-service consulting firm that helps small businesses, grassroots organizations, and candidates for public office dominate in the online space. Hammerhead is guided by fairness, justice, and transparency in its work in everything from helping activists mount public pressure campaigns to helping small businesses tell their stories.",
+      "partnerImage": "/img/hammerhead-strategies.png",
+      "partnerWebsite": "https://www.hammerheadstrategies.com/"
+    },
+    {
       "partnerName": "The Healing Rose",
       "partnerDescription": "The Healing Rose is a family-owned, woman-led company handcrafting body care products using certified organic oils and other ingredients infused with hemp cannabinoids. Licensed as a MA hemp processor, The Healing Rose has been heavily involved in regulations and focused on making a positive impact in the lives of its customers, employees, and community.",
       "partnerImage": "/img/healing-rose.png",
@@ -233,16 +239,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "Hammerhead Strategies",
-      "partnerDescription": "Hammerhead Strategies is a full-service consulting firm that helps small businesses, grassroots organizations, and candidates for public office dominate in the online space. Hammerhead is guided by fairness, justice, and transparency in its work in everything from helping activists mount public pressure campaigns to helping small businesses tell their stories.",
-      "partnerImage": "/img/hammerhead-strategies.png",
-      "partnerWebsite": "https://www.hammerheadstrategies.com/"
-    },
-    {
-      "partnerName": "Nulla Lobortis",
-      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "THC Staffing Group",
+      "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
+      "partnerImage": "/img/thc_staffingtrademarkcolor.jpg",
+      "partnerWebsite": "https://thcstaffinggroup.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
