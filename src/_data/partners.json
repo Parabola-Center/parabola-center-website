@@ -108,7 +108,7 @@
     },
     {
       "partnerName": "The Honeybee Collective",
-      "partnerDescription": "The Honeybee Collective is a Colorado-based employee-owned, community-driven, sustainable cannabis brand focused on creating community wealth and a more equitable future. Thanks to a dynamic team of talented individuals from various backgrounds, the dream is made a reality, exemplifying the importance of community and equity with every decision.",
+      "partnerDescription": "The Honeybee Collective is an employee-owned cannabis brand on a mission to create community wealth and a sustainable future. We make products with the best earth-friendly cannabis available, guarantee all our employees a living wage, and reinvest 10% of our profits back into the communities where we operate. ",
       "partnerImage": "/img/honeybee-collective.png",
       "partnerWebsite": "https://www.honeybeecollective.com/"
     },
@@ -159,12 +159,6 @@
       "partnerDescription": "Founded in 2021, NABCL is the country’s largest, most effective organization of Black attorneys and allies focused on inclusive, equitable, reparative justice in cannabis. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote greed based agendas, NABCL is an equalizer, championing inclusion as the game changer pivotal to greater success for us all. ",
       "partnerImage": "/img/nabcl-logo.jpeg",
       "partnerWebsite": "https://www.nabcl.com/?fbclid=IwAR0bY9oviubZ-RjPuAUvFs4Krx5UDh-h3VIKJ6XEOT4Y4Ah00WNRqBOPb_c"
-    },
-    {
-      "partnerName": "Nuvé",
-      "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Our mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. We develop cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
-      "partnerImage": "/img/nuve-logo_500x500.png",
-      "partnerWebsite": "www.enternuve.com"
     },
     {
       "partnerName": "Park Jordan",
@@ -227,16 +221,10 @@
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
-      "partnerName": "THC Staffing Group",
-      "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
-      "partnerImage": "/img/thc_staffingtrademarkcolor.jpg",
-      "partnerWebsite": "https://thcstaffinggroup.com/"
-    },
-    {
       "partnerName": "Underground Legacy",
       "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
       "partnerImage": "/img/underground-legacy.png",
-      "partnerWebsite": " http://undergroundlegacy.net "
+      "partnerWebsite": "#"
     },
     {
       "partnerName": "Veridis Quo",
@@ -249,6 +237,18 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
+    },
+    {
+      "partnerName": "Nulla Lobortis",
+      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
+      "partnerImage": "https://via.placeholder.com/500",
+      "partnerWebsite": "#"
+    },
+    {
+      "partnerName": "Nulla Lobortis",
+      "partnerDescription": "This is 100 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "partnerImage": "https://via.placeholder.com/500",
+      "partnerWebsite": "#"
     },
     {
       "partnerName": "Nulla Lobortis",
