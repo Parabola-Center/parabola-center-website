@@ -186,6 +186,7 @@ h2 {
    justify-content: center;
    display: flex;
    margin-bottom: 20px;
+   position: relative;
    width: 100%;
 }
 
@@ -194,6 +195,11 @@ h2 {
      max-width: 100%;
      object-fit: contain;
      object-position: center;
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
 }
 
 h3 {
