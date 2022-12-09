@@ -191,8 +191,9 @@ h2 {
 
 .partners article img {
     background-color: #fff;
-    height: auto;
      max-width: 100%;
+     object-fit: contain;
+     object-position: center;
 }
 
 h3 {
