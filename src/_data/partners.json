@@ -53,6 +53,12 @@
       "partnerWebsite": "https://civera.com/"
     },
     {
+      "partnerName": "Cristina Buccola, Esq.",
+      "partnerDescription": "Cristina Buccola is an attorney and professor who assists small businesses, social equity groups, and legacy market entrepreneurs with cannabis licensing, legal and business matters, and regulatory requirements. She has provided cannabis education to hundreds of people and worked with justice-impacted groups to apply and become provisionally licensed to sell cannabis.",
+      "partnerImage": "/img/cristina-buccola.png",
+      "partnerWebsite": "https://www.cbcounsel.com/#"
+    },
+    {
       "partnerName": "COAST",
       "partnerDescription": "Local, woman-owned, and family operated, COAST Cannabis Co.™ is on a mission to make feeling good feel good. To COAST, cannabis is a wellness tool that should help you be your best self. It crafts quality products to give its customers the high-quality cannabis its own people wanted to see in the world.",
       "partnerImage": "/img/coast-blue-logo-.png",
@@ -251,16 +257,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "Cristina Buccola, Esq.",
-      "partnerDescription": "Cristina Buccola is an attorney and professor who assists small businesses, social equity groups, and legacy market entrepreneurs with cannabis licensing, legal and business matters, and regulatory requirements. She has provided cannabis education to hundreds of people and worked with justice-impacted groups to apply and become provisionally licensed to sell cannabis.",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "https://www.cbcounsel.com/#"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Bay State Extracts",
+      "partnerDescription": "Bay State Hemp Company (dba Bay State Extracts) is a Massachusetts-based small family owned processing facility dedicated to the isolation of minor and rare cannabinoids from hemp with a determined mission of proliferating every beneficial molecule that cannabis stands to offer in the name of patient and adult access.",
+      "partnerImage": "/img/bay-state-extracts.png",
+      "partnerWebsite": "www.baystatehemp.com"
     },
     {
       "partnerName": "Proin Tincidunt",
