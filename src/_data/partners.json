@@ -17,6 +17,12 @@
       "partnerWebsite": "https://ardentcannabis.com/"
     },
     {
+      "partnerName": "Bay State Extracts",
+      "partnerDescription": "Bay State Hemp Company (dba Bay State Extracts) is a Massachusetts-based small family owned processing facility dedicated to the isolation of minor and rare cannabinoids from hemp with a determined mission of proliferating every beneficial molecule that cannabis stands to offer in the name of patient and adult access.",
+      "partnerImage": "/img/bay-state-extracts.png",
+      "partnerWebsite": "www.baystatehemp.com"
+    },
+    {
       "partnerName": "Big Hope Project",
       "partnerDescription": "Big Hope Project, a 501c3 organization based in Boston, MA conducts free restorative justice services to uplift and empower communities disproportionately harmed by the War On Drugs. Big Hope Project is a Black, Returning-Citizen, & Veteran led organization specializing in education, digital marketing, advocacy, and consulting with deep roots to the inner-cities of Massachusetts.",
       "partnerImage": "/img/img_0246.jpeg",
@@ -255,12 +261,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "Bay State Extracts",
-      "partnerDescription": "Bay State Hemp Company (dba Bay State Extracts) is a Massachusetts-based small family owned processing facility dedicated to the isolation of minor and rare cannabinoids from hemp with a determined mission of proliferating every beneficial molecule that cannabis stands to offer in the name of patient and adult access.",
-      "partnerImage": "/img/bay-state-extracts.png",
-      "partnerWebsite": "www.baystatehemp.com"
     },
     {
       "partnerName": "Proin Tincidunt",
