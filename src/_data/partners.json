@@ -221,6 +221,12 @@
       "partnerWebsite": "https://rollingreleaf.org/"
     },
     {
+      "partnerName": "Sativa Remedy",
+      "partnerDescription": "Sativa Remedy is a minority, women-owned, and family-operated hemp dispensary located in Western New York. Co-founded by Nhi Kha and John Frazier in 2018, our mission is to normalize cannabis and reconnecting consumers with the plant by providing education, guidance, and support alongside a highly curated selection of quality, safe, and affordable hemp products. Our belief is that all should have the right to access plant medicine without having to compromise on price, quality, potency, or safety.",
+      "partnerImage": "/img/sativa-remedy-headshot.jpg",
+      "partnerWebsite": "https://sativaremedy.com/"
+    },
+    {
       "partnerName": "Stem Haverhill",
       "partnerDescription": "Stem is a woman-owned, designated economic empowerment business in downtown Haverhill, Massachusetts. Run by cannabis enthusiasts, its mission is to provide premium cannabis products to all customers from first-time shoppers to experienced consumers. Stem is well known for supporting its community and standing up for other small, local businesses.",
       "partnerImage": "/img/stem_social_logo.png",
@@ -287,22 +293,16 @@
       "partnerWebsite": "https://www.linkedin.com/in/jessicagonzalez613/"
     },
     {
-      "partnerName": "Victoria Litman Law",
-      "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
-      "partnerImage": "/img/victoria-litman-law-llc.jpg",
-      "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
       "partnerName": "Vermont Growers Association",
       "partnerDescription": "Vermont Growers Association is a non-partisan, mutual benefit, trade association and the largest member-based cannabis nonprofit in the state. Its mission is to establish, preserve, and protect Vermont's cannabis industry by advancing the interests of independent family farms and small businesses and supporting an equitable, viable, craft-centric, small business-driven cannabis marketplace through advocacy, education, and marketing.",
       "partnerImage": "/img/vermont-growers.png",
       "partnerWebsite": "https://www.vermontgrowers.org/"
     },
     {
-      "partnerName": "First Partner",
-      "partnerDescription": "Some strange description",
-      "partnerImage": "https://via.placeholder.com/1500x723",
-      "partnerWebsite": "#"
+      "partnerName": "Victoria Litman Law",
+      "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
+      "partnerImage": "/img/victoria-litman-law-llc.jpg",
+      "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     }
   ],
   "quoteAuthor2": "Name McNamely",
