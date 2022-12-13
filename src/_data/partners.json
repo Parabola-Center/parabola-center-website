@@ -239,6 +239,18 @@
       "partnerWebsite": "https://ssdp.org/"
     },
     {
+      "partnerName": "Supernova Women",
+      "partnerDescription": "Supernova Women is a 501(c)3 nonprofit organization founded in 2015 by Black and Brown women that works to empower Black and Brown people to become self-sufficient shareholders in the cannabis and natural plant medicine space through education, advocacy, and network building.",
+      "partnerImage": "/img/supernova-women.jpg",
+      "partnerWebsite": "https://www.supernovawomen.com/"
+    },
+    {
+      "partnerName": "THC Staffing",
+      "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
+      "partnerImage": "/img/thc-staffing.jpg",
+      "partnerWebsite": "https://thcstaffinggroup.com/"
+    },
+    {
       "partnerName": "Trella Tech",
       "partnerDescription": "Trella Technologies brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
       "partnerImage": "/img/trella-image.jpg",
@@ -275,22 +287,10 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "Supernova Women",
-      "partnerDescription": "Supernova Women is a 501(c)3 nonprofit organization founded in 2015 by Black and Brown women that works to empower Black and Brown people to become self-sufficient shareholders in the cannabis and natural plant medicine space through education, advocacy, and network building.",
-      "partnerImage": "/img/supernova-women.jpg",
-      "partnerWebsite": "https://www.supernovawomen.com/"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 75 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
-    },
-    {
-      "partnerName": "Proin Tincidunt",
-      "partnerDescription": "This is 50 words amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-      "partnerImage": "https://via.placeholder.com/500",
-      "partnerWebsite": "#"
+      "partnerName": "Strain Station",
+      "partnerDescription": "Strain Station, LLC, is a Black Female owned adult-use cannabis business with planned retail operations in Cambridge, Massachusetts. Strain Station believes that the best weed comes from people who love weed, and that’s what we’re here to do: spread the seed. Strain Station: the only stop you’ll need to make.  ",
+      "partnerImage": "/img/strain-station.png",
+      "partnerWebsite": "https://www.strainstationcannabis.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
