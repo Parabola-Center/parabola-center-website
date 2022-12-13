@@ -185,6 +185,12 @@
       "partnerWebsite": "https://www.craftcannabiscoalition.org/"
     },
     {
+      "partnerName": "Nuvé ",
+      "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Its mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. Nuvé develops cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
+      "partnerImage": "/img/nuve2.png",
+      "partnerWebsite": "https://www.enternuve.com/"
+    },
+    {
       "partnerName": "Paper Crane Cannabis",
       "partnerDescription": "Paper Crane Cannabis is a family-owned farm raising sun-grown cannabis. Owned by formerly incarcerated social equity program participant Boey Bertold and his wife Lisa Mauriello, Paper Crane is known for its exceptional marijuana products grown utilizing organic and regenerative cultivation methods harnessing nature's incredible powers of the sun and earth.",
       "partnerImage": "/img/paper-crane-cannabis.png",
@@ -227,7 +233,7 @@
       "partnerWebsite": "https://stonedwarecompany.com/"
     },
     {
-      "partnerName": "Students for Sensible Drug Policy",
+      "partnerName": "SSDP",
       "partnerDescription": "Students for Sensible Drug Policy (SSDP) is replacing the disastrous war on drugs with policies rooted in evidence, compassion, and human rights. Our 5,000 active members, made up of young people and students, mobilize from 300 schools around the globe to make change from the campus to the United Nations.",
       "partnerImage": "/img/ssdp.png",
       "partnerWebsite": "https://ssdp.org/"
@@ -267,12 +273,6 @@
       "partnerDescription": "Victoria Litman Law, LLC, specializes in cannabis, psychedelics, and tax with an emphasis on exempt nonprofit organizations. Victoria is a longtime medical cannabis patient, passionate advocate, and Ganjier in training. She strives to share her vision for social justice through innovative and reparative drug policy, value driven legal practice, and mass education.",
       "partnerImage": "/img/victoria-litman-law-llc.jpg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
-    },
-    {
-      "partnerName": "Nuvé ",
-      "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Its mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. Nuvé develops cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
-      "partnerImage": "/img/nuve2.png",
-      "partnerWebsite": "https://www.enternuve.com/"
     },
     {
       "partnerName": "Nulla Lobortis",
