@@ -227,6 +227,12 @@
       "partnerWebsite": "https://sativaremedy.com/"
     },
     {
+      "partnerName": "SSDP",
+      "partnerDescription": "Students for Sensible Drug Policy (SSDP) is replacing the disastrous war on drugs with policies rooted in evidence, compassion, and human rights. Our 5,000 active members, made up of young people and students, mobilize from 300 schools around the globe to make change from the campus to the United Nations.",
+      "partnerImage": "/img/ssdp.png",
+      "partnerWebsite": "https://ssdp.org/"
+    },
+    {
       "partnerName": "Stem Haverhill",
       "partnerDescription": "Stem is a woman-owned, designated economic empowerment business in downtown Haverhill, Massachusetts. Run by cannabis enthusiasts, its mission is to provide premium cannabis products to all customers from first-time shoppers to experienced consumers. Stem is well known for supporting its community and standing up for other small, local businesses.",
       "partnerImage": "/img/stem_social_logo.png",
@@ -237,12 +243,6 @@
       "partnerDescription": "Stonedware was born out of the desire to create designer smokeware that is not only functional, but beautiful enough to leave sitting on your coffee table. A woman-owned and operated small business, Stonedware’s handcrafted and USA-made products encourage the normalization and elevation of people who use cannabis.",
       "partnerImage": "/img/stonedware-500x500.jpg",
       "partnerWebsite": "https://stonedwarecompany.com/"
-    },
-    {
-      "partnerName": "SSDP",
-      "partnerDescription": "Students for Sensible Drug Policy (SSDP) is replacing the disastrous war on drugs with policies rooted in evidence, compassion, and human rights. Our 5,000 active members, made up of young people and students, mobilize from 300 schools around the globe to make change from the campus to the United Nations.",
-      "partnerImage": "/img/ssdp.png",
-      "partnerWebsite": "https://ssdp.org/"
     },
     {
       "partnerName": "Strain Station",
@@ -257,16 +257,16 @@
       "partnerWebsite": "https://www.supernovawomen.com/"
     },
     {
+      "partnerName": "Terptown Throwdown",
+      "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
+      "partnerImage": "/img/terptown.png",
+      "partnerWebsite": "https://terptownthrowdownfestival.com/"
+    },
+    {
       "partnerName": "THC Staffing",
       "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
       "partnerImage": "/img/thc-staffing.jpg",
       "partnerWebsite": "https://thcstaffinggroup.com/"
-    },
-    {
-      "partnerName": "Trella Tech",
-      "partnerDescription": "Trella Technologies brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
-      "partnerImage": "/img/trella-image.jpg",
-      "partnerWebsite": "https://www.trella.io/"
     },
     {
       "partnerName": "Top Flor",
@@ -275,10 +275,10 @@
       "partnerWebsite": "#"
     },
     {
-      "partnerName": "Terptown Throwdown",
-      "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
-      "partnerImage": "/img/terptown.png",
-      "partnerWebsite": "https://terptownthrowdownfestival.com/"
+      "partnerName": "Trella Tech",
+      "partnerDescription": "Trella Technologies brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
+      "partnerImage": "/img/trella-image.jpg",
+      "partnerWebsite": "https://www.trella.io/"
     },
     {
       "partnerName": "Underground Legacy",
