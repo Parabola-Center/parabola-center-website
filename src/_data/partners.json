@@ -97,7 +97,7 @@
     {
       "partnerName": "Freshly Baked",
       "partnerDescription": "Freshly Baked Company is a Black-owned social equity microbusiness known for its small batch craft edibles and pre-rolls. Founded by two disabled veterans who found cannabis helped their PTSD symptoms, Freshly Baked was the first company in MA authorized to deliver its product directly to consumers at home.",
-      "partnerImage": "/img/freshly-baked.webp",
+      "partnerImage": "/img/freshly-baked-logo.jpeg",
       "partnerWebsite": "https://freshlybakedcompany.com/"
     },
     {
@@ -141,7 +141,8 @@
       "partnerName": "KindRun",
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
       "partnerImage": "/img/kind-run-2.png",
-      "partnerWebsite": "https://www.kindrun.com/"
+      "partnerWebsite": "https://www.kindrun.com/",
+      "background": true
     },
     {
       "partnerName": "Legally Great Academy",
@@ -236,7 +237,8 @@
       "partnerName": "Sativa Remedy",
       "partnerDescription": "Sativa Remedy is a minority, women-owned, and family-operated hemp dispensary located in Western New York. Co-founded by Nhi Kha and John Frazier in 2018, our mission is to normalize cannabis and reconnecting consumers with the plant by providing education, guidance, and support alongside a highly curated selection of quality, safe, and affordable hemp products. Our belief is that all should have the right to access plant medicine without having to compromise on price, quality, potency, or safety.",
       "partnerImage": "/img/sativa-remedy-logo.png",
-      "partnerWebsite": "https://sativaremedy.com/"
+      "partnerWebsite": "https://sativaremedy.com/",
+      "background": true
     },
     {
       "partnerName": "SSDP",
