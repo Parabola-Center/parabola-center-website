@@ -165,6 +165,13 @@ collections:
               - { label: Image, name: partnerImage, widget: image }
               - { label: Description, name: partnerDescription }
               - { label: Website, name: partnerWebsite }
+              - {
+                  label: White background,
+                  name: background,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                }
           - label: Outro
             name: outro
             widget: markdown

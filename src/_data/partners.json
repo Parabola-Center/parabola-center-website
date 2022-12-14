@@ -7,14 +7,26 @@
     {
       "partnerName": "ACT",
       "partnerDescription": "The Alliance for Cannabis Transparency (ACT) is a coalition of professionals and advocates working to increase cannabis access for North Carolinians for the betterment of our community and state. ACT is non-partisan, community-centered and backed by research and data. Our goal is to increase safe access, while providing education around the plant to constituents and politicians.",
+<<<<<<< Updated upstream
       "partnerImage": "/img/copy-of-act-logo-option-500-×-250-px-instagram-post-square-.png",
       "partnerWebsite": "https://www.act4nc.com/"
+=======
+      "partnerImage": "/img/act-logo.webp",
+      "partnerWebsite": "https://www.act4nc.com/",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Ardent",
       "partnerDescription": "Ardent is a Black Woman-owned biotech and medical cannabis device company with pioneering technologies that drastically improve administration and effectiveness. Based in Boston, owner Shanel Lindsay invented the first ever home decarboxylation machine – a lab-grade device that perfectly activates cannabis in just one click. ",
+<<<<<<< Updated upstream
       "partnerImage": "/img/ardent-cannabis.jpeg",
       "partnerWebsite": "https://ardentcannabis.com/"
+=======
+      "partnerImage": "/img/ardent-cannabis.webp",
+      "partnerWebsite": "https://ardentcannabis.com/",
+      "background": false
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Bay State Extracts",
@@ -32,13 +44,15 @@
       "partnerName": "Blackstone Valley",
       "partnerDescription": "Blackstone Valley Cannabis (BVC) is a mission-driven organization founded by local cannabis industry pioneers. Its goal is simple: to become a place its customers love to shop and learn, and a business that our neighbors are proud to have in our historic community.",
       "partnerImage": "/img/blackstone.png",
-      "partnerWebsite": "https://bvcannabis.com/"
+      "partnerWebsite": "https://bvcannabis.com/",
+      "background": true
     },
     {
       "partnerName": "The Boston Garden",
       "partnerDescription": "The Boston Garden Dispensary is an innovative cannabis company striving to build an incredible Massachusetts-native brand that celebrates authentic New England culture. As a team with roots in Boston and Newton, maintaining its reputation within the local civic, business, and philanthropic communities is essential to its moral standards of success.",
       "partnerImage": "/img/boston-garden.png",
-      "partnerWebsite": "https://boston.garden/"
+      "partnerWebsite": "https://boston.garden/",
+      "background": true
     },
     {
       "partnerName": "Burn After Reading",
@@ -56,7 +70,8 @@
       "partnerName": "Civera Software",
       "partnerDescription": "Civera Software provides technology to build a better democracy by making civic information more available to everyday people, and to improve government transparency and accountability. Civera believes that access to government data is a human right, and building generous and meaningful public access will lead to a better world.",
       "partnerImage": "/img/civera.png",
-      "partnerWebsite": "https://civera.com/"
+      "partnerWebsite": "https://civera.com/",
+      "background": true
     },
     {
       "partnerName": "Cristina Buccola, Esq.",
@@ -67,8 +82,14 @@
     {
       "partnerName": "COAST",
       "partnerDescription": "Local, woman-owned, and family operated, COAST Cannabis Co.™ is on a mission to make feeling good feel good. To COAST, cannabis is a wellness tool that should help you be your best self. It crafts quality products to give its customers the high-quality cannabis its own people wanted to see in the world.",
+<<<<<<< Updated upstream
       "partnerImage": "/img/coast-blue-logo-.png",
       "partnerWebsite": "https://coastcannabisco.com/"
+=======
+      "partnerImage": "/img/coast-blue-logo-.webp",
+      "partnerWebsite": "https://coastcannabisco.com/",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Different Leaf",
@@ -128,7 +149,8 @@
       "partnerName": "The Honeybee Collective",
       "partnerDescription": "The Honeybee Collective is an employee-owned cannabis brand on a mission to create community wealth and a sustainable future. We make products with the best earth-friendly cannabis available, guarantee all our employees a living wage, and reinvest 10% of our profits back into the communities where we operate. ",
       "partnerImage": "/img/honeybee-collective.png",
-      "partnerWebsite": "https://www.honeybeecollective.com/"
+      "partnerWebsite": "https://www.honeybeecollective.com/",
+      "background": true
     },
     {
       "partnerName": "KindRun",
@@ -151,8 +173,14 @@
     {
       "partnerName": "Marijuana Justice",
       "partnerDescription": "Marijuana Justice is a Black-led nonprofit organization leading the Virginia movement for legalization centered on repairing the harms of the drug war. Marijuana Justice is well known for its work educating residents about the benefits of evidence-based social equity policies, and the harms of marijuana monopolies. ",
+<<<<<<< Updated upstream
       "partnerImage": "/img/marijuana-justice.png",
       "partnerWebsite": "https://www.marijuanajustice.org/"
+=======
+      "partnerImage": "/img/marijuana-justice.webp",
+      "partnerWebsite": "https://www.marijuanajustice.org/",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Mary and Main",
@@ -187,14 +215,26 @@
     {
       "partnerName": "Nuvé ",
       "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Its mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. Nuvé develops cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
+<<<<<<< Updated upstream
       "partnerImage": "/img/nuve2.png",
       "partnerWebsite": "https://www.enternuve.com/"
+=======
+      "partnerImage": "/img/nuve2.webp",
+      "partnerWebsite": "https://www.enternuve.com/",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Paper Crane Cannabis",
       "partnerDescription": "Paper Crane Cannabis is a family-owned farm raising sun-grown cannabis. Owned by formerly incarcerated social equity program participant Boey Bertold and his wife Lisa Mauriello, Paper Crane is known for its exceptional marijuana products grown utilizing organic and regenerative cultivation methods harnessing nature's incredible powers of the sun and earth.",
+<<<<<<< Updated upstream
       "partnerImage": "/img/paper-crane-cannabis.png",
       "partnerWebsite": "https://www.papercranecannabis.com/"
+=======
+      "partnerImage": "/img/paper-crane-cannabis.webp",
+      "partnerWebsite": "https://www.papercranecannabis.com/",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Park Jordan",
@@ -205,14 +245,26 @@
     {
       "partnerName": "Point Seven Group",
       "partnerDescription": "Point Seven Group (Point7) is a certified, 100% WBE management consulting firm supporting cannabis operators since 2014. Point7 has worked in 42 U.S. states and six countries providing services including business planning and financial modeling/valuations, cannabis business licensing and permitting, brand building and exit strategy planning. ",
+<<<<<<< Updated upstream
       "partnerImage": "/img/p7_stacked_color.png",
       "partnerWebsite": "pointsevengroup.com "
+=======
+      "partnerImage": "/img/p7_stacked_color.webp",
+      "partnerWebsite": "pointsevengroup.com ",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Ravengrass",
       "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
+<<<<<<< Updated upstream
       "partnerImage": "/img/raven.png",
       "partnerWebsite": "https://www.ravengrass.com/"
+=======
+      "partnerImage": "/img/raven.webp",
+      "partnerWebsite": "https://www.ravengrass.com/",
+      "background": true
+>>>>>>> Stashed changes
     },
     {
       "partnerName": "Rolling Releaf",
@@ -236,7 +288,8 @@
       "partnerName": "Stem Haverhill",
       "partnerDescription": "Stem is a woman-owned, designated economic empowerment business in downtown Haverhill, Massachusetts. Run by cannabis enthusiasts, its mission is to provide premium cannabis products to all customers from first-time shoppers to experienced consumers. Stem is well known for supporting its community and standing up for other small, local businesses.",
       "partnerImage": "/img/stem_social_logo.png",
-      "partnerWebsite": "https://stemhaverhill.com/"
+      "partnerWebsite": "https://stemhaverhill.com/",
+      "background": true
     },
     {
       "partnerName": "Stonedware",
