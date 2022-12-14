@@ -126,6 +126,19 @@ h2 {
 
 .partners h2 {
     min-width: 100%;
+    position: relative;
+}
+
+.partners h2:after {
+    background-color: rgba(28,27,25, 0.5);
+    content: '';
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: -1;
 }
 
 .partners__wrapper {
@@ -236,9 +249,10 @@ h3 {
 }
 
 blockquote {
+    background: rgba(28,27,25, 0.5);
     margin: 92px auto 76px auto;
     max-width: 1400px;
-    padding: 0 2em;
+    padding: 0.5em 2em;
     position: relative;
     text-align: center;
     z-index: 2;
@@ -270,13 +284,14 @@ blockquote cite {
 }
 
 .outro {
+    background-color: rgba(28,27,25, 0.5);
     color: #fff;
     font-size: 32px;
     font-weight: 400;
     text-align: center;
     margin: 124px auto ;
     max-width: 1400px;
-    padding: 0 2em;
+    padding: 0.25em 2em;
     position: relative;
     z-index: 2;
 }
