@@ -33,7 +33,7 @@
     {
       "partnerName": "Blackstone Valley",
       "partnerDescription": "Blackstone Valley Cannabis (BVC) is a mission-driven organization founded by local cannabis industry pioneers. Its goal is simple: to become a place its customers love to shop and learn, and a business that our neighbors are proud to have in our historic community.",
-      "partnerImage": "/img/blackstone.png",
+      "partnerImage": "/img/blackstone.webp",
       "partnerWebsite": "https://bvcannabis.com/",
       "background": true
     },
@@ -59,7 +59,7 @@
     {
       "partnerName": "Civera Software",
       "partnerDescription": "Civera Software provides technology to build a better democracy by making civic information more available to everyday people, and to improve government transparency and accountability. Civera believes that access to government data is a human right, and building generous and meaningful public access will lead to a better world.",
-      "partnerImage": "/img/civera.png",
+      "partnerImage": "/img/civera.webp",
       "partnerWebsite": "https://civera.com/",
       "background": true
     },
@@ -140,7 +140,7 @@
     {
       "partnerName": "KindRun",
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
-      "partnerImage": "/img/kind-run-2.png",
+      "partnerImage": "/img/kind-run-2.webp",
       "partnerWebsite": "https://www.kindrun.com/",
       "background": true
     },
@@ -223,7 +223,7 @@
     {
       "partnerName": "Raven Grass",
       "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
-      "partnerImage": "/img/raven.png",
+      "partnerImage": "/img/raven.webp",
       "partnerWebsite": "https://www.ravengrass.com/",
       "background": true
     },
