@@ -14,26 +14,26 @@
     {
       "partnerName": "Ardent",
       "partnerDescription": "Ardent is a Black Woman-owned biotech and medical cannabis device company with pioneering technologies that drastically improve administration and effectiveness. Based in Boston, owner Shanel Lindsay invented the first ever home decarboxylation machine – a lab-grade device that perfectly activates cannabis in just one click. ",
-      "partnerImage": "/img/ardent-logo.png",
+      "partnerImage": "/img/ardent-logo.webp",
       "partnerWebsite": "https://ardentcannabis.com/",
       "background": false
     },
     {
       "partnerName": "Bay State Extracts",
       "partnerDescription": "Bay State Hemp Company (dba Bay State Extracts) is a Massachusetts-based small family owned processing facility dedicated to the isolation of minor and rare cannabinoids from hemp with a determined mission of proliferating every beneficial molecule that cannabis stands to offer in the name of patient and adult access.",
-      "partnerImage": "/img/bay-state-extracts.png",
+      "partnerImage": "/img/bay-state-extracts.webp",
       "partnerWebsite": "www.baystatehemp.com"
     },
     {
       "partnerName": "Big Hope Project",
       "partnerDescription": "Big Hope Project, a 501c3 organization based in Boston, MA conducts free restorative justice services to uplift and empower communities disproportionately harmed by the War On Drugs. Big Hope Project is a Black, Returning-Citizen, & Veteran led organization specializing in education, digital marketing, advocacy, and consulting with deep roots to the inner-cities of Massachusetts.",
-      "partnerImage": "/img/img_0246.jpeg",
+      "partnerImage": "/img/img_0246.webp",
       "partnerWebsite": "https://www.bighopeproject.org/"
     },
     {
       "partnerName": "Blackstone Valley",
       "partnerDescription": "Blackstone Valley Cannabis (BVC) is a mission-driven organization founded by local cannabis industry pioneers. Its goal is simple: to become a place where customers love to shop and learn, and a business that its neighbors are proud to have in their historic community.",
-      "partnerImage": "/img/blackstone.png",
+      "partnerImage": "/img/blackstone.webp",
       "partnerWebsite": "https://bvcannabis.com/",
       "background": true
     },
@@ -47,27 +47,28 @@
     {
       "partnerName": "Burn After Reading",
       "partnerDescription": "Burn After Reading is an independent weekly newsletter written through a lens of social equity, accountability, and workers' rights. Run by Eric Casey, an experienced cannabis voice in MA, Burn After Reading analyzes the week’s cannabis news for all and provides bonus content for paid subscribers.",
-      "partnerImage": "/img/burn-after-reading.png",
+      "partnerImage": "/img/burn-after-reading.webp",
       "partnerWebsite": "https://ericcasey.substack.com/"
     },
     {
       "partnerName": "Calyx Berkshire",
       "partnerDescription": "Calyx Berkshire Dispensary is a neighborhood fine cannabis boutique in downtown Great Barrington, MA. It is proud to be the only 100% women-owned cannabis dispensary in Berkshire County and prides itself on the ability to cater to experienced cannabis customers as well as educate the canna-curious, first-time consumer. ",
-      "partnerImage": "/img/calyx.png",
+      "partnerImage": "/img/calyx.webp",
       "partnerWebsite": "https://www.calyxberkshire.com"
     },
     {
       "partnerName": "Civera Software",
       "partnerDescription": "Civera Software provides technology to build a better democracy by making civic information more available to everyday people, and to improve government transparency and accountability. Civera believes that access to government data is a human right, and building generous and meaningful public access will lead to a better world.",
-      "partnerImage": "/img/civera.png",
+      "partnerImage": "/img/civera.webp",
       "partnerWebsite": "https://civera.com/",
       "background": true
     },
     {
       "partnerName": "Cristina Buccola, Esq.",
       "partnerDescription": "Cristina Buccola is an attorney and professor who assists small businesses, social equity groups, and legacy market entrepreneurs with cannabis licensing, regulatory requirements, and legal and business matters. She has provided cannabis education to thousands and helped justice-impacted groups apply for and become New York's first provisionally licensed cannabis dispensaries.",
-      "partnerImage": "/img/cristina-buccola.png",
-      "partnerWebsite": "https://www.cbcounsel.com/#"
+      "partnerImage": "/img/cristina-buccola.webp",
+      "partnerWebsite": "https://www.cbcounsel.com/#",
+      "background": true
     },
     {
       "partnerName": "COAST",
@@ -78,57 +79,58 @@
     },
     {
       "partnerName": "Different Leaf",
-      "partnerDescription": "Part reference, part lifestyle guide, and never stuffy, Different Leaf’s award-winning design and editorial is high-quality, thought-provoking, and authoritative on the issues of legalized cannabis, and crafted to be useful to those who have little to some experience with cannabis, and are drawn to incorporating it more into their lives.",
-      "partnerImage": "/img/different-leaf-500x500.jpg",
+      "partnerDescription": "Part reference, part lifestyle guide, and never stuffy, Different Leaf's award-winning design and editorial is high-quality, thought-provoking, and authoritative on the issues of legalized cannabis, and crafted to be useful to those who have little to some experience with cannabis, and are drawn to incorporating it more into their lives.",
+      "partnerImage": "/img/different-leaf-500x500.webp",
       "partnerWebsite": "https://www.differentleaf.com/"
     },
     {
       "partnerName": "EOS Farms",
       "partnerDescription": "EOS envisions an industry that elevates communities and enriches the U.S. food system by integrating with local farms to produce the highest-quality, purest, sun and soil grown cannabis. It envisions a consumer who honors the impact of their purchase decisions and helps support food security in their community.",
-      "partnerImage": "/img/eos-farms.png",
+      "partnerImage": "/img/eos-farms.webp",
       "partnerWebsite": "https://eosfarms.com"
     },
     {
       "partnerName": "Fernway",
       "partnerDescription": "Fernway is the top-selling cannabis vape brand in Massachusetts. An independent local business run by people who are passionate cannabis consumers themselves, Fernway is known for its best-in-class terpenes, inclusive cannabis-positive messaging, and promoting sustainability with its award-winning recyclable products.",
-      "partnerImage": "/img/fernway-image.jpg",
+      "partnerImage": "/img/fernway-image.webp",
       "partnerWebsite": "https://fernway.com/"
     },
     {
       "partnerName": "Freshly Baked",
       "partnerDescription": "Freshly Baked Company is a Black-owned social equity microbusiness known for its small batch craft edibles and pre-rolls. Founded by two disabled veterans who found cannabis helped their PTSD symptoms, Freshly Baked was the first company in MA authorized to deliver its product directly to consumers at home.",
-      "partnerImage": "/img/freshly-baked.jpg",
+      "partnerImage": "/img/freshly-baked-logo.jpeg",
       "partnerWebsite": "https://freshlybakedcompany.com/"
     },
     {
       "partnerName": "Garden Remedies",
       "partnerDescription": "Originally founded by a physician who fought for the rights of medical cannabis patients and survived cancer herself, Garden Remedies operates three popular dispensaries in Massachusetts offering products from its own local cultivation facility. Through consistency, quality, and craft, Garden Remedies helps patients and consumers live their best life through safe, responsible and healthy cannabis consumption.",
-      "partnerImage": "/img/microsoftteams-image-24-.png",
+      "partnerImage": "/img/microsoftteams-image-24-.webp",
       "partnerWebsite": "https://www.gardenremedies.com/"
     },
     {
       "partnerName": "The Green Approach",
       "partnerDescription": "The Green Approach Trading Post (TGA) is an independent medical cannabis retail store in Westbrook, Maine. Our focus is on cultivating community and making the retail experience comfortable and welcoming for everyone. As a cannabis hub, TGA carries a wide variety of Maine’s premium, craft-quality products - including flower, edibles, concentrates, tinctures, and salves from sought-after brands throughout the state. ",
-      "partnerImage": "/img/green-approach-tga-.jpg",
+      "partnerImage": "/img/green-approach-tga.webp",
       "partnerWebsite": "https://www.tgatradingpost.com/"
     },
     {
       "partnerName": "Hammerhead Strategies",
       "partnerDescription": "Hammerhead Strategies is a full-service consulting firm that helps small businesses, grassroots organizations, and candidates for public office dominate in the online space. Hammerhead is guided by fairness, justice, and transparency in its work in everything from helping activists mount public pressure campaigns to helping small businesses tell their stories.",
-      "partnerImage": "/img/hammerhead-strategies.png",
+      "partnerImage": "/img/hammerhead-strategies.webp",
       "partnerWebsite": "https://www.hammerheadstrategies.com/"
     },
     {
       "partnerName": "The Healing Rose",
       "partnerDescription": "The Healing Rose is a family-owned, woman-led company handcrafting body care products using certified organic oils and other ingredients infused with hemp cannabinoids. Licensed as a MA hemp processor, The Healing Rose has been heavily involved in regulations and focused on making a positive impact in the lives of its customers, employees, and community.",
-      "partnerImage": "/img/healing-rose.png",
+      "partnerImage": "/img/healing-rose.webp",
       "partnerWebsite": "https://www.thehealingroseco.com"
     },
     {
       "partnerName": "The High End",
       "partnerDescription": "The High End is a minority-owned, woman-owned small business. Co-owner Helen Gomez Andrews first discovered how underserved patients and consumers were when her daughter, following an epilepsy diagnosis, became one of New York’s first ever medical cannabis cardholders. Active participants in policymaking, The High End’s owners are focused on patient care and education, environmental ethics, equitable market access, and people over profits.",
-      "partnerImage": "/img/high-end-sq.-logo.png",
-      "partnerWebsite": "http://www.thehighendcannabis.com/"
+      "partnerImage": "/img/the-high-end.webp",
+      "partnerWebsite": "http://www.thehighendcannabis.com/",
+      "background": true
     },
     {
       "partnerName": "The Honeybee Collective",
@@ -140,13 +142,14 @@
     {
       "partnerName": "KindRun",
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
-      "partnerImage": "/img/kind-run-2.png",
-      "partnerWebsite": "https://www.kindrun.com/"
+      "partnerImage": "/img/kind-run-2.webp",
+      "partnerWebsite": "https://www.kindrun.com/",
+      "background": true
     },
     {
       "partnerName": "Legally Great Academy",
       "partnerDescription": "Legally Great Academy, LLC, is a Black Woman-owned premiere educational and consulting platform that helps cannabis entrepreneurs take their businesses from conception to compliant operation by offering cannabis business courses, executive and employee training, self-development courses, as well as group and one-on-one consulting.",
-      "partnerImage": "/img/legally-great-academy.png",
+      "partnerImage": "/img/legally-great-academy.webp",
       "partnerWebsite": "https://www.legallygreat.com/"
     },
     {
@@ -165,31 +168,31 @@
     {
       "partnerName": "Mary and Main",
       "partnerDescription": "Mary and Main is a family-owned medical dispensary located in Prince George’s County, Maryland. Owner Hope Wiseman, the youngest Black woman to own a dispensary in the United States, is focused on a creating a space to learn about the plant and become educated about efforts to end the war on drugs.  ",
-      "partnerImage": "/img/mary_maine-square-logo.png",
+      "partnerImage": "/img/mary_maine-square-logo.webp",
       "partnerWebsite": "https://maryandmain.com/"
     },
     {
       "partnerName": "The Mensing Group",
       "partnerDescription": "The Mensing Group, LLC, is a cannabis advisory firm that provides sound guidance to some of the most exciting cannabis business ventures in Massachusetts. As founder and attorney Blake Mensing puts it, he’s not interested in “clients growing mids to make a quick million.”",
-      "partnerImage": "/img/mensing-group.png",
+      "partnerImage": "/img/mensing-group.webp",
       "partnerWebsite": "https://www.mensinggroup.com#"
     },
     {
       "partnerName": "MCR Labs",
       "partnerDescription": "As one of the first independent cannabis testing labs established on the East Coast, MCR is proud to offer analytical testing and R&D services to licensed MMJ and adult-use cannabis producers, patients, doctors, researchers, and homegrowers.  MCR Labs partners with advocacy groups, educators, and fellow researchers to inform the public and encourage safe consumption practices.",
-      "partnerImage": "/img/mcr-logo-purp_grey.png",
+      "partnerImage": "/img/mcr-logo-purp_grey.webp",
       "partnerWebsite": "https://mcrlabs.com/"
     },
     {
       "partnerName": "NACBL",
-      "partnerDescription": "Founded in 2021, NABCL is the country’s largest, most effective organization of Black attorneys and allies focused on inclusive, equitable, reparative justice in cannabis. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote greed-based agendas, NABCL is an equalizer, championing inclusion as the game changer pivotal to greater success for us all. ",
+      "partnerDescription": "Founded in 2021, NABCL is the country's largest, most effective organization of Black attorneys and allies focused on equitable, inclusive and reparative justice within the cannabis industry. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote race bating opportunistic agendas, NABCL champions inclusion as the vehicle most pivotal to the overall success of cannabis legalization.",
       "partnerImage": "/img/nabcl-logo.jpeg",
       "partnerWebsite": "https://www.nabcl.com/"
     },
     {
       "partnerName": "NCCC",
       "partnerDescription": "National Craft Cannabis Coalition (NCCC) is a coalition of state-level advocacy organizations collectively representing over 1,600 small and independent cannabis businesses nationwide. The NCCC’s vision is to promote policies that support small cannabis producers, support a business ecosystem that supports craft cannabis cultivation, and support consumer access to a diversity of craft cannabis products.",
-      "partnerImage": "/img/nccc.png",
+      "partnerImage": "/img/nccc.webp",
       "partnerWebsite": "https://www.craftcannabiscoalition.org/"
     },
     {
@@ -222,63 +225,59 @@
     {
       "partnerName": "Raven Grass",
       "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
-      "partnerImage": "/img/raven.png",
+      "partnerImage": "/img/raven.webp",
       "partnerWebsite": "https://www.ravengrass.com/",
       "background": true
     },
     {
       "partnerName": "Rolling Releaf",
       "partnerDescription": "Founded by two longtime friends, Rolling Releaf is a Black-owned, social equity delivery company bringing much needed “releaf” to its customers with safe, fast and affordable delivery. The founders were highly influential in creating Massachusetts delivery regulations and focus on partnering with other local producers and farmers.",
-      "partnerImage": "/img/rolling-releaf-sq-logo.png",
+      "partnerImage": "/img/rolling-releaf-sq-logo.webp",
       "partnerWebsite": "https://rollingreleaf.org/"
     },
     {
       "partnerName": "Sativa Remedy",
       "partnerDescription": "Sativa Remedy is a minority, women-owned, and family-operated hemp dispensary located in Western New York. Co-founded by Nhi Kha and John Frazier in 2018, our mission is to normalize cannabis and reconnecting consumers with the plant by providing education, guidance, and support alongside a highly curated selection of quality, safe, and affordable hemp products. Our belief is that all should have the right to access plant medicine without having to compromise on price, quality, potency, or safety.",
-      "partnerImage": "/img/sativa-remedy-logo.png",
-      "partnerWebsite": "https://sativaremedy.com/"
+      "partnerImage": "/img/sativa-remedy-logo.webp",
+      "partnerWebsite": "https://sativaremedy.com/",
+      "background": true
     },
     {
       "partnerName": "SSDP",
       "partnerDescription": "Students for Sensible Drug Policy (SSDP) is replacing the disastrous war on drugs with policies rooted in evidence, compassion, and human rights. Our 5,000 active members, made up of young people and students, mobilize from 300 schools around the globe to make change from the campus to the United Nations.",
-      "partnerImage": "/img/ssdp.png",
+      "partnerImage": "/img/ssdp.webp",
       "partnerWebsite": "https://ssdp.org/"
     },
     {
       "partnerName": "Stem Haverhill",
       "partnerDescription": "Stem is a woman-owned, designated economic empowerment business in downtown Haverhill, Massachusetts. Run by cannabis enthusiasts, its mission is to provide premium cannabis products to all customers from first-time shoppers to experienced consumers. Stem is well known for supporting its community and standing up for other small, local businesses.",
-      "partnerImage": "/img/stem_social_logo.png",
+      "partnerImage": "/img/stem_social_logo.webp",
       "partnerWebsite": "https://stemhaverhill.com/",
       "background": true
     },
     {
       "partnerName": "Stonedware",
       "partnerDescription": "Stonedware was born out of the desire to create designer smokeware that is not only functional, but beautiful enough to leave sitting on your coffee table. A woman-owned and operated small business, Stonedware’s handcrafted and USA-made products encourage the normalization and elevation of people who use cannabis.",
-      "partnerImage": "/img/stonedware-sq.png",
+      "partnerImage": "/img/stonedware-sq.webp",
       "partnerWebsite": "https://stonedwarecompany.com/"
     },
     {
       "partnerName": "Strain Station",
       "partnerDescription": "Strain Station, LLC, is a Black Female owned adult-use cannabis business with planned retail operations in Cambridge, Massachusetts. Strain Station believes that the best weed comes from people who love weed, and that’s what we’re here to do: spread the seed. Strain Station: the only stop you’ll need to make.  ",
-      "partnerImage": "/img/strain-station.png",
-      "partnerWebsite": "https://www.strainstationcannabis.com/"
+      "partnerImage": "/img/strain-station.webp",
+      "partnerWebsite": "https://www.strainstationcannabis.com/",
+      "background": true
     },
     {
       "partnerName": "Supernova Women",
       "partnerDescription": "Supernova Women is a 501(c)3 nonprofit organization founded in 2015 by Black and Brown women that works to empower Black and Brown people to become self-sufficient shareholders in the cannabis and natural plant medicine space through education, advocacy, and network building.",
-      "partnerImage": "/img/supernova-women-sq-logo.png",
+      "partnerImage": "/img/supernova-women-sq-logo.webp",
       "partnerWebsite": "https://www.supernovawomen.com/"
-    },
-    {
-      "partnerName": "Terptown Throwdown",
-      "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
-      "partnerImage": "/img/terptown.png",
-      "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
       "partnerName": "THC Staffing",
       "partnerDescription": "Founded in 2014 by activists who helped shape social equity legislation, THC Staffing uses decades of industry expertise to help companies build diverse teams and inclusive practices, while also empowering candidates to achieve their career goals.",
-      "partnerImage": "/img/thc-staffing.jpg",
+      "partnerImage": "/img/thc-staffing.webp",
       "partnerWebsite": "https://thcstaffinggroup.com/"
     },
     {
@@ -290,13 +289,19 @@
     {
       "partnerName": "Trella Tech",
       "partnerDescription": "Trella Technologies brings innovative and environmentally sustainable technologies to industry growers.  CEO Aja Atwood has said it is not lost on her as a black female entrepreneur – a group that has traditionally seen their innovations exploited -- that the company holds a patent for technology that will disrupt the status quo in traditional indoor farming.",
-      "partnerImage": "/img/trella.png",
+      "partnerImage": "/img/trella.webp",
       "partnerWebsite": "https://www.trella.io/"
+    },
+    {
+      "partnerName": "Terptown Throwdown",
+      "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
+      "partnerImage": "/img/terptown.webp",
+      "partnerWebsite": "https://terptownthrowdownfestival.com/"
     },
     {
       "partnerName": "Underground Legacy",
       "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
-      "partnerImage": "/img/underground-legacy.png",
+      "partnerImage": "/img/underground-legacy.webp",
       "partnerWebsite": "#"
     },
     {
@@ -308,7 +313,7 @@
     {
       "partnerName": "Vermont Growers Association",
       "partnerDescription": "Vermont Growers Association is a non-partisan, mutual benefit, trade association and the largest member-based cannabis nonprofit in the state. Its mission is to establish, preserve, and protect Vermont's cannabis industry by advancing the interests of independent family farms and small businesses and supporting an equitable, viable, craft-centric, small business-driven cannabis marketplace through advocacy, education, and marketing.",
-      "partnerImage": "/img/vermont-growers.png",
+      "partnerImage": "/img/vermont-growers.webp",
       "partnerWebsite": "https://www.vermontgrowers.org/"
     },
     {
