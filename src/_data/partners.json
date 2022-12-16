@@ -264,9 +264,9 @@
     {
       "partnerName": "Strain Station",
       "partnerDescription": "Strain Station, LLC, is a Black Female owned adult-use cannabis business with planned retail operations in Cambridge, Massachusetts. Strain Station believes that the best weed comes from people who love weed, and that’s what we’re here to do: spread the seed. Strain Station: the only stop you’ll need to make.  ",
-      "partnerImage": "/img/strain-station.webp",
+      "partnerImage": "/img/strain-station-transparent.png",
       "partnerWebsite": "https://www.strainstationcannabis.com/",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Supernova Women",
