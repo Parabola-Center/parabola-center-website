@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<style>
+  @media only screen and (max-width: 768px) {
+    .reverse {
+      order: -1;
+    }
+  }
+</style>
+<section class="parabola-grid" style="margin-top: 4rem">
+  <div class="big:parabola-cols-half parabola-cols-full">
+    {{ content | markdown | safe }}
+  </div>
+  <div class="big:parabola-cols-half parabola-cols-full reverse">
+    <img
+      src="/img/shaleen-title-headshot.webp"
+      alt="Shaleen Title headshot"
+      width="100%"
+      height="auto"
+    />
+  </div>
+</section>
