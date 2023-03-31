@@ -230,3 +230,9 @@ collections:
         file: "src/_data/sign-on.json"
         fields:
           - { label: Content, name: content, widget: markdown }
+      - label: "Anti Monopoly Toolkit"
+        name: "anti-monopoly-toolkit"
+        file: "src/_data/anti-monopoly-toolkit.json"
+        fields:
+          - { label: Header, name: header, widget: string }
+          - { label: Body, name: body, widget: markdown }
