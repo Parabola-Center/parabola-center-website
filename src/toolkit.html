@@ -134,8 +134,12 @@
               name="b_05f1b4a1bb668277775f14d00_012f0eb868" tabindex="-1" value=""></div>
           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
               class="button"></div>
+        
         </div>
       </form>
+      <div style="display: flex;">      
+        <button name="skip" class="button" id="skip-button">No thanks</button> 
+      </div>
     </div>
 
     <script>
@@ -147,10 +151,18 @@
         downloadLink.style.display = 'block';
         mailChimpForm.style.display = 'none';
       })
+
+      const skipButton = document.getElementById('skip-button');
+      skipButton.addEventListener('click', () => {
+        // Display the download link after the form is submitted
+        const downloadLink = document.querySelector('#downloadLink');
+        downloadLink.style.display = 'block';
+        mailChimpForm.style.display = 'none';
+      })
     </script>
 
     <!--End mc_embed_signup-->
-    <a href="/pdf/Parabola%20Anti-Monopoly%20Toolkit%20DRAFT.pdf" download style="display: none; color: white;" id="downloadLink">Download the Paper</a>
+    <a href="/pdf/Toolkit%204.7.23.pdf" download style="display: none; color: white;" id="downloadLink">Download the Paper</a>
   </main>
 </body>
 <footer>
