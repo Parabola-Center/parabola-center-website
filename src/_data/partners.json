@@ -338,7 +338,7 @@
     {
       "background": false,
       "partnerName": "Asian Cannabis Roundtable",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/asian-cannabis-roundtable.webp",
       "partnerDescription": "The Asian Cannabis Roundtable advocates for the best interests of people of Asian descent working in the cannabis sector and its supporting industries. Toward this goal, ACR engages in education, networking, public policy advocacy, and the provision of support and resources to members and communities. We recognize and welcome the diversity of Asians nationally, internationally, and across all diasporas.",
       "partnerWebsite": "https://www.asiancannabisroundtable.org/"
     },
@@ -368,7 +368,7 @@
       "partnerName": "Cannabis Corporate Law Firm",
       "partnerImage": "/img/cannabis-corporate-law-firm.webp",
       "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
-      "partnerWebsite": "#"
+      "partnerWebsite": "https://cannabiscorplaw.com/"
     },
     {
       "partnerName": "CBA",
@@ -455,6 +455,13 @@
       "background": true
     },
     {
+      "background": false,
+      "partnerName": "Grassp Health",
+      "partnerImage": "/img/dan-berger.webp",
+      "partnerDescription": "Grassp Health is committed to enhancing the lives of cannabis consumers through convenient and reliable delivery services. As it expands into adult-use delivery in Massachusetts, it seeks to continue support of social equity and fairness in the industry.",
+      "partnerWebsite": "https://grassphealth.com/"
+    },
+    {
       "partnerName": "Green Line Boston",
       "partnerDescription": "A true local Boston craft cannabis company creating jobs and opportunities in the community it serves. In Boston by Boston. ",
       "partnerImage": "/img/green-line.webp",
@@ -486,7 +493,7 @@
       "partnerName": "ICIA",
       "partnerDescription": "The Indigenous Cannabis Industry Association exists to promote the exploration, development, and advancement of the cannabis industry for the benefit of all Indigenous communities. ICIA is dedicated to the advocacy and empowerment of our Indigenous cannabis businesses, influencers, and aspiring entrepreneurs along with being a conduit of connection and data for Indigenous Nations.",
       "partnerImage": "/img/indigenous-cannabis-industry-association.webp",
-      "partnerWebsite": "#",
+      "partnerWebsite": "https://www.indigenouscannabis.org/",
       "background": true
     },
     {
@@ -550,7 +557,7 @@
       "partnerName": "New Día",
       "partnerImage": "/img/new-dia.webp",
       "partnerDescription": "New Día is a local, minority owned company dedicated to carving a new path for cannabis retail by offering the most innovative and the highest quality products in the market, while remaining true to our roots and the Boston culture.",
-      "partnerWebsite": "#"
+      "partnerWebsite": "https://www.newdia.co/"
     },
     {
       "partnerName": "NY Small Farma",
@@ -563,7 +570,7 @@
       "background": false,
       "partnerName": "Omar Figueroa Law",
       "partnerDescription": "The Law Offices of Omar Figuerora are recognized industry leaders. Its skilled, highly- focused team guides clients through the maze of laws and regulations surrounding cannabis, hemp, and  psychedelics, staying up-to-the-minute on the evolving policies of relevant state, local and federal governments.",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/of-logotype-white.webp",
       "partnerWebsite": "https://www.omarfigueroa.com/"
     },
     {
