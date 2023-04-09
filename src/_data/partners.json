@@ -322,7 +322,6 @@
       "partnerImage": "/img/victoria-litman-law.jpeg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
-
     {
       "partnerName": "6 Brick's",
       "partnerDescription": "6 Brick's is a cannabis dispensary located in Springfield, MA. It is a black, local, and family owned dispensary - the first of its kind to emerge in the industry. Voted best recreational dispensary by NECANN in 2023, 6 Brick's has a clear vision to connect people and product for the best experience every time.",
@@ -348,12 +347,12 @@
       "partnerName": "ATNPA",
       "partnerDescription": "All Together Now Pennsylvania unites rural and urban communities to build resilient regional economies that are self-reliant in basic needs, in order to increase community wealth and equity, reduce carbons, and prepare for climate change. We lead the P3 Campaign (Pot Profits for PA) to call for socially equitable adult use cannabis legislation.",
       "partnerWebsite": "https://www.alltogethernowpa.org",
-      "partnerImage": "https://placehold.it"
+      "partnerImage": "/img/atnp.webp"
     },
     {
       "background": false,
       "partnerName": "BEN'S BEST BLNZ",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/bens-best-blinz.webp",
       "partnerDescription": "BEN’S BEST BLNZ, or B3, is a non-profit cannabis company launched by Ben Cohen of Ben &amp; Jerry’s with an advocacy edge. 100% of its royalties after expenses are used to help right the wrongs of the war on drugs.",
       "partnerWebsite": "https://bensbest.com/"
     },
@@ -367,7 +366,7 @@
     {
       "background": false,
       "partnerName": "Cannabis Corporate Law Firm",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/cannabis-corporate-law-firm.webp",
       "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
       "partnerWebsite": "#"
     },
@@ -416,7 +415,7 @@
     {
       "background": false,
       "partnerName": "DFCR",
-      "partnerImage": "/img/dfrc.png",
+      "partnerImage": "/img/dfrc.webp",
       "partnerDescription": "Doctors for Cannabis Regulation serves as the global voice for physicians and other health professionals to advance the legalization and science-based regulation of cannabis. Through education and advocacy efforts, we leverage the influence and expertise of the medical community to realize the legislative changes necessary to promote improved public health, social justice, and consumer protections.",
       "partnerWebsite": "https://www.dfcr.org/"
     },
@@ -437,7 +436,7 @@
     {
       "background": false,
       "partnerName": "Equitable Opportunities Now",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/eon.webp",
       "partnerDescription": "EON educates and empowers people of color to become active participants in the MA legal cannabis market. Its mission is to ensure equitable ownership and employment opportunities for Black and Brown Communities who have been targeted by the War on Drugs. EON supports the transition from the legacy to the legal market.",
       "partnerWebsite": "https://masseon.com/"
     },
@@ -500,7 +499,7 @@
     {
       "background": false,
       "partnerName": "KG Consulting LLC",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/kg-consulting.webp",
       "partnerDescription": "With decades of experience in advocacy, public policy, communications, events, and fundraising for Massachusetts nonprofits and campaigns, KG Consulting LLC can help your organization tell its story, uplift its stakeholders’ voices, and create a more equitable and prosperous future.",
       "partnerWebsite": "www.KGConsultingMA.com"
     },
@@ -535,7 +534,7 @@
     {
       "background": false,
       "partnerName": "MIZE Counsel",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/mize.webp",
       "partnerDescription": "MIZE Counsel is a multifaceted legal &amp; consulting service that focuses on supporting civil rights litigation, small business formation, and providing legal guidance on health &amp; wellness industry regulations. It provides direct legal representation for clients seeking expungement &amp; sealing of prior criminal records under state and federal laws.",
       "partnerWebsite": "https://mizecounsel.com "
     },
@@ -549,7 +548,7 @@
     {
       "background": false,
       "partnerName": "New Día",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/new-dia.webp",
       "partnerDescription": "New Día is a local, minority owned company dedicated to carving a new path for cannabis retail by offering the most innovative and the highest quality products in the market, while remaining true to our roots and the Boston culture.",
       "partnerWebsite": "#"
     },
@@ -591,7 +590,7 @@
     {
       "background": false,
       "partnerName": "Simply Pure",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/simply-pure.webp",
       "partnerDescription": "Simply Pure is considered the best dispensary in Denver. We focus on sharing both our experience and knowledge about cannabis in a safe and comfortable environment. Our passionate budologists work to constantly educate newcomers and frequent consumers alike on safe, sustainable, and beneficial cannabis products. We strive to bring our love of cannabis, both wellness and recreational aspects, to the forefront of your cannabis experience.",
       "partnerWebsite": "https://simplypure.com"
     },
@@ -599,13 +598,13 @@
       "background": false,
       "partnerName": "Socíale Dispensary",
       "partnerDescription": "Socíale is a female-founded and female-owned dispensary slated to open in Park Ridge, IL later this year. Granted a social equity charter, the dispensary is also one of the first dispensaries in the U.S. founded and owned by an Indian-American woman. Committed to cannabis education and female empowerment, Socíale is eager to make an impact on the Chicagoland community.",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/sociale.webp",
       "partnerWebsite": "https://socialedispensary.com"
     },
     {
       "background": false,
       "partnerName": "Soulstar Holdings",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/soulstar.webp",
       "partnerDescription": "Soulstar is a female-led cannabis company building a portfolio of diverse and high performing businesses and brands in the Northeast’s emerging adult use markets. Driven by a team of proven industry leaders and true cannabis lovers, Soulstar is here to build a more inclusive and authentic cannabis industry.",
       "partnerWebsite": "https://www.soulstar.io/"
     },
@@ -613,8 +612,15 @@
       "background": false,
       "partnerName": "Tetragram",
       "partnerDescription": "Tetragram is an award-winning SaaS platform that collects data from cannabis and CBD consumers to measure the effects of various cannabis products. We partner with dispensaries, and brands to help them tell their product's story, connect directly to customers, and leverage our consumer insights to understand customer needs and the impact of products.",
-      "partnerImage": "https://placehold.it",
+      "partnerImage": "/img/tetragram.webp",
       "partnerWebsite": "https://tetragramapp.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Toasted Chef",
+      "partnerImage": "/img/toasted-chef.webp",
+      "partnerDescription": "Toasted Chef is a Cannabis Catering and Product Manufacturing company. We specialize in events with high-quality cannabis menus tailored to each event's theme, venue, style, and food. We offer an expansive menu of artisan cannabis cuisine for all occasions. From weddings to anniversary parties or corporate events and everything in between, Toasted Chef is the perfect choice to elevate your food & beverage offerings with spectacular quality weed-infused delicacies.",
+      "partnerWebsite": "https://toastedchef.org"
     },
     {
       "background": false,
