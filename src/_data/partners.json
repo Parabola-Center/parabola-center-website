@@ -323,43 +323,56 @@
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/"
     },
     {
-      "partnerName": "ACHEM (Association for Cannabis Health Equity and Medicine)",
-      "partnerDescription": "ACHEM is a mutual benefit, professional medical association serving the needs of BIPOC healers and healthcare professionals, students, and our allies in the advancement of cannabinoid medicine and health equity. ACHEM believes that by first educating and supporting healers, we can effectively heal communities.",
+      "partnerName": "6 Brick's",
+      "partnerDescription": "6 Brick's is a cannabis dispensary located in Springfield, MA. It is a black, local, and family owned dispensary - the first of its kind to emerge in the industry. Voted best recreational dispensary by NECANN in 2023, 6 Brick's has a clear vision to connect people and product for the best experience every time.",
+      "partnerImage": "/img/6-bricks.webp",
+      "partnerWebsite": "https://6bricks.com"
+    },
+    {
+      "partnerName": "ACHEM",
+      "partnerDescription": "The Association for Cannabis Health Equity and Medicine is a mutual benefit, professional medical association serving the needs of BIPOC healers and healthcare professionals, students, and our allies in the advancement of cannabinoid medicine and health equity. ACHEM believes that by first educating and supporting healers, we can effectively heal communities.",
       "partnerImage": "/img/achem-logo.webp",
       "partnerWebsite": "https://www.achemed.org/",
       "background": true
     },
     {
-      "partnerName": "Cann'A Woman Heal",
-      "partnerDescription": " LaWann Stribling, wife, mom to 6, serial entrepreneur, community organizer, civil rights advocate, cannabis advocate, cannabis patient, cannabis lobbyists, daycare provider, bakery owner, cannabis lifestyle advisor, mental health advocate and author.  It's important for us to showcase the beauty and medicinal qualities of cannabis to help end the negative stigma attached to it.   Cann'A Woman Heal is a Holistic Women's Wellness Lifestyle Management Business that educates and informs our community on the medicinal benefits of plant based herbs including cannabis. We express the importance of self care and how to respectfully and responsibly medicate with herbs. We handcraft Herbal Teas, Whipped Hemp cbd/ cbg Body Salve, Herbal Hand Sanitizers and more. ",
-      "partnerImage": "/img/canna-woman.webp",
-      "partnerWebsite": "Weresurviving.com",
+      "background": false,
+      "partnerName": "ATNPA",
+      "partnerDescription": "All Together Now Pennsylvania unites rural and urban communities to build resilient regional economies that are self-reliant in basic needs, in order to increase community wealth and equity, reduce carbons, and prepare for climate change. We lead the P3 Campaign (Pot Profits for PA) to call for socially equitable adult use cannabis legislation.",
+      "partnerWebsite": "https://www.alltogethernowpa.org",
+      "partnerImage": "https://placehold.it"
+    },
+    {
+      "partnerName": "The Bronx Cannabis Hub ",
+      "partnerDescription": "The Hub promotes social equity in NY's cannabis industry by providing information and support to communities most harmed by prohibition. We collaborate with trusted service providers, community-based organizations, and government officials to deliver virtual and in-person events to educate, teach, and empower Bronxites interested in entering the cannabis market. ",
+      "partnerImage": "/img/bronx-cannabis-hub.webp",
+      "partnerWebsite": "thebronxcannabishub.org (will be updated soon!) ",
       "background": true
     },
     {
-      "partnerName": "Cannabis Business Alliance",
+      "partnerName": "CBA",
       "partnerDescription": "The Cannabis Business Alliance is a B2B membership community of historically under-resourced solopreneurs and bootstrappers in the ancillary cannabis and hemp space. CBA’s mission is to expand member opportunities and ensure equitable access in the creation and implementation of policy.   ",
       "partnerImage": "/img/cannabis-business-alliance.webp",
       "partnerWebsite": "https://cannabisbusinessalliances.com",
       "background": true
     },
     {
-      "partnerName": "Cannabis Center of Excellence",
-      "partnerDescription": "The Cannabis Center of Excellence, INC. (CCOE, INC.) is a registered 501c3 non-profit organization that conducts medical cannabis and adult use cannabis research studies and educational programs in the areas of community engagement, medical cannabis, adult-use cannabis, and social justice in the cannabis industry. The CCOE leads a research study called iCount for veterans, with UMass Dartmouth and Patriots Helping Vets. Learn more at www.cannacenterofexcellence.org ",
+      "partnerName": "CCOE",
+      "partnerDescription": "The Cannabis Center of Excellence, Inc. is a nonprofit organization that conducts medical cannabis and adult-use cannabis research studies and educational programs in the areas of community engagement, medical cannabis, adult-use cannabis, and social justice in cannabis. The CCOE leads a research study for veterans called iCount with the University of MA Dartmouth and Patriots Helping Vets.",
       "partnerImage": "/img/cannabis-center-of-excellence.webp",
       "partnerWebsite": "https://www.cannacenterofexcellence.org/",
       "background": true
     },
     {
       "partnerName": "Cannabis Equity IL Coalition",
-      "partnerDescription": "We are a grassroots non-profit formed by community members fighting to make sure the legalization of cannabis in Illinois is done to repair and reinvest in the communities most impacted by the War on Drugs, and to ensure the cannabis industry prioritizes people over profits!",
+      "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
       "partnerImage": "/img/cannabis-equity-illinois-coalition.webp",
       "partnerWebsite": "https://cannabisequityil.org/",
       "background": true
     },
     {
       "partnerName": "Cannabis Noire",
-      "partnerDescription": "Cannabis Noire is a black woman owned platform, dedicated to creating safe and equitable access to the both the cannabis industry and medicinal community for systematically disadvantaged groups. With a focus on advocating for communities impacted by the war on drugs, Cannabis Noire aims to connect cannabis to the community in a meaningful and organic way.  Through their uniquely remarkable programming experience and delivery of resources, Cannabis Noire is committed to breaking down barriers to entry in the cannabis industry and creating opportunities for people who have been historically marginalized. By providing education, mentorship, and networking opportunities, Cannabis Noire empowers individuals to build sustainable careers in the cannabis industry and make confident knowledgeable decisions about their health and wellness. ",
+      "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
       "partnerImage": "/img/cannabis-noire-sheena-roberson.webp",
       "partnerWebsite": "www.cannabisnoire.com",
       "background": true
@@ -373,7 +386,7 @@
     },
     {
       "partnerName": "Cool Software, LLC",
-      "partnerDescription": "Cool Software, LLC, is a premiere software consultancy specializing in React Native and cloud computing. We deliver high value software products for startups and scaleups.",
+      "partnerDescription": "Cool Software, LLC, is a premiere software consultancy specializing in React Native and cloud computing. We deliver high value software products for startups and scaleups, including Parabola Center.",
       "partnerImage": "/img/cool-software-logo.webp",
       "partnerWebsite": "https://coolsoftware.dev",
       "background": false
@@ -387,14 +400,14 @@
     },
     {
       "partnerName": "ELEVATE Northeast ",
-      "partnerDescription": "ELEVATE is a Massachusetts-based, women-founded 501(c)3 nonprofit organization that exists for the good of the cannabis industry. Created to support the Northeast US’s growing cannabis industry and the corresponding need for workforce and community education, advocacy and networking, ELEVATE provides a variety of exceptional events and experiences that connect attendees and elevate the perception of what cannabis professionals are and can do.",
+      "partnerDescription": "ELEVATE is a MA-based, women-founded nonprofit that exists for the good of the cannabis industry. Created to support the Northeast US’s growing cannabis industry and the corresponding need  for workforce and community education, advocacy and networking, ELEVATE provides a variety of exceptional events and experiences that connect attendees and elevate the perception of what cannabis professionals are and can do.",
       "partnerImage": "/img/elevate-northeast.webp",
       "partnerWebsite": "www.elevatene.org",
       "background": true
     },
     {
       "partnerName": "Equity Trade Network",
-      "partnerDescription": "The mission of Equity Trade is to uplift and bring more awareness to business operators from communities that were marginalized by America’s failed War on Drugs. We aim to collectivize like-minded people who believe in lifting each other up for the purpose of creating a more sustainable and inclusive cannabis industry and beyond. By using our businesses and collective resources we can help heal the harms of past public policy, and each other. ",
+      "partnerDescription": "The mission of Equity Trade is to uplift and bring more awareness to business operators from communities that were marginalized by America’s failed War on Drugs. We aim to collectivize like- minded people who believe in lifting each other up for the purpose of creating a more sustainable and inclusive cannabis industry and beyond.",
       "partnerImage": "/img/equity-trade-nina-parks.webp",
       "partnerWebsite": "https://www.equitytradenetwork.org/",
       "background": true
@@ -429,14 +442,14 @@
     },
     {
       "partnerName": "Illinois Equity Staffing",
-      "partnerDescription": "Illinois Equity Staffing (IES) specializes in talent acquisition, professional development and human resources administration/consulting. IES is a WBE/MBE certified enterprise and focuses on forward thinking solutions to promoting diversity, equity and inclusion in the cannabis industry.  IES also participates in advocacy and justice centered programming to prioritize those most affected by the War on Drugs in ownership and employment.",
+      "partnerDescription": "llinois Equity Staffing, a certified WBE/MBE, specializes in talent acquisition, professional development and human resources administration and consulting. IES is focused on forward thinking solutions to promoting diversity, equity and inclusion in the cannabis industry and prioritizing those most affected by the War on Drugs in ownership and employment.",
       "partnerImage": "/img/illinois-equity-staffing.webp",
       "partnerWebsite": "https://www.illinoisequitystaffing.com/",
       "background": true
     },
     {
-      "partnerName": "Indigenous Cannabis Industry Association",
-      "partnerDescription": "The Indigenous Cannabis Industry Association exists to promote the exploration, development, and advancement of the cannabis industry for the benefit of all Indigenous communities. ICIA is dedicated to the advocacy and empowerment of our Indigenous cannabis businesses, influencers, and aspiring entrepreneurs along with being a conduit of connection and data for Indigenous Nations as we push towards a vision of an equitable, just, and sustainable Indigenous cannabis economy.",
+      "partnerName": "ICIA",
+      "partnerDescription": "The Indigenous Cannabis Industry Association exists to promote the exploration, development, and advancement of the cannabis industry for the benefit of all Indigenous communities. ICIA is dedicated to the advocacy and empowerment of our Indigenous cannabis businesses, influencers, and aspiring entrepreneurs along with being a conduit of connection and data for Indigenous Nations.",
       "partnerImage": "/img/indigenous-cannabis-industry-association.webp",
       "partnerWebsite": "#",
       "background": true
@@ -450,14 +463,14 @@
     },
     {
       "partnerName": "Kumer & Hopper Law LLP",
-      "partnerDescription": "Kumer & Hopper Law is an all woman law firm that serves clients in Florida, Massachusetts, New Jersey, New York and Pennsylvania. ",
+      "partnerDescription": "Kumer &amp; Hopper Law, LLP is a women-owned and run law firm that specializes in legal practices including cannabis, non-profit, real estate, land use and municipal, agriculture, and environmental and sustainability services. It operates in New Jersey, New York, Massachusetts, Pennsylvania, and Florida.",
       "partnerImage": "/img/kumer-and-hopper-law.webp",
       "partnerWebsite": "Coming soon ",
       "background": true
     },
     {
-      "partnerName": "Law Offices of Jennie Stepanian ",
-      "partnerDescription": "Criminal defense is a right, not a privilege. Serving Northern and Southern California with a zealous defense, the Law Offices of Jennie Stepanian is a litigation centered law group. Assisted in the unanimous political passage of decriminalization of plant psychedelics in multiple cities. ",
+      "partnerName": "Jennie Stepanian Law",
+      "partnerDescription": "Criminal defense is a right, not a privilege. Serving Northern and Southern California with a zealous defense, the Law Offices of Jennie Stepanian is a litigation centered law group which assisted in the unanimous political passage of decriminalization of plant psychedelics in multiple cities.",
       "partnerImage": "/img/jennie-stepanian.webp",
       "partnerWebsite": "http://jenniestepanianlaw.com",
       "background": true
@@ -491,7 +504,7 @@
       "background": true
     },
     {
-      "partnerName": "Philadelphia CannaBusiness Association",
+      "partnerName": "PCBA",
       "partnerDescription": "The Philadelphia CannaBusiness Association (PCBA) is an organization of entrepreneurs and community stakeholders who seek to R.E.P.A.I.R the damage done by cannabis prohibition. R.E.P.A.I.R stands for Reparations, Expungement, Policy & Political Mobilization, Abolition, Inclusion, Reinvestment.",
       "partnerImage": "/img/philadelphia-cannabusiness-association.webp",
       "partnerWebsite": "www.phillycannabusiness.com",
@@ -499,28 +512,21 @@
     },
     {
       "partnerName": "Rudick Law Group, PLLC",
-      "partnerDescription": "Representing small and diversely held businesses together with investors and small investment networks to deploy capital responsibly, in support of robust competition.",
+      "partnerDescription": "Rudick Law Group, PLLC, is a boutique, women-led law firm representing small and diversely held businesses together with investors and small investment networks to deploy capital responsibly, in support of robust competition.",
       "partnerImage": "/img/rudick-law-group.webp",
       "partnerWebsite": "www.rudicklawgroup.com",
       "background": true
     },
     {
-      "partnerName": "The Bronx Cannabis Hub ",
-      "partnerDescription": "The Hub promotes social equity in NY's cannabis industry by providing information and support to communities most harmed by prohibition. We collaborate with trusted service providers, community-based organizations, and government officials to deliver virtual and in-person events to educate, teach, and empower Bronxites interested in entering the cannabis market. ",
-      "partnerImage": "/img/bronx-cannabis-hub.webp",
-      "partnerWebsite": "thebronxcannabishub.org (will be updated soon!) ",
-      "background": true
-    },
-    {
       "partnerName": "The Weedaker Group",
-      "partnerDescription": "The Weedaker Group is a women-owned business development agency that focuses on providing strategic solutions in support of those operating in the cannabis industry.  TWG believes in the power of the plant and is dedicated to working with businesses that prioritize their impact. TWG leads with experience in licensing types, human resources, training & development, communications & crisis management, brand marketing and special events.",
+      "partnerDescription": "The Weedaker Group is a women-owned business development agency that focuses on providing strategic solutions (including licensing, HR, training, communications, and events) in support of those operating in the cannabis industry. TWG believes in the power of the plant and is dedicated to working with businesses that prioritize their impact.",
       "partnerImage": "/img/the-weedbaker-group.webp",
       "partnerWebsite": "www.theweedakergroup.com",
       "background": true
     },
     {
-      "partnerName": "Women Grow LLC",
-      "partnerDescription": "Women Grow was created to Connect, Educate, Empower and Inspire the next generation of leaders by creating educational programs, community building and networking events for aspiring and current business executives. Founded in 2014 in Denver, CO now headquartered on the east coast, Women Grow serves as a catalyst for women to shift the narrative, influence community and further the path towards business success in the cannabis industry as the end of marijuana prohibition occurs on a global scale.",
+      "partnerName": "Women Grow",
+      "partnerDescription": "Women Grow was created to Connect, Educate, Empower and Inspire the next generation of leaders by creating educational programs, community building and networking events for aspiring and current business executives. It serves as a catalyst for women to shift the narrative, influence community and further the path towards business success in the cannabis industry as the end of marijuana prohibition occurs on a global scale.",
       "partnerImage": "/img/women-grow.webp",
       "partnerWebsite": "https://womengrow.com/",
       "background": true
@@ -531,6 +537,118 @@
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerWebsite": "womenendingprohibition.org",
       "background": true
+    },
+    {
+      "background": false,
+      "partnerName": "Asian Cannabis Roundtable",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "The Asian Cannabis Roundtable advocates for the best interests of people of Asian descent working in the cannabis sector and its supporting industries. Toward this goal, ACR engages in education, networking, public policy advocacy, and the provision of support and resources to members and communities. We recognize and welcome the diversity of Asians nationally, internationally, and across all diasporas.",
+      "partnerWebsite": "https://www.asiancannabisroundtable.org/"
+    },
+    {
+      "background": false,
+      "partnerName": "BEN'S BEST BLNZ",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "BEN’S BEST BLNZ, or B3, is a non-profit cannabis company launched by Ben Cohen of Ben &amp; Jerry’s with an advocacy edge. 100% of its royalties after expenses are used to help right the wrongs of the war on drugs.",
+      "partnerWebsite": "https://bensbest.com/"
+    },
+    {
+      "background": false,
+      "partnerName": "Cannabis Corporate Law Firm",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
+      "partnerWebsite": "#"
+    },
+    {
+      "background": false,
+      "partnerName": "DFCR",
+      "partnerImage": "/img/dfrc.png",
+      "partnerDescription": "Doctors for Cannabis Regulation serves as the global voice for physicians and other health professionals to advance the legalization and science-based regulation of cannabis. Through education and advocacy efforts, we leverage the influence and expertise of the medical community to realize the legislative changes necessary to promote improved public health, social justice, and consumer protections.",
+      "partnerWebsite": "https://www.dfcr.org/"
+    },
+    {
+      "background": false,
+      "partnerName": "Equitable Opportunities Now",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "EON educates and empowers people of color to become active participants in the MA legal cannabis market. Its mission is to ensure equitable ownership and employment opportunities for Black and Brown Communities who have been targeted by the War on Drugs. EON supports the transition from the legacy to the legal market.",
+      "partnerWebsite": "https://masseon.com/"
+    },
+    {
+      "background": false,
+      "partnerName": "KG Consulting LLC",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "With decades of experience in advocacy, public policy, communications, events, and fundraising for Massachusetts nonprofits and campaigns, KG Consulting LLC can help your organization tell its story, uplift its stakeholders’ voices, and create a more equitable and prosperous future.",
+      "partnerWebsite": "www.KGConsultingMA.com"
+    },
+    {
+      "background": false,
+      "partnerName": "MIZE Counsel ",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "MIZE Counsel is a multifaceted legal &amp; consulting service that focuses on supporting civil rights litigation, small business formation, and providing legal guidance on health &amp; wellness industry regulations. It provides direct legal representation for clients seeking expungement &amp; sealing of prior criminal records under state and federal laws.",
+      "partnerWebsite": "https://mizecounsel.com "
+    },
+    {
+      "background": false,
+      "partnerName": "Omar Figueroa Law",
+      "partnerDescription": "The Law Offices of Omar Figuerora are recognized industry leaders. Its skilled, highly- focused team guides clients through the maze of laws and regulations surrounding cannabis, hemp, and  psychedelics, staying up-to-the-minute on the evolving policies of relevant state, local and federal governments.",
+      "partnerImage": "https://placehold.it",
+      "partnerWebsite": "https://www.omarfigueroa.com/"
+    },
+    {
+      "background": false,
+      "partnerName": "New Día",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "New Día is a local, minority owned company dedicated to carving a new path for cannabis retail by offering the most innovative and the highest quality products in the market, while remaining true to our roots and the Boston culture.",
+      "partnerWebsite": "#"
+    },
+    {
+      "background": false,
+      "partnerName": "Pure Oasis",
+      "partnerImage": "/img/pure-oasis-web-logo.png",
+      "partnerWebsite": "https://www.mypureoasis.com/",
+      "partnerDescription": "Pure Oasis, Boston’s first recreational cannabis dispensary, is a Black-owned economic empowerment business with a user-friendly experience, knowledgeable staff, and a wide variety of high-quality cannabis products. Twice voted best dispensary by Boston Magazine, Pure Oasis is locally owned and socially conscious company committed to addressing the needs of underserved communities."
+    },
+    {
+      "background": false,
+      "partnerName": "Simply Pure",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "Simply Pure is considered the best dispensary in Denver. We focus on sharing both our experience and knowledge about cannabis in a safe and comfortable environment. Our passionate budologists work to constantly educate newcomers and frequent consumers alike on safe, sustainable, and beneficial cannabis products. We strive to bring our love of cannabis, both wellness and recreational aspects, to the forefront of your cannabis experience.",
+      "partnerWebsite": "https://simplypure.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Socíale Dispensary",
+      "partnerDescription": "Socíale is a female-founded and female-owned dispensary slated to open in Park Ridge, IL later this year. Granted a social equity charter, the dispensary is also one of the first dispensaries in the U.S. founded and owned by an Indian-American woman. Committed to cannabis education and female empowerment, Socíale is eager to make an impact on the Chicagoland community.",
+      "partnerImage": "https://placehold.it",
+      "partnerWebsite": "https://socialedispensary.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Soulstar Holdings",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "Soulstar is a female-led cannabis company building a portfolio of diverse and high performing businesses and brands in the Northeast’s emerging adult use markets. Driven by a team of proven industry leaders and true cannabis lovers, Soulstar is here to build a more inclusive and authentic cannabis industry.",
+      "partnerWebsite": "https://www.soulstar.io/"
+    },
+    {
+      "background": false,
+      "partnerName": "Tetragram",
+      "partnerDescription": "Tetragram is an award-winning SaaS platform that collects data from cannabis and CBD consumers to measure the effects of various cannabis products. We partner with dispensaries, and brands to help them tell their product's story, connect directly to customers, and leverage our consumer insights to understand customer needs and the impact of products.",
+      "partnerImage": "https://placehold.it",
+      "partnerWebsite": "https://tetragramapp.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Transform",
+      "partnerImage": "/img/transform.svg",
+      "partnerDescription": "Transform Drug Policy Foundation is an independent, educational charity based in Bristol, UK. Its vision is a world where drug policy promotes health, protects the vulnerable and puts safety first.  Through its Anyone&#39;s Child campaign, it provides opportunities for people with personal experiences of drug policy failures to be heard.",
+      "partnerWebsite": "https://transformdrugs.org"
+    },
+    {
+      "background": false,
+      "partnerName": "WONPR",
+      "partnerImage": "https://placehold.it",
+      "partnerDescription": "Women’s Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
+      "partnerWebsite": "https://womenendingprohibition.org"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
