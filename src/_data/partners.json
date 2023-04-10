@@ -336,9 +336,9 @@
       "background": true
     },
     {
-      "background": false,
+      "background": true,
       "partnerName": "ACR",
-      "partnerImage": "/img/asian-cannabis-roundtable.webp",
+      "partnerImage": "/img/acr.webp",
       "partnerDescription": "The Asian Cannabis Roundtable advocates for the best interests of people of Asian descent working in the cannabis sector and its supporting industries. Toward this goal, ACR engages in education, networking, public policy advocacy, and the provision of support and resources to members and communities. We recognize and welcome the diversity of Asians nationally, internationally, and across all diasporas.",
       "partnerWebsite": "https://www.asiancannabisroundtable.org/"
     },
