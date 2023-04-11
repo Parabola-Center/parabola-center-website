@@ -361,7 +361,7 @@
       "partnerDescription": "The Hub promotes social equity in NY's cannabis industry by providing information and support to communities most harmed by prohibition. We collaborate with trusted service providers, community-based organizations, and government officials to deliver virtual and in-person events to educate, teach, and empower Bronxites interested in entering the cannabis market. ",
       "partnerImage": "/img/bronx-cannabis-hub.webp",
       "partnerWebsite": "thebronxcannabishub.org (will be updated soon!) ",
-      "background": true
+      "background": false
     },
     {
       "background": false,
@@ -370,9 +370,31 @@
       "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
       "partnerWebsite": "https://cannabiscorplaw.com/"
     },
+
+    {
+      "partnerName": "Cannabis Noire",
+      "partnerDescription": "Cannabis Noire is a black woman owned platform dedicated to creating safe and equitable access to the both the cannabis industry and medicinal community for systematically disadvantaged groups. With a focus on advocating for communities impacted by the war on drugs, Cannabis Noire aims to connect cannabis to the community in a meaningful and organic way.",
+      "partnerImage": "/img/cannabis-noire-sheena-roberson.webp",
+      "partnerWebsite": "www.cannabisnoire.com",
+      "background": false
+    },
+    {
+      "partnerName": "Cannabis Trainers",
+      "partnerDescription": "Cannabis Trainers™ has delivered inspiring, compliance focused training since 2014.   Their Sell-SMaRT™ responsible vendor training course was the first enforcement division and state health department approved program in the world.   Committed to excellence, professionalism and safety; Cannabis Trainers is a powerful partner to organizations in the cannabis industry.  ",
+      "partnerImage": "/img/cannabis-trainers.webp",
+      "partnerWebsite": "CannabisTrainers.com",
+      "background": false
+    },
+    {
+      "background": true,
+      "partnerName": "Cannabis Workers Coalition",
+      "partnerDescription": "The Cannabis Workers Coalition (CWC) is a nonprofit that organizes and supports BIPOC, and low wage cannabis and hemp workers unaffiliated with collective bargaining organizations. The CWC aims to improve work conditions and rights of workers through training, outreach, and educating employers on how to implement equitable labor practices.",
+      "partnerWebsite": "https://www.cannabisworkerscoalition.org/",
+      "partnerImage": "/img/cwc.webp"
+    },
     {
       "partnerName": "CBA",
-      "partnerDescription": "The Cannabis Business Alliance is a B2B membership community of historically under-resourced solopreneurs and bootstrappers in the ancillary cannabis and hemp space. CBA’s mission is to expand member opportunities and ensure equitable access in the creation and implementation of policy.   ",
+      "partnerDescription": "The Cannabis Business Alliance is a B2B membership community of historically under-resourced solopreneurs and bootstrappers in the ancillary cannabis and hemp space. CBA's mission is to expand member opportunities and ensure equitable access in the creation and implementation of policy.",
       "partnerImage": "/img/cannabis-business-alliance.webp",
       "partnerWebsite": "https://cannabisbusinessalliances.com",
       "background": true
@@ -385,25 +407,11 @@
       "background": true
     },
     {
-      "partnerName": "Cannabis Equity IL",
+      "partnerName": "CEIC",
       "partnerDescription": "The Cannabis Equity Illinois Coalition is a grassroots non-profit formed by community members fighting to make sure the legalization of cannabis in Illinois is done to repair and reinvest in the communities most impacted by the War on Drugs, and to ensure the cannabis industry prioritizes people over profits.",
       "partnerImage": "/img/cannabis-equity-illinois-coalition.webp",
       "partnerWebsite": "https://cannabisequityil.org/",
-      "background": true
-    },
-    {
-      "partnerName": "Cannabis Noire",
-      "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
-      "partnerImage": "/img/cannabis-noire-sheena-roberson.webp",
-      "partnerWebsite": "www.cannabisnoire.com",
-      "background": true
-    },
-    {
-      "partnerName": "Cannabis Trainers",
-      "partnerDescription": "Cannabis Trainers™ has delivered inspiring, compliance focused training since 2014.   Their Sell-SMaRT™ responsible vendor training course was the first enforcement division and state health department approved program in the world.   Committed to excellence, professionalism and safety; Cannabis Trainers is a powerful partner to organizations in the cannabis industry.  ",
-      "partnerImage": "/img/cannabis-trainers.webp",
-      "partnerWebsite": "CannabisTrainers.com",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Cool Software, LLC",
@@ -466,21 +474,21 @@
       "partnerDescription": "A true local Boston craft cannabis company creating jobs and opportunities in the community it serves. In Boston by Boston. ",
       "partnerImage": "/img/green-line.webp",
       "partnerWebsite": "Greenlineboston.com",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Higher Power",
       "partnerDescription": "Higher Power uses the stories of Black Washingtonians fighting to enter the legal cannabis industry to reveal the stark reality of 700,0000 disenfranchised Americans living in the nation's capital, and the urgent need for D.C. Statehood. ",
       "partnerImage": "/img/higher-power.webp",
       "partnerWebsite": "https://www.higherpowerfilm.org/",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Howls",
       "partnerDescription": "Howls was founded in 2012 by a patient who made whole plant tincture for himself and four other patients in a coop. It is now the most trusted tincture in New England with a mission to make this valuable plant medicine available to everyone who can benefit from it.",
       "partnerImage": "/img/howls.webp",
       "partnerWebsite": "https://howls.com/",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Illinois Equity Staffing",
@@ -505,6 +513,13 @@
     },
     {
       "background": false,
+      "partnerName": "Jersey Extracts",
+      "partnerDescription": "JerseyExtracts.com is a minority family-owned and operated cannabis extraction business founded by Dhaval Shah and his wife, Shafali Shah. JerseyExtracts.com prides themselves by making products that are all-natural and free from harmful chemicals, and they use only the highest quality cannabis plants to create their products.",
+      "partnerWebsite": "http://jerseyextracts.com",
+      "partnerImage": "/img/jersey-extracts.webp"
+    },
+    {
+      "background": false,
       "partnerName": "KG Consulting LLC",
       "partnerImage": "/img/kg-consulting.webp",
       "partnerDescription": "With decades of experience in advocacy, public policy, communications, events, and fundraising for Massachusetts nonprofits and campaigns, KG Consulting LLC can help your organization tell its story, uplift its stakeholders’ voices, and create a more equitable and prosperous future.",
@@ -522,7 +537,7 @@
       "partnerDescription": "Kumer & Hopper Law, LLP is a women-owned and run law firm that specializes in legal practices including cannabis, non-profit, real estate, land use and municipal, agriculture, and environmental and sustainability services. It operates in New Jersey, New York, Massachusetts, Pennsylvania, and Florida.",
       "partnerImage": "/img/kumer-and-hopper-law.webp",
       "partnerWebsite": "Coming soon ",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Mahajan Consulting",
@@ -536,7 +551,7 @@
       "partnerDescription": "Major Bloom is rooted in transforming authentic legacy experiences into the regulated market. Major Bloom is vertically integrated through Manufacturing, Retail, and Home Deliver operations in Worcester, MA, where these licenses co-locate under one roof. Additionally, they amplify and distribute authentic cannabis stores through Radio and Podcast shows.",
       "partnerImage": "/img/major-bloom.webp",
       "partnerWebsite": "themajorbloom.com",
-      "background": true
+      "background": false
     },
     {
       "background": false,
@@ -553,11 +568,18 @@
       "background": true
     },
     {
-      "background": false,
+      "background": true,
       "partnerName": "New Día",
       "partnerImage": "/img/new-dia.webp",
       "partnerDescription": "New Día is a local, minority owned company dedicated to carving a new path for cannabis retail by offering the most innovative and the highest quality products in the market, while remaining true to our roots and the Boston culture.",
       "partnerWebsite": "https://www.newdia.co/"
+    },
+    {
+      "background": false,
+      "partnerName": "New York Cannabis United",
+      "partnerImage": "/img/nycu.webp",
+      "partnerDescription": "New York Cannabis United is a coalition created to ensure all NYS communities are prepared and supported for the cannabis industry and have a full understanding of the plant. It aims to partner with local officials, community leaders, and other key stakeholders to provide information and guidance for the critical decisions that impact both the cannabis industry and residents of New York.",
+      "partnerWebsite": "https://www.nycannabisunited.com/"
     },
     {
       "partnerName": "NY Small Farma",
@@ -632,9 +654,9 @@
     {
       "partnerName": "The Weedaker Group",
       "partnerDescription": "The Weedaker Group is a women-owned business development agency that focuses on providing strategic solutions (including licensing, HR, training, communications, and events) in support of those operating in the cannabis industry. TWG believes in the power of the plant and is dedicated to working with businesses that prioritize their impact.",
-      "partnerImage": "/img/the-weedbaker-group.webp",
+      "partnerImage": "/img/the-weedaker-group.webp",
       "partnerWebsite": "www.theweedakergroup.com",
-      "background": true
+      "background": false
     },
     {
       "partnerName": "Women Grow",
@@ -644,7 +666,7 @@
       "background": true
     },
     {
-      "background": true,
+      "background": false,
       "partnerName": "WONPR",
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerDescription": "Women's Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
