@@ -670,6 +670,13 @@
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerDescription": "Women's Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
       "partnerWebsite": "https://womenendingprohibition.org"
+    },
+    {
+      "background": false,
+      "partnerName": "Chicago NORML",
+      "partnerImage": "/img/cn-new-logo_red-felicia-santiago.png",
+      "partnerDescription": "Chicago NORML is a 501(c)(3) cannabis advocacy non-profit since 2017. Our vision is for Chicago to be the most diverse cannabis industry globally.  We work to empower individuals, businesses, and organizations to participate in the legislative process to create a diverse and inclusive cannabis market.",
+      "partnerWebsite": "www.chicagonorml.org"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
