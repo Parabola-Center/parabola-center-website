@@ -357,6 +357,13 @@
       "partnerWebsite": "https://bensbest.com/"
     },
     {
+      "background": false,
+      "partnerName": "Biko Flower",
+      "partnerImage": "/img/biko-flower.png",
+      "partnerDescription": "Biko Flower is a family owned and operated cannabis company. The brand celebrates how cannabis helps bring together people and cultures. Biko’s founder & CEO, Timeka Drew, is a medical cannabis patient and is extremely passionate about the plant that she credits for saving her life. ",
+      "partnerWebsite": "https://www.bikoflower.com/"
+    },
+    {
       "partnerName": "The Bronx Cannabis Hub",
       "partnerDescription": "The Hub promotes social equity in New York's adult-use cannabis industry by providing free legal support and information to communities most harmed by prohibition. We are committed to collaborating with trusted service providers, community-based organizations, and government officials to educate, teach, and empower Bronxites interested in entering the cannabis market.",
       "partnerImage": "/img/bronx-cannabis-hub.webp",
@@ -677,13 +684,6 @@
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerDescription": "Women's Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
       "partnerWebsite": "https://womenendingprohibition.org"
-    },
-    {
-      "background": false,
-      "partnerName": "Biko Flower",
-      "partnerImage": "/img/biko-flower.png",
-      "partnerDescription": "Biko Flower is a family owned and operated cannabis company. The brand celebrates how cannabis helps bring together people and cultures. Biko’s founder & CEO, Timeka Drew, is a medical cannabis patient and is extremely passionate about the plant that she credits for saving her life. ",
-      "partnerWebsite": "https://www.bikoflower.com/"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
