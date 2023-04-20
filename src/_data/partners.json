@@ -413,6 +413,13 @@
       "partnerImage": "/img/cwc.webp"
     },
     {
+      "background": false,
+      "partnerName": "Chicago NORML",
+      "partnerImage": "/img/cn-new-logo_red-felicia-santiago.png",
+      "partnerDescription": "Chicago NORML is a 501(c)(3) cannabis advocacy non-profit since 2017. Our vision is for Chicago to be the most diverse cannabis industry globally.  We work to empower individuals, businesses, and organizations to participate in the legislative process to create a diverse and inclusive cannabis market.",
+      "partnerWebsite": "www.chicagonorml.org"
+    },
+    {
       "partnerName": "Cool Software, LLC",
       "partnerDescription": "Cool Software, LLC, is a premiere software consultancy specializing in React Native and cloud computing. We deliver high value software products for startups and scaleups, including Parabola Center.",
       "partnerImage": "/img/cool-software-logo.webp",
@@ -673,10 +680,10 @@
     },
     {
       "background": false,
-      "partnerName": "Chicago NORML",
-      "partnerImage": "/img/cn-new-logo_red-felicia-santiago.png",
-      "partnerDescription": "Chicago NORML is a 501(c)(3) cannabis advocacy non-profit since 2017. Our vision is for Chicago to be the most diverse cannabis industry globally.  We work to empower individuals, businesses, and organizations to participate in the legislative process to create a diverse and inclusive cannabis market.",
-      "partnerWebsite": "www.chicagonorml.org"
+      "partnerName": "Biko Flower",
+      "partnerImage": "/img/biko-flower.png",
+      "partnerDescription": "Biko Flower is a family owned and operated cannabis company. The brand celebrates how cannabis helps bring together people and cultures. Biko’s founder & CEO, Timeka Drew, is a medical cannabis patient and is extremely passionate about the plant that she credits for saving her life. ",
+      "partnerWebsite": "https://www.bikoflower.com/"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
