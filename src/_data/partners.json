@@ -364,6 +364,13 @@
       "partnerWebsite": "https://www.bikoflower.com/"
     },
     {
+      "background": false,
+      "partnerName": "Boston Cannabis Week",
+      "partnerDescription": "Boston Cannabis Week launched in 2019 as the first week-long event throughout the northeast catering to the professional cannabis community. Its experiences are crafted for cannabis professionals, consumers, industry innovators and the canna-curious. BCW's programming is inclusive and comprehensive, offering events in education, networking, fashion, wellness, golf, comedy, art, and music. returns September 18th-24th, 2023 to celebrate its fifth year.",
+      "partnerWebsite": "bostoncannabisweek.com",
+      "partnerImage": "/img/bcw-logo-2023_bcw-horz-logo-color-lisa-finelli-fallon.png"
+    },
+    {
       "partnerName": "The Bronx Cannabis Hub",
       "partnerDescription": "The Hub promotes social equity in New York's adult-use cannabis industry by providing free legal support and information to communities most harmed by prohibition. We are committed to collaborating with trusted service providers, community-based organizations, and government officials to educate, teach, and empower Bronxites interested in entering the cannabis market.",
       "partnerImage": "/img/bronx-cannabis-hub.webp",
