@@ -1,6 +1,6 @@
 {
   "featuredImage": "/img/crash-course-hero.webp",
-  "introContent": "Join us on Saturday, **June 10th from 9:30am to 1:30pm** at the historic **Boston Public Library** for Parabola Center's debut crash course on federal legalization.\n\nIf the national legalization of marijuana is indeed inevitable in America, then it's time to ask the next question: Who gets to write those laws, and who will benefit?\n\nAlready, aspiring weed billionaires and powerful corporations like Amazon and Altria (aka Philip Morris) are hounding Congress to pass bills that would let them be the first to profit from federal legalization— leaving behind small business owners and the many communities that were torn apart by decades of overpolicing.\n\nIt's time to fight back. Parabola Center is bringing together a group of the country's top drug policy experts to dissect the current political landscape and chart a better course toward comprehensive federal cannabis reform that centers all of us, not Wall Street gamblers.\n\nCome ready to hear from small business owners, lifelong advocates, and policymakers at this half-day crash course. You'll leave with a toolkit that will empower you to take action and make a difference in the coming fight to legalize marijuana the right way.\n\n*This event is open to the public. Tickets are $10 to cover the cost of the venue. **All tickets must be purchased in advance and cannot be purchased at the door.** Food is not provided.*\n\n*Want to co-host this event? Reach out to info@parabolacenter.com to learn more.*",
+  "introContent": "Join us on Saturday, **June 10th from 9:30am to 1:30pm** at the historic **Boston Public Library** for Parabola Center's debut crash course on federal legalization.\n\nIf the national legalization of marijuana is indeed inevitable in America, then it's time to ask the next question: Who gets to write those laws, and who will benefit?\n\nAlready, aspiring weed billionaires and powerful corporations like Amazon and Altria (aka Philip Morris) are hounding Congress to pass bills that would let them be the first to profit from federal legalization— leaving behind small business owners and the many communities that were torn apart by decades of overpolicing.\n\nIt's time to fight back. Parabola Center is bringing together a group of the country's top drug policy experts to dissect the current political landscape and chart a better course toward comprehensive federal cannabis reform that centers all of us, not Wall Street gamblers.\n\nCome ready to hear from small business owners, lifelong advocates, and policymakers at this half-day crash course. You'll leave with a toolkit that will empower you to take action and make a difference in the coming fight to legalize marijuana the right way.\n\n*This event is open to the public. Tickets are $10 to cover the cost of the venue. **All tickets must be purchased in advance and cannot be purchased at the door.** Food is not provided.*\n\n *For group discounts, contact [info@parabolacenter.com](mailto:info@parabolacenter.com)*",
   "ctaText": "Get Tickets!",
   "ctaLink": "https://www.eventbrite.com/e/federal-cannabis-policy-crash-course-tickets-602916147427",
   "subheading": "Featuring:",
@@ -15,11 +15,11 @@
       "name": "Laury Lucien",
       "bio": "Laury Lucien, Parabola’s education director, is an attorney, professor, serial entrepreneur, and transformational speaker. She currently teaches cannabis law at Suffolk University and Clark University, and she’s the founder of a Massachusetts cannabis retailer, manufacturer, and courier. Laury also founded the Legally Great Academy, a consulting and education company that supports emerging entrepreneurs. Through the Massachusetts Cannabis Control Commission’s social equity program, she provided training and technical assistance to program participants, and she also served on the state Cannabis Advisory Board.",
       "category": "HOST",
-      "image": "https://placehold.it/500"
+      "image": "/img/laury-lucien.webp"
     },
     {
       "name": "Danielle Schumacher",
-      "image": "https://placehold.it/500",
+      "image": "/img/danielle-schumacher.webp",
       "bio": "Danielle Schumacher is chief of staff for Parabola Center and the founder and CEO of THC Staffing Group, a cannabis industry recruiting firm. She works to create a fair and equitable cannabis sector through a mentorship nationally as well as a coaching program specifically for people harmed by the war on drugs.",
       "category": "HOST"
     },
@@ -99,6 +99,12 @@
       "name": "Professor Jay Wexler",
       "image": "/img/jay-wexler.webp",
       "bio": "Jay Wexler is a professor of law at Boston University, where he’s taught cannabis law and policy for the past seven years. He is the author of seven books, most recently Weed Rules: Blazing the Way to a Just and Joyful Marijuana Policy.",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Chris Michalakis",
+      "image": "/img/chris-michalakis.webp",
+      "bio": "Chris Michalakis has served multiple roles at the United Food and Commercial Workers International Union, currently serving as a Federal Legislative Representative. He has previously served as President of the Metro Detroit AFL-CIO, and as UFCW Michigan’s Legislative and Political Director.",
       "category": "SPEAKER"
     }
   ]

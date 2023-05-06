@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{title}} | {{site.title}}</title>  
+    <title>{{title}}</title>  
     <meta name="description" content="{{description}}">
-    <meta name="og:title" content="{{title}} | {{site.title}}">
+    <meta name="og:title" content="{{title}}">
     <meta name="og:description" content="{{description}}">
     <meta name="og:image" content="/img/crash-course-hero.webp">
     <link rel="apple-touch-icon" sizes="180x180" href="{{site.apple_touch_icon}}">
@@ -32,6 +32,9 @@
     <script src="/js/partners.js" defer></script>
     <!-- Overrides for crash course -->
     <style>
+      .intro p a {
+        color: #9F9FA7
+      }
       .intro img {
         height: unset;
       }
@@ -97,6 +100,7 @@
                 </article>
             {% endfor %}
         </div>
+        <blockquote><p>More speakers and special guests to be announced</p></blockquote>
       </div>
     </main>    
 </body>
