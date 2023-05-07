@@ -184,6 +184,35 @@ collections:
           - label: "Footer content"
             name: "footerContent"
             widget: "markdown"
+      - label: "Crash Course Page"
+        name: "crashcourse"
+        file: "src/_data/crashcourse.json"
+        fields:
+          - label: Featured Image
+            name: featuredImage
+            widget: image
+          - label: "Intro content"
+            name: "introContent"
+            widget: "markdown"
+          - label: Call to action text
+            name: ctaText
+          - label: Call to action link
+            name: ctaLink
+          - label: Subheading
+            name: subheading
+          - label: People
+            name: people
+            widget: list
+            fields:
+              - { label: Name, name: name }
+              - { label: Image, name: image, widget: image }
+              - { label: Bio, name: bio }
+              - {
+                  label: Category,
+                  name: category,
+                  widget: select,
+                  options: ["HOST", "PANELIST", "SPEAKER", "SPECIAL GUEST"],
+                }
       - label: "Resources Page"
         name: "resources"
         file: "src/_data/resources.json"

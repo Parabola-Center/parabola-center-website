@@ -2,14 +2,3 @@
     publish = "_site"
     command = "npm run build"
     functions = "./src/functions"
-[[redirects]]
-    from = "/crashcourse"
-    to = "https://www.eventbrite.com/e/federal-cannabis-policy-crash-course-a-world-class-education-for-10-tickets-602916147427"
-    status = 302
-    force = true
-# Handle trailing slashes as well
-[[redirects]]
-    from = "/crashcourse/"
-    to = "https://www.eventbrite.com/e/federal-cannabis-policy-crash-course-a-world-class-education-for-10-tickets-602916147427"
-    status = 302
-    force = true
