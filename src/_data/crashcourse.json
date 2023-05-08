@@ -6,24 +6,6 @@
   "subheading": "Featuring:",
   "people": [
     {
-      "name": "Kassandra Frederique",
-      "image": "/img/kassandra-frederique.webp",
-      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
-      "category": "PANELIST"
-    },
-    {
-      "name": "Dasheeda Dawson",
-      "image": "/img/dasheeda-dawson.webp",
-      "bio": "Dasheeda Dawson is The WeedHead™, a global cannabis advocate, award-winning strategist and bestselling author of How to Succeed in the Cannabis Industry. She has 20 years of business development and strategic management excellence while leading teams for United Way, Target and Victoria’s Secret. Currently, Dasheeda is Founding Director of Cannabis NYC overseeing the development of the city’s legal industry. She is also the Founding Chair of the Cannabis Regulators of Color Coalition (CRCC). Dasheeda received her MBA from Rutgers University and an undergraduate degree in molecular biology from Princeton University. ",
-      "category": "PANELIST"
-    },
-    {
-      "name": "Jason Ortiz",
-      "image": "/img/jason-ortiz.webp",
-      "bio": "Jason Ortiz is the Executive Director of Students for Sensible Drug Policy. Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate.  After graduating from the University of connecticut in Storrs with a degree in Public and Community Engagement, He was one of the founding board Members of the Minority Cannabis Business Association where he empowered legacy entrepreneurs of color to become policy advocates through the organizing of 5 cannabis policy summits that brought together dozens of stakeholders of color to draft model Social Equity legislation. In addition to his cannabis activism, Jason has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
-      "category": "PANELIST"
-    },
-    {
       "name": "Shanel Lindsay, Esq.",
       "image": "/img/shanel-lindsay.webp",
       "bio": "An attorney, advocate, and serial entrepreneur, Shanel Lindsay is Parabola Center’s entrepreneur director and the founder and CEO of Ardent Life, a global cannabis hardware and consumer packaged goods company. Shanel was an author of Question 4, the ballot initiative to legalize adult-use cannabis in Massachusetts, and was subsequently appointed to the Massachusetts Cannabis Advisory Board, serving from 2017 to 2021. Shanel also co-founded the grassroots advocacy group Equitable Opportunities Now.",
@@ -46,6 +28,24 @@
       "image": "/img/shaleen-title.webp",
       "bio": "Shaleen Title is the founder and director of Parabola Center and a founding member of the Cannabis Regulators of Color Coalition. She was previously an inaugural member of the Massachusetts Cannabis Control Commission. Shaleen has spent over 20 years writing, passing, and implementing equitable cannabis laws and has testified before governments around the world about reparative marijuana policy. As a fellow at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center, she has authored top-ranking publications on incorporating social equity in cannabis laws and preventing cannabis monopolies. Boston magazine dubbed her \"the people's weed watchdog.\"",
       "category": "HOST"
+    },
+    {
+      "name": "Kassandra Frederique",
+      "image": "/img/kassandra-frederique.webp",
+      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
+      "category": "PANELIST"
+    },
+    {
+      "name": "Dasheeda Dawson",
+      "image": "/img/dasheeda-dawson.webp",
+      "bio": "Dasheeda Dawson is The WeedHead™, a global cannabis advocate, award-winning strategist and bestselling author of How to Succeed in the Cannabis Industry. She has 20 years of business development and strategic management excellence while leading teams for United Way, Target and Victoria’s Secret. Currently, Dasheeda is Founding Director of Cannabis NYC overseeing the development of the city’s legal industry. She is also the Founding Chair of the Cannabis Regulators of Color Coalition (CRCC). Dasheeda received her MBA from Rutgers University and an undergraduate degree in molecular biology from Princeton University. ",
+      "category": "PANELIST"
+    },
+    {
+      "name": "Jason Ortiz",
+      "image": "/img/jason-ortiz.webp",
+      "bio": "Jason Ortiz is the Executive Director of Students for Sensible Drug Policy. Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate.  After graduating from the University of connecticut in Storrs with a degree in Public and Community Engagement, He was one of the founding board Members of the Minority Cannabis Business Association where he empowered legacy entrepreneurs of color to become policy advocates through the organizing of 5 cannabis policy summits that brought together dozens of stakeholders of color to draft model Social Equity legislation. In addition to his cannabis activism, Jason has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
+      "category": "PANELIST"
     },
     {
       "name": "Commissioner Ava Callender Concepcion",
