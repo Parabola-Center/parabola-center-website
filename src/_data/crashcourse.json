@@ -30,6 +30,18 @@
       "category": "HOST"
     },
     {
+      "name": "Commissioner Ava Callender Concepcion",
+      "image": "/img/commissioner-ava-concepcion.webp",
+      "bio": "A lifelong Boston resident who’s dedicated her career to social justice, Commissioner Ava Callender Concepcion was appointed to the Massachusetts Cannabis Control Commission in 2021. She has an extensive background in public safety, having collaborated on policy matters with law enforcement, advocacy organizations, and constituents. She previously served as director of governmental affairs and external partnerships for Suffolk County District Attorney Rachael Rollins and as counsel to state Sen. William Brownsberger. Her time in the capital included work as a staffer on the 2018 Criminal Justice Reform Act, comprehensive legislation designed to reduce crime and improve public safety.",
+      "category": "SPECIAL GUEST"
+    },
+    {
+      "name": "Commissioner Julie Hulburd",
+      "image": "/img/julie-hulburd.webp",
+      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
+      "category": "SPECIAL GUEST"
+    },
+    {
       "name": "Kassandra Frederique",
       "image": "/img/kassandra-frederique.webp",
       "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
@@ -46,18 +58,6 @@
       "image": "/img/jason-ortiz.webp",
       "bio": "Jason Ortiz is the Executive Director of Students for Sensible Drug Policy. Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate.  After graduating from the University of connecticut in Storrs with a degree in Public and Community Engagement, He was one of the founding board Members of the Minority Cannabis Business Association where he empowered legacy entrepreneurs of color to become policy advocates through the organizing of 5 cannabis policy summits that brought together dozens of stakeholders of color to draft model Social Equity legislation. In addition to his cannabis activism, Jason has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
       "category": "PANELIST"
-    },
-    {
-      "name": "Commissioner Ava Callender Concepcion",
-      "image": "/img/commissioner-ava-concepcion.webp",
-      "bio": "A lifelong Boston resident who’s dedicated her career to social justice, Commissioner Ava Callender Concepcion was appointed to the Massachusetts Cannabis Control Commission in 2021. She has an extensive background in public safety, having collaborated on policy matters with law enforcement, advocacy organizations, and constituents. She previously served as director of governmental affairs and external partnerships for Suffolk County District Attorney Rachael Rollins and as counsel to state Sen. William Brownsberger. Her time in the capital included work as a staffer on the 2018 Criminal Justice Reform Act, comprehensive legislation designed to reduce crime and improve public safety.",
-      "category": "SPECIAL GUEST"
-    },
-    {
-      "name": "Commissioner Julie Hulburd",
-      "image": "/img/julie-hulburd.webp",
-      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
-      "category": "SPECIAL GUEST"
     },
     {
       "name": "Rafi Aliya Crockett",
