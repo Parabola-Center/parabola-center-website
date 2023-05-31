@@ -36,6 +36,12 @@
       "category": "SPECIAL GUEST"
     },
     {
+      "name": "Sonia Chang-Díaz",
+      "image": "/img/scd.jpg",
+      "bio": "Senator Sonia Chang-Díaz is well known for her leadership on cannabis and equity, serving as co-chair of the Legislature's Joint Committee on Cannabis Policy and championing a bill to make equity a reality in Massachusetts. Born in Boston, she was raised on the idea that leadership, at its heart, is about service. It is a value deeply rooted in her family’s long tradition of public service. Chang-Díaz's mother raised her and her sister while dedicating her career to those most forgotten in our society: from adults with mental illness, to foster children in need of loving families, to at-risk toddlers and infants in Dorchester. Her father, an immigrant to the United States from Costa Rica, was our country’s first Latin American astronaut. Her sister is a teacher. And her grandfather has been recognized as one of the country’s most committed rural doctors. Prior to attaining elected office, Senator Chang-Díaz served as a public school teacher in the Lynn and Boston school systems, as Director of Outreach at the Massachusetts Budget and Policy Center, and as a key political adviser at the Barbara Lee Family Foundation. Senator Chang-Díaz currently resides in Jamaica Plain and is a parishioner at St. Mary of the Angels church in Roxbury. ",
+      "category": "SPECIAL GUEST"
+    },
+    {
       "name": "Commissioner Julie Hulburd",
       "image": "/img/julie-hulburd.webp",
       "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
@@ -136,12 +142,6 @@
       "image": "/img/jay-wexler.webp",
       "bio": "Jay Wexler is a professor of law at Boston University, where he’s taught cannabis law and policy for the past seven years. He is the author of seven books, most recently Weed Rules: Blazing the Way to a Just and Joyful Marijuana Policy. He earned tenure in 2007 and was awarded the Michael Melton Award for Excellence in Teaching at the law school in 2009. Professor Wexler’s scholarship focuses on church-state law, constitutional law, environmental law, and marijuana law. ",
       "category": "SPEAKER"
-    },
-    {
-      "name": "Sonia Chang-Díaz",
-      "image": "/img/scd.jpg",
-      "bio": "Senator Sonia Chang-Díaz is well known for her leadership on cannabis and equity, serving as co-chair of the Legislature's Joint Committee on Cannabis Policy and championing a bill to make equity a reality in Massachusetts. Born in Boston, she was raised on the idea that leadership, at its heart, is about service. It is a value deeply rooted in her family’s long tradition of public service. Chang-Díaz's mother raised her and her sister while dedicating her career to those most forgotten in our society: from adults with mental illness, to foster children in need of loving families, to at-risk toddlers and infants in Dorchester. Her father, an immigrant to the United States from Costa Rica, was our country’s first Latin American astronaut. Her sister is a teacher. And her grandfather has been recognized as one of the country’s most committed rural doctors. Prior to attaining elected office, Senator Chang-Díaz served as a public school teacher in the Lynn and Boston school systems, as Director of Outreach at the Massachusetts Budget and Policy Center, and as a key political adviser at the Barbara Lee Family Foundation. Senator Chang-Díaz currently resides in Jamaica Plain and is a parishioner at St. Mary of the Angels church in Roxbury. ",
-      "category": "SPECIAL GUEST"
     }
   ]
 }
