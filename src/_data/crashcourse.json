@@ -6,6 +6,24 @@
   "subheading": "Featuring:",
   "people": [
     {
+      "name": "Senator Elizabeth Warren",
+      "image": "/img/message-senator-elizabeth-warren.png",
+      "category": "SPECIAL GUEST",
+      "bio": "Elizabeth Warren is the senior United States Senator for Massachusetts, serving since 2013. She was a law professor for more than 30 years, including nearly 20 years as the Leo Gottlieb Professor of Law at Harvard Law School. National Law Journal named her one of the Most Influential Lawyers of the Decade and TIME Magazine has named her one of the 100 most influential people in the world four times."
+    },
+    {
+      "name": "Senator Ed Markey",
+      "bio": "Ed Markey is the junior United States senator for Massachusetts, serving since 2013. He attended Boston College (B.A., 1968) and Boston College Law School (J.D., 1972). He served in the U.S. Army Reserve and was elected to the Massachusetts State House where he served two terms representing Malden and Melrose. He received an Honorary Doctor of Laws from Tufts University in May 2019.",
+      "category": "SPECIAL GUEST",
+      "image": "/img/message-from-senator-ed-markey.png"
+    },
+    {
+      "bio": "Ben Cohen was born in 1951. He grew up in Merrick, NY. He dropped out of several colleges. He tried to become a potter but it didn't work out. Then in 1978, along with his friend Jerry, he opened a homemade ice cream shop in an old gas station. That worked. Ben lives in Vermont. ",
+      "category": "SPECIAL GUEST",
+      "name": "Ben Cohen",
+      "image": "/img/message-ben-cohen.png"
+    },
+    {
       "name": "Shanel Lindsay, Esq.",
       "image": "/img/shanel-lindsay.webp",
       "bio": "An attorney, advocate, and serial entrepreneur, Shanel Lindsay is Parabola Center’s entrepreneur director and the founder and CEO of Ardent Life, a global cannabis hardware and consumer packaged goods company. Shanel was an author of Question 4, the ballot initiative to legalize adult-use cannabis in Massachusetts, and was subsequently appointed to the Massachusetts Cannabis Advisory Board, serving from 2017 to 2021. Shanel also co-founded the grassroots advocacy group Equitable Opportunities Now.",
