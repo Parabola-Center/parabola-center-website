@@ -6,14 +6,14 @@
   "subheading": "Featuring:",
   "people": [
     {
-      "name": "Senator Elizabeth Warren",
+      "name": "Elizabeth Warren",
       "image": "/img/elizabeth-warrren.png",
       "category": "SPECIAL GUEST",
-      "bio": "Elizabeth Warren is the senior United States Senator for Massachusetts, serving since 2013. National Law Journal named her one of the Most Influential Lawyers of the Decade and TIME Magazine has named her one of the 100 most influential people in the world four times."
+      "bio": "Senator Elizabeth Warren is the senior United States Senator for Massachusetts, serving since 2013. National Law Journal named her one of the Most Influential Lawyers of the Decade and TIME Magazine has named her one of the 100 most influential people in the world four times."
     },
     {
-      "name": "Senator Ed Markey",
-      "bio": "Ed Markey is the junior United States senator for Massachusetts, serving since 2013. He attended Boston College (B.A., 1968) and Boston College Law School (J.D., 1972). He served in the U.S. Army Reserve and was elected to the Massachusetts State House where he served two terms representing Malden and Melrose. He received an Honorary Doctor of Laws from Tufts University in May 2019.",
+      "name": "Ed Markey",
+      "bio": "Senator Ed Markey is the junior United States senator for Massachusetts, serving since 2013. He attended Boston College (B.A., 1968) and Boston College Law School (J.D., 1972). He served in the U.S. Army Reserve and was elected to the Massachusetts State House where he served two terms representing Malden and Melrose. He received an Honorary Doctor of Laws from Tufts University in May 2019.",
       "category": "SPECIAL GUEST",
       "image": "/img/ed-markey.jpg"
     },
