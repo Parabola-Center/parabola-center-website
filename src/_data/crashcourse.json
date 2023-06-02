@@ -8,18 +8,18 @@
     {
       "name": "Elizabeth Warren",
       "image": "/img/elizabeth-warrren.png",
-      "category": "SPECIAL GUEST",
-      "bio": "Senator Elizabeth Warren is the senior United States Senator for Massachusetts, serving since 2013. National Law Journal named her one of the Most Influential Lawyers of the Decade and TIME Magazine has named her one of the 100 most influential people in the world four times."
+      "category": "SPEAKER",
+      "bio": "Senator Elizabeth Warren is the senior United States Senator for Massachusetts, serving since 2013. National Law Journal named her one of the Most Influential Lawyers of the Decade and TIME Magazine has named her one of the 100 most influential people in the world four times. Senator Warren will be sharing a special message virtually."
     },
     {
       "name": "Ed Markey",
-      "bio": "Senator Ed Markey is the junior United States senator for Massachusetts, serving since 2013. He served in the U.S. Army Reserve and was elected to the Massachusetts State House where he served two terms representing Malden and Melrose. He received an Honorary Doctor of Laws from Tufts University in May 2019.",
-      "category": "SPECIAL GUEST",
+      "bio": "Senator Ed Markey is the junior United States senator for Massachusetts, serving since 2013. He served in the U.S. Army Reserve and was elected to the Massachusetts State House where he served two terms representing Malden and Melrose. He received an Honorary Doctor of Laws from Tufts University in May 2019. Senator Markey will be sharing a special message virtually.",
+      "category": "SPEAKER",
       "image": "/img/ed-markey.jpg"
     },
     {
-      "bio": "Ben Cohen was born in 1951. He grew up in Merrick, NY. He dropped out of several colleges. He tried to become a potter but it didn't work out. Then in 1978, along with his friend Jerry, he opened a homemade ice cream shop in an old gas station. That worked. Ben lives in Vermont. ",
-      "category": "SPECIAL GUEST",
+      "bio": "Ben Cohen was born in 1951. He grew up in Merrick, NY. He dropped out of several colleges. He tried to become a potter but it didn't work out. Then in 1978, along with his friend Jerry, he opened a homemade ice cream shop in an old gas station. That worked. He lives in Vermont. Ben will be sharing a special message virtually.",
+      "category": "SPEAKER",
       "name": "Ben Cohen",
       "image": "/img/ben-cohen.jpg"
     },
