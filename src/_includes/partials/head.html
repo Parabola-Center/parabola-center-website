@@ -1,42 +1,94 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{title}} | {{site.title}}</title>  
-    <meta name="description" content="{{site.description}}">
-    <meta name="og:title" content="{{title}} | {{site.title}}">
-    <meta name="og:description" content="{{site.description}}">
-    <meta name="og:image" content="{{navigation.logo}}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{site.apple_touch_icon}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.favicon_32x32}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{site.favicon_16x16}}">
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>{{title}} | {{site.title}}</title>
+  <meta name="description" content="{{site.description}}" />
+  <meta name="og:title" content="{{title}} | {{site.title}}" />
+  <meta name="og:description" content="{{site.description}}" />
+  <meta name="og:image" content="{{navigation.logo}}" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{site.apple_touch_icon}}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{site.favicon_32x32}}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{site.favicon_16x16}}"
+  />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link
+    href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <style type="text/css">
+    #mc_embed_signup {
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+    }
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-{% if stripe %}
-<script src="https://js.stripe.com/v3/"></script>
-{% endif %}
+  </style>
+  {% if stripe %}
+  <script src="https://js.stripe.com/v3/"></script>
+  {% endif %} {% if mailchimp %}
+  <script id="mcjs">
+    !(function (c, h, i, m, p) {
+      (m = c.createElement(h)),
+        (p = c.getElementsByTagName(h)[0]),
+        (m.async = 1),
+        (m.src = i),
+        p.parentNode.insertBefore(m, p);
+    })(
+      document,
+      "script",
+      "https://chimpstatic.com/mcjs-connected/js/users/05f1b4a1bb668277775f14d00/12e249d9a6705e966a1360ffa.js"
+    );
+  </script>
+  {% endif %}
 
-{% if mailchimp %}
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/05f1b4a1bb668277775f14d00/12e249d9a6705e966a1360ffa.js");</script>
-{% endif %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-R5QR0NG3DS");
-    </script>
+    gtag("config", "G-R5QR0NG3DS");
+  </script>
+  <script>
+    !(function (s, a, e, v, n, t, z) {
+      if (s.saq) return;
+      n = s.saq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!s._saq) s._saq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = "1.0";
+      n.queue = [];
+      t = a.createElement(e);
+      t.async = !0;
+      t.src = v;
+      z = a.getElementsByTagName(e)[0];
+      z.parentNode.insertBefore(t, z);
+    })(window, document, "script", "https://tags.srv.stackadapt.com/events.js");
+    saq("ts", "yrmHiisKU63En1PL99xSvg");
+  </script>
 </head>

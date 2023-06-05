@@ -49,6 +49,8 @@
         margin-bottom: 29px;
       }
     </style>
+<script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', 'yrmHiisKU63En1PL99xSvg');</script>
+
 </head>
 <header>
       <nav>
@@ -82,7 +84,7 @@
         <div class="intro">
             <img src="{{crashcourse.featuredImage}}" width="300px" height="auto" alt="Intro image - Event Flyer"/>
             <div class="intro__text">{{crashcourse.introContent | markdown | safe}}</div>
-            <a href="{{crashcourse.ctaLink}}" class="intro__cta">{{crashcourse.ctaText}}</a>
+            <a href="{{crashcourse.ctaLink}}" class="intro__cta" id="ctaLink">{{crashcourse.ctaText}}</a>
 
         </div>
         <div class="partners__wrapper">
@@ -141,5 +143,10 @@
       <p class="copyright">Copyright &copy; 2023. All rights reserved</p>
       </div>
   </div>
+  <script type="text/javascript">
+    document.getElementById("ctaLink").addEventListener("click",function() {
+    saq('ts', 'yrmHiisKU63En1PL99xSvg', {'1': '1'});
+    });
+    </script>
 </footer>
 </html>
