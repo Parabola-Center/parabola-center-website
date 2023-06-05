@@ -211,8 +211,22 @@ collections:
                   label: Category,
                   name: category,
                   widget: select,
-                  options: ["HOST", "PANELIST", "SPEAKER", "SPECIAL GUEST"],
+                  options:
+                    [
+                      "HOST",
+                      "PANELIST",
+                      "SPEAKER",
+                      "SPECIAL GUEST",
+                      "SPECIAL MESSAGE",
+                    ],
                 }
+      - label: "Crash Course Schedule"
+        name: "crashcourseschedule"
+        file: "src/_data/crashcourseschedule.json"
+        fields:
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
       - label: "Resources Page"
         name: "resources"
         file: "src/_data/resources.json"
