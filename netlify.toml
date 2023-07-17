@@ -2,3 +2,15 @@
     publish = "_site"
     command = "npm run build"
     functions = "./src/functions"
+
+[[redirects]]
+  from = "/racefactor"
+  to = "/pdf/racefactor.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/racefactor/"
+  to = "/pdf/racefactor.pdf"
+  status = 302
+  force = false
