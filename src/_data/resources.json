@@ -1,7 +1,7 @@
 {
   "header1": "Policy Portfolio",
   "header2": "Policy Positions",
-  "content": "",
+  "header3": "Policy Videos",
   "portfolio": [
     {
       "url": "https://www.parabolacenter.com/cannabis-legalization-must-address-monopoly-dangers/",
@@ -86,7 +86,7 @@
       "url": "https://commonwealthmagazine.org/politics/marijuana-law-must-address-race-impact-of-war-on-drugs/"
     }
   ],
-  "header3": "Policy Videos",
+  "intro": "A short 2-3 sentence statement about Parabola's resource page and how readers can use this information. Maybe even a short CTA?",
   "videos": [
     {
       "title": "Up In The Air: Residency Requirements in Cannabis Policy (2021 by Parabola Center in collaboration with The Ohio State University Drug Enforcement and Policy Center)",
@@ -116,5 +116,7 @@
       "title": "Cannabis Policy and Leadership - Interview with Killer Mike and Shaleen Title",
       "url": "https://www.youtube.com/watch?v=gWDvJfznoMI"
     }
-  ]
+  ],
+  "content": "",
+  "pageHeader": "Resources"
 }

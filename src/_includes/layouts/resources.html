@@ -1,33 +1,171 @@
----
-layout: base
----
-<section class="parabola-grid pdf">
-  <h1 class="big:parabola-cols-full parabola-cols-full">{{resources.header1}}</h1>
-  {% for item in resources.portfolio %}
-  <a class="parabola-cols-full big:parabola-cols-quarter" href="{{ item.url }}">
-        {{ item.title }}
-  </a>
-  {% endfor %}
-  <h1 class="parabola-cols-full big:parabola-cols-full">{{resources.header2}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{title}} | {{site.title}}</title>
+    <meta name="description" content="{{site.description}}" />
+    <meta name="og:title" content="{{title}} | {{site.title}}" />
+    <meta name="og:description" content="{{site.description}}" />
+    <meta name="og:image" content="{{navigation.logo}}" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{site.apple_touch_icon}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{site.favicon_32x32}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{site.favicon_16x16}}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/tailwind-output.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R5QR0NG3DS");
+    </script>
+    <script>
+      !(function (s, a, e, v, n, t, z) {
+        if (s.saq) return;
+        n = s.saq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!s._saq) s._saq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "1.0";
+        n.queue = [];
+        t = a.createElement(e);
+        t.async = !0;
+        t.src = v;
+        z = a.getElementsByTagName(e)[0];
+        z.parentNode.insertBefore(t, z);
+      })(
+        window,
+        document,
+        "script",
+        "https://tags.srv.stackadapt.com/events.js"
+      );
+      saq("ts", "yrmHiisKU63En1PL99xSvg");
+    </script>
+  </head>
+  <header>
+    <nav class="bg-parabolaPurple py-1 px-2 flex items-center">
+      <a href="/" class="brand" title="Home page link">
+        <img
+          src="{{navigation.logo}}"
+          alt="Parabola Center logo"
+          height="15"
+          width="40"
+        />
+      </a>
+      <ul class="flex gap-3.5 items-center ml-auto">
+        <li class="text-white text-2xs leading-none">
+          <a href="/about/" class="text-white text-2xs leading-none">About</a>
+        </li>
+        <li class="text-white text-2xs leading-none">
+          <a
+            href="/resources/"
+            class="text-parabolaOrange text-2xs leading-none"
+            >Resources</a
+          >
+        </li>
+        <li class="text-white text-2xs leading-none">
+          <a href="/media/" class="text-white text-2xs leading-none">Media</a>
+        </li>
+        <li class="text-white text-2xs leading-none">
+          <a href="/contact/" class="text-white text-2xs leading-none"
+            >Contact</a
+          >
+        </li>
+        <li
+          class="text-white text-3xs leading-none bg-parabolaBlue rounded p-1"
+        >
+          <a href="/donate/" class="text-white text-3xs leading-none">Donate</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <section
+        class="bg-parabolaYellow py-2 px-3 text-center text-parabolaGray"
+      >
+        <h1 class="uppercase font-bold">{{resources.pageHeader}}</h1>
+        <div class="text-xs">{{resources.intro | markdown | safe }}</div>
+      </section>
+      <section class="bg-parabolaRed">
+        <h2>Policy Portfolio</h2>
+        <h3>Highlighted Work Title</h3>
+        <img
+          src="https://via.placeholder.com/300x300"
+          alt="Placeholder Image"
+        />
+        {% for item in resources.portfolio %}
+        <article>
+          <h4>{{ item.title }}</h4>
+          <p>Author attribution</p>
+          <p>Snippet</p>
+          <a
+            class="parabola-cols-full big:parabola-cols-quarter"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+
+        {% endfor %}
+      </section>
+    </main>
+  </body>
+
+  <h1 class="parabola-cols-full big:parabola-cols-full">
+    {{resources.header2}}
+  </h1>
   {% for item in resources.positions %}
-  <a class="parabola-cols-full big:parabola-cols-quarter"
-    href=" {{ item.url }}">
-
-        {{ item.title }}
-
+  <a
+    class="parabola-cols-full big:parabola-cols-quarter"
+    href=" {{ item.url }}"
+  >
+    {{ item.title }}
   </a>
   {% endfor %}
-  <h1 class="parabola-cols-full big:parabola-cols-full">{{resources.header3}}</h1>
+  <h1 class="parabola-cols-full big:parabola-cols-full">
+    {{resources.header3}}
+  </h1>
   {% for item in resources.videos %}
-  <a class="parabola-cols-full big:parabola-cols-quarter"
-    href=" {{ item.url }}">
+  <a
+    class="parabola-cols-full big:parabola-cols-quarter"
+    href=" {{ item.url }}"
+  >
+    {{ item.title }}
+  </a>
+  {% endfor %}
 
-        {{ item.title }}
-</a>
-{% endfor %}
-</section>
-<section>
-<div class="parabola-cols-full big:parabola-cols-full">
-  {{resources.content | markdown | safe}}
-</div>
-</section>
+  <div class="parabola-cols-full big:parabola-cols-full">
+    {{resources.content | markdown | safe}}
+  </div>
+</html>
