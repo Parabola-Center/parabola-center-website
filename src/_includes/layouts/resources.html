@@ -125,14 +125,21 @@
           {{resources.header1}}
         </h2>
         <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-white mb-1">Highlighted Work Title</h3>
-          <img
-            src="https://via.placeholder.com/300x300"
-            alt="Placeholder Image"
-            width="200"
-            height="180"
-            class="w-full"
-          />
+          <h3 class="text-xs text-white mb-1">
+            {{ resources.policyHighlightTitle }}
+          </h3>
+          <a
+            href="{{ resources.policyHighlightLink }}"
+            title="Link to {{resources.policyHighlightTitle}}"
+          >
+            <img
+              src="{{ resources.policyHighlightImage }}"
+              alt="Image for {{ resources.policyHighlightTitle }}"
+              width="200"
+              height="180"
+              class="w-full"
+            />
+          </a>
         </div>
         {% for item in resources.portfolio %}
         <article class="mb-9">
@@ -159,14 +166,21 @@
           {{resources.header2}}
         </h2>
         <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-parabolaGray mb-1">Highlighted Work Title</h3>
-          <img
-            src="https://via.placeholder.com/300x300"
-            alt="Placeholder Image"
-            width="200"
-            height="180"
-            class="w-full"
-          />
+          <h3 class="text-xs text-parabolaGray mb-1">
+            {{resources.highlightedPositionTitle}}
+          </h3>
+          <a
+            href="{{ resources.highlightedPositionLink}}"
+            title="Link to {{resources.highlightedPositionTitle}}"
+          >
+            <img
+              src="{{resources.highlightedPositionImage}}"
+              alt="Image for {{resources.highlightedPositionTitle}}"
+              width="200"
+              height="180"
+              class="w-full"
+            />
+          </a>
         </div>
         {% for item in resources.positions %}
         <article class="mb-9">
@@ -174,9 +188,11 @@
             {{ item.title }}
           </h4>
           <p class="text-parabolaGray text-2xs mb-2 opacity-80">
-            Author attribution
+            {{ item.attribution }}
           </p>
-          <p class="text-parabolaGray text-xs mb-2 opacity-80">Snippet</p>
+          <div class="text-parabolaGray text-xs mb-2 opacity-80">
+            {{ item.snippet | markdown | safe }}
+          </div>
           <a
             class="bg-parabolaRed rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center"
             href="{{ item.url }}"
@@ -191,14 +207,18 @@
           {{resources.header3}}
         </h2>
         <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-parabolaGray mb-1">Highlighted Work Title</h3>
-          <img
-            src="https://via.placeholder.com/300x300"
-            alt="Placeholder Image"
-            width="200"
-            height="180"
-            class="w-full"
-          />
+          <h3 class="text-xs text-parabolaGray mb-1">
+            {{resources.highlightedVideoTitle}}
+          </h3>
+          <a href="{{resources.highlightedVideoLink}}">
+            <img
+              src="{{resources.highlightedVideoImage}}"
+              alt="Image for {{resources.highlightedVideoTitle}}"
+              width="200"
+              height="180"
+              class="w-full"
+            />
+          </a>
         </div>
         {% for item in resources.videos %}
         <article class="mb-9">
@@ -206,9 +226,11 @@
             {{ item.title }}
           </h4>
           <p class="text-parabolaGray text-2xs mb-2 opacity-80">
-            Author attribution
+            {{ item.attribution}}
           </p>
-          <p class="text-parabolaGray text-xs mb-2 opacity-80">Snippet</p>
+          <div class="text-parabolaGray text-xs mb-2 opacity-80">
+            {{ item.snippet | markdown | safe }}
+          </div>
           <a
             class="bg-parabolaGray rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center"
             href="{{ item.url }}"

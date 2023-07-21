@@ -235,6 +235,21 @@ collections:
           - { label: Page Header, name: pageHeader, widget: string }
           - { label: Introduction, name: intro, widget: markdown }
           - { label: Header 1, name: header1, widget: string }
+          - {
+              label: Highlighted Policy Title,
+              name: policyHighlightTitle,
+              widget: string,
+            }
+          - {
+              label: Highlighted Policy Image,
+              name: policyHighlightImage,
+              widget: image,
+            }
+          - {
+              label: Highlighted Policy Link,
+              name: policyHighlightLink,
+              widget: file,
+            }
           - label: Policy Portfolio
             name: portfolio
             widget: list
@@ -244,20 +259,53 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 2, name: header2, widget: string }
+          - {
+              label: Highlighted Position Title,
+              name: highlightedPositionTitle,
+              widget: string,
+            }
+          - {
+              label: Highlighted Position Image,
+              name: highlightedPositionImage,
+              widget: image,
+            }
+          - {
+              label: Highlighted Position Link,
+              name: highlightedPositionLink,
+              widget: file,
+            }
           - label: Policy Positions
             name: positions
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
+              - { label: Attribution, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 3, name: header3, widget: string }
+          - {
+              label: Highlighted Video Title,
+              name: highlightedVideoTitle,
+              widget: string,
+            }
+          - {
+              label: Highlighted Video Image,
+              name: highlightedVideoImage,
+              widget: image,
+            }
+          - {
+              label: Highlighted Video Link,
+              name: highlightedVideoLink,
+              widget: file,
+            }
           - label: Policy Videos
             name: videos
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
+              - { label: Attribution, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: string }
-          - { label: Content, name: content, widget: markdown, required: false }
       - label: "Shaleen Bio Page"
         name: "shaleen-title"
         file: "src/_data/shaleen-title.json"
