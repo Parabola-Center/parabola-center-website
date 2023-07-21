@@ -112,60 +112,111 @@
   </header>
   <body>
     <main>
+      <!-- Intro section -->
       <section
         class="bg-parabolaYellow py-2 px-3 text-center text-parabolaGray"
       >
         <h1 class="uppercase font-bold">{{resources.pageHeader}}</h1>
         <div class="text-xs">{{resources.intro | markdown | safe }}</div>
       </section>
-      <section class="bg-parabolaRed">
-        <h2>Policy Portfolio</h2>
-        <h3>Highlighted Work Title</h3>
-        <img
-          src="https://via.placeholder.com/300x300"
-          alt="Placeholder Image"
-        />
+      <!-- First content section -->
+      <section class="bg-parabolaRed py-2 px-3">
+        <h2 class="font-bold text-white underline text-center mb-4">
+          {{resources.header1}}
+        </h2>
+        <div class="mx-auto w-48 mb-5">
+          <h3 class="text-xs text-white mb-1">Highlighted Work Title</h3>
+          <img
+            src="https://via.placeholder.com/300x300"
+            alt="Placeholder Image"
+            width="200"
+            height="180"
+            class="w-full"
+          />
+        </div>
         {% for item in resources.portfolio %}
-        <article>
-          <h4>{{ item.title }}</h4>
-          <p>Author attribution</p>
-          <p>Snippet</p>
+        <article class="mb-9">
+          <h4 class="text-white text-xs uppercase font-bold mb-2">
+            {{ item.title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80">
+            {{ item.attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80">
+            {{ item.snippet | markdown | safe }}
+          </div>
           <a
-            class="parabola-cols-full big:parabola-cols-quarter"
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaGray w-20 text-center"
             href="{{ item.url }}"
             >Read More</a
           >
         </article>
-
+        {% endfor %}
+      </section>
+      <!-- Second content section -->
+      <section class="bg-parabolaYellow py-2 px-3">
+        <h2 class="font-bold text-parabolaGray underline text-center mb-4">
+          {{resources.header2}}
+        </h2>
+        <div class="mx-auto w-48 mb-5">
+          <h3 class="text-xs text-parabolaGray mb-1">Highlighted Work Title</h3>
+          <img
+            src="https://via.placeholder.com/300x300"
+            alt="Placeholder Image"
+            width="200"
+            height="180"
+            class="w-full"
+          />
+        </div>
+        {% for item in resources.positions %}
+        <article class="mb-9">
+          <h4 class="text-parabolaGray text-xs uppercase font-bold mb-2">
+            {{ item.title }}
+          </h4>
+          <p class="text-parabolaGray text-2xs mb-2 opacity-80">
+            Author attribution
+          </p>
+          <p class="text-parabolaGray text-xs mb-2 opacity-80">Snippet</p>
+          <a
+            class="bg-parabolaRed rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+        {% endfor %}
+      </section>
+      <!-- Third  content section -->
+      <section class="bg-parabolaBlue py-2 px-3">
+        <h2 class="font-bold text-parabolaGray underline text-center mb-4">
+          {{resources.header3}}
+        </h2>
+        <div class="mx-auto w-48 mb-5">
+          <h3 class="text-xs text-parabolaGray mb-1">Highlighted Work Title</h3>
+          <img
+            src="https://via.placeholder.com/300x300"
+            alt="Placeholder Image"
+            width="200"
+            height="180"
+            class="w-full"
+          />
+        </div>
+        {% for item in resources.videos %}
+        <article class="mb-9">
+          <h4 class="text-parabolaGray text-xs uppercase font-bold mb-2">
+            {{ item.title }}
+          </h4>
+          <p class="text-parabolaGray text-2xs mb-2 opacity-80">
+            Author attribution
+          </p>
+          <p class="text-parabolaGray text-xs mb-2 opacity-80">Snippet</p>
+          <a
+            class="bg-parabolaGray rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center"
+            href="{{ item.url }}"
+            >Watch</a
+          >
+        </article>
         {% endfor %}
       </section>
     </main>
   </body>
-
-  <h1 class="parabola-cols-full big:parabola-cols-full">
-    {{resources.header2}}
-  </h1>
-  {% for item in resources.positions %}
-  <a
-    class="parabola-cols-full big:parabola-cols-quarter"
-    href=" {{ item.url }}"
-  >
-    {{ item.title }}
-  </a>
-  {% endfor %}
-  <h1 class="parabola-cols-full big:parabola-cols-full">
-    {{resources.header3}}
-  </h1>
-  {% for item in resources.videos %}
-  <a
-    class="parabola-cols-full big:parabola-cols-quarter"
-    href=" {{ item.url }}"
-  >
-    {{ item.title }}
-  </a>
-  {% endfor %}
-
-  <div class="parabola-cols-full big:parabola-cols-full">
-    {{resources.content | markdown | safe}}
-  </div>
 </html>

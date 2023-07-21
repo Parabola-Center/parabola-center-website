@@ -240,6 +240,8 @@ collections:
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
+              - { label: Attribution, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 2, name: header2, widget: string }
           - label: Policy Positions
