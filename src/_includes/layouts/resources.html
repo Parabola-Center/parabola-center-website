@@ -114,7 +114,7 @@
     <main>
       <!-- Intro section -->
       <section
-        class="bg-parabolaYellow py-2 px-3 text-center text-parabolaGray"
+        class="bg-parabolaYellow py-2 px-3 text-center text-parabolaPurpleDark"
       >
         <h1 class="uppercase font-bold">{{resources.pageHeader}}</h1>
         <div class="text-xs">{{resources.intro | markdown | safe }}</div>
@@ -153,7 +153,7 @@
             {{ item.snippet | markdown | safe }}
           </div>
           <a
-            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaGray w-20 text-center"
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center"
             href="{{ item.url }}"
             >Read More</a
           >
@@ -162,11 +162,11 @@
       </section>
       <!-- Second content section -->
       <section class="bg-parabolaYellow py-2 px-3">
-        <h2 class="font-bold text-parabolaGray underline text-center mb-4">
+        <h2 class="font-bold text-parabolaPurpleDark underline text-center mb-4">
           {{resources.header2}}
         </h2>
         <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-parabolaGray mb-1">
+          <h3 class="text-xs text-parabolaPurpleDark mb-1">
             {{resources.highlightedPositionTitle}}
           </h3>
           <a
@@ -184,13 +184,13 @@
         </div>
         {% for item in resources.positions %}
         <article class="mb-9">
-          <h4 class="text-parabolaGray text-xs uppercase font-bold mb-2">
+          <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2">
             {{ item.title }}
           </h4>
-          <p class="text-parabolaGray text-2xs mb-2 opacity-80">
+          <p class="text-parabolaPurpleDark text-2xs mb-2 opacity-80">
             {{ item.attribution }}
           </p>
-          <div class="text-parabolaGray text-xs mb-2 opacity-80">
+          <div class="text-parabolaPurpleDark text-xs mb-2 opacity-80">
             {{ item.snippet | markdown | safe }}
           </div>
           <a
@@ -203,11 +203,11 @@
       </section>
       <!-- Third  content section -->
       <section class="bg-parabolaBlue py-2 px-3">
-        <h2 class="font-bold text-parabolaGray underline text-center mb-4">
+        <h2 class="font-bold text-parabolaPurpleDark underline text-center mb-4">
           {{resources.header3}}
         </h2>
         <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-parabolaGray mb-1">
+          <h3 class="text-xs text-parabolaPurpleDark mb-1">
             {{resources.highlightedVideoTitle}}
           </h3>
           <a href="{{resources.highlightedVideoLink}}">
@@ -222,17 +222,17 @@
         </div>
         {% for item in resources.videos %}
         <article class="mb-9">
-          <h4 class="text-parabolaGray text-xs uppercase font-bold mb-2">
+          <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2">
             {{ item.title }}
           </h4>
-          <p class="text-parabolaGray text-2xs mb-2 opacity-80">
+          <p class="text-parabolaPurpleDark text-2xs mb-2 opacity-80">
             {{ item.attribution}}
           </p>
-          <div class="text-parabolaGray text-xs mb-2 opacity-80">
+          <div class="text-parabolaPurpleDark text-xs mb-2 opacity-80">
             {{ item.snippet | markdown | safe }}
           </div>
           <a
-            class="bg-parabolaGray rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center"
+            class="bg-parabolaPurpleDark rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center"
             href="{{ item.url }}"
             >Watch</a
           >
@@ -241,4 +241,36 @@
       </section>
     </main>
   </body>
+  <footer class="bg-parabolaPurple py-1 px-2">
+    <h2 class="text-white mb-4">Parabola Center</h2>
+    <div class="text-parabolaGray text-sm mb-8">
+      {{ partners.footerContent | markdown | safe}} 
+    </div>
+    <ul class="text-parabolaGray text-sm mb-8">
+      <li><h3 class="text-parabolaOrange mb-2">Company</h3></li>
+        {%- for nav in collections.nav %}
+        <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
+          <a href="{{nav.url}}" {% if page.url==nav.url %} {% endif %}>{{nav.data.title}}</a>
+        </li>
+        {%- endfor %}
+    </ul>
+    <div class="flex items-center mb-8">
+      <a href="https://facebook.com/parabolacenterforlawandpolicy" title="Parabola Center Facebook Page" class="mr-4">
+        <svg id="facebook-f" xmlns="http://www.w3.org/2000/svg" width="12.854" height="24" viewBox="0 0 12.854 24">
+          <path id="Path" d="M12.012,13.5l.667-4.343H8.511V6.338a2.172,2.172,0,0,1,2.449-2.347h1.895V.293A23.105,23.105,0,0,0,9.491,0C6.059,0,3.815,2.08,3.815,5.846v3.31H0V13.5H3.815V24h4.7V13.5Z" fill="#8b8b8b"/>
+        </svg>
+      </a> 
+      <a href="https://twitter.com/parabolacenter" title="Parabola Center Twitter Page" class="mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22.154" height="17.993" viewBox="0 0 22.154 17.993">
+          <path id="Path" d="M19.877,4.484c.014.2.014.394.014.59A12.83,12.83,0,0,1,6.972,17.993,12.831,12.831,0,0,1,0,15.955a9.393,9.393,0,0,0,1.1.056,9.093,9.093,0,0,0,5.637-1.94,4.548,4.548,0,0,1-4.245-3.149,5.726,5.726,0,0,0,.858.07,4.8,4.8,0,0,0,1.195-.155A4.541,4.541,0,0,1,.9,6.382V6.326A4.573,4.573,0,0,0,2.952,6.9,4.547,4.547,0,0,1,1.546.829a12.906,12.906,0,0,0,9.362,4.751A5.126,5.126,0,0,1,10.8,4.54a4.545,4.545,0,0,1,7.858-3.107,8.939,8.939,0,0,0,2.882-1.1,4.528,4.528,0,0,1-2,2.5,9.1,9.1,0,0,0,2.615-.7A9.76,9.76,0,0,1,19.877,4.484Z" fill="#8b8b8b"/>
+        </svg>
+      </a>  
+      <a href="https://instagram.com/parabolacenter" title="Parabola Center Instagram" class="mr-4">
+        <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="23.96" height="23.954" viewBox="0 0 23.96 23.954">
+          <path id="Shape" d="M7.038,23.87a7.142,7.142,0,0,1-5.018-1.935A7.09,7.09,0,0,1,.084,16.916c-.113-1.978-.113-7.906,0-9.884A7.107,7.107,0,0,1,2.019,2.014,7.123,7.123,0,0,1,7.038.084c1.978-.113,7.906-.113,9.884,0a7.129,7.129,0,0,1,5.019,1.935,7.088,7.088,0,0,1,1.935,5.018c.112,1.978.112,7.9,0,9.878a7.137,7.137,0,0,1-1.935,5.019,7.09,7.09,0,0,1-5.019,1.935c-.989.056-2.965.084-4.942.084S8.027,23.926,7.038,23.87Z" transform="translate(0)" fill="#8b8b8b"/>
+        </svg>
+      </a>
+    </div>
+    <p class="text-parabolaGray text-2xs">Copyright &copy; 2023. All rights reserved</p>
+  </footer>
 </html>

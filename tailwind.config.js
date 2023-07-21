@@ -9,11 +9,12 @@ module.exports = {
     extend: {
       colors: {
         parabolaPurple: "#1C1B2D",
+        parabolaPurpleDark: "#28273E",
         parabolaBlue: "#15BDCD",
         parabolaYellow: "#EBB22C",
         parabolaRed: "#E01E5B",
         parabolaOrange: "#FB9058",
-        parabolaGray: "#28273E",
+        parabolaGray: "#707070",
       },
       fontSize: {
         "3xs": "5px",
