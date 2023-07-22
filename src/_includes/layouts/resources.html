@@ -84,7 +84,7 @@
           class="sm:h-20 sm:w-52"
         />
       </a>
-      <ul class="flex gap-3.5 items-center ml-auto sm:ml-4">
+      <ul class="flex gap-3.5 items-center ml-auto sm:ml-4 lg:ml-20 lg:gap-x-14">
         <li class="text-white text-2xs leading-none sm:text-lg">
           <a href="/about/" class="text-white text-2xs leading-none sm:text-lg">About</a>
         </li>
@@ -125,7 +125,8 @@
         <h2 class="font-bold text-white underline text-center mb-4 sm:text-4xl sm:mb-7">
           {{resources.header1}}
         </h2>
-        <div class="mx-auto w-48 mb-5">
+        <div class="lg:flex lg:gap-x-9">
+        <div class="mx-auto w-48 mb-5lg:mx-0 lg:flex-1">
           <h3 class="text-xs text-white mb-1 sm:text-xl">
             Highlighted Work
           </h3>
@@ -134,11 +135,11 @@
               alt="Image for {{ resources.portfolio[0].title }}"
               width="200"
               height="180"
-              class="w-full"
+              class="w-full sm:mb-16"
             />
         </div>
         <!-- Highlighted portfolio piece here -->
-        <article class="mb-9 sm:mb-16">
+        <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">
           <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
             {{ resources.portfolio[0].title }}
           </h4>
@@ -154,9 +155,10 @@
             >Read More</a
           >
         </article>
-      <div class="">
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
         {% for item in resources.portfolio offset:1 %}
-        <article class="mb-9 sm:mb-16">
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
           <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
             {{ item.title }}
           </h4>
@@ -180,8 +182,9 @@
         <h2 class="font-bold text-parabolaPurpleDark underline text-center mb-4 sm:text-4xl sm:mb-7">
           {{resources.header2}}
         </h2>
-        <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-parabolaPurpleDark mb-1 sm:text-xl">
+        <div class="lg:flex lg:gap-x-9">        
+          <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+            <h3 class="text-xs text-parabolaPurpleDark mb-1 sm:text-xl">
             Highlighted Work
           </h3>
             <img
@@ -189,11 +192,11 @@
               alt="Image for {{resources.positions[0].title}}"
               width="200"
               height="180"
-              class="w-full"
+              class="w-full sm:mb-16"
             />
         </div>
         <!-- Highlighted position here -->
-        <article class="mb-9 sm:mb-16">
+        <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">          
           <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
             {{ resources.positions[0].title }}
           </h4>
@@ -209,9 +212,10 @@
             >Read More</a
           >
         </article>
-        <div>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
         {% for item in resources.positions offset:1 %}
-        <article class="mb-9 sm:mb-16">
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
           <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
             {{ item.title }}
           </h4>
@@ -235,8 +239,9 @@
         <h2 class="font-bold text-parabolaPurpleDark underline text-center mb-4 sm:text-4xl sm:mb-7">
           {{resources.header3}}
         </h2>
-        <div class="mx-auto w-48 mb-5">
-          <h3 class="text-xs text-parabolaPurpleDark mb-1 sm:text-xl">
+        <div class="lg:flex lg:gap-x-9">        
+          <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+            <h3 class="text-xs text-parabolaPurpleDark mb-1 sm:text-xl">
             Highlighted Work
           </h3>
             <img
@@ -244,11 +249,11 @@
               alt="Image for {{resources.videos[0].title}}"
               width="200"
               height="180"
-              class="w-full"
+              class="w-full sm:mb-16"
             />
          </div>
          <!-- Highlighted video here -->
-        <article class="mb-9 sm:mb-16">
+         <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">                    
           <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
             {{ resources.videos[0].title }}
           </h4>
@@ -264,8 +269,10 @@
             >Watch</a
           >
         </article>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
         {% for item in resources.videos offset:1 %}
-        <article class="mb-9 sm:mb-16">
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
           <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
             {{ item.title }}
           </h4>
@@ -282,15 +289,18 @@
           >
         </article>
         {% endfor %}
+        </div>
       </section>
     </main>
   </body>
-  <footer class="bg-parabolaPurple py-2 px-3 sm:p-28">
-    <h2 class="text-white mb-4 sm:text-3xl">Parabola Center</h2>
+  <footer class="bg-parabolaPurple py-2 px-3 sm:p-28 xl:flex xl:flex-wrap">
+    <div class="xl:w-[50%]">
+     <h2 class="text-white mb-4 sm:text-3xl">Parabola Center</h2>
     <div class="text-parabolaGray text-sm mb-8 sm:text-lg">
       {{ partners.footerContent | markdown | safe}} 
     </div>
-    <ul class="text-parabolaGray text-sm mb-8">
+    </div>
+    <ul class="text-parabolaGray text-sm mb-8 xl:ml-20">
       <li><h3 class="text-parabolaOrange mb-2 sm:text-lg">Company</h3></li>
         {%- for nav in collections.nav %}
         <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
@@ -298,6 +308,7 @@
         </li>
         {%- endfor %}
     </ul>
+    <div class="xl:min-w-full xl:flex xl:justify-between">
     <div class="flex items-center mb-8">
       <a href="https://facebook.com/parabolacenterforlawandpolicy" title="Parabola Center Facebook Page" class="mr-4">
         <svg id="facebook-f" xmlns="http://www.w3.org/2000/svg" width="12.854" height="24" viewBox="0 0 12.854 24">
@@ -316,5 +327,6 @@
       </a>
     </div>
     <p class="text-parabolaGray text-2xs sm:text-base">Copyright &copy; 2023. All rights reserved</p>
+    </div>
   </footer>
 </html>
