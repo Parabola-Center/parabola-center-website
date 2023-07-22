@@ -962,6 +962,10 @@ video {
     width: 50%;
   }
 
+  .xl\:w-\[25\%\] {
+    width: 25%;
+  }
+
   .xl\:min-w-full {
     min-width: 100%;
   }
