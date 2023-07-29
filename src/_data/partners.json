@@ -397,6 +397,20 @@
       "partnerWebsite": "https://www.lowd.com/"
     },
     {
+      "partnerName": "Mahajan Consulting",
+      "partnerDescription": "Mahajan Consulting is minority-owned and woman-owned, advising small and legacy operators, amplifying small business concerns to policymakers, and serving as a strategic advisor to grassroots organizations and campaigns. Menaka specializes in political economy research, public policy education, and values-driven policy reform.",
+      "partnerImage": "/img/mahajan-consulting-logo.webp",
+      "partnerWebsite": "https://www.mahajanconsulting.com",
+      "background": true
+    },
+    {
+      "partnerName": "Major Bloom, LLC",
+      "partnerDescription": "Major Bloom is rooted in transforming authentic legacy experiences into the regulated market. Major Bloom is vertically integrated through Manufacturing, Retail, and Home Deliver operations in Worcester, MA, where these licenses co-locate under one roof. Additionally, they amplify and distribute authentic cannabis stores through Radio and Podcast shows.",
+      "partnerImage": "/img/major-bloom.webp",
+      "partnerWebsite": "https://themajorbloom.com",
+      "background": false
+    },
+    {
       "partnerName": "Marijuana Justice",
       "partnerDescription": "Marijuana Justice is a Black-led nonprofit organization leading the Virginia movement for legalization centered on repairing the harms of the drug war. Marijuana Justice is well known for its work educating residents about the benefits of evidence-based social equity policies, and the harms of marijuana monopolies. ",
       "partnerImage": "/img/marijuana-justice.webp",
@@ -422,6 +436,20 @@
       "partnerWebsite": "https://mcrlabs.com/"
     },
     {
+      "background": false,
+      "partnerName": "MIZE Counsel",
+      "partnerImage": "/img/mize.webp",
+      "partnerDescription": "MIZE Counsel is a multifaceted legal &amp; consulting service that focuses on supporting civil rights litigation, small business formation, and providing legal guidance on health &amp; wellness industry regulations. It provides direct legal representation for clients seeking expungement &amp; sealing of prior criminal records under state and federal laws.",
+      "partnerWebsite": "https://mizecounsel.com "
+    },
+    {
+      "partnerName": "Morem & Waller, CPAs",
+      "partnerDescription": "Morem & Waller, CPAs works primarily with Cannabis, CBD & hemp companies. From tax planning and 280E compliance services, to creative operational partnerships, to on-time and tailored-to-you financial reporting, we provide best-in-class support, guidance, and CFO-level accounting services that give you a healthy financial path forward.",
+      "partnerImage": "/img/morem-and-waller.webp",
+      "partnerWebsite": "https://moremwaller.cpa",
+      "background": true
+    },
+    {
       "partnerName": "NACBL",
       "partnerDescription": "Founded in 2021, NABCL is the country's largest, most effective organization of Black attorneys and allies focused on equitable, inclusive and reparative justice within the cannabis industry. By bridging gaps across a fractionalized market and educating communities about decades of intentionally misleading information used to promote race bating opportunistic agendas, NABCL champions inclusion as the vehicle most pivotal to the overall success of cannabis legalization.",
       "partnerImage": "/img/nabcl-logo.jpeg",
@@ -434,10 +462,45 @@
       "partnerWebsite": "https://www.craftcannabiscoalition.org/"
     },
     {
+      "background": true,
+      "partnerName": "New Día",
+      "partnerImage": "/img/new-dia.webp",
+      "partnerDescription": "New Día is a local, minority owned company dedicated to carving a new path for cannabis retail by offering the most innovative and the highest quality products in the market, while remaining true to our roots and the Boston culture.",
+      "partnerWebsite": "https://www.newdia.co/"
+    },
+    {
       "partnerName": "Nuvé ",
       "partnerDescription": "Nuvé (new-vay) is a new way to educate through immersive learning. Its mission is to solve the knowledge and skills gaps in the cannabis industry using virtual technologies. Nuvé develops cannabis consumer facing education enhanced with XR features to spread cannabis literacy among current and future consumers.",
       "partnerImage": "/img/nuve2.webp",
       "partnerWebsite": "https://www.enternuve.com/",
+      "background": true
+    },
+    {
+      "background": false,
+      "partnerName": "NY Cannabis United",
+      "partnerImage": "/img/nycu.webp",
+      "partnerDescription": "New York Cannabis United is a coalition created to ensure all NYS communities are prepared and supported for the cannabis industry and have a full understanding of the plant. It aims to partner with local officials, community leaders, and other key stakeholders to provide information and guidance for the critical decisions that impact both the cannabis industry and residents of New York.",
+      "partnerWebsite": "https://www.nycannabisunited.com/"
+    },
+    {
+      "partnerName": "NY Small Farma",
+      "partnerDescription": "NYSF is dedicated to fostering a socially just, environmentally regenerative, and economically inclusive cannabis industry. We champion small farmers and craft, regenerative cannabis that is good for planet, safe for the consumer, good for the farm workers, and good for the communities where the farm is located. ",
+      "partnerImage": "/img/ny-small-farma.webp",
+      "partnerWebsite": "https://nysmallfarma.org",
+      "background": true
+    },
+    {
+      "background": false,
+      "partnerName": "Omar Figueroa Law",
+      "partnerDescription": "The Law Offices of Omar Figueroa is recognized as one of the leading cannabis, hemp, and psychedelics law firms, with offices in California and New York. We are passionate about human rights and civil liberties, and have decades of experience zealously advocating for our clients and for social justice reforms.",
+      "partnerImage": "/img/omar-logo.png",
+      "partnerWebsite": "https://www.omarfigueroa.com/"
+    },
+    {
+      "partnerName": "PCBA",
+      "partnerDescription": "The Philadelphia CannaBusiness Association (PCBA) is an organization of entrepreneurs and community stakeholders who seek to R.E.P.A.I.R the damage done by cannabis prohibition. R.E.P.A.I.R stands for Reparations, Expungement, Policy & Political Mobilization, Abolition, Inclusion, Reinvestment.",
+      "partnerImage": "/img/philadelphia-cannabusiness-association.webp",
+      "partnerWebsite": "https://www.phillycannabusiness.com",
       "background": true
     },
     {
@@ -461,6 +524,13 @@
       "background": true
     },
     {
+      "background": false,
+      "partnerName": "Pure Oasis",
+      "partnerImage": "/img/pure-oasis-web-logo.png",
+      "partnerWebsite": "https://www.mypureoasis.com/",
+      "partnerDescription": "Pure Oasis, Boston's first recreational cannabis dispensary, is a Black-owned economic empowerment business with a user-friendly experience, knowledgeable staff, and a wide variety of high-quality cannabis products. Twice voted best dispensary by Boston Magazine, Pure Oasis is locally owned and socially conscious company committed to addressing the needs of underserved communities."
+    },
+    {
       "partnerName": "Raven Grass",
       "partnerDescription": "Raven is a small, independently owned and operated, live earth cannabis farm in Olympia, Washington. Is it possible to be a successful business, independent of profit motivation?  Raven makes choices that are the greatest benefit to the quality and healthfulness of our end products. It aims to use its platform to inform consumers about its products and practices with transparency to empower them to make educated decisions.",
       "partnerImage": "/img/raven.webp",
@@ -474,11 +544,46 @@
       "partnerWebsite": "https://rollingreleaf.org/"
     },
     {
+      "partnerName": "Rudick Law Group, PLLC",
+      "partnerDescription": "Rudick Law Group, PLLC, is a boutique, women-led law firm representing small and diversely held businesses together with investors and small investment networks to deploy capital responsibly, in support of robust competition.",
+      "partnerImage": "/img/rudick-law-group.webp",
+      "partnerWebsite": "https://www.rudicklawgroup.com",
+      "background": true
+    },
+    {
       "partnerName": "Sativa Remedy",
       "partnerDescription": "Sativa Remedy is a minority, women-owned, and family-operated hemp dispensary located in Western New York. Co-founded by Nhi Kha and John Frazier in 2018, our mission is to normalize cannabis and reconnecting consumers with the plant by providing education, guidance, and support alongside a highly curated selection of quality, safe, and affordable hemp products. Our belief is that all should have the right to access plant medicine without having to compromise on price, quality, potency, or safety.",
       "partnerImage": "/img/sativa-remedy-logo.webp",
       "partnerWebsite": "https://sativaremedy.com/",
       "background": true
+    },
+    {
+      "background": false,
+      "partnerName": "SeaWitch",
+      "partnerImage": "/img/sw-gold-on-black-logo-jessica-gorman.png",
+      "partnerDescription": "SeaWitch is a woman-owned and operated cannabis business located in Rhode Island. Started in 2014, SeaWitch manufactures quality tonics, tinctures and topicals for both the medical and adult-use market. Taking great care to fully embody the concept of Green Medicine, SeaWitch appeals to a wide range of cannabis users who are seeking a deeper experience with their self-care rituals.",
+      "partnerWebsite": "https://www.seawitchmedicinals.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Simply Pure",
+      "partnerImage": "/img/simply-pure.webp",
+      "partnerDescription": "Simply Pure is considered the best dispensary in Denver. We focus on sharing both our experience and knowledge about cannabis in a safe and comfortable environment. Our passionate budologists work to constantly educate newcomers and frequent consumers alike on safe, sustainable, and beneficial cannabis products. We strive to bring our love of cannabis, both wellness and recreational aspects, to the forefront of your cannabis experience.",
+      "partnerWebsite": "https://simplypure.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Socíale Dispensary",
+      "partnerDescription": "Socíale is a female-founded and female-owned dispensary slated to open in Park Ridge, IL later this year. Granted a social equity charter, the dispensary is also one of the first dispensaries in the U.S. founded and owned by an Indian-American woman. Committed to cannabis education and female empowerment, Socíale is eager to make an impact on the Chicagoland community.",
+      "partnerImage": "/img/sociale.webp",
+      "partnerWebsite": "https://socialedispensary.com"
+    },
+    {
+      "background": false,
+      "partnerName": "Soulstar Holdings",
+      "partnerImage": "/img/soulstar.webp",
+      "partnerDescription": "Soulstar is a female-led cannabis company building a portfolio of diverse and high performing businesses and brands in the Northeast’s emerging adult use markets. Driven by a team of proven industry leaders and true cannabis lovers, Soulstar is here to build a more inclusive and authentic cannabis industry.",
+      "partnerWebsite": "https://www.soulstar.io/"
     },
     {
       "partnerName": "SSDP",
@@ -519,6 +624,13 @@
       "partnerWebsite": "https://thcstaffinggroup.com/"
     },
     {
+      "background": false,
+      "partnerName": "Tetragram",
+      "partnerDescription": "Tetragram is an award-winning SaaS platform that collects data from cannabis and CBD consumers to measure the effects of various cannabis products. We partner with dispensaries, and brands to help them tell their product's story, connect directly to customers, and leverage our consumer insights to understand customer needs and the impact of products.",
+      "partnerImage": "/img/tetragram.webp",
+      "partnerWebsite": "https://tetragramapp.com"
+    },
+    {
       "partnerName": "Top Flor",
       "partnerDescription": "Top Flor is a family-owned craft cannabis cultivation business in Añasco Puerto Rico. Owned by a brother and sister team with respective expertise in cannabis laws and medical science, Top Flor focuses on using the natural benefits of a tropical climate to ensure accessibility of our medicine to all, and to invest in environmentally sustainable and socially equitable business practices.",
       "partnerImage": "/img/top-flor-logo.jpg",
@@ -535,6 +647,13 @@
       "partnerDescription": "Terptown Throwdown is an annual two-day cannabis, art, and music festival centered around the legal cannabis industry in the northeast U.S region, with past headliners including Atmosphere and Matisyahu. The organizers are dedicated to protecting the right to home grow, and Terptown focuses on giving home growers particular attention and a platform.",
       "partnerImage": "/img/terptown.webp",
       "partnerWebsite": "https://terptownthrowdownfestival.com/"
+    },
+    {
+      "background": false,
+      "partnerName": "Transform",
+      "partnerImage": "/img/transform.svg",
+      "partnerDescription": "Transform is an independent charity based in the UK working towards a just and effective system of legal regulation for all drugs. Their vision is a world where drug policy contributes to safer and healthier societies. Through their Anyone's Child campaign, they provide opportunities for people with personal experiences of drug policy failures to be heard.",
+      "partnerWebsite": "https://transformdrugs.org"
     },
     {
       "partnerName": "Underground Legacy",
@@ -560,125 +679,6 @@
       "partnerImage": "/img/victoria-litman-law.jpeg",
       "partnerWebsite": "https://www.linkedin.com/in/victoria-litman-llm-mdiv-esq-b719648b/",
       "background": false
-    },
-    {
-      "partnerName": "Mahajan Consulting",
-      "partnerDescription": "Mahajan Consulting is minority-owned and woman-owned, advising small and legacy operators, amplifying small business concerns to policymakers, and serving as a strategic advisor to grassroots organizations and campaigns. Menaka specializes in political economy research, public policy education, and values-driven policy reform.",
-      "partnerImage": "/img/mahajan-consulting-logo.webp",
-      "partnerWebsite": "https://www.mahajanconsulting.com",
-      "background": true
-    },
-    {
-      "partnerName": "Major Bloom, LLC",
-      "partnerDescription": "Major Bloom is rooted in transforming authentic legacy experiences into the regulated market. Major Bloom is vertically integrated through Manufacturing, Retail, and Home Deliver operations in Worcester, MA, where these licenses co-locate under one roof. Additionally, they amplify and distribute authentic cannabis stores through Radio and Podcast shows.",
-      "partnerImage": "/img/major-bloom.webp",
-      "partnerWebsite": "https://themajorbloom.com",
-      "background": false
-    },
-    {
-      "background": false,
-      "partnerName": "MIZE Counsel",
-      "partnerImage": "/img/mize.webp",
-      "partnerDescription": "MIZE Counsel is a multifaceted legal &amp; consulting service that focuses on supporting civil rights litigation, small business formation, and providing legal guidance on health &amp; wellness industry regulations. It provides direct legal representation for clients seeking expungement &amp; sealing of prior criminal records under state and federal laws.",
-      "partnerWebsite": "https://mizecounsel.com "
-    },
-    {
-      "partnerName": "Morem & Waller, CPAs",
-      "partnerDescription": "Morem & Waller, CPAs works primarily with Cannabis, CBD & hemp companies. From tax planning and 280E compliance services, to creative operational partnerships, to on-time and tailored-to-you financial reporting, we provide best-in-class support, guidance, and CFO-level accounting services that give you a healthy financial path forward.",
-      "partnerImage": "/img/morem-and-waller.webp",
-      "partnerWebsite": "https://moremwaller.cpa",
-      "background": true
-    },
-    {
-      "background": true,
-      "partnerName": "New Día",
-      "partnerImage": "/img/new-dia.webp",
-      "partnerDescription": "New Día is a local, minority owned company dedicated to carving a new path for cannabis retail by offering the most innovative and the highest quality products in the market, while remaining true to our roots and the Boston culture.",
-      "partnerWebsite": "https://www.newdia.co/"
-    },
-    {
-      "background": false,
-      "partnerName": "NY Cannabis United",
-      "partnerImage": "/img/nycu.webp",
-      "partnerDescription": "New York Cannabis United is a coalition created to ensure all NYS communities are prepared and supported for the cannabis industry and have a full understanding of the plant. It aims to partner with local officials, community leaders, and other key stakeholders to provide information and guidance for the critical decisions that impact both the cannabis industry and residents of New York.",
-      "partnerWebsite": "https://www.nycannabisunited.com/"
-    },
-    {
-      "partnerName": "NY Small Farma",
-      "partnerDescription": "NYSF is dedicated to fostering a socially just, environmentally regenerative, and economically inclusive cannabis industry. We champion small farmers and craft, regenerative cannabis that is good for planet, safe for the consumer, good for the farm workers, and good for the communities where the farm is located. ",
-      "partnerImage": "/img/ny-small-farma.webp",
-      "partnerWebsite": "https://nysmallfarma.org",
-      "background": true
-    },
-    {
-      "background": false,
-      "partnerName": "Omar Figueroa Law",
-      "partnerDescription": "The Law Offices of Omar Figueroa is recognized as one of the leading cannabis, hemp, and psychedelics law firms, with offices in California and New York. We are passionate about human rights and civil liberties, and have decades of experience zealously advocating for our clients and for social justice reforms.",
-      "partnerImage": "/img/omar-logo.png",
-      "partnerWebsite": "https://www.omarfigueroa.com/"
-    },
-    {
-      "partnerName": "PCBA",
-      "partnerDescription": "The Philadelphia CannaBusiness Association (PCBA) is an organization of entrepreneurs and community stakeholders who seek to R.E.P.A.I.R the damage done by cannabis prohibition. R.E.P.A.I.R stands for Reparations, Expungement, Policy & Political Mobilization, Abolition, Inclusion, Reinvestment.",
-      "partnerImage": "/img/philadelphia-cannabusiness-association.webp",
-      "partnerWebsite": "https://www.phillycannabusiness.com",
-      "background": true
-    },
-    {
-      "background": false,
-      "partnerName": "Pure Oasis",
-      "partnerImage": "/img/pure-oasis-web-logo.png",
-      "partnerWebsite": "https://www.mypureoasis.com/",
-      "partnerDescription": "Pure Oasis, Boston's first recreational cannabis dispensary, is a Black-owned economic empowerment business with a user-friendly experience, knowledgeable staff, and a wide variety of high-quality cannabis products. Twice voted best dispensary by Boston Magazine, Pure Oasis is locally owned and socially conscious company committed to addressing the needs of underserved communities."
-    },
-    {
-      "partnerName": "Rudick Law Group, PLLC",
-      "partnerDescription": "Rudick Law Group, PLLC, is a boutique, women-led law firm representing small and diversely held businesses together with investors and small investment networks to deploy capital responsibly, in support of robust competition.",
-      "partnerImage": "/img/rudick-law-group.webp",
-      "partnerWebsite": "https://www.rudicklawgroup.com",
-      "background": true
-    },
-    {
-      "background": false,
-      "partnerName": "SeaWitch",
-      "partnerImage": "/img/sw-gold-on-black-logo-jessica-gorman.png",
-      "partnerDescription": "SeaWitch is a woman-owned and operated cannabis business located in Rhode Island. Started in 2014, SeaWitch manufactures quality tonics, tinctures and topicals for both the medical and adult-use market. Taking great care to fully embody the concept of Green Medicine, SeaWitch appeals to a wide range of cannabis users who are seeking a deeper experience with their self-care rituals.",
-      "partnerWebsite": "https://www.seawitchmedicinals.com"
-    },
-    {
-      "background": false,
-      "partnerName": "Simply Pure",
-      "partnerImage": "/img/simply-pure.webp",
-      "partnerDescription": "Simply Pure is considered the best dispensary in Denver. We focus on sharing both our experience and knowledge about cannabis in a safe and comfortable environment. Our passionate budologists work to constantly educate newcomers and frequent consumers alike on safe, sustainable, and beneficial cannabis products. We strive to bring our love of cannabis, both wellness and recreational aspects, to the forefront of your cannabis experience.",
-      "partnerWebsite": "https://simplypure.com"
-    },
-    {
-      "background": false,
-      "partnerName": "Socíale Dispensary",
-      "partnerDescription": "Socíale is a female-founded and female-owned dispensary slated to open in Park Ridge, IL later this year. Granted a social equity charter, the dispensary is also one of the first dispensaries in the U.S. founded and owned by an Indian-American woman. Committed to cannabis education and female empowerment, Socíale is eager to make an impact on the Chicagoland community.",
-      "partnerImage": "/img/sociale.webp",
-      "partnerWebsite": "https://socialedispensary.com"
-    },
-    {
-      "background": false,
-      "partnerName": "Soulstar Holdings",
-      "partnerImage": "/img/soulstar.webp",
-      "partnerDescription": "Soulstar is a female-led cannabis company building a portfolio of diverse and high performing businesses and brands in the Northeast’s emerging adult use markets. Driven by a team of proven industry leaders and true cannabis lovers, Soulstar is here to build a more inclusive and authentic cannabis industry.",
-      "partnerWebsite": "https://www.soulstar.io/"
-    },
-    {
-      "background": false,
-      "partnerName": "Tetragram",
-      "partnerDescription": "Tetragram is an award-winning SaaS platform that collects data from cannabis and CBD consumers to measure the effects of various cannabis products. We partner with dispensaries, and brands to help them tell their product's story, connect directly to customers, and leverage our consumer insights to understand customer needs and the impact of products.",
-      "partnerImage": "/img/tetragram.webp",
-      "partnerWebsite": "https://tetragramapp.com"
-    },
-    {
-      "background": false,
-      "partnerName": "Transform",
-      "partnerImage": "/img/transform.svg",
-      "partnerDescription": "Transform is an independent charity based in the UK working towards a just and effective system of legal regulation for all drugs. Their vision is a world where drug policy contributes to safer and healthier societies. Through their Anyone's Child campaign, they provide opportunities for people with personal experiences of drug policy failures to be heard.",
-      "partnerWebsite": "https://transformdrugs.org"
     },
     {
       "partnerName": "The Weedaker Group",
