@@ -14,3 +14,15 @@
   to = "/pdf/racefactor.pdf"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/bigtobacco"
+  to = "/pdf/big-tobacco-cheat-sheet.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/bigtobacco/"
+  to = "/pdf/big-tobacco-cheat-sheet.pdf"
+  status = 302
+  force = false
