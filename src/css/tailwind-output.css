@@ -970,6 +970,10 @@ video {
     min-width: 100%;
   }
 
+  .xl\:flex-none {
+    flex: none;
+  }
+
   .xl\:flex-wrap {
     flex-wrap: wrap;
   }
