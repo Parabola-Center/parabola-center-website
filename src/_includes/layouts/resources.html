@@ -291,6 +291,63 @@
         {% endfor %}
         </div>
       </section>
+      <!-- Fourth content section -->
+      <section class="bg-parabolaRed py-2 px-3 sm:py-11 sm:px-32">
+        <h2 class="font-bold text-white underline text-center mb-4 sm:text-4xl sm:mb-7">
+          {{resources.header4}}
+        </h2>
+        <div class="lg:flex lg:gap-x-9">
+        <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+          <h3 class="text-xs text-white mb-1 sm:text-xl">
+            Highlighted Work
+          </h3>
+            <img
+              src="{{ resources.policyHighlightImage }}"
+              alt="Image for {{ resources.portfolio[0].title }}"
+              width="200"
+              height="180"
+              class="w-full sm:mb-16"
+            />
+        </div>
+        <!-- Highlighted portfolio piece here -->
+        <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">
+          <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ resources.cheatSheets[0].title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ resources.cheatSheets[0].attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">            
+            {{ resources.cheatSheets[0].snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
+        {% for item in resources.cheatSheets offset:1 %}
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
+          <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ item.title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ item.attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">
+            {{ item.snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+        {% endfor %}
+      </div>
+      </section>
     </main>
   </body>
   <footer class="bg-parabolaPurple py-2 px-3 sm:p-28 xl:flex xl:flex-wrap">

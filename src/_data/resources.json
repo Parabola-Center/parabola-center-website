@@ -3,6 +3,21 @@
   "header1": "Policy Portfolio",
   "header2": "Policy Positions",
   "header3": "Policy Videos",
+  "cheatSheets": [
+    {
+      "title": "UPDATED STATEMENT ON THE USE OF RACE CRITERIA IN EQUITY PROGRAMS",
+      "attribution": "Parabola Center",
+      "snippet": "We have previously pointed to Massachusetts' economic empowerment designation criteria and other similarly structured eligibility requirements and suggested considering race as one of several factors, based on settled law up until now. In light of the decision in Students for Fair Admissions, Inc. v. President &a Fellows of Harvard College, we are updating this\nrecommendation.",
+      "url": "https://www.parabolacenter.com/pdf/racefactor.pdf"
+    },
+    {
+      "snippet": "The tobacco industry has a demonstrated history of resisting government regulation, co-opting\nexperts, engineering products to be more addictive. In order to prevent them from doing the same\nwith cannabis, federal legalization will need to empower regulators and restrict the influence of\nbig business. Our cheat sheet explains how, with links to sample language including mandatory\ndisqualification based on past corporate conduct.",
+      "title": "HOW TO KEEP BIG TOBACCO OUT OF THE CANNABIS INDUSTRY",
+      "attribution": "Parabola Center",
+      "url": "https://www.parabolacenter.com/pdf/big-tobacco-cheat-sheet.pdf"
+    }
+  ],
+  "header4": "Cheat Sheets",
   "portfolio": [
     {
       "url": "https://www.parabolacenter.com/cannabis-legalization-must-address-monopoly-dangers/",
@@ -23,12 +38,6 @@
       "snippet": "Published by The Ohio State University Drug Enforcement and Policy Center, this paper argues\nfor intentionally applying well-developed antitrust principles to federal cannabis reform now,\nbefore monopolization of the market takes place. It was ranked #2 on the list of the world’s most\ndownloaded antitrust and competition articles on SSRN in 2022."
     },
     {
-      "title": "Fair and Square: How to Effectively Incorporate Social Equity Into Cannabis Laws and Regulations",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3978766",
-      "snippet": "Written by Shaleen Title and published by The Ohio State University’s Drug Enforcement and Policy\nCenter, this paper is designed to equip readers with practical advice about how to implement social\nequity. It covers the large policy areas regulators have to address as they begin to design a\ncomprehensive social equity policy for their state’s cannabis industry.",
-      "attribution": "(2021 by Shaleen Title, The Ohio State University Drug Enforcement and Policy Center)"
-    },
-    {
       "title": "CAOA Feedback on Open and Fair Competition",
       "url": "/pdf/Parabola%20Center%20CAOA%20Comments%208-31-21.pdf",
       "snippet": "We submitted these recommendations in response to the U.S. Senators’ request for public\ncomment. They are crafted in light of a specific vision for a fair, open, and competitive market\nfounded on justice and restorative practices. Cannabis commerce should not be a new revenue\nmachine, a tool to exploit users, or a free-for-all for corporate greed.",
@@ -45,6 +54,12 @@
       "url": "https://drugpolicy.org/wp-content/uploads/2023/05/Legalize_It_Right_Federal_Cannabis_Regulation_Report.pdf",
       "attribution": "(2021, by Drug Policy Alliance Working Group including Parabola Center)",
       "snippet": "As part of the working group convened by Drug Policy Alliance to develop them, we support these\nrecommendations that center health equity, social equity, justice, and accountability in federal\ncannabis regulation. We believe this framework– not the PREPARE Act or other approaches being\npushed by Big Tobacco and Alcohol – is the best starting point for Congress to create rules for a\nnational cannabis market."
+    },
+    {
+      "title": "Fair and Square: How to Effectively Incorporate Social Equity Into Cannabis Laws and Regulations",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3978766",
+      "snippet": "Written by Shaleen Title and published by The Ohio State University’s Drug Enforcement and Policy\nCenter, this paper is designed to equip readers with practical advice about how to implement social\nequity. It covers the large policy areas regulators have to address as they begin to design a\ncomprehensive social equity policy for their state’s cannabis industry.",
+      "attribution": "(2021 by Shaleen Title, The Ohio State University Drug Enforcement and Policy Center)"
     },
     {
       "title": "Minority Cannabis Business Association Model Legislation ",

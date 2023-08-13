@@ -276,6 +276,15 @@ collections:
               - { label: Attribution, name: attribution, widget: string }
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: string }
+          - { label: Header 4, name: header4, widget: string }
+          - label: Cheat Sheets
+            name: cheatSheets
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Attribution, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown }
+              - { label: URL, name: url, widget: string }
       - label: "Shaleen Bio Page"
         name: "shaleen-title"
         file: "src/_data/shaleen-title.json"
