@@ -150,7 +150,7 @@
   ],
   "intro": "Below, you will find our policy papers along with op-eds, videos, and cheat sheets. As part of\nour nonprofit mission, we provide the resources necessary to advocate for concrete, equitable,\nworkable policies that put people ahead of corporate profits. All of our resources are free and\nopen to the public.",
   "highlightedVideoTitle": "Highlighted Video Title",
-  "highlightedVideoImage": "https://placehold.co/600x400",
+  "highlightedVideoImage": "/img/up-in-the-air_-residency-requirements-in-cannabis-policy.webp",
   "highlightedPositionLink": "https://www.parabolacenter.com",
   "policyHighlightTitle": "Highlighted Policy Title",
   "videos": [
@@ -186,9 +186,10 @@
     }
   ],
   "content": "",
-  "policyHighlightImage": "https://placehold.co/300",
+  "policyHighlightImage": "/img/cannabis-legalization-must-address-monopoly-dangers.webp",
   "highlightedPositionTitle": "Highlighted Position Title",
   "pageHeader": "Resources",
   "policyHighlightLink": "https://www.parabolacenter.com",
-  "highlightedPositionImage": "https://placehold.co/400"
+  "highlightedCheatSheetImage": "/img/updated-statement-on-the-use-of-race-criteria-in-equity-programs.webp",
+  "highlightedPositionImage": "/img/op_ed_-how-to-ruin-marijuana-legalization_-put-big-alcohol-and-tobacco-corporations-in-charge.webp"
 }

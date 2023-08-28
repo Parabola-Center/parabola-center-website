@@ -277,6 +277,11 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: string }
           - { label: Header 4, name: header4, widget: string }
+          - {
+              label: Highlighted Cheat Sheet Image,
+              name: highlightedCheatSheetImage,
+              widget: image,
+            }
           - label: Cheat Sheets
             name: cheatSheets
             widget: list
