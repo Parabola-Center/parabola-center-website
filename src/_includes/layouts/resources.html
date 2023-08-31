@@ -1,33 +1,389 @@
----
-layout: base
----
-<section class="parabola-grid pdf">
-  <h1 class="big:parabola-cols-full parabola-cols-full">{{resources.header1}}</h1>
-  {% for item in resources.portfolio %}
-  <a class="parabola-cols-full big:parabola-cols-quarter" href="{{ item.url }}">
-        {{ item.title }}
-  </a>
-  {% endfor %}
-  <h1 class="parabola-cols-full big:parabola-cols-full">{{resources.header2}}</h1>
-  {% for item in resources.positions %}
-  <a class="parabola-cols-full big:parabola-cols-quarter"
-    href=" {{ item.url }}">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{title}} | {{site.title}}</title>
+    <meta name="description" content="{{site.description}}" />
+    <meta name="og:title" content="{{title}} | {{site.title}}" />
+    <meta name="og:description" content="{{site.description}}" />
+    <meta name="og:image" content="{{navigation.logo}}" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{site.apple_touch_icon}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{site.favicon_32x32}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{site.favicon_16x16}}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/tailwind-output.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        {{ item.title }}
-
-  </a>
-  {% endfor %}
-  <h1 class="parabola-cols-full big:parabola-cols-full">{{resources.header3}}</h1>
-  {% for item in resources.videos %}
-  <a class="parabola-cols-full big:parabola-cols-quarter"
-    href=" {{ item.url }}">
-
-        {{ item.title }}
-</a>
-{% endfor %}
-</section>
-<section>
-<div class="parabola-cols-full big:parabola-cols-full">
-  {{resources.content | markdown | safe}}
-</div>
-</section>
+      gtag("config", "G-R5QR0NG3DS");
+    </script>
+    <script>
+      !(function (s, a, e, v, n, t, z) {
+        if (s.saq) return;
+        n = s.saq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!s._saq) s._saq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "1.0";
+        n.queue = [];
+        t = a.createElement(e);
+        t.async = !0;
+        t.src = v;
+        z = a.getElementsByTagName(e)[0];
+        z.parentNode.insertBefore(t, z);
+      })(
+        window,
+        document,
+        "script",
+        "https://tags.srv.stackadapt.com/events.js"
+      );
+      saq("ts", "yrmHiisKU63En1PL99xSvg");
+    </script>
+  </head>
+  <header>
+    <nav class="bg-parabolaPurple py-1 px-2 flex items-center sm:py-4 sm:justify-center">
+      <a href="/" class="brand" title="Home page link">
+        <img
+          src="{{navigation.logo}}"
+          alt="Parabola Center logo"
+          height="15"
+          width="40"
+          class="sm:h-20 sm:w-52"
+        />
+      </a>
+      <ul class="flex gap-3.5 items-center ml-auto sm:ml-4 lg:ml-20 lg:gap-x-14">
+        <li class="text-white text-2xs leading-none sm:text-lg">
+          <a href="/about/" class="text-white text-2xs leading-none sm:text-lg">About</a>
+        </li>
+        <li class="text-white text-2xs leading-none sm:text-lg">
+          <a
+            href="/resources/"
+            class="text-parabolaOrange text-2xs leading-none sm:text-lg"
+            >Resources</a
+          >
+        </li>
+        <li class="text-white text-2xs leading-none sm:text-lg">
+          <a href="/media/" class="text-white text-2xs leading-none sm:text-lg">Media</a>
+        </li>
+        <li class="text-white text-2xs leading-none sm:text-lg">
+          <a href="/contact/" class="text-white text-2xs leading-none sm:text-lg"
+            >Contact</a
+          >
+        </li>
+        <li
+          class="text-white text-3xs leading-none bg-parabolaBlue rounded p-1 sm:py-2 sm:px-4"
+        >
+          <a href="/donate/" class="text-white text-3xs leading-none sm:text-lg">Donate</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <!-- Intro section -->
+      <section
+        class="bg-parabolaYellow py-2 px-3 text-center text-parabolaPurpleDark sm:py-11 sm:px-32"
+      >
+        <h1 class="uppercase font-bold sm:text-5xl sm:mb-7">{{resources.pageHeader}}</h1>
+        <div class="text-xs sm:text-2xl">{{resources.intro | markdown | safe }}</div>
+      </section>
+      <!-- First content section -->
+      <section class="bg-parabolaRed py-2 px-3 sm:py-11 sm:px-32">
+        <h2 class="font-bold text-white underline text-center mb-4 sm:text-4xl sm:mb-7">
+          {{resources.header1}}
+        </h2>
+        <div class="lg:flex lg:gap-x-9">
+        <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+          <h3 class="text-xs text-white mb-1 sm:text-xl">
+            Highlighted Work
+          </h3>
+            <img
+              src="{{ resources.policyHighlightImage }}"
+              alt="Image for {{ resources.portfolio[0].title }}"
+              width="200"
+              height="180"
+              class="w-full sm:mb-16"
+            />
+        </div>
+        <!-- Highlighted portfolio piece here -->
+        <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">
+          <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ resources.portfolio[0].title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ resources.portfolio[0].attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">            
+            {{ resources.portfolio[0].snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
+        {% for item in resources.portfolio offset:1 %}
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
+          <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ item.title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ item.attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">
+            {{ item.snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+        {% endfor %}
+      </div>
+      </section>
+      <!-- Second content section -->
+      <section class="bg-parabolaYellow py-2 px-3 sm:py-11 sm:px-32">
+        <h2 class="font-bold text-parabolaPurpleDark underline text-center mb-4 sm:text-4xl sm:mb-7">
+          {{resources.header2}}
+        </h2>
+        <div class="lg:flex lg:gap-x-9">        
+          <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+            <h3 class="text-xs text-parabolaPurpleDark mb-1 sm:text-xl">
+            Highlighted Work
+          </h3>
+            <img
+              src="{{resources.highlightedPositionImage}}"
+              alt="Image for {{resources.positions[0].title}}"
+              width="200"
+              height="180"
+              class="w-full sm:mb-16"
+            />
+        </div>
+        <!-- Highlighted position here -->
+        <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">          
+          <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ resources.positions[0].title }}
+          </h4>
+          <p class="text-parabolaPurpleDark text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ resources.positions[0].attribution }}
+          </p>
+          <div class="text-parabolaPurpleDark text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">
+            {{ resources.positions[0].snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaRed rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
+        {% for item in resources.positions offset:1 %}
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
+          <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ item.title }}
+          </h4>
+          <p class="text-parabolaPurpleDark text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ item.attribution }}
+          </p>
+          <div class="text-parabolaPurpleDark text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">
+            {{ item.snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaRed rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+        {% endfor %}
+      </div>
+      </section>
+      <!-- Third  content section -->
+      <section class="bg-parabolaBlue py-2 px-3 sm:py-11 sm:px-32">
+        <h2 class="font-bold text-parabolaPurpleDark underline text-center mb-4 sm:text-4xl sm:mb-7">
+          {{resources.header3}}
+        </h2>
+        <div class="lg:flex lg:gap-x-9">        
+          <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+            <h3 class="text-xs text-parabolaPurpleDark mb-1 sm:text-xl">
+            Highlighted Work
+          </h3>
+            <img
+              src="{{resources.highlightedVideoImage}}"
+              alt="Image for {{resources.videos[0].title}}"
+              width="200"
+              height="180"
+              class="w-full sm:mb-16"
+            />
+         </div>
+         <!-- Highlighted video here -->
+         <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">                    
+          <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ resources.videos[0].title }}
+          </h4>
+          <p class="text-parabolaPurpleDark text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ resources.videos[0].attribution }}
+          </p>
+          <div class="text-parabolaPurpleDark text-xs mb-2 opacity-80 sm:text-lg">
+            {{ resources.videos[0].snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaPurpleDark rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Watch</a
+          >
+        </article>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
+        {% for item in resources.videos offset:1 %}
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
+          <h4 class="text-parabolaPurpleDark text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ item.title }}
+          </h4>
+          <p class="text-parabolaPurpleDark text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ item.attribution}}
+          </p>
+          <div class="text-parabolaPurpleDark text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">
+            {{ item.snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaPurpleDark rounded py-2 px-3 inline-block text-2xs text-white w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Watch</a
+          >
+        </article>
+        {% endfor %}
+        </div>
+      </section>
+      <!-- Fourth content section -->
+      <section class="bg-parabolaRed py-2 px-3 sm:py-11 sm:px-32">
+        <h2 class="font-bold text-white underline text-center mb-4 sm:text-4xl sm:mb-7">
+          {{resources.header4}}
+        </h2>
+        <div class="lg:flex lg:gap-x-9">
+        <div class="mx-auto w-48 mb-5 lg:mx-0 lg:flex-1">
+          <h3 class="text-xs text-white mb-1 sm:text-xl">
+            Highlighted Work
+          </h3>
+            <img
+              src="{{ resources.highlightedCheatSheetImage }}"
+              alt="Image for {{ resources.portfolio[0].title }}"
+              width="200"
+              height="180"
+              class="w-full sm:mb-16"
+            />
+        </div>
+        <!-- Highlighted portfolio piece here -->
+        <article class="mb-9 sm:mb-16 lg:flex-1 lg:mt-5">
+          <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ resources.cheatSheets[0].title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ resources.cheatSheets[0].attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">            
+            {{ resources.cheatSheets[0].snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+      </div>
+      <div class="lg:flex lg:flex-wrap lg:justify-between">
+        {% for item in resources.cheatSheets offset:1 %}
+        <article class="mb-9 sm:mb-16 xl:w-[30%]">
+          <h4 class="text-white text-xs uppercase font-bold mb-2 sm:text-2xl sm:mb-6">
+            {{ item.title }}
+          </h4>
+          <p class="text-white text-2xs mb-2 opacity-80 sm:text-lg">
+            {{ item.attribution }}
+          </p>
+          <div class="text-white text-xs mb-2 opacity-80 sm:text-xl sm:mb-4">
+            {{ item.snippet | markdown | safe }}
+          </div>
+          <a
+            class="bg-parabolaBlue rounded py-2 px-3 inline-block text-2xs text-parabolaPurpleDark w-20 text-center sm:text-lg sm:w-40"
+            href="{{ item.url }}"
+            >Read More</a
+          >
+        </article>
+        {% endfor %}
+      </div>
+      </section>
+    </main>
+  </body>
+  <footer class="bg-parabolaPurple py-2 px-3 sm:p-28 xl:flex xl:flex-wrap">
+    <div class="xl:w-[50%]">
+     <h2 class="text-white mb-4 sm:text-3xl">Parabola Center</h2>
+    <div class="text-parabolaGray text-sm mb-8 sm:text-lg">
+      {{ partners.footerContent | markdown | safe}} 
+    </div>
+    </div>
+    <ul class="text-parabolaGray text-sm mb-8 xl:ml-20">
+      <li><h3 class="text-parabolaOrange mb-2 sm:text-lg">Company</h3></li>
+        {%- for nav in collections.nav %}
+        <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
+          <a href="{{nav.url}}" {% if page.url==nav.url %} {% endif %} class="sm:text-lg">{{nav.data.title}}</a>
+        </li>
+        {%- endfor %}
+    </ul>
+    <div class="xl:min-w-full xl:flex xl:justify-between">
+    <div class="flex items-center mb-8">
+      <a href="https://facebook.com/parabolacenterforlawandpolicy" title="Parabola Center Facebook Page" class="mr-4">
+        <svg id="facebook-f" xmlns="http://www.w3.org/2000/svg" width="12.854" height="24" viewBox="0 0 12.854 24">
+          <path id="Path" d="M12.012,13.5l.667-4.343H8.511V6.338a2.172,2.172,0,0,1,2.449-2.347h1.895V.293A23.105,23.105,0,0,0,9.491,0C6.059,0,3.815,2.08,3.815,5.846v3.31H0V13.5H3.815V24h4.7V13.5Z" fill="#8b8b8b"/>
+        </svg>
+      </a> 
+      <a href="https://twitter.com/parabolacenter" title="Parabola Center Twitter Page" class="mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22.154" height="17.993" viewBox="0 0 22.154 17.993">
+          <path id="Path" d="M19.877,4.484c.014.2.014.394.014.59A12.83,12.83,0,0,1,6.972,17.993,12.831,12.831,0,0,1,0,15.955a9.393,9.393,0,0,0,1.1.056,9.093,9.093,0,0,0,5.637-1.94,4.548,4.548,0,0,1-4.245-3.149,5.726,5.726,0,0,0,.858.07,4.8,4.8,0,0,0,1.195-.155A4.541,4.541,0,0,1,.9,6.382V6.326A4.573,4.573,0,0,0,2.952,6.9,4.547,4.547,0,0,1,1.546.829a12.906,12.906,0,0,0,9.362,4.751A5.126,5.126,0,0,1,10.8,4.54a4.545,4.545,0,0,1,7.858-3.107,8.939,8.939,0,0,0,2.882-1.1,4.528,4.528,0,0,1-2,2.5,9.1,9.1,0,0,0,2.615-.7A9.76,9.76,0,0,1,19.877,4.484Z" fill="#8b8b8b"/>
+        </svg>
+      </a>  
+      <a href="https://instagram.com/parabolacenter" title="Parabola Center Instagram" class="mr-4">
+        <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="23.96" height="23.954" viewBox="0 0 23.96 23.954">
+          <path id="Shape" d="M7.038,23.87a7.142,7.142,0,0,1-5.018-1.935A7.09,7.09,0,0,1,.084,16.916c-.113-1.978-.113-7.906,0-9.884A7.107,7.107,0,0,1,2.019,2.014,7.123,7.123,0,0,1,7.038.084c1.978-.113,7.906-.113,9.884,0a7.129,7.129,0,0,1,5.019,1.935,7.088,7.088,0,0,1,1.935,5.018c.112,1.978.112,7.9,0,9.878a7.137,7.137,0,0,1-1.935,5.019,7.09,7.09,0,0,1-5.019,1.935c-.989.056-2.965.084-4.942.084S8.027,23.926,7.038,23.87Z" transform="translate(0)" fill="#8b8b8b"/>
+        </svg>
+      </a>
+    </div>
+    <p class="text-parabolaGray text-2xs sm:text-base">Copyright &copy; 2023. All rights reserved</p>
+    </div>
+  </footer>
+</html>
