@@ -1,9 +1,9 @@
 ---
 title: "Major Cannabis Reform & Industry Non-Profits: Rescheduling Won’t Achieve Biden
 Administration’s Campaign Promise or Social Justice Goals"
-layout: layouts/op-ed
+layout: layouts/op-ed-no-pics
 mailchimp: false
-permalink: /biden-rescheduling-will-not-achieve-social-justice-coals/
+permalink: /biden-rescheduling-will-not-achieve-social-justice-goals/
 ---
 
 # {{ title }}
