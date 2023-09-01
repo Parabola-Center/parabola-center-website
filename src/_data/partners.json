@@ -378,13 +378,6 @@
       "background": true
     },
     {
-      "partnerName": "Kumer & Hopper Law",
-      "partnerDescription": "Kumer & Hopper Law, LLP is a women-owned and run law firm that specializes in legal practices including cannabis, non-profit, real estate, land use and municipal, agriculture, and environmental and sustainability services. It operates in New Jersey, New York, Massachusetts, Pennsylvania, and Florida.",
-      "partnerImage": "/img/kumer-and-hopper-law.webp",
-      "partnerWebsite": "#",
-      "background": false
-    },
-    {
       "partnerName": "Legally Great Academy",
       "partnerDescription": "Legally Great Academy, LLC, is a Black Woman-owned premiere educational and consulting platform that helps cannabis entrepreneurs take their businesses from conception to compliant operation by offering cannabis business courses, executive and employee training, self-development courses, as well as group and one-on-one consulting.",
       "partnerImage": "/img/legally-great-academy.webp",
@@ -488,6 +481,13 @@
       "partnerImage": "/img/ny-small-farma.webp",
       "partnerWebsite": "https://nysmallfarma.org",
       "background": true
+    },
+    {
+      "partnerName": "OliveOuid",
+      "partnerDescription": "OliveOuid is a curated marketing/PR and influencer community. It offers holistic business growth, providing expert assistance in product selling and fostering robust partnerships in wholesale, analytical testing, product/event promotion, and more. OliveOuid helps you make a lasting impression and lets your brand flourish.",
+      "partnerImage": "/img/olive-ouid-logo.png",
+      "partnerWebsite": "#",
+      "background": false
     },
     {
       "background": false,
