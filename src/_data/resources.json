@@ -155,6 +155,18 @@
   "policyHighlightTitle": "Highlighted Policy Title",
   "videos": [
     {
+      "title": "The Big Rescheduling Misconception",
+      "attribution": "By Shaleen Title via Patreon",
+      "snippet": "A﻿ccording to reporting in August 2023, President Biden's administration may change the federal status of marijuana. Here's why you shouldn't believe everything you hear about it.",
+      "url": "https://www.patreon.com/posts/88934426"
+    },
+    {
+      "title": "Interview with Killer Mike",
+      "url": "https://www.youtube.com/watch?v=gWDvJfznoMI",
+      "attribution": "2019 New West Summit",
+      "snippet": "In this fireside chat recorded live at New West Summit in 2019, Shaleen Title interviews Killer\nMike about the relationship between cannabis, art, and music; cannabis and entrepreneurship;\nand the ability to create change. He makes a compelling case that “fair” is more effective\nphrasing than social equity or social justice, and drops some wisdom and policy solutions to\naddress cannabis monopolies before they happen."
+    },
+    {
       "title": "Up In The Air: Residency Requirements in Cannabis Policy",
       "url": "https://www.youtube.com/watch?v=Anb5uDWpTsg",
       "attribution": "(2021 by Parabola Center in collaboration with The Ohio State University Drug Enforcement and Policy Center)",
@@ -177,12 +189,6 @@
       "url": "https://www.youtube.com/watch?v=Y_CO2ADjC58",
       "attribution": "Interview with Rep. Liz Miranda and Parabola Center",
       "snippet": "It was valuable for us to interview Massachusetts State Representative (now Senator) Liz\nMiranda about her views on drug policy. Along with Representative Mike Connolly, she\nintroduced a bill to repeal all criminal penalties for drug possession and make them civil\ninfractions. She lives in Roxbury near the area most well-known for drug enforcement and has\nconsistently advocated for her community and for incarcerated people."
-    },
-    {
-      "title": "Cannabis Policy and Leadership",
-      "url": "https://www.youtube.com/watch?v=gWDvJfznoMI",
-      "attribution": "Interview with Killer Mike",
-      "snippet": "In this fireside chat recorded live at New West Summit in 2019, Shaleen Title interviews Killer\nMike about the relationship between cannabis, art, and music; cannabis and entrepreneurship;\nand the ability to create change. He makes a compelling case that “fair” is more effective\nphrasing than social equity or social justice, and drops some wisdom and policy solutions to\naddress cannabis monopolies before they happen."
     }
   ],
   "content": "",
