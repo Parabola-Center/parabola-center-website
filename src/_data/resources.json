@@ -161,16 +161,16 @@
   "policyHighlightTitle": "Highlighted Policy Title",
   "videos": [
     {
-      "title": "The Big Rescheduling Misconception",
-      "attribution": "By Shaleen Title via Patreon",
-      "snippet": "A﻿ccording to reporting in August 2023, President Biden's administration may change the federal status of marijuana. Here's why you shouldn't believe everything you hear about it.",
-      "url": "https://www.patreon.com/posts/88934426"
-    },
-    {
       "title": "Interview with Killer Mike",
       "url": "https://www.youtube.com/watch?v=gWDvJfznoMI",
       "attribution": "2019 New West Summit",
       "snippet": "In this fireside chat recorded live at New West Summit in 2019, Shaleen Title interviews Killer\nMike about the relationship between cannabis, art, and music; cannabis and entrepreneurship;\nand the ability to create change. He makes a compelling case that “fair” is more effective\nphrasing than social equity or social justice, and drops some wisdom and policy solutions to\naddress cannabis monopolies before they happen."
+    },
+    {
+      "title": "The Big Rescheduling Misconception",
+      "attribution": "By Shaleen Title via Patreon",
+      "snippet": "A﻿ccording to reporting in August 2023, President Biden's administration may change the federal status of marijuana. Here's why you shouldn't believe everything you hear about it.",
+      "url": "https://www.patreon.com/posts/88934426"
     },
     {
       "title": "Up In The Air: Residency Requirements in Cannabis Policy",
