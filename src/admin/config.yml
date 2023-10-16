@@ -289,7 +289,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Attribution, name: attribution, widget: string }
               - { label: Snippet, name: snippet, widget: markdown }
-              - { label: URL, name: url, widget: string }
+              - { label: URL, name: url, widget: file }
       - label: "Shaleen Bio Page"
         name: "shaleen-title"
         file: "src/_data/shaleen-title.json"
