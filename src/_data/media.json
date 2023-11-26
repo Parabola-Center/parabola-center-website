@@ -1,17 +1,25 @@
 {
-  "contact": "## For media inquiries, contact <shaleen@parabolacenter.com>",
+  "contact": "## For media inquiries, contact [shaleen@parabolacenter.com](mailto:shaleen@parabolacenter.com)",
   "header": "Parabola Center In The News",
   "items": [
     {
       "url": "https://wapo.st/47nIM61",
-      "title": "Loosening Restrictions on Marijuana May Not Be Boon for Reform, Washington Post, November 22, 2023"
+      "title": "Loosening Restrictions on Marijuana May Not Be Boon for Reform, Washington Post, 11/22/2023"
     },
     {
-      "title": "New Report Aims To Protect Small Cannabis From Corporate Takeover, Forbes, 10/26/23",
+      "title": "How to Legalize Without Killing Small Businesses: A New Report Tackles the Problem, Politico, 10/25/2023",
+      "url": "https://subscriber.politicopro.com/article/2023/10/how-to-legalize-without-killing-small-businesses-a-new-report-tackles-the-problem-00123349"
+    },
+    {
+      "title": "Federal Marijuana Legalization Could Endanger State Markets Without Anti-Monopoly And Interstate Commerce Protections, Report Says, Marijuana Moment, 10/26/2023",
+      "url": "https://www.marijuanamoment.net/federal-marijuana-legalization-could-endanger-state-markets-without-anti-monopoly-and-interstate-commerce-protections-report-says/"
+    },
+    {
+      "title": "New Report Aims To Protect Small Cannabis From Corporate Takeover, Forbes, 10/26/2023",
       "url": "https://www.forbes.com/sites/lindseybartlett/2023/10/26/new-report-aims-to-protect-small-cannabis-from-corporate-takeover/?sh=5848eb8c49c5"
     },
     {
-      "title": "Elizabeth Warren Wants Marijuana Laws That Block Amazon And Big Tobacco From Monopolizing The Legal Industry, Marijuana Moment, 6/10/23",
+      "title": "Elizabeth Warren Wants Marijuana Laws That Block Amazon And Big Tobacco From Monopolizing The Legal Industry, Marijuana Moment, 6/10/2023",
       "url": "https://www.marijuanamoment.net/elizabeth-warren-wants-marijuana-laws-that-block-amazon-and-big-tobacco-from-monopolizing-the-legal-industry/#google_vignette"
     },
     {
