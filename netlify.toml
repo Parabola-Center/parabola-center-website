@@ -26,3 +26,15 @@
   to = "/pdf/big-tobacco-cheat-sheet.pdf"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/merch"
+  to = "https://withac.net/collections/parabola-center-for-law"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/merch/"
+  to = "https://withac.net/collections/parabola-center-for-law"
+  status = 302
+  force = false
