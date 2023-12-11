@@ -1,46 +1,209 @@
 ---
 layout: base
 ---
-<section class="parabola-grid donate">
-    <div class="big:parabola-cols-half parabola-cols-full">
-        {{ content | safe }}
-        <h1>{{ donate.heading }}</h1>
-        <p> {{donate.patreon }}</p>
-        <p>Learn more and become a patron <a href="https://patreon.com/parabolacenter">here</a>.</p>
-        <p>{{ donate.content }}</p>
-        <div class="donate-buttons"> 
-               
-            <p><button
-                class="submit-btn btn-1"
-                id="checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM" role="link" type="button">
-                Donate $25
-            </button></p>
-            
-            <p><button
-                class="submit-btn btn-1"
-                id="checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm" role="link" type="button">
-                Donate $100
-            </button></p>
-            
-            <p><button
-                class="submit-btn btn-1"
-                id="checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh" role="link" type="button">
-                Donate $500
-            </button></p>
-            
-            <p><button onclick="location.href='https://buy.stripe.com/14kbK80GrbS10FOaEI'" class="submit-btn btn-1" type="button">
-                Custom Amount
-            </button></p>           
-        </div>
-    </div>
-    <div class="parabola-cols-full big:parabola-cols-half">
-        <img class="max-width" src="{{donate.image}}" alt="Photo of water" />
-    </div>
-    <div class="parabola-cols-full big:parabola-cols-half">
-    
-        <div id="error-message"></div>
-    </div>
 
+<section class="parabola-grid donate">
+  <div class="big:parabola-cols-half parabola-cols-full">
+    {{ content | safe }}
+    <h1>{{ donate.heading }}</h1>
+    <p>{{donate.patreon }}</p>
+    <p>
+      Learn more and become a patron
+      <a href="https://patreon.com/parabolacenter">here</a>.
+    </p>
+    <p>{{ donate.content }}</p>
+    <div class="donate-buttons">
+      <p>
+        <button
+          class="submit-btn btn-1"
+          id="checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM"
+          role="link"
+          type="button"
+        >
+          Donate $25
+        </button>
+      </p>
+
+      <p>
+        <button
+          class="submit-btn btn-1"
+          id="checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm"
+          role="link"
+          type="button"
+        >
+          Donate $100
+        </button>
+      </p>
+
+      <p>
+        <button
+          class="submit-btn btn-1"
+          id="checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh"
+          role="link"
+          type="button"
+        >
+          Donate $500
+        </button>
+      </p>
+
+      <p>
+        <button
+          onclick="location.href='https://buy.stripe.com/14kbK80GrbS10FOaEI'"
+          class="submit-btn btn-1"
+          type="button"
+        >
+          Custom Amount
+        </button>
+      </p>
+    </div>
+  </div>
+  <div class="parabola-cols-full big:parabola-cols-half">
+    <img class="max-width" src="{{donate.image}}" alt="Photo of water" />
+  </div>
+  <div class="parabola-cols-full big:parabola-cols-half">
+    <div id="error-message"></div>
+  </div>
 </section>
 
+<script>
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM")
+    .addEventListener("click", function () {
+      !(function (s, a, e, v, n, t, z) {
+        if (s.saq) return;
+        n = s.saq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!s._saq) s._saq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "1.0";
+        n.queue = [];
+        t = a.createElement(e);
+        t.async = !0;
+        t.src = v;
+        z = a.getElementsByTagName(e)[0];
+        z.parentNode.insertBefore(t, z);
+      })(
+        window,
+        document,
+        "script",
+        "https://tags.srv.stackadapt.com/events.js"
+      );
+      saq("conv", "XpM3WIv0cXiDzKH0vCHs4n");
+    });
 
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm")
+    .addEventListener("click", function () {
+      !(function (s, a, e, v, n, t, z) {
+        if (s.saq) return;
+        n = s.saq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!s._saq) s._saq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "1.0";
+        n.queue = [];
+        t = a.createElement(e);
+        t.async = !0;
+        t.src = v;
+        z = a.getElementsByTagName(e)[0];
+        z.parentNode.insertBefore(t, z);
+      })(
+        window,
+        document,
+        "script",
+        "https://tags.srv.stackadapt.com/events.js"
+      );
+      saq("conv", "XpM3WIv0cXiDzKH0vCHs4n");
+    });
+
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM")
+    .addEventListener("click", function () {
+      !(function (s, a, e, v, n, t, z) {
+        if (s.saq) return;
+        n = s.saq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!s._saq) s._saq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "1.0";
+        n.queue = [];
+        t = a.createElement(e);
+        t.async = !0;
+        t.src = v;
+        z = a.getElementsByTagName(e)[0];
+        z.parentNode.insertBefore(t, z);
+      })(
+        window,
+        document,
+        "script",
+        "https://tags.srv.stackadapt.com/events.js"
+      );
+      saq("conv", "XpM3WIv0cXiDzKH0vCHs4n");
+    });
+
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh")
+    .addEventListener("click", function () {
+      !(function (s, a, e, v, n, t, z) {
+        if (s.saq) return;
+        n = s.saq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!s._saq) s._saq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "1.0";
+        n.queue = [];
+        t = a.createElement(e);
+        t.async = !0;
+        t.src = v;
+        z = a.getElementsByTagName(e)[0];
+        z.parentNode.insertBefore(t, z);
+      })(
+        window,
+        document,
+        "script",
+        "https://tags.srv.stackadapt.com/events.js"
+      );
+      saq("conv", "XpM3WIv0cXiDzKH0vCHs4n");
+    });
+
+  // Linktrk attributes to donate buttons:
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM")
+    .addEventListener("click", function () {
+      window.lintrk("track", { conversion_id: 15134420 });
+    });
+
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm")
+    .addEventListener("click", function () {
+      window.lintrk("track", { conversion_id: 15134420 });
+    });
+
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM")
+    .addEventListener("click", function () {
+      window.lintrk("track", { conversion_id: 15134420 });
+    });
+
+  document
+    .getElementById("checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh")
+    .addEventListener("click", function () {
+      window.lintrk("track", { conversion_id: 15134420 });
+    });
+</script>
