@@ -2,53 +2,53 @@
 layout: base
 ---
 
+<div class="banner">
+  Save the Date: Our second annual crash course will take place in Providence,
+  Rhode Island on Saturday July 13, 2024! Join our email list for details:
+  <a href="https://www.parabolacenter.com/signup/"
+    >https://www.parabolacenter.com/signup/</a
+  >
+</div>
 <div class="two-column">
   <!--Experience-->
   <section class="index-policy">
     <div>
       <h1>{{index.header1}}</h1>
       <p>{{index.policy}}</p>
-      <a href="{{index.button1Link}}"><button class="btn-1">{{index.buttonText}}</button></a>
+      <a href="{{index.button1Link}}"
+        ><button class="btn-1">{{index.buttonText}}</button></a
+      >
     </div>
   </section>
   <!--Services-->
   <section class="index-services">
     <div>
       <h1>{{index.header2}}</h1>
-      <p>{{index.services}}
-      </p>
-      <a href="{{index.button2Link}}"><button class="btn-1">{{index.buttonText}}</button></a>
+      <p>{{index.services}}</p>
+      <a href="{{index.button2Link}}"
+        ><button class="btn-1">{{index.buttonText}}</button></a
+      >
     </div>
   </section>
 </div>
 <!-- First paragraph of `About` & Link -->
 <section class="center-copy-large index-about">
-  <p>
-    {{index.about}}
-  </p>
+  <p>{{index.about}}</p>
   <a href="{{index.aboutLink}}">{{index.aboutLinkText}}</a>
 </section>
 <section>
   <div class="alt-grid">
     <div class="alt-one">
-      <div class="grid-card">
-        {{ index.card_one | markdown | safe }}
-      </div>
+      <div class="grid-card">{{ index.card_one | markdown | safe }}</div>
     </div>
     <div class="alt-two">
-      <div class="grid-card">
-        {{ index.card_two | markdown | safe }}
-      </div>
+      <div class="grid-card">{{ index.card_two | markdown | safe }}</div>
     </div>
     <div class="alt-three">
-      <div class="grid-card">
-        {{ index.card_three | markdown | safe }}
-      </div>
+      <div class="grid-card">{{ index.card_three | markdown | safe }}</div>
     </div>
     <div class="alt-four">
-      <div class="grid-card">
-        {{ index.card_four | markdown | safe }}
-      </div>
+      <div class="grid-card">{{ index.card_four | markdown | safe }}</div>
     </div>
   </div>
 </section>
@@ -56,10 +56,11 @@ layout: base
 <!-- Article Card Reel -->
 <section class="parabola-grid pdf">
   {% for item in index.articles %}
-  <a class="parabola-cols-full big:parabola-cols-quarter text-center"
-    href="{{item.url}}">
-      {{item.title}}
+  <a
+    class="parabola-cols-full big:parabola-cols-quarter text-center"
+    href="{{item.url}}"
+  >
+    {{item.title}}
   </a>
   {% endfor %}
- 
 </section>
