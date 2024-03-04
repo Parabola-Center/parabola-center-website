@@ -192,6 +192,13 @@
       "background": true
     },
     {
+      "background": false,
+      "partnerDescription": "The Diaspora Alliance for Cannabis Opportunities (DACO) champions equitable policies and opportunities for communities throughout the diaspora . DACO leads with education and advocacy and has offered a free conference since 2016. DACO seeks to help rectify injustices and empower marginalized communities by promoting inclusivity and economic empowerment.",
+      "partnerWebsite": "https://www.blackcannabisweek.com/",
+      "partnerName": "DACO",
+      "partnerImage": "/img/daco.png"
+    },
+    {
       "partnerName": "Different Leaf",
       "partnerDescription": "Part reference, part lifestyle guide, and never stuffy, Different Leaf's award-winning design and editorial is high-quality, thought-provoking, and authoritative on the issues of legalized cannabis, and crafted to be useful to those who have little to some experience with cannabis, and are drawn to incorporating it more into their lives.",
       "partnerImage": "/img/different-leaf-500x500.webp",
