@@ -346,7 +346,7 @@
       "partnerImage": "/img/jersey-extracts.webp"
     },
     {
-      "background": false,
+      "background": true,
       "partnerWebsite": "https://kapnoscannaco.com/",
       "partnerName": "Kapnos Cannabis Co.",
       "partnerImage": "/img/kapnos-black-logo-brian-striar.png",
