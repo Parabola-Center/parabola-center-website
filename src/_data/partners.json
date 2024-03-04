@@ -40,13 +40,6 @@
       "background": false
     },
     {
-      "background": false,
-      "partnerName": "ATNPA",
-      "partnerDescription": "All Together Now Pennsylvania unites rural and urban communities to build resilient regional economies that are self-reliant in basic needs, in order to increase community wealth and equity, reduce carbons, and prepare for climate change. We lead the P3 Campaign (Pot Profits for PA) to call for socially equitable adult use cannabis legislation.",
-      "partnerWebsite": "https://www.alltogethernowpa.org",
-      "partnerImage": "/img/atnp.webp"
-    },
-    {
       "partnerName": "Bay State Extracts",
       "partnerDescription": "Bay State Hemp Company (dba Bay State Extracts) is a Massachusetts-based small family owned processing facility dedicated to the isolation of minor and rare cannabinoids from hemp with a determined mission of proliferating every beneficial molecule that cannabis stands to offer in the name of patient and adult access.",
       "partnerImage": "/img/bay-state-extracts.webp",
@@ -678,6 +671,13 @@
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerDescription": "Women's Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
       "partnerWebsite": "https://womenendingprohibition.org"
+    },
+    {
+      "background": false,
+      "partnerWebsite": "https://kapnoscannaco.com/",
+      "partnerName": "Kapnos Cannabis Co.",
+      "partnerImage": "/img/kapnos-black-logo-brian-striar.png",
+      "partnerDescription": "Kapnos is a legacy, women-owned, family-operated business in Massachusetts driven by a vision to cultivate a world where the healing properties of cannabis are accessible to all. We believe in the inherent potential of the plant to provide natural healing and wellness. Peace, love, and Kapnos!"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
