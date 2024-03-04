@@ -346,6 +346,13 @@
       "partnerImage": "/img/jersey-extracts.webp"
     },
     {
+      "background": false,
+      "partnerWebsite": "https://kapnoscannaco.com/",
+      "partnerName": "Kapnos Cannabis Co.",
+      "partnerImage": "/img/kapnos-black-logo-brian-striar.png",
+      "partnerDescription": "Kapnos is a legacy, women-owned, family-operated business in Massachusetts driven by a vision to cultivate a world where the healing properties of cannabis are accessible to all. We believe in the inherent potential of the plant to provide natural healing and wellness. Peace, love, and Kapnos!"
+    },
+    {
       "partnerName": "KindRun",
       "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
       "partnerImage": "/img/kind-run-2.webp",
@@ -671,13 +678,6 @@
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerDescription": "Women's Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
       "partnerWebsite": "https://womenendingprohibition.org"
-    },
-    {
-      "background": false,
-      "partnerWebsite": "https://kapnoscannaco.com/",
-      "partnerName": "Kapnos Cannabis Co.",
-      "partnerImage": "/img/kapnos-black-logo-brian-striar.png",
-      "partnerDescription": "Kapnos is a legacy, women-owned, family-operated business in Massachusetts driven by a vision to cultivate a world where the healing properties of cannabis are accessible to all. We believe in the inherent potential of the plant to provide natural healing and wellness. Peace, love, and Kapnos!"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
