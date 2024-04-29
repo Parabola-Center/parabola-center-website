@@ -212,6 +212,13 @@
       "background": true
     },
     {
+      "background": false,
+      "partnerName": "Drug Policy Alliance",
+      "partnerDescription": "The Drug Policy Alliance is the leading organization in the U.S. working to end the drug war, repair its harms, and build a non-punitive, equitable, and regulated drug market. DPA envisions a world that embraces the full humanity of people, regardless of their relationship to drugs. It advocates that the regulation of drugs be grounded in evidence, health, equity, and human rights. In collaboration with other movements and at every policy level, DPA changes laws, advances justice, and saves lives. ",
+      "partnerImage": "/img/dpa-logo.png",
+      "partnerWebsite": "https://drugpolicy.org/"
+    },
+    {
       "partnerName": "ELEVATE Northeast",
       "partnerDescription": "ELEVATE Northeast is a MA-based, women-founded 501(c)(3) nonprofit organization created to support the Northeast US's growing cannabis industry and the corresponding need for workforce and community education, advocacy, and networking. ELEVATE Northeast provides a variety of exceptional events and educational experiences that connect attendees and elevate the perception of what cannabis professionals are and can do.",
       "partnerImage": "/img/elevate-northeast.webp",
@@ -692,6 +699,13 @@
       "partnerImage": "/img/womens-organization-for-prohibition-reform.webp",
       "partnerDescription": "Women's Organization for National Prohibition Reform® is a global organization dedicated to the advancement, education, and empowerment of women. As a nonpartisan nonprofit, WONPR provides mentorship, logistical support and financial backing to women who are actively working to reverse the harms of prohibition. ",
       "partnerWebsite": "https://womenendingprohibition.org"
+    },
+    {
+      "background": false,
+      "partnerName": "Zèb Boutique",
+      "partnerDescription": "Zèb Boutique is not merely a boutique-style cannabis retail destination; it is a movement. Zèb Boutique believes in the transformative power of cannabis to enrich lives. Its mission extends beyond offering high-quality, responsibly sourced products — it's about fostering a movement that celebrates diversity, encourages personal growth, and champions the healing power of nature.",
+      "partnerImage": "/img/zeb.jpg",
+      "partnerWebsite": "www.shopzeb.com"
     }
   ],
   "quoteAuthor2": "Geoffrey Pizzutillo",
