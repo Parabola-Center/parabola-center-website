@@ -49,4 +49,16 @@
   from = "/peopleoverprofits/"
   to = "https://www.eventbrite.com/e/people-over-profits-anti-monopoly-cannabis-reform-crash-course-tickets-893952575217"
   status = 302
-  force = false 
+  force = false
+
+[[redirects]]
+  from = "/leadership"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSfYuThKZAffgtzS83lFKmKyQpUsRWwHhEJd5d6UWpNUFluSZw/viewform"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/leadership/"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSfYuThKZAffgtzS83lFKmKyQpUsRWwHhEJd5d6UWpNUFluSZw/viewform"
+  status = 302
+  force = false
