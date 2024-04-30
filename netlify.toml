@@ -38,3 +38,15 @@
   to = "https://withac.net/collections/parabola-center-for-law"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/peopleoverprofits"
+  to = "https://www.eventbrite.com/e/people-over-profits-anti-monopoly-cannabis-reform-crash-course-tickets-893952575217"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/peopleoverprofits/"
+  to = "https://www.eventbrite.com/e/people-over-profits-anti-monopoly-cannabis-reform-crash-course-tickets-893952575217"
+  status = 302
+  force = false 
