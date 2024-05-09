@@ -88,13 +88,6 @@
       "background": false
     },
     {
-      "background": false,
-      "partnerName": "Cannabis Corporate Law",
-      "partnerImage": "/img/cannabis-corporate-law-firm.webp",
-      "partnerDescription": "The Cannabis Corporate Law Firm is a boutique business and real estate law firm, representing a wide variety of individuals and companies throughout California. With a client-focused practice, the firm provides legal services such as structuring business entities, due diligence, and transactions while maintaining professional responsibility and ethical standards.",
-      "partnerWebsite": "https://cannabiscorplaw.com/"
-    },
-    {
       "partnerName": "Cannabis Noire",
       "partnerDescription": "Cannabis Noire is a black woman owned platform dedicated to creating safe and equitable access to the both the cannabis industry and medicinal community for systematically disadvantaged groups. With a focus on advocating for communities impacted by the war on drugs, Cannabis Noire aims to connect cannabis to the community in a meaningful and organic way.",
       "partnerImage": "/img/cannabis-noire-sheena-roberson.webp",
@@ -122,13 +115,6 @@
       "partnerWebsite": "https://www.calyxberkshire.com"
     },
     {
-      "partnerName": "CBA",
-      "partnerDescription": "The Cannabis Business Alliance is a B2B membership community of historically under-resourced solopreneurs and bootstrappers in the ancillary cannabis and hemp space. CBA's mission is to expand member opportunities and ensure equitable access in the creation and implementation of policy.",
-      "partnerImage": "/img/cannabis-business-alliance.webp",
-      "partnerWebsite": "https://cannabisbusinessalliances.com",
-      "background": true
-    },
-    {
       "partnerName": "CCOE",
       "partnerDescription": "The Cannabis Center of Excellence, Inc. is a nonprofit organization that conducts medical cannabis and adult-use cannabis research studies and educational programs in the areas of community engagement, medical cannabis, adult-use cannabis, and social justice in cannabis. The CCOE leads a research study for veterans called iCount with the University of MA Dartmouth and Patriots Helping Vets.",
       "partnerImage": "/img/cannabis-center-of-excellence.webp",
@@ -148,13 +134,6 @@
       "partnerImage": "/img/cn-new-logo_red-felicia-santiago.png",
       "partnerDescription": "Chicago NORML is a 501(c)(3) cannabis advocacy non-profit since 2017. Our vision is for Chicago to be the most diverse cannabis industry globally.  We work to empower individuals, businesses, and organizations to participate in the legislative process to create a diverse and inclusive cannabis market.",
       "partnerWebsite": "www.chicagonorml.org"
-    },
-    {
-      "partnerName": "Civera Software",
-      "partnerDescription": "Civera Software provides technology to build a better democracy by making civic information more available to everyday people, and to improve government transparency and accountability. Civera believes that access to government data is a human right, and building generous and meaningful public access will lead to a better world.",
-      "partnerImage": "/img/civera.webp",
-      "partnerWebsite": "https://civera.com/",
-      "background": true
     },
     {
       "background": false,
@@ -353,25 +332,11 @@
       "partnerWebsite": "jess-sun.com"
     },
     {
-      "background": false,
-      "partnerName": "Jersey Extracts",
-      "partnerDescription": "JerseyExtracts.com is a minority family-owned and operated cannabis extraction business founded by Dhaval Shah and his wife, Shafali Shah. JerseyExtracts.com prides themselves by making products that are all-natural and free from harmful chemicals, and they use only the highest quality cannabis plants to create their products.",
-      "partnerWebsite": "#",
-      "partnerImage": "/img/jersey-extracts.webp"
-    },
-    {
       "background": true,
       "partnerWebsite": "https://kapnoscannaco.com/",
       "partnerName": "Kapnos Cannabis Co.",
       "partnerImage": "/img/kapnos-black-logo-brian-striar.png",
       "partnerDescription": "Kapnos is a legacy, women-owned, family-operated business in Massachusetts driven by a vision to cultivate a world where the healing properties of cannabis are accessible to all. Kapnos believes in the inherent potential of the plant to provide natural healing and wellness. Peace, love, and Kapnos!"
-    },
-    {
-      "partnerName": "KindRun",
-      "partnerDescription": "KindRun is a social equity, veteran-owned and female-led delivery business. Its mission is to provide convenient, seamless home delivery of cannabis products across Massachusetts from a high-quality e-commerce platform. KindRun supports a diverse and accessible cannabis market and seeks to normalize responsible cannabis use by adults.",
-      "partnerImage": "/img/kind-run-2.webp",
-      "partnerWebsite": "https://www.kindrun.com/",
-      "background": true
     },
     {
       "background": false,
@@ -400,13 +365,6 @@
       "partnerWebsite": "https://www.lowd.com/"
     },
     {
-      "partnerName": "Mahajan Consulting",
-      "partnerDescription": "Mahajan Consulting is minority-owned and woman-owned, advising small and legacy operators, amplifying small business concerns to policymakers, and serving as a strategic advisor to grassroots organizations and campaigns. Menaka specializes in political economy research, public policy education, and values-driven policy reform.",
-      "partnerImage": "/img/mahajan-consulting-logo.webp",
-      "partnerWebsite": "https://www.mahajanconsulting.com",
-      "background": true
-    },
-    {
       "partnerName": "Major Bloom, LLC",
       "partnerDescription": "Major Bloom is rooted in transforming authentic legacy experiences into the regulated market. Major Bloom is vertically integrated through Manufacturing, Retail, and Home Deliver operations in Worcester, MA, where these licenses co-locate under one roof. Additionally, they amplify and distribute authentic cannabis stores through Radio and Podcast shows.",
       "partnerImage": "/img/major-bloom.webp",
@@ -427,23 +385,10 @@
       "partnerWebsite": "https://maryandmain.com/"
     },
     {
-      "partnerName": "The Mensing Group",
-      "partnerDescription": "The Mensing Group, LLC, is a cannabis advisory firm that provides sound guidance to some of the most exciting cannabis business ventures in Massachusetts. As founder and attorney Blake Mensing puts it, he’s not interested in “clients growing mids to make a quick million.”",
-      "partnerImage": "/img/mensing-group.webp",
-      "partnerWebsite": "https://www.mensinggroup.com#"
-    },
-    {
       "partnerName": "MCR Labs",
       "partnerDescription": "As one of the first independent cannabis testing labs established on the East Coast, MCR is proud to offer analytical testing and R&D services to licensed MMJ and adult-use cannabis producers, patients, doctors, researchers, and homegrowers.  MCR Labs partners with advocacy groups, educators, and fellow researchers to inform the public and encourage safe consumption practices.",
       "partnerImage": "/img/mcr-logo-purp_grey.webp",
       "partnerWebsite": "https://mcrlabs.com/"
-    },
-    {
-      "background": false,
-      "partnerName": "MIZE Counsel",
-      "partnerImage": "/img/mize.webp",
-      "partnerDescription": "MIZE Counsel is a multifaceted legal &amp; consulting service that focuses on supporting civil rights litigation, small business formation, and providing legal guidance on health &amp; wellness industry regulations. It provides direct legal representation for clients seeking expungement &amp; sealing of prior criminal records under state and federal laws.",
-      "partnerWebsite": "https://mizecounsel.com "
     },
     {
       "partnerName": "Morem & Waller, CPAs",
@@ -610,13 +555,6 @@
       "background": true
     },
     {
-      "partnerName": "Strain Station",
-      "partnerDescription": "Strain Station, LLC, is a Black Female owned adult-use cannabis business with planned retail operations in Cambridge, Massachusetts. Strain Station believes that the best weed comes from people who love weed, and that's what we're here to do: spread the seed. Strain Station: the only stop you'll need to make.",
-      "partnerImage": "/img/strain-station-transparent.png",
-      "partnerWebsite": "https://www.strainstationcannabis.com/",
-      "background": false
-    },
-    {
       "partnerName": "Supernova Women",
       "partnerDescription": "Supernova Women is a 501(c)3 nonprofit organization founded in 2015 by Black and Brown women that works to empower Black and Brown people to become self-sufficient shareholders in the cannabis and natural plant medicine space through education, advocacy, and network building.",
       "partnerImage": "/img/supernova-women-sq-logo.webp",
@@ -653,12 +591,6 @@
       "partnerImage": "/img/transform.svg",
       "partnerDescription": "Transform is an independent charity based in the UK working towards a just and effective system of legal regulation for all drugs. Their vision is a world where drug policy contributes to safer and healthier societies. Through their Anyone's Child campaign, they provide opportunities for people with personal experiences of drug policy failures to be heard.",
       "partnerWebsite": "https://transformdrugs.org"
-    },
-    {
-      "partnerName": "Underground Legacy",
-      "partnerDescription": "Underground Legacy is a social impact marijuana establishment that looks to use its platform to center the socioeconomic ills facing our community. Our mission at Underground Legacy is to develop and implement solutions to positively impact members of the community that have been disenfranchised by the war on drugs.",
-      "partnerImage": "/img/underground-legacy.webp",
-      "partnerWebsite": "#"
     },
     {
       "partnerName": "Veridis Quo",
