@@ -65,12 +65,12 @@
 
 [[redirects]]
   from = "/survey"
-  to = /pdf/American%20Values%20and%20Beliefs%20About%20Legalization.pdf
+  to = "/pdf/American%20Values%20and%20Beliefs%20About%20Legalization.pdf"
   status = 302
   force = false
 
 [[redirects]]
   from = "/survey/"
-  to = /pdf/American%20Values%20and%20Beliefs%20About%20Legalization.pdf
+  to = "/pdf/American%20Values%20and%20Beliefs%20About%20Legalization.pdf"
   status = 302
   force = false
