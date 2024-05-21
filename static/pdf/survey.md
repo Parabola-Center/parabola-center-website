@@ -1,4 +1,4 @@
 ---
-title: Survey
-file: /img/research-american-values-and-beliefs-in-legalization-5.20.24.pdf
+title: American Values and Beliefs About Legalization
+file: /img/survey.pdf
 ---
