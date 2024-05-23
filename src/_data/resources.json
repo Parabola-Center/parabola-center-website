@@ -32,10 +32,22 @@
   "header4": "Cheat Sheets",
   "portfolio": [
     {
+      "title": "Report: American Values and Beliefs on Marijuana Legalization:",
+      "attribution": "(2024 by Parabola Center in collaboration with RTI International)",
+      "snippet": "T﻿his survey research -- to our knowledge, the first of its type -- looks at what American adults think about legalization. American adults don't trust tobacco, alcohol, or pharmaceutical companies to create good cannabis policy. We found that they trust people who have lived experience and who use marijuana to create good cannabis policy. When we asked who should benefit from cannabis legalization, they responded that they want to see people who use marijuana, workers in the industry, and people harmed by previous enforcement to benefit. Social equity and ending arrests ranked highest among the concerns of respondents.\n\n<!--EndFragment-->",
+      "url": "parabolacenter.com/survey"
+    },
+    {
       "url": "/img/interstate.pdf",
       "title": "How to Federally Legalize Cannabis Without Violating the Constitution or Undermining Equity and Justice",
       "attribution": "(2023, a Parabola Center project by Tamar Todd)",
       "snippet": "This report outlines concerns that federal marijuana legalization would wipe out current state markets and replace them with a national monopoly. It provides a blueprint for Congress to protect the almost 10,000 small businesses that make up most of the legal market in states and the hundreds of thousands of jobs they provide. We suggest three constitutional policy solutions and model language that would protect states' efforts toward equity and justice, and preserve the progress these states have already made in those areas."
+    },
+    {
+      "title": "Anti-Monopoly Toolkit",
+      "attribution": "(2023, by Parabola Center with insight from the American Economic Liberties Project, Economic Security Project, and the National Association of Black Cannabis Lawyers)",
+      "snippet": "If you are concerned that big businesses are taking over the cannabis industry and you want to take action to prevent it from getting worse, this toolkit is for you. The national monopolization of cannabis is a big issue to tackle. But there’s good news: It’s easier to prevent it from happening in the first place than it is to fix it after the fact. The purpose of this toolkit is to provide an educational resource for anyone with a stake in the outcome of this multibillion-dollar market – legislators, regulators, adult consumers, medical cannabis patients, or any concerned citizen who doesn’t want to see yet more domination and destruction caused by national cannabis corporations and by Big Tobacco, Big Alcohol, and Big Pharma.",
+      "url": "/img/anti-monopoly-marijuana-toolkit.pdf"
     },
     {
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4578161",
