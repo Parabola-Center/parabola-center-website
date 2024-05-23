@@ -88,6 +88,13 @@
       "background": false
     },
     {
+      "background": false,
+      "partnerName": "The Canna Mom Show",
+      "partnerImage": "/img/logo.2-joyce-gerber.jpg",
+      "partnerDescription": "The Canna Mom Show is a podcast that highlights the stories of women building the emerging cannabis industry. Our mission is to crush the stigma around cannabis and caregivers by sharing and preserving their stories of love, kindness, wisdom and hope.",
+      "partnerWebsite": "https://www.thecannamomshow.com"
+    },
+    {
       "partnerName": "Cannabis Noire",
       "partnerDescription": "Cannabis Noire is a black woman owned platform dedicated to creating safe and equitable access to the both the cannabis industry and medicinal community for systematically disadvantaged groups. With a focus on advocating for communities impacted by the war on drugs, Cannabis Noire aims to connect cannabis to the community in a meaningful and organic way.",
       "partnerImage": "/img/cannabis-noire-sheena-roberson.webp",
