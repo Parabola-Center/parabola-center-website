@@ -228,6 +228,13 @@ collections:
           - label: "Content"
             name: "content"
             widget: "markdown"
+      - label: "Crash Course FAQ"
+        name: "crashcoursefaq"
+        file: "src/_data/crashcoursefaq.json"
+        fields:
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
       - label: "Resources Page"
         name: "resources"
         file: "src/_data/resources.json"
