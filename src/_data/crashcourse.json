@@ -36,6 +36,12 @@
       "category": "HOST"
     },
     {
+      "name": "Dr. Leo Beletsky",
+      "bio": "Professor Leo Beletsky holds an interdisciplinary appointment with the School of Law and Bouvé College of Health Sciences at Northeastern University. His expertise is on the public health impact of laws and their enforcement, with special focus on substance use and addiction, infectious disease, occupational safety of first responders, and policing as a structural determinant of health. Professor Beletsky is a frequent media commentator on harm reduction approaches to address North America’s overdose crisis, as well as other issues at the intersection of public health and public safety. Those intersections also define the project portfolio of The Action Lab at the Center for Health Policy and Law, which he founded and directs at the School of Law.",
+      "category": "SPEAKER",
+      "image": "/img/leo.jpg"
+    },
+    {
       "name": "Tauhid Chappell",
       "category": "SPECIAL GUEST",
       "bio": "Tauhid Chappell is an Organizer for the Philadelphia CannaBusiness Association, Pennsylvania’s first Black-owned, Black-led cannabis nonprofit aimed at healing the damage done by cannabis prohibition. He is also an Executive Board Member and a credentialed Parliamentarian of the Philadelphia Association of Black Journalists, the first and oldest association of Black journalists in the country. An 8-year veteran of the media industry, he’s worked as a social media editor at The Washington Post, joined the Philadelphia Inquirer as an audience engagement editor, and now works in Philadelphia for Free Press.",
@@ -68,7 +74,7 @@
     {
       "name": "Kassandra Frederique",
       "image": "/img/kassandra-frederique.webp",
-      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
+      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. ",
       "category": "SPEAKER"
     },
     {
