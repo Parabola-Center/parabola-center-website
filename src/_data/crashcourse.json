@@ -24,34 +24,10 @@
       "category": "HOST"
     },
     {
-      "name": "Kassandra Frederique",
-      "image": "/img/kassandra-frederique.webp",
-      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Commissioner Julie Hulburd",
-      "image": "/img/julie-hulburd.webp",
-      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
-      "category": "SPEAKER"
-    },
-    {
       "name": "Danielle Schumacher",
       "image": "/img/danielle-schumacher.webp",
       "bio": "Danielle Schumacher is chief of staff for Parabola Center and the founder and CEO of THC Staffing Group, a cannabis industry recruiting firm. She works to create a fair and equitable cannabis sector through a mentorship nationally as well as a coaching program specifically for people harmed by the war on drugs.",
       "category": "HOST"
-    },
-    {
-      "name": "Dr. Staci Gruber",
-      "image": "/img/staci-gruber.jpg",
-      "bio": "Dr. Staci Gruber is the Director of the Cognitive and Clinical Neuroimaging Core and Marijuana Investigations for Neuroscientific Discovery (MIND) program at McLean Hospital’s Brain Imaging Center and an Associate Professor of Psychiatry at Harvard Medical School. Dr. Gruber’s research focuses on the application of neurocognitive models and multimodal brain imaging to better characterize neurobiological risk factors for substance use and psychiatric conditions, and to assess the impact of cannabis and cannabinoid exposure on outcomes related to brain health, cognition, and clinical state.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Pat Garofalo",
-      "image": "/img/pat-garofalo.jpg",
-      "bio": "Pat Garofalo is the Director of State and Local Policy at the American Economic Liberties Project and Fight Corporate Monopolies. Pat is the author of The Billionaire Boondoggle: How Our Politicians Let Corporations and Bigwigs Steal Our Money and Jobs. Previously, Pat was assistant managing editor for opinion at U.S. News & World Report and economic policy editor at ThinkProgress. He has written for publications including The New York Times, The Washington Post, The Wall Street Journal, The Nation, The Guardian, The Atlantic, and The Week, and currently writes the Boondoggle newsletter on Substack.",
-      "category": "SPEAKER"
     },
     {
       "name": "Tauhid Chappell",
@@ -66,15 +42,9 @@
       "category": "PANELIST"
     },
     {
-      "name": "Jason Ortiz",
-      "image": "/img/jason-ortiz.webp",
-      "bio": "Jason Ortiz is the Director of Strategic Initiatives for the Last Prisoner Project  Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate. He was one of the founding board Members of the Minority Cannabis Business Association and is the immediate past Executive Director of Students for Sensible Drug Policy. In addition to his drug policy activism, Jason sits on the board of the CT Working Families Party and has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Chelsea Higgs Wise",
-      "image": "/img/chelsea-higgs-wise.webp",
-      "bio": "Racial justice organizer Chelsea Higgs Wise is executive director of the Virginia-based advocacy organization Marijuana Justice. A clinical social worker for ten years before transitioning to help organizations create equitable policies for community safety, Chelsea influenced criminal justice policies adopted in Virginia to include civilian oversight mental health crisis response measures. In an effort to address disparities in cannabis law enforcement, Chelsea co-founded Marijuana Justice in 2019 and led a campaign to make Virginia the first state in the U.S. South to undo prohibition and legalize home cultivation.",
+      "name": "Pat Garofalo",
+      "image": "/img/pat-garofalo.jpg",
+      "bio": "Pat Garofalo is the Director of State and Local Policy at the American Economic Liberties Project and Fight Corporate Monopolies. Pat is the author of The Billionaire Boondoggle: How Our Politicians Let Corporations and Bigwigs Steal Our Money and Jobs. Previously, Pat was assistant managing editor for opinion at U.S. News & World Report and economic policy editor at ThinkProgress. He has written for publications including The New York Times, The Washington Post, The Wall Street Journal, The Nation, The Guardian, The Atlantic, and The Week, and currently writes the Boondoggle newsletter on Substack.",
       "category": "SPEAKER"
     },
     {
@@ -84,9 +54,27 @@
       "category": "SPEAKER"
     },
     {
-      "name": "Chris Michalakis",
-      "image": "/img/chris-michalakis.webp",
-      "bio": "Chris Michalakis has served multiple roles at the United Food and Commercial Workers International Union, currently serving as a Federal Legislative Representative. He has previously served as President of the Metro Detroit AFL-CIO, and as UFCW Michigan’s Legislative and Political Director.",
+      "name": "Dr. Staci Gruber",
+      "image": "/img/staci-gruber.jpg",
+      "bio": "Dr. Staci Gruber is the Director of the Cognitive and Clinical Neuroimaging Core and Marijuana Investigations for Neuroscientific Discovery (MIND) program at McLean Hospital’s Brain Imaging Center and an Associate Professor of Psychiatry at Harvard Medical School. Dr. Gruber’s research focuses on the application of neurocognitive models and multimodal brain imaging to better characterize neurobiological risk factors for substance use and psychiatric conditions, and to assess the impact of cannabis and cannabinoid exposure on outcomes related to brain health, cognition, and clinical state.",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Kassandra Frederique",
+      "image": "/img/kassandra-frederique.webp",
+      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Chelsea Higgs Wise",
+      "image": "/img/chelsea-higgs-wise.webp",
+      "bio": "Racial justice organizer Chelsea Higgs Wise is executive director of the Virginia-based advocacy organization Marijuana Justice. A clinical social worker for ten years before transitioning to help organizations create equitable policies for community safety, Chelsea influenced criminal justice policies adopted in Virginia to include civilian oversight mental health crisis response measures. In an effort to address disparities in cannabis law enforcement, Chelsea co-founded Marijuana Justice in 2019 and led a campaign to make Virginia the first state in the U.S. South to undo prohibition and legalize home cultivation.",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Commissioner Julie Hulburd",
+      "image": "/img/julie-hulburd.webp",
+      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
       "category": "SPEAKER"
     },
     {
@@ -96,9 +84,21 @@
       "category": "SPEAKER"
     },
     {
+      "name": "Chris Michalakis",
+      "image": "/img/chris-michalakis.webp",
+      "bio": "Chris Michalakis has served multiple roles at the United Food and Commercial Workers International Union, currently serving as a Federal Legislative Representative. He has previously served as President of the Metro Detroit AFL-CIO, and as UFCW Michigan’s Legislative and Political Director.",
+      "category": "SPEAKER"
+    },
+    {
       "name": "Mary Jane Oatman",
       "image": "/img/mary-jane-oatman.webp",
       "bio": "Mary Jane Oatman is an enrolled member of the Nez Perce Tribe, a descendant of the Delaware Tribe, and a proud mother. She is the executive director of the Indigenous Cannabis Industry Association, founder of the Indigenous CANNabis Coalition (ICANNC), and publisher of THC Magazine. She travels the nation as a culture and events photographer, capturing special moments with plants and people. Dedicated to restoring pre-colonial economies in hemp and cannabis, Mary Jane has advocated on the state and federal levels to protect tribal sovereignty and ensure effective government relationships. Oatman was appointed by President Barack Obama to the National Advisory Council on Indian Education and also served as Idaho’s first director of Indian Education.",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Jason Ortiz",
+      "image": "/img/jason-ortiz.webp",
+      "bio": "Jason Ortiz is the Director of Strategic Initiatives for the Last Prisoner Project  Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate. He was one of the founding board Members of the Minority Cannabis Business Association and is the immediate past Executive Director of Students for Sensible Drug Policy. In addition to his drug policy activism, Jason sits on the board of the CT Working Families Party and has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
       "category": "SPEAKER"
     },
     {
