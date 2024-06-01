@@ -24,6 +24,18 @@
       "category": "HOST"
     },
     {
+      "name": "Kassandra Frederique",
+      "image": "/img/kassandra-frederique.webp",
+      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
+      "category": "PANELIST"
+    },
+    {
+      "name": "Commissioner Julie Hulburd",
+      "image": "/img/julie-hulburd.webp",
+      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
+      "category": "SPECIAL GUEST"
+    },
+    {
       "name": "Danielle Schumacher",
       "image": "/img/danielle-schumacher.webp",
       "bio": "Danielle Schumacher is chief of staff for Parabola Center and the founder and CEO of THC Staffing Group, a cannabis industry recruiting firm. She works to create a fair and equitable cannabis sector through a mentorship nationally as well as a coaching program specifically for people harmed by the war on drugs.",
@@ -36,22 +48,16 @@
       "category": "SPEAKER"
     },
     {
+      "name": "Pat Garofalo",
+      "image": "/img/pat-garofalo.jpg",
+      "bio": "Pat Garofalo is the Director of State and Local Policy at the American Economic Liberties Project. Pat is the author of The Billionaire Boondoggle: How Our Politicians Let Corporations and Bigwigs Steal Our Money and Jobs. Previously, Pat was assistant managing editor for opinion at U.S. News & World Report and economic policy editor at ThinkProgress.",
+      "category": "SPEAKER"
+    },
+    {
       "name": "Tauhid Chappell",
       "category": "SPECIAL GUEST",
       "bio": "Tauhid Chappell is an Organizer for the Philadelphia CannaBusiness Association, Pennsylvania’s first Black-owned, Black-led cannabis nonprofit aimed at healing the damage done by cannabis prohibition. He is also an Executive Board Member and a credentialed Parliamentarian of the Philadelphia Association of Black Journalists, the first and oldest association of Black journalists in the country. An 8-year veteran of the media industry, he’s worked as a social media editor at The Washington Post, joined the Philadelphia Inquirer as an audience engagement editor, and now works in Philadelphia for Free Press.",
       "image": "/img/tauhid.jpg"
-    },
-    {
-      "name": "Commissioner Julie Hulburd",
-      "image": "/img/julie-hulburd.webp",
-      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
-      "category": "SPECIAL GUEST"
-    },
-    {
-      "name": "Kassandra Frederique",
-      "image": "/img/kassandra-frederique.webp",
-      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. A New Yorker, Frederique holds a M.S. in Social Work from Columbia University and a B.S. in Industrial Labor Relations at Cornell University.",
-      "category": "PANELIST"
     },
     {
       "name": "Dasheeda Dawson",
