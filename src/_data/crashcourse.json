@@ -6,24 +6,6 @@
   "subheading": "Featuring:",
   "people": [
     {
-      "name": "Elizabeth Warren",
-      "image": "/img/elizabeth-warrren.png",
-      "category": "SPECIAL MESSAGE",
-      "bio": "Senator Elizabeth Warren is the senior United States Senator for Massachusetts, serving since 2013. National Law Journal named her one of the Most Influential Lawyers of the Decade and TIME Magazine has named her one of the 100 most influential people in the world four times. Senator Warren will be sharing a special message virtually."
-    },
-    {
-      "name": "Ed Markey",
-      "bio": "Senator Ed Markey is the junior United States senator for Massachusetts, serving since 2013. He served in the U.S. Army Reserve and was elected to the Massachusetts State House where he served two terms representing Malden and Melrose. He received an Honorary Doctor of Laws from Tufts University in May 2019. Senator Markey will be sharing a special message virtually.",
-      "category": "SPECIAL MESSAGE",
-      "image": "/img/ed-markey.jpg"
-    },
-    {
-      "bio": "Ben Cohen was born in 1951. He grew up in Merrick, NY. He dropped out of several colleges. He tried to become a potter but it didn't work out. Then in 1978, along with his friend Jerry, he opened a homemade ice cream shop in an old gas station. That worked. He lives in Vermont. Ben will be sharing a special message virtually.",
-      "category": "SPECIAL MESSAGE",
-      "name": "Ben Cohen",
-      "image": "/img/ben-cohen.jpg"
-    },
-    {
       "name": "Shanel Lindsay, Esq.",
       "image": "/img/shanel-lindsay.webp",
       "bio": "An attorney, advocate, and serial entrepreneur, Shanel Lindsay is Parabola Center’s entrepreneur director and the founder and CEO of Ardent Life, a global cannabis hardware and consumer packaged goods company. Shanel was an author of Question 4, the ballot initiative to legalize adult-use cannabis in Massachusetts, and was subsequently appointed to the Massachusetts Cannabis Advisory Board, serving from 2017 to 2021. Shanel also co-founded the grassroots advocacy group Equitable Opportunities Now.",
@@ -36,28 +18,22 @@
       "image": "/img/laury-lucien.webp"
     },
     {
-      "name": "Danielle Schumacher",
-      "image": "/img/danielle-schumacher.webp",
-      "bio": "Danielle Schumacher is chief of staff for Parabola Center and the founder and CEO of THC Staffing Group, a cannabis industry recruiting firm. She works to create a fair and equitable cannabis sector through a mentorship nationally as well as a coaching program specifically for people harmed by the war on drugs.",
-      "category": "HOST"
-    },
-    {
       "name": "Shaleen Title, Esq.",
       "image": "/img/shaleen-title.webp",
       "bio": "Shaleen Title is the founder and director of Parabola Center and a founding member of the Cannabis Regulators of Color Coalition. She was previously an inaugural member of the Massachusetts Cannabis Control Commission. Shaleen has spent over 20 years writing, passing, and implementing equitable cannabis laws and has testified before governments around the world about reparative marijuana policy. As a fellow at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center, she has authored top-ranking publications on incorporating social equity in cannabis laws and preventing cannabis monopolies. Boston magazine dubbed her \"the people's weed watchdog.\"",
       "category": "HOST"
     },
     {
-      "name": "Commissioner Ava Callender Concepcion",
-      "image": "/img/commissioner-ava-concepcion.webp",
-      "bio": "A lifelong Boston resident who’s dedicated her career to social justice, Commissioner Ava Callender Concepcion was appointed to the Massachusetts Cannabis Control Commission in 2021. She has an extensive background in public safety, having collaborated on policy matters with law enforcement, advocacy organizations, and constituents. She previously served as director of governmental affairs and external partnerships for Suffolk County District Attorney Rachael Rollins and as counsel to state Sen. William Brownsberger. Her time in the capital included work as a staffer on the 2018 Criminal Justice Reform Act, comprehensive legislation designed to reduce crime and improve public safety.",
-      "category": "SPECIAL GUEST"
+      "name": "Danielle Schumacher",
+      "image": "/img/danielle-schumacher.webp",
+      "bio": "Danielle Schumacher is chief of staff for Parabola Center and the founder and CEO of THC Staffing Group, a cannabis industry recruiting firm. She works to create a fair and equitable cannabis sector through a mentorship nationally as well as a coaching program specifically for people harmed by the war on drugs.",
+      "category": "HOST"
     },
     {
-      "name": "Senator Sonia Chang-Díaz",
-      "image": "/img/scd-vertical.png",
-      "bio": "Senator Sonia Chang-Díaz (2008-2022) is well known for her leadership on cannabis and equity, serving as co-chair of the Legislature's Joint Committee on Cannabis Policy and successfully championing a bill to make equity a reality in Massachusetts. She is the first Latina and first Asian-American elected to the Massachusetts State Senate and the first woman of color to ever make the ballot for Governor in state history. Prior to attaining elected office, Senator Chang-Díaz served as a public school teacher in the Lynn and Boston school systems, as Director of Outreach at the Massachusetts Budget and Policy Center, and as a key political adviser at the Barbara Lee Family Foundation. ",
-      "category": "SPECIAL GUEST"
+      "name": "Dr. Staci Gruber",
+      "image": "/img/staci-gruber.jpg",
+      "bio": "Dr. Staci Gruber is the Director of the Cognitive and Clinical Neuroimaging Core and Marijuana Investigations for Neuroscientific Discovery (MIND) program at McLean Hospital’s Brain Imaging Center and an Associate Professor of Psychiatry at Harvard Medical School. Dr. Gruber’s research focuses on the application of neurocognitive models and multimodal brain imaging to better characterize neurobiological risk factors for substance use and psychiatric conditions, and to assess the impact of cannabis and cannabinoid exposure on outcomes related to brain health, cognition, and clinical state.",
+      "category": "SPEAKER"
     },
     {
       "name": "Tauhid Chappell",
@@ -70,12 +46,6 @@
       "image": "/img/julie-hulburd.webp",
       "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She has 20 years of experience in human resources, serving private, nonprofit and public organizations. Her work has included 12 years in municipal government, including in her previous role, where she worked closely with city leadership on diversity, equity, and inclusion goals. She was appointed to the Vermont State Ethics Commission in 2018 and has served as its chair since 2019. She has also served as a member of her local parks and recreation advisory board, as a justice of the peace, and on her local selectboard.",
       "category": "SPECIAL GUEST"
-    },
-    {
-      "name": "Damian Fagon",
-      "bio": "Damian Fagon was appointed as the Chief Equity Officer of the NYS Office of Cannabis Management in June 2022. In this role, Mr. Fagon will oversee the social and economic equity initiatives laid out in the MRTA. As a 3rd-generation farmer with a background in international development, agriculture and small business, he has led development initiatives with castor farmers in Jamaica, rice growers in Sierra Leone, and coffee exporters in Guatemala. Mr. Fagon has also launched and advised commercial cannabis operations in South Carolina, New York, and the Caribbean.",
-      "category": "SPECIAL GUEST",
-      "image": "/img/damian.jpeg"
     },
     {
       "name": "Kassandra Frederique",
@@ -96,18 +66,6 @@
       "category": "PANELIST"
     },
     {
-      "name": "Rafi Aliya Crockett",
-      "image": "/img/rafi-aliya-crockett.webp",
-      "bio": "Rafi Aliya Crockett is the treasurer for the Cannabis Regulators of Color Coalition and was a member of the D.C. Alcoholic Beverage and Cannabis Board, where she focused on eliminating disparities in access, ownership and participation in the city's alcohol and cannabis industries, from 2019 to 2023. She is the lead writer and executive director of Higher Power, a documentary film about cannabis legalization in Washington, D.C. told through the lens of racial justice and the fight for statehood.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Jessica Gonzalez, Esq.",
-      "image": "/img/jessica-gonzalez.webp",
-      "bio": "Jessica Gonzalez is an attorney, policy advocate, and adjunct cannabis professor, as well as the owner of consulting company Veridis Quo. An Ecuadorian immigrant, she’s dedicated her career to uplifting communities harmed by cannabis prohibition through advocacy and education. Jessica led the social impact committee for NJ CAN 2020, the coalition that led cannabis legalization in New Jersey, and has advised on social equity efforts in several states. In 2021, she gave the first-ever cannabis industry presentation to the U.S. Patent and Trademark Office.",
-      "category": "SPEAKER"
-    },
-    {
       "name": "Chelsea Higgs Wise",
       "image": "/img/chelsea-higgs-wise.webp",
       "bio": "Racial justice organizer Chelsea Higgs Wise is executive director of the Virginia-based advocacy organization Marijuana Justice. A clinical social worker for ten years before transitioning to help organizations create equitable policies for community safety, Chelsea influenced criminal justice policies adopted in Virginia to include civilian oversight mental health crisis response measures. In an effort to address disparities in cannabis law enforcement, Chelsea co-founded Marijuana Justice in 2019 and led a campaign to make Virginia the first state in the U.S. South to undo prohibition and legalize home cultivation.",
@@ -118,18 +76,6 @@
       "image": "/img/peter-grinspoon.webp",
       "bio": "Peter Grinspoon, M.D., is a primary care physician and a cannabis specialist at Massachusetts General Hospital and an instructor in medicine at Harvard Medical School. He is the author of the 2023 book Seeing Through the Smoke: A Cannabis Expert Untangles the Truth about Marijuana as well as the groundbreaking 2016 memoir Free Refills: A Doctor Confronts His Addiction. He is a TedX speaker, prominent media commentator, and board member of the physician advocacy group Doctors for Cannabis Regulation. He was formerly the associate director of the Massachusetts Physician Health Service.",
       "category": "SPEAKER"
-    },
-    {
-      "name": "Darien Johnson",
-      "bio": "Darien Johnson is the policy and advocacy lead at the Black Economic Council of Massachusetts (BECMA). His role is to help develop and execute BECMA's policy, public affairs and advocacy agenda.",
-      "image": "/img/darien.jpg",
-      "category": "SPECIAL GUEST"
-    },
-    {
-      "name": "Lanese Martin",
-      "category": "SPECIAL GUEST",
-      "bio": "Lanese Martin is an award-winning community organizer with a background in electoral campaigns, policy and advocacy on issues impacting Black people and the areas they work, live & play - Lanese supports projects that address systemic inequality. As co-Founder of The Hood Incubator, which is a national grassroots organization, she guides the organization’s mission to end the drug war and reverse its impacts on Black communities. Lanese spearheads the organization's political strategy and workforce development. Lanese has also served as chair of the City of Oakland Cannabis Regulatory Commission.",
-      "image": "/img/lanese-martin.jpg"
     },
     {
       "name": "Chris Michalakis",
@@ -150,27 +96,9 @@
       "category": "SPEAKER"
     },
     {
-      "name": "Tabatha Robinson",
-      "image": "/img/headshot_tabatha_robinson.jpg",
-      "category": "SPECIAL GUEST",
-      "bio": "Tabatha Robinson is the Director of Economic Development at the NYS Office of Cannabis Management. Her work focuses on regulation writing, market entrances, and ownership rules, Previously, she worked as a corporate attorney for Ropes & Gray LLP, focusing on strategic transactions and mergers & acquisitions. Prior to that she worked as a special assistant attorney general at a state attorney general's office. She also serves as a strategy consultant to startups in emerging sectors. She holds a Bachelor’s degree from Stanford University as well as a JD and an MBA from Harvard University. "
-    },
-    {
-      "name": "Adam Smith",
-      "bio": " Adam is founder and president of the Alliance for Sensible Markets, and has led the effort to open state-regulated commerce in advance of federal legalization. He got involved in drug policy reform in the 90's, launching the first publication covering the drug war, the first campaign to successfully roll back federal drug war legislation (HEA Reform), and was integral to the founding of Students for Sensible Drug Policy.",
-      "category": "SPECIAL GUEST",
-      "image": "/img/adam-head-shot-3-.jpg"
-    },
-    {
       "name": "Cat Packer",
       "image": "/img/cat-packer.webp",
       "bio": "Cat Packer is the director of drug markets and legal regulation at the Drug Policy Alliance, the vice chair of the Cannabis Regulators of Color Coalition, and a distinguished cannabis policy practitioner in residence at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center. From 2017 to 2022, Cat served as the first executive director of the City of Los Angeles Department of Cannabis Regulation. Cat is a proud alumna of The Ohio State University, where she received a bachelor’s degree in political science, a master’s degree in public policy and management, and a law degree. ",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Professor Jay Wexler",
-      "image": "/img/jay-wexler.webp",
-      "bio": "Jay Wexler is a professor of law at Boston University, where he’s taught cannabis law and policy for the past seven years. He is the author of seven books, most recently Weed Rules: Blazing the Way to a Just and Joyful Marijuana Policy. He earned tenure in 2007 and was awarded the Michael Melton Award for Excellence in Teaching at the law school in 2009. Professor Wexler’s scholarship focuses on church-state law, constitutional law, environmental law, and marijuana law. ",
       "category": "SPEAKER"
     }
   ]
