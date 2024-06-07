@@ -198,6 +198,10 @@ collections:
             name: ctaText
           - label: Call to action link
             name: ctaLink
+          - label: Call to action text (second one)
+            name: ctaText2
+          - label: Call to action link (second one)
+            name: ctaLink2
           - label: Subheading
             name: subheading
           - label: People
