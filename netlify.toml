@@ -41,13 +41,13 @@
 
 [[redirects]]
   from = "/peopleoverprofits"
-  to = "https://www.eventbrite.com/e/people-over-profits-anti-monopoly-cannabis-reform-crash-course-tickets-893952575217"
+  to = "/crashcourse/"
   status = 302
   force = false
 
 [[redirects]]
   from = "/peopleoverprofits/"
-  to = "https://www.eventbrite.com/e/people-over-profits-anti-monopoly-cannabis-reform-crash-course-tickets-893952575217"
+  to = "/crashcourse/"
   status = 302
   force = false
 
