@@ -20,6 +20,12 @@
       "category": "SPECIAL MESSAGE"
     },
     {
+      "name": "Sen. Josh Miller",
+      "image": "/img/josh-miller.jpg",
+      "bio": "Senator Josh Miller is a State Senator representing Cranston/Providence in Rhode Island. He chaired commissions reviewing the prospect of legalizing marijuana for recreational use and sponsored the 2011 law decriminalizing possession of small quantities of marijuana. He has since sponsored bills to legalize and regulate marijuana in the state. As previous chairman of the Senate Committee on Commerce, Josh was credited with turning the focus of the committee toward protecting consumer rights and facilitating job growth among small businesses. A lifelong Rhode Islander, Josh is a small business owner who has established a number of successful restaurants in the Providence area. An active member of his community, Josh has served on a number of nonprofit boards and in local community organizations.",
+      "category": "SPECIAL GUEST"
+    },
+    {
       "name": "Shanel Lindsay, Esq.",
       "image": "/img/shanel-lindsay.webp",
       "bio": "Shanel Lindsay is an attorney, advocate, and serial entrepreneur. She serves as Parabola Center’s co-founder and entrepreneurship director. She is also the founder and CEO of Ardent Life, a global cannabis hardware and consumer packaged goods company, and Billow, a sesh-friendly filtration system. Shanel was an author of Question 4, the ballot initiative to legalize adult-use cannabis in Massachusetts, and was subsequently appointed to the Massachusetts Cannabis Advisory Board, serving from 2017 to 2021. Shanel also co-founded the grassroots advocacy group Equitable Opportunities Now. Shanel is involved in the development of marijuana laws and new businesses across the United States and globally as a frequent speaker and expert consultant for other emerging businesses in the cannabis and biotech space.",
@@ -168,12 +174,6 @@
       "bio": "Justin Strekal is a union organizer for the United Food and Commercial Workers Local 880 in Northeastern Ohio. He previously served as the founder of BOWL PAC and Useful Strategies and political director for NORML. He is a highly respected expert on federal cannabis law reform and aspires to be an effective cog in a machine that promotes justice, fairness, and destroys fascists.",
       "category": "SPEAKER",
       "image": "/img/justin.jpg"
-    },
-    {
-      "name": "Sen. Josh Miller",
-      "image": "/img/josh-miller.jpg",
-      "bio": "Senator Josh Miller is a State Senator representing Cranston/Providence in Rhode Island. He chaired commissions reviewing the prospect of legalizing marijuana for recreational use and sponsored the 2011 law decriminalizing possession of small quantities of marijuana. He has since sponsored bills to legalize and regulate marijuana in the state. As previous chairman of the Senate Committee on Commerce, Josh was credited with turning the focus of the committee toward protecting consumer rights and facilitating job growth among small businesses. A lifelong Rhode Islander, Josh is a small business owner who has established a number of successful restaurants in the Providence area. An active member of his community, Josh has served on a number of nonprofit boards and in local community organizations.",
-      "category": "SPECIAL GUEST"
     }
   ]
 }
