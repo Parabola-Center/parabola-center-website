@@ -223,6 +223,7 @@ collections:
                       "SPECIAL GUEST",
                       "SPECIAL MESSAGE",
                       "AWARD WINNER",
+                      "TRAINER",
                     ],
                 }
       - label: "Crash Course Schedule"
