@@ -92,6 +92,12 @@
       "category": "SPEAKER"
     },
     {
+      "name": "Joseph Gilmore",
+      "bio": "Joseph Gilmore is the Cannabis Social Equity Trust Fund Administrator in the Massachusetts Executive Office of Economic Development. The Cannabis Social Equity Trust Fund Program was a result a coalition-wide effort to bring significant capital support for Social Equity cannabis businesses in Massachusetts, for which he was a vocal advocate and supporter leading up to its passage. Joseph was previously the Cannabis Fund Manager for the City of Boston. Born and raised in Dorchester and an Economics graduate of the University of Massachusetts Boston, Joseph’s lived experiences prompted his advocacy for socially equitable cannabis policies and mobilizing residents across the state to engage in the political process throughout the development of the legal cannabis industry.",
+      "image": "/img/joseph.jpg",
+      "category": "SPECIAL GUEST"
+    },
+    {
       "name": "Dr. Peter Grinspoon",
       "image": "/img/peter-grinspoon.webp",
       "bio": "Peter Grinspoon, M.D. is a primary care physician and a cannabis specialist at Massachusetts General Hospital and an Instructor in Medicine at Harvard Medical School. He is the author of the book ‘Seeing Through the Smoke: A Cannabis Expert Untangles the Truth about Marijuana’ as well as the groundbreaking memoir ‘Free Refills: A Doctor Confronts His Addiction’. He is a TedX speaker, a certified physician life coach, a board member of the physician advocacy group, ‘Doctors for Drug Policy Reform’ and an advisor to 'The Parabola Center' (which advocates for social justice in the cannabis space). He has served as a board member of the Massachusetts Physician Health Service where he helped hundreds of physicians with their addictions. ",
@@ -168,6 +174,12 @@
       "image": "/img/cat-packer.webp",
       "bio": "Cat Packer is the director of drug markets and legal regulation at the Drug Policy Alliance, the vice chair of the Cannabis Regulators of Color Coalition, and a distinguished cannabis policy practitioner in residence at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center. From 2017 to 2022, Cat served as the first executive director of the City of Los Angeles Department of Cannabis Regulation. Cat is a proud alumna of The Ohio State University, where she received a bachelor’s degree in political science, a master’s degree in public policy and management, and a law degree. ",
       "category": "SPEAKER"
+    },
+    {
+      "name": "Shekia Scott",
+      "bio": "Shekia Scott is the Senior Cannabis Business Manager for the City of Boston, in the Mayor's Office of Economic Opportunity and Inclusion. She oversees the economic development and equitable growth initiatives for Boston's cannabis industry as well as the Boston Cannabis Equity Program. Previously, she was the Director of Equity and Community Outreach for the Massachusetts Cannabis Control Commission, pioneering the nation's first, statewide cannabis social equity program. She also serves on the Board of Directors for the Cannabis Regulators of Color Coalition. ",
+      "category": "SPECIAL GUEST",
+      "image": "/img/shekia.jpg"
     },
     {
       "name": "Justin Strekal",
