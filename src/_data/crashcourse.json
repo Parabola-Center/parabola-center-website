@@ -128,6 +128,12 @@
       "category": "SPEAKER"
     },
     {
+      "name": "Darien Johnson",
+      "image": "/img/darien-johnson.png",
+      "bio": "Born in Boston, Darien Johnson currently serves as Executive Director of the Masshire Workforce Board for Governor Maura Healey. Prior to working for the Governor, Darien was the Head of Policy for the Black Economic Council of Massachusetts (BECMA), where he developed and executed BECMA’s Policy agenda. Darien served as the Boston Regional Director for Senator Elizabeth Warren, where he spearheaded forging relationships with elected officials, CEOs, and community organizers while co-authoring memos with the Senator's policy team to advance her legislative priorities and policies. He also worked on both the senatorial and presidential campaigns for Senator Warren. Additionally, he was appointed by State Treasurer Deborah Goldberg to serve on the Baby Bonds Task Force, serves as a Commission Member on Boston's Black Men and Boys Commission, and is on the Board of Directors for Higher Ground, Boston.",
+      "category": "SPECIAL GUEST"
+    },
+    {
       "name": "Drudys Ledbetter",
       "bio": "Drudys Ledbetter BSN, RN is a mother, author, speaker, registered nurse, cannabis entrepreneur, and advocate for social equity hailing from Caracas, Venezuela. She holds a Bachelor's degree from Boston College. Dru combines her 20 years of nursing expertise and her personal journey through postpartum mental health to champion the medicinal benefits of cannabis, with a special focus on women and mothers. As the pioneer behind Boston's first Afro Latina-owned dispensary and Plant based wellness brand,  Dru is redefining industry standards by offering products that resonate with community well-being and honor the legacy market. As the Chief Executive Officer of Zèb Boutique, a 100% people-of-color owned retail cannabis dispensary in Mattapan Square of Boston, Dru leads with a vision of inclusivity and community-focused growth. ",
       "category": "SPEAKER",
@@ -158,6 +164,12 @@
       "image": "/img/sean-morrow.jpg"
     },
     {
+      "bio": "Liam O'Brien is the Chief Marketing Officer and Co-Founder of Fernway, the fastest-growing independent cannabis brand in the Northeast. Fernway is celebrated for its award-winning products, inclusive cannabis-positive messaging, and innovative sustainability initiatives, including a pioneering vape recycling program. Prior to founding Fernway, he was the digital marketing lead at The Moth, an internationally renowned storytelling performance and advocacy nonprofit.",
+      "name": "Liam O'Brien",
+      "category": "PANELIST",
+      "image": "/img/liam-headshot.jpeg"
+    },
+    {
       "name": "Mary Jane Oatman",
       "image": "/img/mary-jane-oatman.webp",
       "bio": "Mary Jane Oatman is an enrolled member of the Nez Perce Tribe, a descendant of the Delaware Tribe, and a proud mother. She is the executive director of the Indigenous Cannabis Industry Association, founder of the Indigenous CANNabis Coalition (ICANNC), and publisher of THC Magazine. She travels the nation as a culture and events photographer, capturing special moments with plants and people. Dedicated to restoring pre-colonial economies in hemp and cannabis, Mary Jane has advocated on the state and federal levels to protect tribal sovereignty and ensure effective government relationships. Oatman was appointed by President Barack Obama to the National Advisory Council on Indian Education and also served as Idaho’s first director of Indian Education.",
@@ -168,6 +180,12 @@
       "image": "/img/jason-ortiz.webp",
       "bio": "Jason Ortiz is the Director of Strategic Initiatives for the Last Prisoner Project  Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate. He was one of the founding board Members of the Minority Cannabis Business Association and is the immediate past Executive Director of Students for Sensible Drug Policy. In addition to his drug policy activism, Jason sits on the board of the CT Working Families Party and has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
       "category": "SPEAKER"
+    },
+    {
+      "name": "Amanda Rositano",
+      "image": "/img/amanda-rositano.png",
+      "bio": "Amanda Rositano is a cannabis industry advisor, business leader, and advocate with over 15 years of experience working toward a legal, accessible and equitable cannabis industry. She is the founder and CEO of Soulstar, a female-owned and led cannabis company building a diverse portfolio of businesses and brands in the Northeast’s emerging legal markets. Soulstar recently launched Nightjar, a women-led, community-focused retail concept in Bloomfield, New Jersey, and plans to open a second location in East Lyme, Connecticut later this year. Soulstar’s mission is focused around forming impactful partnerships to bring more women and diverse, independent owner-operators into the industry. She is currently serving a third term on the Massachusetts Cannabis Control Commission’s Cannabis Advisory Board, and working to improve and advance social equity programs in the New Jersey and Connecticut markets.",
+      "category": "PANELIST"
     },
     {
       "name": "Cat Packer, Esq.",
