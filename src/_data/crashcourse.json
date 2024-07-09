@@ -56,6 +56,18 @@
       "category": "HOST"
     },
     {
+      "name": "Zara Salmon",
+      "bio": "A Connecticut transplant, Zara A. Salmon founded Rhode Island's Cannabis Policy Coalition in 2024 alongside Eve Marie Santana, Kristina Contreras-Fox, and Blake Johnson, Esq. in an effort to level the playing field of ownership opportunities and ensure cannabis impacts communities disenfranchised by the War on Drugs positively. She began her work in the cannabis equity space conducting research for her political science thesis, \"Cannabis is Legal, Now What? An In-Depth Study on What the Legalization of Cannabis Means for Businesses, Business Owners, and the Marginalized Minorities Disenfranchised by Marijuana Drug Laws.\" Shortly after graduating with her degrees in English and Political Science she launched plant-based lifestyle brand, CRAVEInfused in 2019. ",
+      "category": "HOST",
+      "image": "/img/zara.jpeg"
+    },
+    {
+      "name": "Kristina Fox",
+      "bio": "Kristina Contreras Fox (she/they/ella) lives in Woonsocket and works as the Director of Policy & Advocacy and lobbyist for the RI Black Business Association. She is one of the co-founders of the Cannabis Policy Coalition. Kristina has over fifteen years experience in public policy, legislative advocacy, and electoral politics. She is an AmeriCorps alumna, and she serves on the Board of Directors for Community Care Alliance and Co-op Rhody.",
+      "category": "HOST",
+      "image": "/img/kristina-fox.jpg"
+    },
+    {
       "name": "Jane Allen",
       "bio": "Jane Appleyard Allen is an expert on public health, behavioral change, and health equity who specializes in media campaign evaluation and message effects research. Her work focuses on research to assess cannabis beliefs and behaviors in the context of legalization and to inform the development of cannabis policy. She also has conducted research to understand factors that influence smoking, including public health policy and tobacco industry marketing. She currently serves as a senior scientist in the Center for Communication and Media Impact at RTI International. ",
       "category": "TRAINER",
@@ -114,12 +126,6 @@
       "image": "/img/staci-gruber.jpg",
       "bio": "Dr. Staci Gruber is the Director of the Cognitive and Clinical Neuroimaging Core and the Marijuana Investigations for Neuroscientific Discovery (MIND) Program at McLean Hospital and an Associate Professor of Psychiatry at Harvard Medical School. She has been studying the impact of cannabis use on the brain for decades using neurocognitive, clinical assessments, and multimodal brain imaging techniques. As director of MIND, Dr. Gruber has generated major contributions to the field as the first to assess medical cannabis patients longitudinally, first to acquire neuroimaging data in medical cannabis patients, and as Principal Investigator of the first clinical trial of a full-spectrum, high-cannabidiol (CBD) product, which she specifically formulated to treat anxiety. Dr. Gruber also launched the Women’s Health Initiative at MIND (WHIM), the first cannabis-focused program designed specifically to address women’s health.",
       "category": "SPEAKER"
-    },
-    {
-      "name": "Kristina Fox",
-      "bio": "Kristina Contreras Fox (she/they/ella) lives in Woonsocket and works as the Director of Policy & Advocacy and lobbyist for the RI Black Business Association. She is one of the co-founders of the Cannabis Policy Coalition. Kristina has over fifteen years experience in public policy, legislative advocacy, and electoral politics. She is an AmeriCorps alumna, and she serves on the Board of Directors for Community Care Alliance and Co-op Rhody.",
-      "category": "HOST",
-      "image": "/img/kristina-fox.jpg"
     },
     {
       "name": "Kassandra Frederique",
