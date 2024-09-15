@@ -74,3 +74,15 @@
   to = "/pdf/American%20Values%20and%20Beliefs%20About%20Legalization.pdf"
   status = 302
   force = false
+
+[[redirects]]
+  from = '/longsleeve'
+  to = 'https://withac.net/products/parabola-center-black-longsleeve'
+  status = 302
+  force = false
+
+[[redirects]]
+  from = '/longsleeve/'
+  to = 'https://withac.net/products/parabola-center-black-longsleeve'
+  status = 302
+  force = false
