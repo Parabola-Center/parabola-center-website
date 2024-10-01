@@ -265,13 +265,6 @@
       "partnerWebsite": "https://www.grassgoddessconsulting.com/"
     },
     {
-      "background": false,
-      "partnerName": "Growv",
-      "partnerDescription": "Growv is a regulatory compliance platform and knowledge center built to empower cannabis companies, allowing them to grow with confidence. It's on a mission to level the cannabis playing field by building the first-in-class knowledge designed to make information accessible and to contextualize regulatory compliance.",
-      "partnerWebsite": "www.thegrowv.com",
-      "partnerImage": "/img/growv-logo-halley-cohen.png"
-    },
-    {
       "partnerName": "The Green Approach",
       "partnerDescription": "The Green Approach Trading Post (TGA) is an independent medical cannabis retail store in Westbrook, Maine. Our focus is on cultivating community and making the retail experience comfortable and welcoming for everyone. As a cannabis hub, TGA carries a wide variety of Maine's premium, craft-quality products - including flower, edibles, concentrates, tinctures, and salves from sought-after brands throughout the state.",
       "partnerImage": "/img/green-approach-tga.webp",
@@ -283,6 +276,13 @@
       "partnerImage": "/img/green-line.webp",
       "partnerWebsite": "https://greenlineboston.com",
       "background": false
+    },
+    {
+      "background": false,
+      "partnerName": "Growv",
+      "partnerDescription": "Growv is a regulatory compliance platform and knowledge center built to empower cannabis companies, allowing them to grow with confidence. It's on a mission to level the cannabis playing field by building the first-in-class knowledge designed to make information accessible and to contextualize regulatory compliance.",
+      "partnerWebsite": "https://www.thegrowv.com/",
+      "partnerImage": "/img/growv-logo-halley-cohen.png"
     },
     {
       "partnerName": "Hammerhead Strategies",
