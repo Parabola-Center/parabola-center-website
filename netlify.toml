@@ -86,3 +86,15 @@
   to = 'https://withac.net/products/parabola-center-black-longsleeve'
   status = 302
   force = false
+
+[[redirects]]
+  from = '/merch'
+  to = 'https://withac.net/products/parabola-center-black-longsleeve'
+  status = 302
+  force = false
+
+[[redirects]]
+  from = '/merch/'
+  to = 'https://withac.net/products/parabola-center-black-longsleeve'
+  status = 302
+  force = false
