@@ -328,6 +328,14 @@ collections:
         fields:
           - { label: Header, name: header, widget: string }
           - { label: Body, name: body, widget: markdown }
+      - label: "Parabola"
+        name: "parabola"
+        file: "src/_data/parabola.json"
+        fields:
+          - { label: Intro, name: intro, widget: markdown }
+          - { label: Image, name: image, widget: image }
+          - { label: Image Alt, name: alt, widget: string }
+          - { label: Content, name: content, widget: markdown }
   - label: "PDFs"
     name: "pdfs"
     folder: "static/pdf"

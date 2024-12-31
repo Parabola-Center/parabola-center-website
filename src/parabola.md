@@ -1,6 +1,4 @@
 ---
-title: Parabola 
-layout: layouts/partners
-tags: nav
-weight: 26
+title: Why is it Called Parabola Center? 
+layout: layouts/parabola
 ---
