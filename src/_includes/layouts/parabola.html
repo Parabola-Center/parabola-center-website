@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<div class="about-cont">
+  <style>
+    blockquote {
+      background-color: #eab12c;
+      border-left: 5px solid #df1e5b;
+      padding: 1rem;
+      margin: 2rem 0;
+      font-style: italic;
+      color: #333;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+     blockquote p {
+        margin: 0;
+     }
+  </style>
+  <section class="parabola-grid about-md bg-white" style="padding-top: 2rem;">
+    <div class="big:parabola-cols-center parabola-cols-full">{{ parabola.intro | markdown | safe }}</div>
+  </section>
+  <img src="{{ parabola.image }}" alt="{{ parabola.alt }}" width="300px" style="max-width: 100%; margin: 0 auto; display: block;" />
+  <section class="parabola-grid about-md bg-white" style="padding-top: 2rem;">
+    <div class="big:parabola-cols-center parabola-cols-full">{{ parabola.content | markdown | safe }}</div>
+  </section>
+</div>
