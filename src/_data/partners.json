@@ -5,13 +5,6 @@
   "ctaLink": "/contact",
   "partners": [
     {
-      "partnerName": "6 Brick's",
-      "partnerDescription": ".6 Brick's is a cannabis dispensary located in Springfield, MA. It is a Black, local, and family owned dispensary - the first of its kind to emerge in the industry. Voted best recreational dispensary by NECANN in 2023, 6 Brick's has a clear vision to connect people and product for the best experience every time.",
-      "partnerImage": "/img/6-bricks.webp",
-      "partnerWebsite": "https://6bricks.com",
-      "background": false
-    },
-    {
       "partnerName": "ACHEM",
       "partnerDescription": "The Association for Cannabis Health Equity and Medicine is a mutual benefit, professional medical association serving the needs of BIPOC healers and healthcare professionals, students, and our allies in the advancement of cannabinoid medicine and health equity. ACHEM believes that by first educating and supporting healers, we can effectively heal communities.",
       "partnerImage": "/img/achem-logo.webp",
