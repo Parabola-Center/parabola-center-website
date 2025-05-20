@@ -64,6 +64,18 @@
   force = false
 
 [[redirects]]
+  from = "/2025fellowship"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSfpSr4SQ4OyRPPETc-zrkdoFLBCiIADskOQK9lZfIwDPbXfXw/viewform"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/2025fellowship/"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSfpSr4SQ4OyRPPETc-zrkdoFLBCiIADskOQK9lZfIwDPbXfXw/viewform"
+  status = 302
+  force = false
+
+[[redirects]]
   from = "/survey"
   to = "/pdf/American%20Values%20and%20Beliefs%20About%20Legalization.pdf"
   status = 302
