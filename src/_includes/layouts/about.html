@@ -39,6 +39,19 @@ layout: base
         {% endfor %}
       </ul>
     </div>
+    <div class="big:parabola-cols-center parabola-cols-full">
+      <h2>Fellows</h2>
+      <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
+        {% for fellow in about.fellows %}
+        <div class="big:parabola-cols-half parabola-cols-full">
+          <figure>
+            <img class="max-width" src="{{ fellow.image }}" alt="{{fellow.alt}}" width="100%" />
+            <figcaption>{{fellow.caption}}</figcaption>
+          </figure>
+          <p>{{fellow.description | markdown | safe}}</p>
+        </div>
+        {% endfor %}
+    </div>
 </div>
 </section>
 </div>

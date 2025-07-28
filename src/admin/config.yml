@@ -90,6 +90,16 @@ collections:
               - { label: Caption, name: caption, widget: string }
               - { label: Description, name: description, widget: markdown }
               - { label: Link, name: link, widget: string }
+          - { label: Fellows Text, name: fellows_text, widget: markdown }
+          - label: Fellows
+            name: fellows
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Image Alt, name: alt, widget: string }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Description, name: description, widget: markdown }
           - label: Advisors
             name: advisors
             widget: list
