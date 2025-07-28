@@ -1,9 +1,5 @@
 {
-  "main_image": "/img/about-hero.webp",
-  "main_image_alt": "Parabola Center",
-  "content": "# About Parabola Center\n\n*\"If you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else.\"* – Toni Morrison\n\nParabola Center is a nonpartisan think tank of legal professionals and drug policy experts coming together to protect people, not corporations. Our mission is to provide everyone with the education, access, and expertise to support cannabis legalization policies that put people and small businesses first.\n\nDrug laws are changing because of a mass movement of everyday people. Our work is for that civil rights movement, which puts equity and justice at the heart of drug policy and promotes a fair, open, and regulated marketplace.\n\nAfter 20+ years learning and creating cannabis policy, working on campaigns, practicing law, and serving the public, we'd rather use that experience to benefit everyday people over rich clients. We see our job as keeping the power with the people.\n\nIt's a myth that people don't care about policy details -- in our experience, the more people get involved, the better the policy. That’s where Parabola Center comes in. We provide the resources necessary to advocate for concrete, equitable, workable policies that put people ahead of corporate profits.",
-  "advisors_text": "Parabola Center is grateful to our advisors who have been generous with their evidence-based and integrity-based guidance. They collectively bring deep expertise and a wide range of legal, science, and policy perspectives aligned with our goals of equity and justice.",
-  "about_header": "About the Directors",
+  "fellows_text": "T﻿he Parabola Center Fellows",
   "founders": [
     {
       "name": "Shaleen Title",
@@ -28,6 +24,57 @@
       "caption": "Laury Lucien: Education Director",
       "description": "[Laury Lucien](/laury-lucien) is an attorney, professor, serial entrepreneur, and transformational speaker. In addition to her role as Education Director of the Parabola Center, she is the founder of the Legally Great Academy, a consulting and education company that supports entrepreneurs through every step of starting their companies. She was a vendor for the Cannabis Control Commission’s Social Equity Program, providing training and technical support to program participants. She is a founder of a co-located marijuana retailer, manufacturer, and delivery courier in Massachusetts. She was appointed to the Massachusetts Cannabis Advisory Board. Laury currently teaches Cannabis Law at Suffolk University Law School and Clark University.",
       "link": "laury-lucien"
+    }
+  ],
+  "fellows": [
+    {
+      "name": "Kristin Souza",
+      "image": "/img/kristin-souza.png",
+      "alt": "Kristin Souza",
+      "caption": "Kristin Souza - Digital Marketing Fellow",
+      "description": "Kristin Souza is stepping into her role as a Digital Marketing Fellow, bringing her dynamic expertise in cannabis marketing, social media strategy, and innovative brand storytelling to the forefront. With a proven track record building genuine online communities, Kristin champions content that speaks to both heart and strategy. She’s passionate about elevating underrepresented voices and she brings a distinctive voice to the industry by encouraging candid and relatable dialogue. Whether through content creation, community education, or direct advocacy, Kristin is committed to reshaping how people connect with cannabis and the people behind it."
+    },
+    {
+      "name": "Meredith McGee",
+      "image": "/img/meredith-mcgee.png",
+      "alt": "Meredith McGee",
+      "caption": "Meredith McGee - Junior Public Health Research Fellow",
+      "description": "Meredith McGee, MPH (she/her), is a public health professional dedicated to bridging the gap between research, community, and education. Her work focuses on cannabis, health equity, and LGBTQ+ communities, with a mission to make public health research more accessible and actionable beyond academia. A seasoned grant writer and fundraiser, Meredith has helped secure over a million dollars in funding to support community-led initiatives. She is especially passionate about connecting cannabis policy to public health infrastructure in ways that center lived experience and promote health justice. Meredith authored Parabola Center’s essay on the drug policy U-curve."
+    },
+    {
+      "name": "Faith English",
+      "image": "/img/faith-english.png",
+      "caption": "Faith English - Senior Public Health Researcher Fellow",
+      "alt": "Faith English",
+      "description": "Faith English is a Postdoctoral Fellow in the Johns Hopkins Bloomberg School of Public Health Drug Dependence and Epidemiology Training Program. She received her PhD and MPH from the University of Massachusetts Amherst School of Public Health and Health Sciences. Using both qualitative and quantitative methods, her research focuses on the intersection of cannabis legalization, health equity, and criminal justice reform. Dr. English is passionate about exploring the multiple ways in which cannabis and other drug legalization can address the public health crisis of mass incarceration and the war on drugs."
+    },
+    {
+      "name": "Damian Fagon",
+      "image": "/img/damian-fagon.png",
+      "caption": "Damian Fagon - Executive Leadership Fellow",
+      "alt": "Damian Fagon",
+      "description": "Damian Fagon is a former cannabis regulator for the state of New York, where he served as the inaugural Chief Equity Officer for the Office of Cannabis Management. A third-generation farmer and development economist, Damian blends grassroots agricultural experience with equitable economic policy, advising on cannabis market development and agricultural initiatives internationally. He currently serves as Director of the Bronx Cannabis Hub, building new models and programming for restorative economic justice and community-centered cannabis markets from the ground up. Damian holds a BA from the University of Virginia and an MPA in Economic Development from Columbia University."
+    },
+    {
+      "name": "Samantha Nitiutomo",
+      "image": "/img/samantha-nitiutomo.png",
+      "caption": "Samantha Nitiutomo - Administrative Leadership Fellow",
+      "alt": "Samantha Nitiutomo",
+      "description": "Sammie Nitiutomo brings nearly a decade of operations expertise to the fight for equitable cannabis policy. Previously the Operations Lead for Women of Color in Cannabis (WOCC), she has supported the organization's mission since 2019, helping ensure it remained a vital resource for marginalized communities. Sammie is also the founder of SLN Consulting, where she empowers grassroots entrepreneurs—especially businesses led by people with marginalized identities—with scalable, budget-conscious systems that make sustainable growth accessible. Her work centers access, autonomy, and joy, helping clients build infrastructure that reflects their values while increasing impact."
+    },
+    {
+      "name": "Margeaux Lavoie",
+      "caption": "Margeaux Lavoie - Entrepreneurship Policy Fellow",
+      "alt": "Margeaux Lavoie",
+      "image": "/img/margeaux-lavoie.png",
+      "description": "Margeaux (Maggie) was born and raised in Maine. After graduating college, she moved to Shanghai China and was hired as an early member of a fast-growing education technology startup, where she assisted the company with business and product development. After China, she moved back to Maine and was the Director of Operations of a CDC certified harm reduction Syringe Service Program where she helped grow the annual budget from $50,000 to $1.16 million within three years. In 2022, Maggie enrolled in law school at the University of Maine School of Law with a focus on drug policy and cannabis law."
+    },
+    {
+      "name": "Tyler Giles",
+      "description": "Tyler Giles is the founder & digital strategy director at Hammerhead Strategies, LLC. With a focus on progressive campaigns, advocacy groups, nonprofits, and small businesses, he leads digital fundraising, fundraising strategy, and data‑driven communications efforts. Hammerhead Strategies leverages cutting‑edge online tools and deep internet culture insights to amplify stories, build lasting infrastructure, and drive measurable impact—having helped clients raise thousands of dollars both online and at events. Prior to launching Hammerhead, he built a reputation in the political, hospitality, and non-profit spaces. He leads Parabola Center’s email, social media, outreach, and other digital marketing efforts.",
+      "alt": "Tyler Giles",
+      "caption": "Tyler Giles - Digital Strategy Director",
+      "image": "/img/tyler-giles.png"
     }
   ],
   "advisors": [
@@ -151,5 +198,10 @@
       "link": "https://www.bu.edu/law/profile/jay-d-wexler/",
       "title": "constitutional law"
     }
-  ]
+  ],
+  "main_image": "/img/about-hero.webp",
+  "content": "# About Parabola Center\n\n*\"If you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else.\"* – Toni Morrison\n\nParabola Center is a nonpartisan think tank of legal professionals and drug policy experts coming together to protect people, not corporations. Our mission is to provide everyone with the education, access, and expertise to support cannabis legalization policies that put people and small businesses first.\n\nDrug laws are changing because of a mass movement of everyday people. Our work is for that civil rights movement, which puts equity and justice at the heart of drug policy and promotes a fair, open, and regulated marketplace.\n\nAfter 20+ years learning and creating cannabis policy, working on campaigns, practicing law, and serving the public, we'd rather use that experience to benefit everyday people over rich clients. We see our job as keeping the power with the people.\n\nIt's a myth that people don't care about policy details -- in our experience, the more people get involved, the better the policy. That’s where Parabola Center comes in. We provide the resources necessary to advocate for concrete, equitable, workable policies that put people ahead of corporate profits.",
+  "advisors_text": "Parabola Center is grateful to our advisors who have been generous with their evidence-based and integrity-based guidance. They collectively bring deep expertise and a wide range of legal, science, and policy perspectives aligned with our goals of equity and justice.",
+  "main_image_alt": "Parabola Center",
+  "about_header": "About the Directors"
 }
