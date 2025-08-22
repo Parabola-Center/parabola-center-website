@@ -53,13 +53,13 @@
 
 [[redirects]]
   from = "/leadership"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSfYuThKZAffgtzS83lFKmKyQpUsRWwHhEJd5d6UWpNUFluSZw/viewform"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSfpdiFC2ffmT8hhy48Ldp8JoZE4B-aWy4vIHDbt0zgV0eQPug/viewform?usp=sharing&ouid=105905877343898825798"
   status = 302
   force = false
 
 [[redirects]]
   from = "/leadership/"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSfYuThKZAffgtzS83lFKmKyQpUsRWwHhEJd5d6UWpNUFluSZw/viewform"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSfpdiFC2ffmT8hhy48Ldp8JoZE4B-aWy4vIHDbt0zgV0eQPug/viewform?usp=sharing&ouid=105905877343898825798"
   status = 302
   force = false
 
