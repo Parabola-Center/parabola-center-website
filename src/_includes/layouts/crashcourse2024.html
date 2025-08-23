@@ -82,16 +82,16 @@
 <body>
     <main>
         <div class="intro">
-            <img src="{{crashcourse2023.featuredImage}}" width="300px" height="auto" alt="Intro image - Event Flyer"/>
-            <div class="intro__text">{{crashcourse2023.introContent | markdown | safe}}</div>
-            <a href="{{crashcourse2023.ctaLink}}" class="intro__cta" id="ctaLink">{{crashcourse2023.ctaText}}</a>
+            <img src="{{crashcourse2024.featuredImage}}" width="300px" height="auto" alt="Intro image - Event Flyer"/>
+            <div class="intro__text">{{crashcourse2024.introContent | markdown | safe}}</div>
+            <a href="{{crashcourse2024.ctaLink}}" class="intro__cta" id="ctaLink">{{crashcourse2024.ctaText}}</a>
 
         </div>
         <div class="partners__wrapper">
         <div class="partners__bg"></div>
         <div class="partners">
-          <h2>{{crashcourse2023.subheading}}</h2>
-            {% for person in crashcourse2023.people %}
+          <h2>{{crashcourse2024.subheading}}</h2>
+            {% for person in crashcourse2024.people %}
                 <article>
                     <div class="partner__image__wrapper"> 
                       <img src="{{person.image}}" width="458px" alt="{{person.name}} logo"/>
