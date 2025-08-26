@@ -38,40 +38,10 @@
       "category": "HOST"
     },
     {
-      "name": "Zara Salmon",
-      "bio": "A Connecticut transplant, Zara A. Salmon founded Rhode Island's Cannabis Policy Coalition in 2024 alongside Eve Marie Santana, Kristina Contreras-Fox, and Blake Johnson, Esq. in an effort to level the playing field of ownership opportunities and ensure cannabis impacts communities disenfranchised by the War on Drugs positively. She began her work in the cannabis equity space conducting research for her political science thesis, \"Cannabis is Legal, Now What? An In-Depth Study on What the Legalization of Cannabis Means for Businesses, Business Owners, and the Marginalized Minorities Disenfranchised by Marijuana Drug Laws.\" Shortly after graduating with her degrees in English and Political Science she launched the plant-based lifestyle brand, CRAVEInfused in 2019. ",
-      "category": "HOST",
-      "image": "/img/zara.jpeg"
-    },
-    {
-      "name": "Kristina Fox",
-      "bio": "Kristina Contreras Fox (she/they/ella) lives in Woonsocket and works as the Director of Policy & Advocacy and lobbyist for the RI Black Business Association. She is one of the co-founders of the Cannabis Policy Coalition. Kristina has over fifteen years experience in public policy, legislative advocacy, and electoral politics. She is an AmeriCorps alumna, and she serves on the Board of Directors for Community Care Alliance and Co-op Rhody.",
-      "category": "HOST",
-      "image": "/img/kristina-fox.jpg"
-    },
-    {
-      "name": "Eve Marie",
-      "image": "/img/eve-headshot.png",
-      "bio": "Eve Marie has been involved in the cannabis industry since 2012, contributing through her curiosity, advocacy, hospitality, business development, and marketing skills. In 2015, she founded High Beautiful, a company offering marketing services, event experiences, and products, including organic single-origin coffee from northern Haiti. Additionally, Eve Marie served as a programming co-chair at the Equitable Opportunities Now Foundation. Currently, as a co-founder of the Cannabis Policy Coalition in Rhode Island, Eve Marie is dedicated to encouraging people to understand how  the cannabis industry can be used as a means for achieving social and economic justice in communities affected by failed drug policies. ",
-      "category": "HOST"
-    },
-    {
       "name": "Jane Allen",
       "bio": "Jane Appleyard Allen is an expert on public health, behavioral change, and health equity who specializes in media campaign evaluation and message effects research. Her work focuses on research to assess cannabis beliefs and behaviors in the context of legalization and to inform the development of cannabis policy. She also has conducted research to understand factors that influence smoking, including public health policy and tobacco industry marketing. She currently serves as a senior scientist in the Center for Communication and Media Impact at RTI International. ",
       "category": "TRAINER",
       "image": "/img/jane.jpg"
-    },
-    {
-      "name": "Leo Beletsky",
-      "bio": "Leo Beletsky is a Professor of Law and Health Sciences at Northeastern University. His research and teaching focus on drug policy, with special expertise on the commercial drivers of the overdose crisis. His service has been recognized by recent awards from the Association for Medical Education and Research in Substance Use and Addiction, the Association of American Law Schools, and the First Church of Cambridge. Before entering academia, he was a street-level weed dealer.",
-      "category": "SPEAKER",
-      "image": "/img/leo.jpg"
-    },
-    {
-      "name": "Norman Birenbaum",
-      "bio": "Norman Birenbaum served as the chief cannabis regulator and policy advisor for the states of Rhode Island and New York. In Rhode Island, Norman established the Office of Cannabis Regulation (OCR), the country's first cannabis regulatory office with consolidated authority over both hemp and marijuana licensees and products. Norman has advised numerous states, and federal agencies on cannabis reform and regulatory issues. Before working in cannabis, Norman served on the staff of U.S. Senator Elizabeth Warren and Massachusetts Governor Deval Patrick.",
-      "category": "SPECIAL GUEST",
-      "image": "/img/norm-headshot.jpg"
     },
     {
       "name": "Paul Bologna",
@@ -98,24 +68,6 @@
       "category": "SPEAKER"
     },
     {
-      "name": "Joseph Gilmore",
-      "bio": "Joseph Gilmore is the Cannabis Social Equity Trust Fund Administrator in the Massachusetts Executive Office of Economic Development. The Cannabis Social Equity Trust Fund Program was a result of a coalition-wide effort to bring significant capital support for Social Equity cannabis businesses in Massachusetts, for which he was a vocal advocate and supporter leading up to its passage. Born and raised in Dorchester, MA and an Economics graduate of the University of Massachusetts Boston, Joseph’s lived experiences prompted his advocacy for socially equitable cannabis policies and mobilizing residents across the state to engage in the political process throughout the development of the legal cannabis industry. A second-generation Filipino American, Joseph is a member of PAMAS (Philippine American Association of New England) and actively participates in Filipino cultural events to highlight and celebrate his heritage. ",
-      "image": "/img/joseph.jpg",
-      "category": "SPECIAL GUEST"
-    },
-    {
-      "name": "Dr. Peter Grinspoon",
-      "image": "/img/peter-grinspoon.webp",
-      "bio": "Peter Grinspoon, M.D. is a primary care physician and a cannabis specialist at Massachusetts General Hospital and an Instructor in Medicine at Harvard Medical School. He is the author of the book ‘Seeing Through the Smoke: A Cannabis Expert Untangles the Truth about Marijuana’ as well as the groundbreaking memoir ‘Free Refills: A Doctor Confronts His Addiction’. He is a TedX speaker, a certified physician life coach, a board member of the physician advocacy group, ‘Doctors for Drug Policy Reform’ and an advisor to 'The Parabola Center' (which advocates for social justice in the cannabis space). He has served as a board member of the Massachusetts Physician Health Service where he helped hundreds of physicians with their addictions. ",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Dr. Staci Gruber",
-      "image": "/img/staci-gruber.jpg",
-      "bio": "Dr. Staci Gruber is the Director of the Cognitive and Clinical Neuroimaging Core and the Marijuana Investigations for Neuroscientific Discovery (MIND) Program at McLean Hospital and an Associate Professor of Psychiatry at Harvard Medical School. She has been studying the impact of cannabis use on the brain for decades using neurocognitive, clinical assessments, and multimodal brain imaging techniques. As director of MIND, Dr. Gruber has generated major contributions to the field as the first to assess medical cannabis patients longitudinally, first to acquire neuroimaging data in medical cannabis patients, and as Principal Investigator of the first clinical trial of a full-spectrum, high-cannabidiol (CBD) product, which she specifically formulated to treat anxiety. Dr. Gruber also launched the Women’s Health Initiative at MIND (WHIM), the first cannabis-focused program designed specifically to address women’s health.",
-      "category": "SPEAKER"
-    },
-    {
       "name": "Kassandra Frederique",
       "image": "/img/kassandra-frederique.webp",
       "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. ",
@@ -126,18 +78,6 @@
       "image": "/img/chelsea-higgs-wise.webp",
       "bio": "Chelsea Higgs Wise was a clinical social worker for ten years before transitioning to help organizations create equitable policies for community safety. Chelsea’s expertise continues to influence criminal justice, mental health and anti-drug war priorities in Virginia. In 2019, Chelsea co-founded Marijuana Justice for equitable legalization as a gateway to dismantle the Virginia War on Drugs and in 2021 Virginia became the first state in the South to legalize simple possession of marijuana, home cultivation as well as create a fund to reinvest for community repair. Through her leadership, the organization also convenes southern organizers around Drug War Reparations as well as pushing anti-monopoly regulation in order to build community-led economies. Federally, Chelsea is an active voice within the United for Marijuana Decriminalization (UMD) coalition focused on organizing public comment for the recent marijuana scheduling proposal.",
       "category": "TRAINER"
-    },
-    {
-      "name": "Commissioner Julie Hulburd",
-      "image": "/img/julie-hulburd.jpeg",
-      "bio": "Commissioner Julie Hulburd is a member of the Vermont Cannabis Control Board, the state’s regulatory body. She brings 20 years of experience in Human Resources, having worked in private, non-profit, and public organizations. Prior to joining the Board, Ms. Hulburd served as Chair of the State’s Ethics Commission. She holds a bachelor's degree in hotel and tourism management and is completing a master's degree in leadership. On the Cannabis Control Board, Ms. Hulburd has played a key role in creating Vermont’s small business focused market focusing on policy areas including social equity, public health, municipal governance, and workforce development.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Darien Johnson",
-      "image": "/img/darien-johnson.png",
-      "bio": "Born in Boston, Darien Johnson currently serves as Executive Director of the Masshire Workforce Board for Governor Maura Healey. Prior to working for the Governor, Darien was the Head of Policy for the Black Economic Council of Massachusetts (BECMA), where he developed and executed BECMA’s Policy agenda. Darien served as the Boston Regional Director for Senator Elizabeth Warren, where he spearheaded forging relationships with elected officials, CEOs, and community organizers while co-authoring memos with the Senator's policy team to advance her legislative priorities and policies. He also worked on both the senatorial and presidential campaigns for Senator Warren. Additionally, he was appointed by State Treasurer Deborah Goldberg to serve on the Baby Bonds Task Force, serves as a Commission Member on Boston's Black Men and Boys Commission, and is on the Board of Directors for Higher Ground, Boston.",
-      "category": "SPECIAL GUEST"
     },
     {
       "name": "Drudys Ledbetter",
@@ -170,28 +110,10 @@
       "image": "/img/sean-morrow.jpg"
     },
     {
-      "bio": "Liam O'Brien is the Chief Marketing Officer and Co-Founder of Fernway, the fastest-growing independent cannabis brand in the Northeast. Fernway is celebrated for its award-winning products, inclusive cannabis-positive messaging, and innovative sustainability initiatives, including a pioneering vape recycling program. Prior to founding Fernway, he was the digital marketing lead at The Moth, an internationally renowned storytelling performance and advocacy nonprofit.",
-      "name": "Liam O'Brien",
-      "category": "PANELIST",
-      "image": "/img/liam-headshot.jpeg"
-    },
-    {
-      "name": "Mary Jane Oatman",
-      "image": "/img/mary-jane-oatman.webp",
-      "bio": "Mary Jane Oatman is an enrolled member of the Nez Perce Tribe, a descendant of the Delaware Tribe, and a proud mother. She is the executive director of the Indigenous Cannabis Industry Association, founder of the Indigenous CANNabis Coalition (ICANNC), and publisher of THC Magazine. She travels the nation as a culture and events photographer, capturing special moments with plants and people. Dedicated to restoring pre-colonial economies in hemp and cannabis, Mary Jane has advocated on the state and federal levels to protect tribal sovereignty and ensure effective government relationships. Oatman was appointed by President Barack Obama to the National Advisory Council on Indian Education and also served as Idaho’s first director of Indian Education.",
-      "category": "SPEAKER"
-    },
-    {
       "name": "Jason Ortiz",
       "image": "/img/jason-ortiz.webp",
       "bio": "Jason Ortiz is the Director of Strategic Initiatives for the Last Prisoner Project  Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate. He was one of the founding board Members of the Minority Cannabis Business Association and is the immediate past Executive Director of Students for Sensible Drug Policy. In addition to his drug policy activism, Jason sits on the board of the CT Working Families Party and has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
       "category": "SPEAKER"
-    },
-    {
-      "name": "Amanda Rositano",
-      "image": "/img/amanda-rositano.png",
-      "bio": "Amanda Rositano is a cannabis industry advisor, business leader, and advocate with over 15 years of experience working toward a legal, accessible and equitable cannabis industry. She is the founder and CEO of Soulstar, a female-owned and led cannabis company building a diverse portfolio of businesses and brands in the Northeast’s emerging legal markets. Soulstar recently launched Nightjar, a women-led, community-focused retail concept in Bloomfield, New Jersey, and plans to open a second location in East Lyme, Connecticut later this year. She is currently serving a third term on the Massachusetts Cannabis Control Commission’s Cannabis Advisory Board, and working to improve and advance social equity programs in the New Jersey and Connecticut markets.",
-      "category": "PANELIST"
     },
     {
       "name": "Cat Packer, Esq.",
