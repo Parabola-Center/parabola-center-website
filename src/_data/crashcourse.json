@@ -23,12 +23,18 @@
       "name": "Damian Fagon",
       "bio": "Damian Fagon is a former cannabis regulator for the state of New York, where he served as the inaugural Chief Equity Officer for the Office of Cannabis Management. A third-generation farmer and development economist, Damian blends grassroots agricultural experience with equitable economic policy, advising on cannabis market development and agricultural initiatives internationally. He currently serves as Director of the Bronx Cannabis Hub, building new models and programming for restorative economic justice and community-centered cannabis markets from the ground up. Damian holds a BA from the University of Virginia and an MPA in Economic Development from Columbia University.",
       "category": "HOST",
-      "image": "/img/fagon.jpg"
+      "image": "/img/damian-fagon-headshot.jpg"
     },
     {
       "name": "Margeaux Lavoie",
       "image": "/img/maggie.jpg",
       "bio": "Margeaux (Maggie) Lavoie is a Social Equity Fellow for Parabola Center and a student at the University of Maine School of Law, where she has served as Executive Editor of the Maine Law Review and president of the Maine Association of Public Interest Lawyers. She was a Rural Law Fellow of the Fort Kent Rural Practice Clinic for Spring 2024 and a student research assistant in cannabis law for Professor Scott Bloomberg. Prior to attending law school, Maggie was the Director of Operations of the Church of Safe Injection, a daytime drop-in harm reduction center and CDC-certified syringe service program located in Lewiston, Maine. ",
+      "category": "HOST"
+    },
+    {
+      "name": "Shaleen Title, Esq.",
+      "image": "/img/shaleen-title.webp",
+      "bio": "Shaleen Title is co-founder and director of Parabola Center. She was an inaugural cannabis regulator in Massachusetts. After completing her term as a commissioner, she authored two top-ranking publications on cannabis social equity policies and preventing cannabis monopolies as a fellow at The Ohio State University Moritz College of Law Drug Enforcement and Policy Center. Shaleen has spent over 20 years writing, passing, and implementing equitable cannabis laws and has testified before governmental bodies around the world about reparative marijuana laws. She is a founding member of the Cannabis Regulators of Color Coalition. Dubbed \"the people's weed watchdog\" by Boston Magazine, she is the recipient of multiple lifetime achievement awards for her work as an activist, regulator, and author.",
       "category": "HOST"
     },
     {
@@ -78,12 +84,6 @@
       "bio": "Shekia Scott is the Senior Cannabis Business Manager for the City of Boston, in the Mayor's Office of Economic Opportunity and Inclusion. She oversees the economic development and equitable growth initiatives for Boston's cannabis industry as well as the Boston Cannabis Equity Program. Previously, she was the Director of Equity and Community Outreach for the Massachusetts Cannabis Control Commission, pioneering the nation's first, statewide cannabis social equity program. She also serves on the Board of Directors for the Cannabis Regulators of Color Coalition. ",
       "category": "SPECIAL GUEST",
       "image": "/img/shekia.jpg"
-    },
-    {
-      "name": "Shaleen Title, Esq.",
-      "image": "/img/shaleen-title.webp",
-      "bio": "Shaleen Title is co-founder and director of Parabola Center. She was an inaugural cannabis regulator in Massachusetts. After completing her term as a commissioner, she authored two top-ranking publications on cannabis social equity policies and preventing cannabis monopolies as a fellow at The Ohio State University Moritz College of Law Drug Enforcement and Policy Center. Shaleen has spent over 20 years writing, passing, and implementing equitable cannabis laws and has testified before governmental bodies around the world about reparative marijuana laws. She is a founding member of the Cannabis Regulators of Color Coalition. Dubbed \"the people's weed watchdog\" by Boston Magazine, she is the recipient of multiple lifetime achievement awards for her work as an activist, regulator, and author.",
-      "category": "HOST"
     }
   ]
 }
