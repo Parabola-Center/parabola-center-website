@@ -1,5 +1,5 @@
 {
-  "featuredImage": "/img/nyc-save-the-date-crash-course.png",
+  "featuredImage": "/img/parabola-flyer-2025.jpg",
   "introContent": "Please join us and our local co-hosts, the Bronx Cannabis Hub, for our third annual Anti-Monopoly Cannabis Policy Crash Course and Leadership Training! This is an opportunity for education and a call to action for those who believe in putting people over profits -- and to be proactive in implementing strong anti-monopoly protections and support for the smaller players at both state and federal levels before corporate interests take hold. Once established, it will become increasingly difficult to challenge their power.\n\nOur crash course will empower attendees with the knowledge and tools to shape federal legalization in a way that preserves a path for an equitable industry. This event is for everyone who rejects the corporate model of cannabis legalization that concentrates wealth and power in the hands of only a few. Together, we will build a movement that creates the future for cannabis legalization rooted in the principles of justice, economic empowerment, and fair opportunity for all.\n\nThis event on October 25 will bring together cannabis activists, policymakers, regulators, growers, retailers, and other industry participants who share the common goal of ensuring that the cannabis industry prioritizes people over profits and stands up to corporate power and greed. The day will consist of a series of presentations from a variety of compelling, experienced speakers from diverse backgrounds and several opportunities to network with other cannabis advocates.\n\n**Morning Session: Leadership Training 9:00am-12:00pm (by application only)**\n\n**Afternoon Session: Crash Course 1:00-5:00pm (registration required, tickets available on a sliding scale)**\n\n***This crash course is open to the public, but registration is required. Speakers will be confirmed closer to the event, and a detailed schedule and FAQ will be available.***",
   "ctaText": "Crash Course",
   "ctaLink": "https://www.eventbrite.com/e/cannabis-policy-crash-course-leadership-training-tickets-1496402392839",
@@ -20,16 +20,10 @@
       "image": "/img/laury-lucien.webp"
     },
     {
-      "name": "Shaleen Title, Esq.",
-      "image": "/img/shaleen-title.webp",
-      "bio": "Shaleen Title is co-founder and director of Parabola Center. She was an inaugural cannabis regulator in Massachusetts. After completing her term as a commissioner, she authored two top-ranking publications on cannabis social equity policies and preventing cannabis monopolies as a fellow at The Ohio State University Moritz College of Law Drug Enforcement and Policy Center. Shaleen has spent over 20 years writing, passing, and implementing equitable cannabis laws and has testified before governmental bodies around the world about reparative marijuana laws. She is a founding member of the Cannabis Regulators of Color Coalition. Dubbed \"the people's weed watchdog\" by Boston Magazine, she is the recipient of multiple lifetime achievement awards for her work as an activist, regulator, and author.",
-      "category": "HOST"
-    },
-    {
-      "name": "Danielle Schumacher",
-      "image": "/img/danielle-schumacher.webp",
-      "bio": "Danielle Schumacher is chief of staff of Parabola Center. Her work has focused on helping to create a fair and equitable cannabis industry, including running a national mentoring and coaching program for people harmed by the war on drugs. Named a High Times Freedom Fighter in 2005, she has actively campaigned for sensible drug legalization for 20 years, including founding a chapter of Students for Sensible Drug Policy and serving as the youngest-ever board member of NORML. She was the first Chancellor of Oaksterdam University in 2007 and was arrested in 2012 while protesting raids on the university by federal agents. Danielle is a former board member for Women's Visionary Council and Center for Women in Transition and former chair of the National Lawyers Guild Drug Policy Committee.",
-      "category": "HOST"
+      "name": "Damian Fagon",
+      "bio": "Damian Fagon is a former cannabis regulator for the state of New York, where he served as the inaugural Chief Equity Officer for the Office of Cannabis Management. A third-generation farmer and development economist, Damian blends grassroots agricultural experience with equitable economic policy, advising on cannabis market development and agricultural initiatives internationally. He currently serves as Director of the Bronx Cannabis Hub, building new models and programming for restorative economic justice and community-centered cannabis markets from the ground up. Damian holds a BA from the University of Virginia and an MPA in Economic Development from Columbia University.",
+      "category": "HOST",
+      "image": "/img/fagon.jpg"
     },
     {
       "name": "Margeaux Lavoie",
@@ -38,28 +32,10 @@
       "category": "HOST"
     },
     {
-      "name": "Jane Allen",
-      "bio": "Jane Appleyard Allen is an expert on public health, behavioral change, and health equity who specializes in media campaign evaluation and message effects research. Her work focuses on research to assess cannabis beliefs and behaviors in the context of legalization and to inform the development of cannabis policy. She also has conducted research to understand factors that influence smoking, including public health policy and tobacco industry marketing. She currently serves as a senior scientist in the Center for Communication and Media Impact at RTI International. ",
-      "category": "TRAINER",
-      "image": "/img/jane.jpg"
-    },
-    {
-      "name": "Paul Bologna",
-      "image": "/img/paul.png",
-      "bio": "Paul Bologna is a creative director, digital strategist, and communications consultant for progressive causes. He has been advocating for government agencies, politicians, nonprofits, and local initiatives since 2011, and is the creative vision behind Parabola Center's Global Equity Perspective series. He previously directed strategy efforts for Massachusetts Senator Ed Markey and now-Governor Maura Healey, and currently leads Boston Mayor Michelle Wu's digital communication strategy.",
-      "category": "PANELIST"
-    },
-    {
       "name": "Tauhid Chappell",
       "category": "SPECIAL GUEST",
       "bio": "Tauhid Chappell is the first Executive Director to lead New Jersey’s Cannabis Academy, the country’s first government-run program aimed at diversifying the cannabis industry.  Tauhid brings 10 years of experience in the cannabis space as a medical marijuana patient, a journalist who’s covered legalization efforts across the country, a former budtender for Philadelphia’s second medical marijuana dispensary, a current Adjunct Professor at Thomas Jefferson University, and an organizer of the Philadelphia CannaBusiness Association, Pennsylvania's first Black-owned, Black-led cannabis nonprofit aimed at healing the damage done by cannabis prohibition and mass incarceration.",
       "image": "/img/tauhid.jpg"
-    },
-    {
-      "name": "Dasheeda Dawson",
-      "image": "/img/dasheeda-dawson.webp",
-      "bio": "Dasheeda Dawson is The WeedHead™, a global cannabis advocate, award-winning strategist and bestselling author of How to Succeed in the Cannabis Industry. She has 20 years of business development and strategic management excellence while leading teams for United Way, Target and Victoria’s Secret. Currently, Dasheeda is Founding Director of Cannabis NYC overseeing the development of the city’s legal industry. She is also the Founding Chair of the Cannabis Regulators of Color Coalition (CRCC). Dasheeda received her MBA from Rutgers University and an undergraduate degree in molecular biology from Princeton University. ",
-      "category": "PANELIST"
     },
     {
       "name": "Pat Garofalo",
@@ -71,7 +47,7 @@
       "name": "Kassandra Frederique",
       "image": "/img/kassandra-frederique.webp",
       "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. ",
-      "category": "SPEAKER"
+      "category": "SPECIAL GUEST"
     },
     {
       "name": "Chelsea Higgs Wise",
@@ -80,34 +56,10 @@
       "category": "TRAINER"
     },
     {
-      "name": "Drudys Ledbetter",
-      "bio": "Drudys Ledbetter BSN, RN is a mother, author, speaker, registered nurse, cannabis entrepreneur, and advocate for social equity hailing from Caracas, Venezuela. She holds a Bachelor's degree from Boston College. Dru combines her 20 years of nursing expertise and her personal journey through postpartum mental health to champion the medicinal benefits of cannabis, with a special focus on women and mothers. As the pioneer behind Boston's first Afro Latina-owned dispensary and Plant based wellness brand,  Dru is redefining industry standards by offering products that resonate with community well-being and honor the legacy market. As the Chief Executive Officer of Zèb Boutique, a 100% people-of-color owned retail cannabis dispensary in Mattapan Square of Boston, Dru leads with a vision of inclusivity and community-focused growth. ",
-      "category": "SPEAKER",
-      "image": "/img/dru.jpg"
-    },
-    {
-      "name": "Victoria Litman",
-      "bio": "Professor Victoria Litman (Roger Williams University School of Law) is a nonprofit tax lawyer focusing on the emerging cannabis and psychedelic tax exempt sectors. She is a graduate of the University of Southern California and holds an M.Div. from Union Theological Seminary in the City of New York. She received her J.D. from New York Law School, cum laude, and her LL.M. in Taxation from Georgetown University Law Center with distinction. Professor Litman focuses her scholarship on the intersections of constitutional law, tax law, and drug law with a focus on issues of religious freedom. She is affiliated with the International Cannabis Bar Association and the Psychedelic Bar Association and is licensed to practice law in Rhode Island, Massachusetts, New York, and California. ",
-      "category": "SPEAKER",
-      "image": "/img/victoria.jpg"
-    },
-    {
       "name": "Maritza Perez Medina, Esq.",
       "image": "/img/maritza-perez-medina.webp",
       "bio": "Maritza Perez Medina is the director of federal affairs at the Drug Policy Alliance, where she leads the organization’s federal legislative agenda and strategy to end the drug war. In that role, she lobbies Congress and the president’s administration on issues pertaining to drug policy and criminal legal reform. Maritza convenes the Marijuana Justice Coalition, which helped organize the successful passage of the MORE Act through the U.S. House in 2020 and 2022—the first and only times a Congressional chamber has voted to deschedule marijuana.",
       "category": "SPEAKER"
-    },
-    {
-      "name": "Chris Michalakis",
-      "image": "/img/chris-michalakis.jpg",
-      "bio": "Chris Michalakis has served multiple roles at the United Food and Commercial Workers International Union (UFCW), currently serving as the Senior Federal Legislative Representative. He has previously served as President of the Metro Detroit AFL-CIO, and as UFCW Michigan’s Legislative and Political Director. At UFCW, Chris works on cannabis policy as well as issues like child labor, wage and hour issues, automation and AI, other worker protections.  It is this worker-centric focus that Chris brings to cannabis policy discussions, ensuring that workers are a significant part of policies surrounding cannabis legalization.",
-      "category": "SPEAKER"
-    },
-    {
-      "bio": "Sean Morrow is an award-winning video producer, writer, host, and journalist. He currently works with the nonprofit newsroom More Perfect Union, writing videos for \"The Classroom,\" a team which won the 2023 Hillman Prize for Opinion and Analysis. Its videos include \"Legal Weed Is Being Ruined by Corporate Greed,\" which has over half a million views on YouTube. He has created hundreds of hugely successful pieces, from daily news content to major franchises, like \"Who Is: The Podcast,\" including the episode \"Who is Big Weed?\" He was described as \"the most effective troll in history\" for a parody social media account that helped lead to a price cap on insulin.",
-      "category": "PANELIST",
-      "name": "Sean Morrow",
-      "image": "/img/sean-morrow.jpg"
     },
     {
       "name": "Jason Ortiz",
@@ -128,10 +80,10 @@
       "image": "/img/shekia.jpg"
     },
     {
-      "name": "Justin Strekal",
-      "bio": "Justin Strekal is a highly regarded expert on federal cannabis policy and Parabola Center's advisor on federal legislation. He previously served as the founder of BOWL PAC and Useful Strategies and political director for NORML. He is a highly respected expert on federal cannabis law reform and aspires to be an effective cog in a machine that promotes justice, fairness, and destroys fascists.",
-      "category": "TRAINER",
-      "image": "/img/justin.jpg"
+      "name": "Shaleen Title, Esq.",
+      "image": "/img/shaleen-title.webp",
+      "bio": "Shaleen Title is co-founder and director of Parabola Center. She was an inaugural cannabis regulator in Massachusetts. After completing her term as a commissioner, she authored two top-ranking publications on cannabis social equity policies and preventing cannabis monopolies as a fellow at The Ohio State University Moritz College of Law Drug Enforcement and Policy Center. Shaleen has spent over 20 years writing, passing, and implementing equitable cannabis laws and has testified before governmental bodies around the world about reparative marijuana laws. She is a founding member of the Cannabis Regulators of Color Coalition. Dubbed \"the people's weed watchdog\" by Boston Magazine, she is the recipient of multiple lifetime achievement awards for her work as an activist, regulator, and author.",
+      "category": "HOST"
     }
   ]
 }
