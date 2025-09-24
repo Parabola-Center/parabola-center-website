@@ -38,10 +38,34 @@
       "category": "HOST"
     },
     {
+      "name": "Mark Barnett",
+      "bio": "Mark is the founder and Policy Director of the Maine Craft Cannabis Association which advocates for cannabis policy reform and consumer- and small business-friendly policies in Maine, and is a founding member of the National Craft Cannabis Coalition, a coalition of state-level advocacy organizations promoting state and federal policies that support small cannabis producers. Mark is also the founder and CEO of Higher Grounds of Maine, a licensed adult-use dispensary and specialty coffee shop in Portland, Maine.",
+      "category": "SPEAKER",
+      "image": "/img/mark-barnett.jpg"
+    },
+    {
+      "name": "Kaelan Castsetter",
+      "image": "/img/kaelan-castetter.jpg",
+      "bio": "Kaelan is a leading policy and regulatory compliance expert and advocate within New York’s cannabis industry. He has been intimately involved in the market’s formation for over a decade, and began his entrepreneurial journey by restarting his father’s hemp-infused wine business before leading large-scale hemp cultivation and processing operations across the state. He’s utilized this on-the-ground perspective to serve as an effective advisor to over one hundred small businesses as they navigate the evolving and complex regulatory landscape. Additionally, Kaelan serves as a policy advisor to the trade group representing licensed cannabis manufacturers and wholesalers, helping to amplify their voice in furtherance of a fair and competitive marketplace.",
+      "category": "SPEAKER"
+    },
+    {
       "name": "Tauhid Chappell",
       "category": "SPECIAL GUEST",
       "bio": "Tauhid Chappell is the first Executive Director to lead New Jersey’s Cannabis Academy, the country’s first government-run program aimed at diversifying the cannabis industry.  Tauhid brings 10 years of experience in the cannabis space as a medical marijuana patient, a journalist who’s covered legalization efforts across the country, a former budtender for Philadelphia’s second medical marijuana dispensary, a current Adjunct Professor at Thomas Jefferson University, and an organizer of the Philadelphia CannaBusiness Association, Pennsylvania's first Black-owned, Black-led cannabis nonprofit aimed at healing the damage done by cannabis prohibition and mass incarceration.",
       "image": "/img/tauhid.jpg"
+    },
+    {
+      "name": "Dasheeda Dawson",
+      "bio": "Dasheeda Dawson is The WeedHead™, a global cannabis advocate, award-winning strategist and bestselling author of How to Succeed in the Cannabis Industry. She has 20 years of business development and strategic management excellence while leading teams for United Way, Target and Victoria’s Secret. Currently, Dasheeda is Founding Director of Cannabis NYC overseeing the development of the city’s legal industry. She is also the Founding Chair of the Cannabis Regulators of Color Coalition (CRCC). Dasheeda received her MBA from Rutgers University and an undergraduate degree in molecular biology from Princeton University. ",
+      "category": "SPEAKER",
+      "image": "/img/dasheeda-dawson.jpg"
+    },
+    {
+      "name": "Kassandra Frederique",
+      "image": "/img/kassandra-frederique.png",
+      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit that works to end the war on drugs and build alternatives grounded in science, compassion, health, and human rights. At DPA, Frederique has built and led innovative campaigns around policing, the overdose crisis, and marijuana legalization—each with a consistent racial justice focus. Her advocacy, and all of the Drug Policy Alliance’s work, lies at the intersection of health, equity, autonomy, and justice.",
+      "category": "SPEAKER"
     },
     {
       "name": "Pat Garofalo",
@@ -50,10 +74,16 @@
       "category": "SPEAKER"
     },
     {
-      "name": "Kassandra Frederique",
-      "image": "/img/kassandra-frederique.webp",
-      "bio": "Kassandra Frederique is the executive director of the Drug Policy Alliance, a national nonprofit founded in 2000 that works to end the war on drugs—which has disproportionately harmed Black, Latinx, Indigenous, immigrant, and LGBTQ communities—and build alternatives grounded in science, compassion, health, and human rights. She has received numerous awards, including the Activist Award from SEIU32BJ, New York City Council Women of Distinction, VOCAL New York’s Joe Bostic Advocacy Award, National Advocates for Pregnant Women Emerging Leader award, and was recognized on both Essence Magazine’s Woke 100 and The Root’s ROOT100. ",
-      "category": "SPECIAL GUEST"
+      "name": "Kevin Gilnack",
+      "bio": "Kevin B. Gilnack is a seasoned cannabis policy advocate and public affairs strategist with more than 20 years of nonprofit leadership advancing civil rights, human services, and economic equity. Personally impacted by cannabis prohibition and later included in President Biden’s blanket pardon, he now serves as Deputy Director of Equitable Opportunities Now, where he helped pass the landmark 2022 cannabis equity omnibus law and leads campaigns to preserve ownership caps and support social equity businesses. He previously served as the inaugural executive director of the Commonwealth Dispensary Association, helping to open Massachusetts’ first medical dispensaries and coauthor Question 4.",
+      "category": "SPEAKER",
+      "image": "/img/kevin-gilnack.jpg"
+    },
+    {
+      "name": "Matthew Greenberg",
+      "bio": "Matthew Greenberg, CFA, is co-founder, President, and CFO of Platform Cannabis Advisors, a specialty finance firm pioneering an innovative solution for New York retail cannabis licensees. Matthew most recently spearheaded economic policy at OCM, building on six years of cannabis investment experience, including as co-CIO of East Hill Capital, a cannabis investment firm specializing in public equities. He was also the Head of Finance for a large real estate services start-up, where he advised the company through a $35M financing.",
+      "image": "/img/matthew-greenberg.jpg",
+      "category": "SPEAKER"
     },
     {
       "name": "Chelsea Higgs Wise",
@@ -80,10 +110,22 @@
       "category": "SPEAKER"
     },
     {
+      "name": "Tabatha Robinson",
+      "bio": "Tabatha Robinson, JD, MBA was sworn in as Director of the Maryland Cannabis Administration (MCA) in April 2025. Prior to joining the MCA, Ms. Robinson served as Executive Deputy Director of Economic Development and Acting Chief Equity Officer for the New York State Office of Cannabis Management, where she drove economic programs and social equity licensing policies for New York’s adult use and medical cannabis markets. During her tenure, the office awarded more than 50 percent of new cannabis licenses to social equity business owners; more than 90 percent of operational retailers have prior marijuana convictions.",
+      "image": "/img/tabatha-headshot.jpg",
+      "category": "SPEAKER"
+    },
+    {
       "name": "Shekia Scott",
       "bio": "Shekia Scott is the Senior Cannabis Business Manager for the City of Boston, in the Mayor's Office of Economic Opportunity and Inclusion. She oversees the economic development and equitable growth initiatives for Boston's cannabis industry as well as the Boston Cannabis Equity Program. Previously, she was the Director of Equity and Community Outreach for the Massachusetts Cannabis Control Commission, pioneering the nation's first, statewide cannabis social equity program. She also serves on the Board of Directors for the Cannabis Regulators of Color Coalition. ",
       "category": "SPECIAL GUEST",
       "image": "/img/shekia.jpg"
+    },
+    {
+      "name": "Adam Smith",
+      "bio": "Adam Smith's extensive career in drug policy reform includes significant contributions to the movement. In 1996, as Associate Director of StopTheDrugWar.org, Adam launched The Week Online, the nation’s first publication providing original coverage of domestic and international drug policy from a reform perspective. Two years later, Smith launched the Higher Education Act Reform Campaign, the first successful effort to roll back federal drug war era legislation. He also laid the groundwork for the founding of Students for Sensible Drug Policy, incubating the group under his direction for nearly two years until SSDP’s launch as a stand-alone organization. As the founder of the Craft Cannabis Alliance and the Alliance for Sensible Markets, Smith wrote legislation and spearheaded successful efforts to pass the nation’s first three cannabis interstate commerce bills in Oregon, California, and Washington.",
+      "category": "SPEAKER",
+      "image": "/img/adam-smith.jpg"
     }
   ]
 }
