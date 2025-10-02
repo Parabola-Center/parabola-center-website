@@ -155,9 +155,9 @@ ul {
 }
 
 .index-services {
-  background: url("../img/22155_066.webp");
+  background: url("../img/DSC05195.webp");
   background-size: cover;
-  background-position: top center;
+  background-position: center bottom !important;
   @media only screen and (min-width:$grid-breakpoint) {
     background-size: cover;
     background-position: top right;

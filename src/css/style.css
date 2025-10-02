@@ -384,9 +384,9 @@ ul {
 }
 
 .index-services {
-  background: url("../img/DSC05195.webp");
+  background: url("../img/22155_066.webp");
   background-size: cover;
-  background-position: center bottom !important;
+  background-position: top center;
 }
 @media only screen and (min-width: 768px) {
   .index-services {

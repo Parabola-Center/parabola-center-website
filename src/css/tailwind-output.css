@@ -623,6 +623,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .bg-parabolaBlue {
   --tw-bg-opacity: 1;
   background-color: rgb(21 189 205 / var(--tw-bg-opacity));
