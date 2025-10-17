@@ -98,6 +98,12 @@
       "category": "SPEAKER"
     },
     {
+      "bio": "Dr. Brandi Hester-Harrell is a nationally recognized scholar-practitioner, strategist, and advocate with 16+ years of experience in education, cannabis reform, and economic equity. She has raised over $ 400,000 for nonprofits and small businesses, and educated more than 10,000 people through culturally grounded cannabis and public health curricula. Her groundbreaking PhD dissertation is the world’s first to recommend Cannabis Studies as a formal university department. As an educator, author, and change agent, Dr. Hester-Harrell bridges research, culture, and justice to design inclusive and transformative systems.",
+      "name": "Dr. Brandi Hester-Harrell",
+      "image": "/img/brandi.png",
+      "category": "SPEAKER"
+    },
+    {
       "name": "Chelsea Higgs Wise",
       "image": "/img/chelsea-higgs-wise.webp",
       "bio": "Chelsea Higgs Wise was a clinical social worker for ten years before transitioning to help organizations create equitable policies for community safety. Chelsea’s expertise continues to influence criminal justice, mental health and anti-drug war priorities in Virginia. In 2019, Chelsea co-founded Marijuana Justice for equitable legalization as a gateway to dismantle the Virginia War on Drugs and in 2021 Virginia became the first state in the South to legalize simple possession of marijuana, home cultivation as well as create a fund to reinvest for community repair. Through her leadership, the organization also convenes southern organizers around Drug War Reparations as well as pushing anti-monopoly regulation in order to build community-led economies. Federally, Chelsea is an active voice within the United for Marijuana Decriminalization (UMD) coalition focused on organizing public comment for the recent marijuana scheduling proposal.",
@@ -138,6 +144,12 @@
       "bio": "Adam Smith's extensive career in drug policy reform includes significant contributions to the movement. In 1996, as Associate Director of StopTheDrugWar.org, Adam launched The Week Online, the nation’s first publication providing original coverage of domestic and international drug policy from a reform perspective. Two years later, Smith launched the Higher Education Act Reform Campaign, the first successful effort to roll back federal drug war era legislation. He also laid the groundwork for the founding of Students for Sensible Drug Policy, incubating the group under his direction for nearly two years until SSDP’s launch as a stand-alone organization. As the founder of the Craft Cannabis Alliance and the Alliance for Sensible Markets, Smith wrote legislation and spearheaded successful efforts to pass the nation’s first three cannabis interstate commerce bills in Oregon, California, and Washington.",
       "category": "SPEAKER",
       "image": "/img/adam-smith.jpg"
+    },
+    {
+      "name": "Hilary Yu",
+      "image": "/img/hilary-yu.jpeg",
+      "category": "SPEAKER",
+      "bio": "Hilary L. Yu is the founding Executive Director of Our Academy, a nonprofit accelerator advancing equity in the cannabis industry. She designs programs that prioritize long-term ownership and community power for those most impacted by the War on Drugs. From 2022-2024, she led a statewide accelerator program with New York’s Office of Cannabis Management, providing technical assistance to over 1,500 CAURD and SEE licensees. Her team helped prevent over 100 predatory deals and supported over 200 of the operating CAURD and SEE stores in NY. Hilary’s leadership continues to shape sustainable, just entrepreneurship in an industry confronting systemic inequities."
     }
   ]
 }
