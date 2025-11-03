@@ -364,7 +364,7 @@ ul {
 }
 
 .index-policy {
-  background: url("../img/Jess-480.webp");
+  background: url("../img/new-home-image-left.webp");
   background-size: cover;
   background-position: center;
 }
@@ -384,9 +384,9 @@ ul {
 }
 
 .index-services {
-  background: url("../img/22155_066.webp");
+  background: url("../img/new-home-image-right.webp");
   background-size: cover;
-  background-position: top center;
+  background-position: center top !important;
 }
 @media only screen and (min-width: 768px) {
   .index-services {

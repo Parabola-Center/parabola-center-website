@@ -137,7 +137,7 @@ ul {
 }
 
 .index-policy {
-  background: url("../img/Jess-480.webp");
+  background: url("../img/new-home-image-left.webp");
   background-size: cover;
   background-position: center;
   div {
@@ -155,9 +155,9 @@ ul {
 }
 
 .index-services {
-  background: url("../img/DSC05195.webp");
+  background: url("../img/new-home-image-right.webp");
   background-size: cover;
-  background-position: center bottom !important;
+  background-position: center top !important;
   @media only screen and (min-width:$grid-breakpoint) {
     background-size: cover;
     background-position: top right;
