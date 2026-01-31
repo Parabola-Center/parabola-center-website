@@ -30,5 +30,9 @@
     }
   ],
   "services": "Read our new report",
-  "buttonText": "Read more"
+  "buttonText": "Read more",
+  "substackHeader": "The Parabola Papers: Our new Substack is live!",
+  "substackText": "Subscribe today and get the latest research, op-eds, and other content from Parabola Center's team and partners.",
+  "substackLink": "https://parabolacenter.substack.com/",
+  "substackButtonText": "Subscribe"
 }
