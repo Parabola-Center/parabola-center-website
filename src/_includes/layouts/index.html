@@ -49,6 +49,15 @@ layout: base
   </div>
 </section>
 
+<!-- Substack Section -->
+<section class="center-copy-large index-substack">
+  <h2>{{index.substackHeader}}</h2>
+  <p>{{index.substackText}}</p>
+  <a href="{{index.substackLink}}" target="_blank" rel="noopener">
+    <button class="btn-1">{{index.substackButtonText}}</button>
+  </a>
+</section>
+
 <!-- Article Card Reel -->
 <section class="parabola-grid pdf">
   {% for item in index.articles %}
