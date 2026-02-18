@@ -17,7 +17,9 @@ layout: base
         <figcaption>{{founder.caption}}</figcaption>
       </figure>
       <p>{{founder.description | markdown | safe}}</p>
+      {% if founder.link %}
       <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+      {% endif %}
     </div>
     {% endfor %}
     {% for founder in about.founders offset:1 %}
@@ -27,7 +29,9 @@ layout: base
         <figcaption>{{founder.caption}}</figcaption>
       </figure>
       <p>{{founder.description | markdown | safe}}</p>
+      {% if founder.link %}
       <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+      {% endif %}
     </div>
     {% endfor %}
     <div class="big:parabola-cols-center parabola-cols-full">
