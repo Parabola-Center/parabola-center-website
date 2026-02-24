@@ -30,14 +30,16 @@
       "image": "/img/damian-fagon-headshot.webp",
       "alt": "Damian Fagon",
       "caption": "Damian Fagon: Policy Director",
-      "description": "Damian Fagon is a former cannabis regulator for the state of New York, where he served as the inaugural Chief Equity Officer for the Office of Cannabis Management. A third-generation farmer and development economist, Damian blends grassroots agricultural experience with equitable economic policy, advising on cannabis market development and agricultural initiatives internationally. He currently serves as Director of the Bronx Cannabis Hub, building new models and programming for restorative economic justice and community-centered cannabis markets from the ground up. Damian holds a BA from the University of Virginia and an MPA in Economic Development from Columbia University."
+      "description": "Damian Fagon is a former cannabis regulator for the state of New York, where he served as the inaugural Chief Equity Officer for the Office of Cannabis Management. A third-generation farmer and development economist, Damian blends grassroots agricultural experience with equitable economic policy, advising on cannabis market development and agricultural initiatives internationally. He currently serves as Director of the Bronx Cannabis Hub, building new models and programming for restorative economic justice and community-centered cannabis markets from the ground up. Damian holds a BA from the University of Virginia and an MPA in Economic Development from Columbia University.",
+      "link": "https://www.linkedin.com/in/damianfagon/"
     },
     {
       "name": "Margeaux Lavoie",
       "image": "/img/margeaux-lavoie-headshot.webp",
       "alt": "Margeaux Lavoie",
-      "caption": "Margeaux Lavoie: Legal Fellow",
-      "description": "Margeaux (Maggie) was born and raised in Maine. After graduating college, she moved to Shanghai China and was hired as an early member of a fast-growing education technology startup, where she assisted the company with business and product development. After China, she moved back to Maine and was the Director of Operations of a CDC certified harm reduction Syringe Service Program where she helped grow the annual budget from $50,000 to $1.16 million within three years. In 2022, Maggie enrolled in law school at the University of Maine School of Law with a focus on drug policy and cannabis law."
+      "caption": "Margeaux Lavoie: Legal Researcher",
+      "description": "Margeaux (Maggie) was born and raised in Maine. After graduating college, she moved to Shanghai China and was hired as an early member of a fast-growing education technology startup, where she assisted the company with business and product development. After China, she moved back to Maine and was the Director of Operations of a CDC certified harm reduction Syringe Service Program where she helped grow the annual budget from $50,000 to $1.16 million within three years. In 2022, Maggie enrolled in law school at the University of Maine School of Law with a focus on drug policy and cannabis law.",
+      "link": "https://www.linkedin.com/in/margeaux-lavoie-2620b2102/"
     }
   ],
   "fellows": [
@@ -114,11 +116,6 @@
       "link": "https://www.linkedin.com/in/damianfagon"
     },
     {
-      "name": "Major Neill Franklin",
-      "link": "https://lawenforcementactionpartnership.org/wp-content/uploads/2017/12/Neill-Franklin2017.pdf",
-      "title": "law enforcement policy"
-    },
-    {
       "name": "Kassandra Frederique",
       "link": "https://drugpolicy.org/kassandra-frederique",
       "title": "strategy"
@@ -127,11 +124,6 @@
       "name": "Dr. Peter Grinspoon",
       "link": "https://www.petergrinspoon.com/",
       "title": "cannabis medicine"
-    },
-    {
-      "name": "Dr. Carl Hart",
-      "link": "https://drcarlhart.com",
-      "title": "drugs and neuroscience"
     },
     {
       "name": "Khurshid Khoja",
