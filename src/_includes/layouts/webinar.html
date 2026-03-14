@@ -41,14 +41,49 @@
         object-fit: contain;
       }
 
+      .partners {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .partners article {
+        width: 100%;
+        max-width: 800px;
+        flex-direction: row;
+        gap: 30px;
+        align-items: flex-start;
+      }
+
+      .partners article .speaker__info {
+        flex: 1;
+      }
+
+      .partners article h3 {
+        margin-bottom: 8px;
+      }
+
       .partners article h4 {
         color: #FF7228;
         display: block;
-        font-size: 24px;
+        font-size: 18px;
         text-decoration: none;
         text-transform: uppercase;
         margin-top: 0;
-        margin-bottom: 29px;
+        margin-bottom: 16px;
+      }
+
+      .partners article div.speaker__bio {
+        color: #9F9FA7;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .partners article {
+          flex-direction: column;
+          width: 85%;
+        }
+
       }
     </style>
 <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', 'yrmHiisKU63En1PL99xSvg');</script>
@@ -94,14 +129,11 @@
           <h2>{{subheading}}</h2>
             {% for person in people %}
                 <article>
-                    {% if person.image %}
-                    <div class="partner__image__wrapper">
-                      <img src="{{person.image}}" width="458px" alt="{{person.name}}"/>
+                    <div class="speaker__info">
+                      <h3>{{person.name}}</h3>
+                      <h4>{{person.category}}</h4>
+                      <div class="speaker__bio">{{person.bio}}</div>
                     </div>
-                    {% endif %}
-                    <h3>{{person.name}}</h3>
-                    <h4>{{person.category}}</h4>
-                    <div>{{person.bio}}</div>
                 </article>
             {% endfor %}
         </div>

@@ -368,7 +368,6 @@ collections:
         widget: list
         fields:
           - { label: Name, name: name, widget: string }
-          - { label: Image, name: image, widget: image, required: false }
           - { label: Bio, name: bio, widget: text }
           - label: Category
             name: category
