@@ -346,6 +346,33 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: Image Alt, name: alt, widget: string }
           - { label: Content, name: content, widget: markdown }
+  - label: "Webinars"
+    name: "webinars"
+    folder: "src/webinars"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Slug, name: slug, widget: string, hint: "URL path, e.g. 2026webinarq2" }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: string }
+      - { label: Date, name: eventDate, widget: string }
+      - { label: Time, name: time, widget: string }
+      - { label: Platform, name: platform, widget: string, default: "Zoom" }
+      - { label: Featured Image, name: featuredImage, widget: image }
+      - { label: "Event description", name: introContent, widget: markdown }
+      - { label: RSVP button text, name: ctaText, widget: string, default: "RSVP" }
+      - { label: RSVP link, name: ctaLink, widget: string }
+      - { label: Subheading, name: subheading, widget: string, default: "Panelists:" }
+      - label: People
+        name: people
+        widget: list
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Bio, name: bio, widget: text }
+          - label: Category
+            name: category
+            widget: select
+            options: ["PANELIST", "MODERATOR", "SPEAKER", "HOST"]
   - label: "PDFs"
     name: "pdfs"
     folder: "static/pdf"
