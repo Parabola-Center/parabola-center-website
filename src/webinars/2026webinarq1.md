@@ -5,13 +5,13 @@ featuredImage: /img/2026webinarq1.png
 eventDate: "Thursday, April 2nd, 2026"
 time: "11:00 AM to 12:30 PM ET"
 platform: "Zoom"
-ctaText: "RSVP"
+ctaText: "Register"
 ctaLink: "https://us06web.zoom.us/webinar/register/WN_eOKZ1y7KSpOOqoEkTp6yBg"
 introContent: >-
   **Thursday, April 2nd, 2026 | 11:00 AM to 12:30 PM ET via Zoom**
 
 
-  [RSVP here](https://us06web.zoom.us/webinar/register/WN_eOKZ1y7KSpOOqoEkTp6yBg)
+  [Register here](https://us06web.zoom.us/webinar/register/WN_eOKZ1y7KSpOOqoEkTp6yBg)
 
 
   We know more about cannabis than perhaps ever before, but somehow the research and the people who need it most keep missing each other. Researchers often publish papers that never leave the academic world, so policymakers and advocates miss out on key data and findings.

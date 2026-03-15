@@ -368,7 +368,7 @@ collections:
         widget: list
         fields:
           - { label: Name, name: name, widget: string }
-          - { label: Bio, name: bio, widget: text }
+          - { label: Bio, name: bio, widget: markdown }
           - label: Category
             name: category
             widget: select

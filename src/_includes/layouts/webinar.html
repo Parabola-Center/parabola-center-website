@@ -132,7 +132,7 @@
                     <div class="speaker__info">
                       <h3>{{person.name}}</h3>
                       <h4>{{person.category}}</h4>
-                      <div class="speaker__bio">{{person.bio}}</div>
+                      <div class="speaker__bio">{{person.bio | markdown | safe}}</div>
                     </div>
                 </article>
             {% endfor %}
