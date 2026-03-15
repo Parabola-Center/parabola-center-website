@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/webinar",
+  "permalink": "/{{ page.fileSlug }}/"
+}
