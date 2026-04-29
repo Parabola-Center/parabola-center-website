@@ -234,6 +234,350 @@ footer a {
   max-width: 100%;
 }
 
+.home {
+  color: #111;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 6rem;
+}
+.home h1, .home h2, .home h3 {
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.home p {
+  color: #111;
+}
+
+.home__announce {
+  background: #111;
+  color: #fff;
+  margin: 0 -1.5rem 4rem;
+  padding: 0 1.5rem;
+}
+
+.home__announce-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  font-size: 0.95rem;
+}
+.home__announce-inner a {
+  color: #fff;
+  text-decoration: none;
+  flex: 1;
+  min-width: 0;
+}
+.home__announce-inner a:hover {
+  text-decoration: underline;
+  text-decoration-color: #eab12c;
+}
+
+.home__announce-tag {
+  display: inline-block;
+  background: #eab12c;
+  color: #111;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  margin-right: 0.6rem;
+  vertical-align: 0.05rem;
+}
+
+.home__announce-close {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.home__announce-close:hover {
+  opacity: 1;
+}
+
+.home__announce[hidden] {
+  display: none;
+}
+
+.home__hero {
+  padding: 4rem 0 5rem;
+  border-bottom: 1px solid #e5e5e2;
+  margin-bottom: 5rem;
+}
+
+.home__eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #df1e5b;
+  margin: 0 0 1.5rem;
+  font-weight: 700;
+}
+
+.home__headline {
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  font-weight: 700;
+  max-width: 16ch;
+  margin-bottom: 1.5rem;
+}
+
+.home__sub {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #6b6b6e;
+  max-width: 38rem;
+  margin: 0 0 2.5rem;
+}
+
+.home__cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.home__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+}
+
+.home__btn--primary {
+  background: #111;
+  color: #fff;
+}
+
+.home__btn--primary:hover {
+  background: #df1e5b;
+}
+
+.home__btn--ghost {
+  background: transparent;
+  color: #111;
+  border-color: #111;
+}
+
+.home__btn--ghost:hover {
+  background: #111;
+  color: #fff;
+}
+
+.home__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid currentColor;
+  padding-bottom: 2px;
+  color: #111;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.home__link:hover {
+  color: #df1e5b;
+  border-color: #df1e5b;
+}
+
+.home__pillars {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem 2.5rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+  .home__pillars {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.home__pillar {
+  border-top: 1px solid #111;
+  padding-top: 1.25rem;
+}
+.home__pillar h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1rem;
+  color: #111;
+}
+.home__pillar p {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: #6b6b6e;
+  margin-bottom: 0;
+}
+
+.home__about {
+  text-align: center;
+  max-width: 46rem;
+  margin: 0 auto 6rem;
+  padding: 4rem 0;
+  border-top: 1px solid #e5e5e2;
+  border-bottom: 1px solid #e5e5e2;
+}
+.home__about p {
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: #111;
+  margin: 0 0 1.75rem;
+}
+
+.home__about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid currentColor;
+  color: #df1e5b;
+  padding-bottom: 2px;
+}
+
+.home__about-link:hover {
+  color: #111;
+}
+
+.home__substack {
+  background: #faf8f4;
+  border-radius: 6px;
+  padding: 3rem 1.5rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.home__substack-inner {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+.home__substack-inner h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.home__substack-inner p {
+  color: #6b6b6e;
+  font-size: 1.1rem;
+  margin-bottom: 1.75rem;
+}
+
+.home__reading-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.home__reading-head h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.home__reading-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #e5e5e2;
+}
+
+.home__reading-item {
+  border-bottom: 1px solid #e5e5e2;
+  font-size: 1rem;
+}
+.home__reading-item::before {
+  content: none;
+}
+.home__reading-item a {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 0.25rem;
+  text-decoration: none;
+  color: #111;
+  transition: background 0.2s, padding 0.2s;
+}
+.home__reading-item a:hover {
+  background: #faf8f4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.home__reading-item a:hover .home__reading-arrow {
+  transform: translateX(4px);
+  color: #df1e5b;
+}
+.home__reading-item a:hover .home__reading-title {
+  color: #df1e5b;
+}
+
+.home__reading-num {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: #6b6b6e;
+  font-variant-numeric: tabular-nums;
+}
+
+.home__reading-title {
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.35;
+  transition: color 0.2s;
+}
+
+.home__reading-arrow {
+  font-size: 1.1rem;
+  color: #6b6b6e;
+  transition: transform 0.2s, color 0.2s;
+}
+
+@media (max-width: 600px) {
+  .home {
+    padding: 0 1rem 4rem;
+  }
+  .home__announce {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .home__hero {
+    padding: 2.5rem 0 3rem;
+    margin-bottom: 3rem;
+  }
+  .home__pillars {
+    margin-bottom: 4rem;
+  }
+  .home__about {
+    margin-bottom: 4rem;
+    padding: 2.5rem 0;
+  }
+  .home__substack {
+    margin-bottom: 4rem;
+    padding: 2.5rem 1.25rem;
+  }
+}
 @font-face {
   font-family: "FranklinGothic";
   src: url("/fonts/framd.ttf") format("truetype");
