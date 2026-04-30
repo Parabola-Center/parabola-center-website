@@ -8,7 +8,7 @@
     <meta name="description" content="{{description}}">
     <meta name="og:title" content="{{title}}">
     <meta name="og:description" content="{{description}}">
-    <meta name="og:image" content="/img/crash-course-2026-save-the-date.webp">
+    <meta name="og:image" content="/img/crash-course-image-2024.jpg">
     <link rel="apple-touch-icon" sizes="180x180" href="{{site.apple_touch_icon}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{site.favicon_32x32}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{site.favicon_16x16}}">
@@ -84,15 +84,16 @@
 <body>
     <main>
         <div class="intro">
-            <img src="{{crashcourse.featuredImage}}" width="300px" height="auto" alt="Intro image - Event Flyer"/>
-            <div class="intro__text">{{crashcourse.introContent | markdown | safe}}</div>
-            <a href="{{crashcourse.ctaLink}}" class="intro__cta" id="ctaLink">{{crashcourse.ctaText}}</a>
+            <img src="{{crashcourse2025.featuredImage}}" width="300px" height="auto" alt="Intro image - Event Flyer"/>
+            <div class="intro__text">{{crashcourse2025.introContent | markdown | safe}}</div>
+            <a href="{{crashcourse2025.ctaLink}}" class="intro__cta" id="ctaLink" style="margin-bottom: 0">{{crashcourse2025.ctaText}}</a>
+            <a href="{{crashcourse2025.ctaLink2}}" class="intro__cta" id="ctaLink">{{crashcourse2025.ctaText2}}</a>
         </div>
         <div class="partners__wrapper">
         <div class="partners__bg"></div>
         <div class="partners">
-          <h2>{{crashcourse.subheading}}</h2>
-            {% for person in crashcourse.people %}
+          <h2>{{crashcourse2025.subheading}}</h2>
+            {% for person in crashcourse2025.people %}
                 <article>
                     <div class="partner__image__wrapper"> 
                       <img src="{{person.image}}" width="458px" alt="{{person.name}} logo"/>
