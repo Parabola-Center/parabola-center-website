@@ -42,6 +42,18 @@
       "category": "HOST"
     },
     {
+      "name": "Cat Packer, Esq.",
+      "image": "/img/cat-packer.webp",
+      "bio": "Cat Packer is the director of drug markets and legal regulation at the Drug Policy Alliance, the vice chair of the Cannabis Regulators of Color Coalition, and a distinguished cannabis policy practitioner in residence at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center. From 2017 to 2022, Cat served as the first executive director of the City of Los Angeles Department of Cannabis Regulation. Cat is a proud alumna of The Ohio State University, where she received a bachelor’s degree in political science, a master’s degree in public policy and management, and a law degree.",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Tabatha Robinson, Esq.",
+      "bio": "Tabatha Robinson, JD, MBA was sworn in as Director of the Maryland Cannabis Administration (MCA) in April 2025. Prior to joining the MCA, Ms. Robinson served as Executive Deputy Director of Economic Development and Acting Chief Equity Officer for the New York State Office of Cannabis Management, where she drove economic programs and social equity licensing policies. Before joining New York State government, Robinson worked as a corporate attorney, focusing on strategic transactions and mergers and acquisitions and as Special Assistant Attorney General for Workers’ Rights in Washington, D.C.’s Office of the Attorney General. Ms. Robinson holds a J.D. from Harvard Law School, MBA from Harvard Business School, and a B.A. from Stanford University.",
+      "image": "/img/tabatha-robinson.jpg",
+      "category": "SPEAKER"
+    },
+    {
       "name": "Tauhid Chappell",
       "image": "/img/tauhid-chappell.jpg",
       "bio": "Tauhid Chappell is the first Executive Director to lead New Jersey’s Cannabis Academy, the country’s first government-run program aimed at diversifying the cannabis industry. Tauhid brings 10 years of experience in the cannabis space as a medical marijuana patient, a journalist who’s covered legalization efforts across the country, a former budtender for Philadelphia’s second medical marijuana dispensary, a current Adjunct Professor at Thomas Jefferson University, and an organizer of the Philadelphia CannaBusiness Association, Pennsylvania's first Black-owned, Black-led cannabis nonprofit aimed at healing the damage done by cannabis prohibition and mass incarceration.",
@@ -69,18 +81,6 @@
       "name": "Jason Ortiz",
       "image": "/img/jason-ortiz.webp",
       "bio": "Jason Ortiz is the Director of Strategic Initiatives for the Last Prisoner Project  Jason was arrested for simple cannabis possession at the age of 16 in Norwich CT, and that experience inspired him to become a cannabis justice advocate. He was one of the founding board Members of the Minority Cannabis Business Association and is the immediate past Executive Director of Students for Sensible Drug Policy. In addition to his drug policy activism, Jason sits on the board of the CT Working Families Party and has served as President of the Connecticut Puerto Rican Agenda where he organized for economic justice for his home island of Puerto Rico.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Cat Packer, Esq.",
-      "image": "/img/cat-packer.webp",
-      "bio": "Cat Packer is the director of drug markets and legal regulation at the Drug Policy Alliance, the vice chair of the Cannabis Regulators of Color Coalition, and a distinguished cannabis policy practitioner in residence at The Ohio State University Moritz College of Law’s Drug Enforcement and Policy Center. From 2017 to 2022, Cat served as the first executive director of the City of Los Angeles Department of Cannabis Regulation. Cat is a proud alumna of The Ohio State University, where she received a bachelor’s degree in political science, a master’s degree in public policy and management, and a law degree.",
-      "category": "SPEAKER"
-    },
-    {
-      "name": "Tabatha Robinson, Esq.",
-      "bio": "Tabatha Robinson, JD, MBA was sworn in as Director of the Maryland Cannabis Administration (MCA) in April 2025. Prior to joining the MCA, Ms. Robinson served as Executive Deputy Director of Economic Development and Acting Chief Equity Officer for the New York State Office of Cannabis Management, where she drove economic programs and social equity licensing policies. Before joining New York State government, Robinson worked as a corporate attorney, focusing on strategic transactions and mergers and acquisitions and as Special Assistant Attorney General for Workers’ Rights in Washington, D.C.’s Office of the Attorney General. Ms. Robinson holds a J.D. from Harvard Law School, MBA from Harvard Business School, and a B.A. from Stanford University.",
-      "image": "/img/tabatha-robinson.jpg",
       "category": "SPEAKER"
     }
   ],
