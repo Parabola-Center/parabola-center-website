@@ -110,3 +110,15 @@
   to = 'https://withac.net/products/parabola-center-black-longsleeve'
   status = 302
   force = false
+
+[[redirects]]
+  from = '/leadership2026'
+  to = 'https://docs.google.com/forms/d/e/1FAIpQLScYKPyLMtKHP5f-6k3RJV0Sbe92oYdO5mWUlRFnRfEeYUgf5Q/viewform?usp=send_form'
+  status = 302
+  force = false
+
+[[redirects]]
+  from = '/leadership2026/'
+  to = 'https://docs.google.com/forms/d/e/1FAIpQLScYKPyLMtKHP5f-6k3RJV0Sbe92oYdO5mWUlRFnRfEeYUgf5Q/viewform?usp=send_form'
+  status = 302
+  force = false
