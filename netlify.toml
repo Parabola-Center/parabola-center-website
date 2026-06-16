@@ -122,3 +122,15 @@
   to = 'https://docs.google.com/forms/d/e/1FAIpQLScYKPyLMtKHP5f-6k3RJV0Sbe92oYdO5mWUlRFnRfEeYUgf5Q/viewform?usp=send_form'
   status = 302
   force = false
+
+[[redirects]]
+  from = "/illinoismarket"
+  to = "/pdf/The%20Illusion%20of%20Competition.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/illinoismarket/"
+  to = "/pdf/The%20Illusion%20of%20Competition.pdf"
+  status = 302
+  force = false
