@@ -1,12 +1,7 @@
 {
-  "header1": "MODEL PLAN",
-  "header2": "SURVEY RESEARCH",
   "aboutLink": "/about",
   "about": "Parabola Center is a nonprofit of legal, public health, and policy professionals coming together to put people over profits. Through research and education, we provide everyone with the tools and expertise to shape emerging fields, from marijuana to artificial intelligence.",
-  "policy": "Read our plan for federal cannabis legalization",
   "aboutLinkText": "Learn more about us",
-  "button1Link": "https://www.parabolacenter.com/img/interstate.pdf",
-  "button2Link": "/survey/",
   "articles": [
     {
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3978766",
@@ -25,7 +20,5 @@
       "title": "Congress Only Has Only One Chance to Legalize Marijuana the Right Way (PDF)"
     }
   ],
-  "services": "Read our new report",
-  "buttonText": "Read more",
   "substackLink": "https://parabolacenter.substack.com/"
 }

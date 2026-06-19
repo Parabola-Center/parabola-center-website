@@ -295,6 +295,68 @@ ul {
   }
 }
 
+.home-hero {
+  background: #0c0c0c;
+  color: #ffffff;
+  padding: 5.5rem 1.5rem;
+  text-align: center;
+}
+
+.home-hero-inner {
+  margin: 0 auto;
+  max-width: 840px;
+}
+
+.home-hero-eyebrow {
+  color: $gold;
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+
+.home-hero-title {
+  font-size: 3.25rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  @media only screen and (max-width: 640px) {
+    font-size: 2.1rem;
+  }
+}
+
+.home-hero-text {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0 auto 2.25rem auto;
+  max-width: 660px;
+}
+
+.home-hero-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  justify-content: center;
+}
+
+.home-hero-link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.home-hero .btn-1 {
+  background: $gold;
+  border-color: $gold;
+  color: black;
+  &:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+  }
+}
+
 .featured-report {
   background: #f4f4f4;
   display: flex;

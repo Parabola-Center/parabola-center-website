@@ -5,28 +5,22 @@ layout: base
 <div class="banner">
   <a href="https://www.eventbrite.com/e/people-over-profits-cannabis-policy-crash-course-tickets-1985741982725">Join Us in Florida July 17-18 for People Over Profits 2026!</a>
 </div>
-<div class="two-column">
-  <!--Experience-->
-  <section class="index-policy">
-    <div>
-      <h1>{{index.header1}}</h1>
-      <p>{{index.policy}}</p>
-      <a href="{{index.button1Link}}"
-        ><button class="btn-1">{{index.buttonText}}</button></a
-      >
+<!-- Hero -->
+<header class="home-hero">
+  <div class="home-hero-inner">
+    <p class="home-hero-eyebrow">Parabola Center for Law &amp; Policy</p>
+    <h1 class="home-hero-title">
+      From cannabis to AI: policy for people, not corporate greed.
+    </h1>
+    <p class="home-hero-text">{{index.about}}</p>
+    <div class="home-hero-actions">
+      <a href="{{index.aboutLink}}">
+        <button class="btn-1">{{index.aboutLinkText}}</button>
+      </a>
+      <a class="home-hero-link" href="/donate">Support our work</a>
     </div>
-  </section>
-  <!--Services-->
-  <section class="index-services">
-    <div>
-      <h1>{{index.header2}}</h1>
-      <p>{{index.services}}</p>
-      <a href="{{index.button2Link}}"
-        ><button class="btn-1">{{index.buttonText}}</button></a
-      >
-    </div>
-  </section>
-</div>
+  </div>
+</header>
 <!-- Featured Report -->
 {% assign featured = reports.items[0] %}
 <section class="featured-report">
@@ -73,11 +67,6 @@ layout: base
     </a>
     {% endfor %}
   </div>
-</section>
-<!-- First paragraph of `About` & Link -->
-<section class="center-copy-large index-about">
-  <p>{{index.about}}</p>
-  <a href="{{index.aboutLink}}">{{index.aboutLinkText}}</a>
 </section>
 <!-- Ways to Support -->
 <section>
