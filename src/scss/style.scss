@@ -359,6 +359,86 @@ ul {
   margin-bottom: 2rem;
 }
 
+.reports {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 3.5rem 1rem;
+}
+
+.reports-heading {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.reports-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  @media only screen and (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (max-width: 640px) {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+
+.report-card {
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+  }
+}
+
+.report-card-cover {
+  aspect-ratio: 800 / 1035;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.report-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
+.report-card-type {
+  color: $red;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.report-card-body h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.report-card-summary {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.report-card-link {
+  color: $red;
+  font-weight: bold;
+  margin-top: auto;
+}
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;

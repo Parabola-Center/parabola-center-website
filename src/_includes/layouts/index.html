@@ -28,25 +28,50 @@ layout: base
   </section>
 </div>
 <!-- Featured Report -->
+{% assign featured = reports.items[0] %}
 <section class="featured-report">
   <div class="featured-report-card">
-    <a class="featured-report-cover" href="{{index.featuredReport.link}}">
+    <a class="featured-report-cover" href="{{featured.link}}">
       <img
-        src="{{index.featuredReport.image}}"
-        alt="{{index.featuredReport.imageAlt}}"
+        src="{{featured.image}}"
+        alt="{{featured.imageAlt}}"
         width="800"
         height="1035"
       />
     </a>
     <div class="featured-report-content">
-      <p class="featured-report-eyebrow">{{index.featuredReport.eyebrow}}</p>
-      <h2>{{index.featuredReport.title}}</h2>
-      <p class="featured-report-authors">{{index.featuredReport.authors}}</p>
-      <p class="featured-report-summary">{{index.featuredReport.summary}}</p>
-      <a href="{{index.featuredReport.link}}">
-        <button class="btn-1">{{index.featuredReport.linkText}}</button>
+      <p class="featured-report-eyebrow">{{featured.eyebrow}}</p>
+      <h2>{{featured.title}}</h2>
+      <p class="featured-report-authors">{{featured.authors}}</p>
+      <p class="featured-report-summary">{{featured.summary}}</p>
+      <a href="{{featured.link}}">
+        <button class="btn-1">{{featured.linkText}}</button>
       </a>
     </div>
+  </div>
+</section>
+
+<!-- Reports & Research -->
+<section class="reports">
+  <h2 class="reports-heading">Reports &amp; Research</h2>
+  <div class="reports-grid">
+    {% for report in reports.items offset:1 %}
+    <a class="report-card" href="{{report.link}}">
+      <img
+        class="report-card-cover"
+        src="{{report.image}}"
+        alt="{{report.imageAlt}}"
+        width="800"
+        height="1035"
+      />
+      <div class="report-card-body">
+        <p class="report-card-type">{{report.type}}</p>
+        <h3>{{report.title}}</h3>
+        {% if report.summary %}<p class="report-card-summary">{{report.summary}}</p>{% endif %}
+        <span class="report-card-link">{{report.linkText}} &rarr;</span>
+      </div>
+    </a>
+    {% endfor %}
   </div>
 </section>
 <!-- First paragraph of `About` & Link -->

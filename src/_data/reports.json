@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "eyebrow": "New Report",
+      "type": "Report",
+      "title": "The Illusion of Competition",
+      "authors": "By Damian Fagon and Hedy Yang",
+      "date": "May 2026",
+      "summary": "The Illusion of Competition maps every active cannabis brand in Illinois to the parent company that controls it — and finds market concentration rising again. That outcome was produced by policy choices: a licensing framework that gave incumbents a multiyear head start, regulators too fragmented to intervene, and a tax structure that hits small producers hardest.",
+      "image": "/img/illusion-of-competition-cover.webp",
+      "imageAlt": "Cover of The Illusion of Competition report",
+      "link": "/illinoismarket",
+      "linkText": "Read the report"
+    },
+    {
+      "type": "Policy Framework",
+      "title": "How to Federally Legalize Cannabis Without Violating the Constitution or Undermining Equity and Justice",
+      "authors": "Parabola Center",
+      "summary": "A blueprint for ending federal prohibition without violating the Constitution — protecting equity, small businesses, and the communities most harmed by the war on drugs.",
+      "image": "/img/how-to-federally-legalize-cover.webp",
+      "imageAlt": "Cover of How to Federally Legalize Cannabis report",
+      "link": "/img/interstate.pdf",
+      "linkText": "Read the report"
+    },
+    {
+      "type": "Toolkit",
+      "title": "Anti-Monopoly Toolkit",
+      "authors": "Parabola Center",
+      "summary": "A practical toolkit for legislators, regulators, patients, and advocates who want to stop big corporations from taking over the cannabis industry.",
+      "image": "/img/anti-monopoly-toolkit-cover.webp",
+      "imageAlt": "Cover of the Parabola Center Anti-Monopoly Toolkit",
+      "link": "/toolkit",
+      "linkText": "Explore the toolkit"
+    },
+    {
+      "type": "Survey Research",
+      "title": "American Values and Beliefs on Marijuana Legalization",
+      "authors": "Parabola Center",
+      "summary": "Survey research on what American adults believe about who should shape marijuana policy — and who should benefit from legalization.",
+      "image": "/img/american-values-cover.webp",
+      "imageAlt": "Cover of American Values and Beliefs on Marijuana Legalization",
+      "link": "/survey",
+      "linkText": "See the research"
+    }
+  ]
+}

@@ -61,24 +61,31 @@ collections:
           - { label: Link Text, name: aboutLinkText, widget: string }
           - { label: Link destination, name: aboutLink, widget: string }
           - { label: Button Text, name: buttonText, widget: string }
-          - label: Featured Report
-            name: featuredReport
-            widget: object
-            fields:
-              - { label: Eyebrow, name: eyebrow, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Authors, name: authors, widget: string }
-              - { label: Summary, name: summary, widget: text }
-              - { label: Cover Image, name: image, widget: image }
-              - { label: Cover Image Alt, name: imageAlt, widget: string }
-              - { label: Link, name: link, widget: string }
-              - { label: Link Text, name: linkText, widget: string }
           - label: Articles
             name: articles
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
               - { label: File, name: url, widget: file }
+      - label: "Reports"
+        name: "reports"
+        file: "src/_data/reports.json"
+        fields:
+          - label: Reports
+            name: items
+            widget: list
+            hint: "The first report is shown as the large featured report on the homepage; the rest appear in the grid below it."
+            fields:
+              - { label: Eyebrow (featured only), name: eyebrow, widget: string, required: false }
+              - { label: Type / Category, name: type, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Authors, name: authors, widget: string, required: false }
+              - { label: Date, name: date, widget: string, required: false }
+              - { label: Summary, name: summary, widget: text, required: false }
+              - { label: Cover Image, name: image, widget: image }
+              - { label: Cover Image Alt, name: imageAlt, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Link Text, name: linkText, widget: string }
       - label: "About Page"
         name: "about"
         file: "src/_data/about.json"
