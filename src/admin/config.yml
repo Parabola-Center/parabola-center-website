@@ -88,10 +88,19 @@ collections:
           - { label: Hero Title, name: hero_title, widget: string }
           - { label: Hero Subtitle, name: hero_subtitle, widget: string }
           - { label: Content, name: content, widget: markdown }
-          - { label: Header, name: about_header, widget: string }
           - { label: Advisors Text, name: advisors_text, widget: markdown }
-          - label: Founders
-            name: founders
+          - label: Board of Directors
+            name: board
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Image Alt, name: alt, widget: string }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Description, name: description, widget: markdown }
+              - { label: Link, name: link, widget: string }
+          - label: Legal & Policy
+            name: legalPolicy
             widget: list
             fields:
               - { label: Name, name: name, widget: string }

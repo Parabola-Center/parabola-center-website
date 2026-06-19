@@ -19,17 +19,43 @@ layout: base
     <div class="big:parabola-cols-center parabola-cols-full">{{ about.content | markdown | safe }}</div>
   </section>
 
-  <h2 class="section-band">{{about.about_header}}</h2>
+  <h2 class="section-band">Board of Directors</h2>
   <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full team-list">
-      {% for founder in about.founders %}
+      {% for founder in about.board %}
       <div class="team-member">
         <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
         <div class="team-bio">
           <p class="team-name">{{founder.caption}}</p>
           {{founder.description | markdown | safe}}
           {% if founder.link %}
+          {% if founder.link contains "http" %}
+          <p><a href="{{ founder.link }}" target="_blank" rel="noopener">Learn more about {{ founder.name }}</a></p>
+          {% else %}
           <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+          {% endif %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <h2 class="section-band">Legal &amp; Policy</h2>
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% for founder in about.legalPolicy %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{founder.caption}}</p>
+          {{founder.description | markdown | safe}}
+          {% if founder.link %}
+          {% if founder.link contains "http" %}
+          <p><a href="{{ founder.link }}" target="_blank" rel="noopener">Learn more about {{ founder.name }}</a></p>
+          {% else %}
+          <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+          {% endif %}
           {% endif %}
         </div>
       </div>
