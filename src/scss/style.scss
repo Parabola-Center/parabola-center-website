@@ -570,6 +570,50 @@ ul {
   }
 }
 
+.about-hero {
+  align-items: flex-end;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 60vh;
+  position: relative;
+  text-align: center;
+  &::before {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 0.72) 100%
+    );
+    content: "";
+    inset: 0;
+    position: absolute;
+  }
+}
+
+.about-hero-inner {
+  color: #ffffff;
+  max-width: 820px;
+  padding: 2rem 1.5rem 3rem;
+  position: relative;
+  z-index: 1;
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+    @media only screen and (max-width: 640px) {
+      font-size: 2.1rem;
+    }
+  }
+  p {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    max-width: 600px;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+  }
+}
+
 .about-board {
   @media only screen and (min-width: 768px) {
     img {

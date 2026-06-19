@@ -83,8 +83,10 @@ collections:
         name: "about"
         file: "src/_data/about.json"
         fields:
-          - { label: Main Image, name: main_image, widget: image }
-          - { label: Main Image Alt, name: main_image_alt, widget: string }
+          - { label: Hero Image, name: main_image, widget: image }
+          - { label: Hero Image Alt, name: main_image_alt, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Subtitle, name: hero_subtitle, widget: string }
           - { label: Content, name: content, widget: markdown }
           - { label: Header, name: about_header, widget: string }
           - { label: Advisors Text, name: advisors_text, widget: markdown }
@@ -98,6 +100,16 @@ collections:
               - { label: Caption, name: caption, widget: string }
               - { label: Description, name: description, widget: markdown }
               - { label: Link, name: link, widget: string }
+          - { label: Public Health Researchers Text, name: researchers_text, widget: markdown }
+          - label: Public Health Researchers
+            name: researchers
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Image Alt, name: alt, widget: string }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Description, name: description, widget: markdown }
           - { label: Fellows Text, name: fellows_text, widget: markdown }
           - label: Fellows
             name: fellows

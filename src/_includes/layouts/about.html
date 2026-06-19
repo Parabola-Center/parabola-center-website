@@ -1,7 +1,17 @@
 ---
 layout: base
 ---
-<img class="max-width" src="{{about.main_image}}" alt="{{about.main_image_alt}}">
+<header
+  class="about-hero"
+  style="background-image: url('{{about.main_image}}')"
+  role="img"
+  aria-label="{{about.main_image_alt}}"
+>
+  <div class="about-hero-inner">
+    <h1>{{about.hero_title}}</h1>
+    <p>{{about.hero_subtitle}}</p>
+  </div>
+</header>
 <div class="about-cont">
   <section class="parabola-grid about-md bg-white" style="margin-top: -10px; padding-top: 2rem;">
     <div class="big:parabola-cols-center parabola-cols-full">{{ about.content | markdown | safe }}</div>
@@ -43,6 +53,19 @@ layout: base
         {% endfor %}
       </ul>
     </div>
+    <div class="big:parabola-cols-center parabola-cols-full">
+      <h2>Public Health Researchers</h2>
+      <p style="max-width: 650px">{{about.researchers_text | markdown | safe}}</p>
+    </div>
+    {% for researcher in about.researchers %}
+    <div class="big:parabola-cols-half parabola-cols-full">
+      <figure>
+        <img class="max-width" src="{{ researcher.image }}" alt="{{researcher.alt}}" width="100%" />
+        <figcaption>{{researcher.caption}}</figcaption>
+      </figure>
+      <p>{{researcher.description | markdown | safe}}</p>
+    </div>
+    {% endfor %}
     <div class="big:parabola-cols-center parabola-cols-full">
       <h2>Fellows</h2>
       <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
