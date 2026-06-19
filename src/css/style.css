@@ -597,7 +597,7 @@ ul {
 .featured-report-card {
   align-items: center;
   background: #ffffff;
-  border-top: 6px solid #df1e5b;
+  border-top: 6px solid #12bdce;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-wrap: wrap;
@@ -689,6 +689,7 @@ ul {
 }
 
 .report-card {
+  --accent: #df1e5b;
   background: #ffffff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
@@ -696,6 +697,15 @@ ul {
   overflow: hidden;
   text-decoration: none;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.report-card:nth-child(4n+2) {
+  --accent: #eab12c;
+}
+.report-card:nth-child(4n+3) {
+  --accent: #2db67d;
+}
+.report-card:nth-child(4n+4) {
+  --accent: #12bdce;
 }
 .report-card:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -719,7 +729,7 @@ ul {
 }
 
 .report-card-type {
-  color: #df1e5b;
+  color: var(--accent);
   font-size: 0.85rem;
   font-weight: bold;
   letter-spacing: 0.06em;
@@ -738,7 +748,7 @@ ul {
 }
 
 .report-card-link {
-  color: #df1e5b;
+  color: var(--accent);
   font-weight: bold;
   margin-top: auto;
 }
@@ -949,12 +959,22 @@ ul {
 }
 
 .resource-card {
+  --accent: #df1e5b;
   background: #ffffff;
-  border-top: 4px solid #df1e5b;
+  border-top: 4px solid var(--accent);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
+}
+.resource-card:nth-child(4n+2) {
+  --accent: #eab12c;
+}
+.resource-card:nth-child(4n+3) {
+  --accent: #2db67d;
+}
+.resource-card:nth-child(4n+4) {
+  --accent: #12bdce;
 }
 .resource-card h3 {
   font-size: 1.2rem;
@@ -982,7 +1002,7 @@ ul {
 }
 
 .resource-link {
-  color: #df1e5b;
+  color: var(--accent);
   font-weight: bold;
   margin-top: auto;
 }
@@ -1010,14 +1030,24 @@ ul {
 }
 
 .media-card {
+  --accent: #df1e5b;
   background: #ffffff;
-  border-top: 4px solid #df1e5b;
+  border-top: 4px solid var(--accent);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
   text-decoration: none;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.media-card:nth-child(4n+2) {
+  --accent: #eab12c;
+}
+.media-card:nth-child(4n+3) {
+  --accent: #2db67d;
+}
+.media-card:nth-child(4n+4) {
+  --accent: #12bdce;
 }
 .media-card:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -1038,7 +1068,7 @@ ul {
 }
 
 .media-link {
-  color: #df1e5b;
+  color: var(--accent);
   font-weight: bold;
   margin-top: auto;
 }
@@ -1151,12 +1181,16 @@ ul {
 }
 
 .donate-card {
+  --accent: #2db67d;
   background: #ffffff;
-  border-top: 5px solid #df1e5b;
+  border-top: 5px solid var(--accent);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
   padding: 2rem;
+}
+.donate-card:nth-child(2) {
+  --accent: #12bdce;
 }
 .donate-card h3 {
   font-size: 1.6rem;

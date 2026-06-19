@@ -358,7 +358,7 @@ ul {
 .featured-report-card {
   align-items: center;
   background: #ffffff;
-  border-top: 6px solid $red;
+  border-top: 6px solid $blue;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-wrap: wrap;
@@ -443,7 +443,21 @@ ul {
   }
 }
 
+@mixin accent-cycle {
+  --accent: #{$red};
+  &:nth-child(4n + 2) {
+    --accent: #{$gold};
+  }
+  &:nth-child(4n + 3) {
+    --accent: #{$green};
+  }
+  &:nth-child(4n + 4) {
+    --accent: #{$blue};
+  }
+}
+
 .report-card {
+  @include accent-cycle;
   background: #ffffff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
@@ -474,7 +488,7 @@ ul {
 }
 
 .report-card-type {
-  color: $red;
+  color: var(--accent);
   font-size: 0.85rem;
   font-weight: bold;
   letter-spacing: 0.06em;
@@ -493,7 +507,7 @@ ul {
 }
 
 .report-card-link {
-  color: $red;
+  color: var(--accent);
   font-weight: bold;
   margin-top: auto;
 }
@@ -700,8 +714,9 @@ ul {
 }
 
 .resource-card {
+  @include accent-cycle;
   background: #ffffff;
-  border-top: 4px solid $red;
+  border-top: 4px solid var(--accent);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
@@ -733,7 +748,7 @@ ul {
 }
 
 .resource-link {
-  color: $red;
+  color: var(--accent);
   font-weight: bold;
   margin-top: auto;
 }
@@ -757,8 +772,9 @@ ul {
 }
 
 .media-card {
+  @include accent-cycle;
   background: #ffffff;
-  border-top: 4px solid $red;
+  border-top: 4px solid var(--accent);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
@@ -785,7 +801,7 @@ ul {
 }
 
 .media-link {
-  color: $red;
+  color: var(--accent);
   font-weight: bold;
   margin-top: auto;
 }
@@ -911,9 +927,13 @@ ul {
 }
 
 .donate-card {
+  --accent: #{$green};
   background: #ffffff;
-  border-top: 5px solid $red;
+  border-top: 5px solid var(--accent);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  &:nth-child(2) {
+    --accent: #{$blue};
+  }
   display: flex;
   flex-direction: column;
   padding: 2rem;
