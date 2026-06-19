@@ -23,16 +23,6 @@
       "linkText": "Read the report"
     },
     {
-      "type": "Toolkit",
-      "title": "Anti-Monopoly Toolkit",
-      "authors": "Parabola Center",
-      "summary": "A practical toolkit for legislators, regulators, patients, and advocates who want to stop big corporations from taking over the cannabis industry.",
-      "image": "/img/anti-monopoly-toolkit-cover.webp",
-      "imageAlt": "Cover of the Parabola Center Anti-Monopoly Toolkit",
-      "link": "/toolkit",
-      "linkText": "Explore the toolkit"
-    },
-    {
       "type": "Survey Research",
       "title": "American Values and Beliefs on Marijuana Legalization",
       "authors": "Parabola Center",
@@ -41,6 +31,16 @@
       "imageAlt": "Cover of American Values and Beliefs on Marijuana Legalization",
       "link": "/survey",
       "linkText": "See the research"
+    },
+    {
+      "type": "Toolkit",
+      "title": "Anti-Monopoly Toolkit",
+      "authors": "Parabola Center",
+      "summary": "A practical toolkit for legislators, regulators, patients, and advocates who want to stop big corporations from taking over the cannabis industry.",
+      "image": "/img/anti-monopoly-toolkit-cover.webp",
+      "imageAlt": "Cover of the Parabola Center Anti-Monopoly Toolkit",
+      "link": "/toolkit",
+      "linkText": "Explore the toolkit"
     }
   ]
 }
