@@ -27,5 +27,13 @@
   ],
   "services": "Read our new report",
   "buttonText": "Read more",
-  "substackLink": "https://parabolacenter.substack.com/"
+  "substackLink": "https://parabolacenter.substack.com/",
+  "featuredReport": {
+    "eyebrow": "New Report",
+    "title": "The Illusion of Competition",
+    "authors": "By Damian Fagon and Hedy Yang",
+    "summary": "The Illusion of Competition maps every active cannabis brand in Illinois to the parent company that controls it — and finds market concentration rising again. That outcome was produced by policy choices: a licensing framework that gave incumbents a multiyear head start, regulators too fragmented to intervene, and a tax structure that hits small producers hardest.",
+    "link": "/illinoismarkets",
+    "linkText": "Read the report"
+  }
 }

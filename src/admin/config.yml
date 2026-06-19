@@ -61,6 +61,16 @@ collections:
           - { label: Link Text, name: aboutLinkText, widget: string }
           - { label: Link destination, name: aboutLink, widget: string }
           - { label: Button Text, name: buttonText, widget: string }
+          - label: Featured Report
+            name: featuredReport
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Authors, name: authors, widget: string }
+              - { label: Summary, name: summary, widget: text }
+              - { label: Link, name: link, widget: string }
+              - { label: Link Text, name: linkText, widget: string }
           - label: Articles
             name: articles
             widget: list

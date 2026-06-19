@@ -27,6 +27,18 @@ layout: base
     </div>
   </section>
 </div>
+<!-- Featured Report -->
+<section class="featured-report">
+  <div class="featured-report-card">
+    <p class="featured-report-eyebrow">{{index.featuredReport.eyebrow}}</p>
+    <h2>{{index.featuredReport.title}}</h2>
+    <p class="featured-report-authors">{{index.featuredReport.authors}}</p>
+    <p class="featured-report-summary">{{index.featuredReport.summary}}</p>
+    <a href="{{index.featuredReport.link}}">
+      <button class="btn-1">{{index.featuredReport.linkText}}</button>
+    </a>
+  </div>
+</section>
 <!-- First paragraph of `About` & Link -->
 <section class="center-copy-large index-about">
   <p>{{index.about}}</p>

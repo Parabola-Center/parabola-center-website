@@ -146,4 +146,16 @@
   to = "/pdf/The%20Illusion%20of%20Competition.pdf"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/illinoismarkets"
+  to = "/pdf/The%20Illusion%20of%20Competition.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/illinoismarkets/"
+  to = "/pdf/The%20Illusion%20of%20Competition.pdf"
+  status = 302
+  force = false
   

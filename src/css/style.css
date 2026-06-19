@@ -541,6 +541,48 @@ ul {
   width: 36px;
 }
 
+.featured-report {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 3.5rem 1rem;
+}
+
+.featured-report-card {
+  background: #ffffff;
+  border-top: 6px solid #df1e5b;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  max-width: 760px;
+  padding: 2.5rem;
+  text-align: center;
+}
+.featured-report-card h2 {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.featured-report-eyebrow {
+  color: #df1e5b;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.featured-report-authors {
+  color: #6d6e70;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.featured-report-summary {
+  font-size: 1.2rem;
+  margin: 0 auto 2rem auto;
+  max-width: 620px;
+}
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;
