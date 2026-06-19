@@ -660,7 +660,11 @@ ul {
 }
 
 .reports-heading {
+  background: #0c0c0c;
+  color: #ffffff;
+  font-size: 2.25rem;
   margin-bottom: 2.5rem;
+  padding: 1.1rem 1.25rem;
   text-align: center;
 }
 
