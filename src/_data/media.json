@@ -3,83 +3,123 @@
   "header": "Parabola Center In The News",
   "items": [
     {
-      "title": "Big Tobacco Is Selling A Corporate Cannabis Blueprint As A Public Mandate, Former New York Regulator Says (Op-Ed), 7/3/2025",
+      "title": "Big Tobacco Is Selling A Corporate Cannabis Blueprint As A Public Mandate, Former New York Regulator Says (Op-Ed)",
+      "outlet": "Marijuana Moment",
+      "date": "July 3, 2025",
       "url": "https://www.marijuanamoment.net/big-tobacco-is-selling-a-corporate-cannabis-blueprint-as-a-public-mandate-former-new-york-regulator-says-op-ed/"
     },
     {
       "title": "Report: Americans don’t want cannabis industry rules written by Big Pharma, Tobacco, Alcohol",
+      "outlet": "Green Market Report",
+      "date": "",
       "url": "https://www.greenmarketreport.com/report-americans-dont-want-cannabis-industry-rules-written-by-big-pharma-tobacco-alcohol/"
     },
     {
       "title": "Americans Want Marijuana Legalization To Prioritize Equity And Benefit Workers, Poll From Advocacy Group Finds",
+      "outlet": "Marijuana Moment",
+      "date": "",
       "url": "https://www.marijuanamoment.net/americans-want-marijuana-legalization-to-prioritize-equity-and-benefit-workers-poll-from-advocacy-group-finds/"
     },
     {
-      "url": "https://wapo.st/47nIM61",
-      "title": "Loosening Restrictions on Marijuana May Not Be Boon for Reform, Washington Post, 11/22/2023"
+      "title": "Loosening Restrictions on Marijuana May Not Be Boon for Reform",
+      "outlet": "The Washington Post",
+      "date": "November 22, 2023",
+      "url": "https://wapo.st/47nIM61"
     },
     {
-      "title": "How to Legalize Without Killing Small Businesses: A New Report Tackles the Problem, Politico, 10/25/2023",
+      "title": "How to Legalize Without Killing Small Businesses: A New Report Tackles the Problem",
+      "outlet": "Politico",
+      "date": "October 25, 2023",
       "url": "https://subscriber.politicopro.com/article/2023/10/how-to-legalize-without-killing-small-businesses-a-new-report-tackles-the-problem-00123349"
     },
     {
-      "url": "https://hightimes.com/news/report-federal-mj-reform-may-hurt-small-business-and-equity-congress-must-act/",
-      "title": "Report: Federal Marijuana Reform May Hurt Small Business and Equity, Congress Must Act, High Times, 10/27/2023"
+      "title": "Report: Federal Marijuana Reform May Hurt Small Business and Equity, Congress Must Act",
+      "outlet": "High Times",
+      "date": "October 27, 2023",
+      "url": "https://hightimes.com/news/report-federal-mj-reform-may-hurt-small-business-and-equity-congress-must-act/"
     },
     {
-      "title": "Federal Marijuana Legalization Could Endanger State Markets Without Anti-Monopoly And Interstate Commerce Protections, Report Says, Marijuana Moment, 10/26/2023",
+      "title": "Federal Marijuana Legalization Could Endanger State Markets Without Anti-Monopoly And Interstate Commerce Protections, Report Says",
+      "outlet": "Marijuana Moment",
+      "date": "October 26, 2023",
       "url": "https://www.marijuanamoment.net/federal-marijuana-legalization-could-endanger-state-markets-without-anti-monopoly-and-interstate-commerce-protections-report-says/"
     },
     {
-      "title": "New Report Aims To Protect Small Cannabis From Corporate Takeover, Forbes, 10/26/2023",
+      "title": "New Report Aims To Protect Small Cannabis From Corporate Takeover",
+      "outlet": "Forbes",
+      "date": "October 26, 2023",
       "url": "https://www.forbes.com/sites/lindseybartlett/2023/10/26/new-report-aims-to-protect-small-cannabis-from-corporate-takeover/?sh=5848eb8c49c5"
     },
     {
-      "title": "Parabola Report Calls for Protecting Small Biz Amid Federal Legalization, Cannabis Wire, 10/27/2023",
+      "title": "Parabola Report Calls for Protecting Small Biz Amid Federal Legalization",
+      "outlet": "Cannabis Wire",
+      "date": "October 27, 2023",
       "url": "https://cannabiswire.com/2023/10/27/malta-awards-first-licenses-nancy-maces-cannabis-bill-is-back-parabola-report-calls-for-protecting-small-biz-amid-federal-legalization-kansans-support-adult-use/"
     },
     {
-      "title": "Elizabeth Warren Wants Marijuana Laws That Block Amazon And Big Tobacco From Monopolizing The Legal Industry, Marijuana Moment, 6/10/2023",
+      "title": "Elizabeth Warren Wants Marijuana Laws That Block Amazon And Big Tobacco From Monopolizing The Legal Industry",
+      "outlet": "Marijuana Moment",
+      "date": "June 10, 2023",
       "url": "https://www.marijuanamoment.net/elizabeth-warren-wants-marijuana-laws-that-block-amazon-and-big-tobacco-from-monopolizing-the-legal-industry/#google_vignette"
     },
     {
       "title": "Former Cannabis Control Commissioner Shaleen Title launches think tank",
+      "outlet": "Worcester Magazine",
+      "date": "",
       "url": "https://www.worcestermag.com/story/lifestyle/columns/2022/08/17/cannabis-confidential-former-cannabis-control-commissioner-shaleen-title-launches-think-tank/10327240002/"
     },
     {
-      "title": "Cannabis Legalization Must Address Monopoly Dangers, Law360, 9/21/2022",
+      "title": "Cannabis Legalization Must Address Monopoly Dangers",
+      "outlet": "Law360",
+      "date": "September 21, 2022",
       "url": "https://parabolacenter.com/cannabis-legalization-must-address-monopoly-dangers/"
     },
     {
-      "title": "Former State Marijuana Regulator Outlines Steps To Ensure Social Equity In The Legal Industry, 12/13/2021",
+      "title": "Former State Marijuana Regulator Outlines Steps To Ensure Social Equity In The Legal Industry",
+      "outlet": "Marijuana Moment",
+      "date": "December 13, 2021",
       "url": "https://www.marijuanamoment.net/former-state-marijuana-regulator-outlines-steps-to-ensure-social-equity-in-the-legal-industry/"
     },
     {
-      "title": "Shaleen Title speaks on confidence, the drug policy movement, and her journey in the cannabis industry, 12/9/2021",
+      "title": "Shaleen Title speaks on confidence, the drug policy movement, and her journey in the cannabis industry",
+      "outlet": "Leafly",
+      "date": "December 9, 2021",
       "url": "https://www.leafly.com/news/lifestyle/shaleen-title-on-cannabis-confidence-and-equity"
     },
     {
-      "title": "Some Cannabis Firms See \"Disaster\" In Federal Legalization, Politico, 9/26/2021",
+      "title": "Some Cannabis Firms See \"Disaster\" In Federal Legalization",
+      "outlet": "Politico",
+      "date": "September 26, 2021",
       "url": "https://www.politico.com/news/2021/09/26/weed-businesses-federal-legalization-514252"
     },
     {
-      "title": "Commerce Clause \"Chaos\" Could Follow Federal Pot Legalization, Law360, 9/9/2021",
+      "title": "Commerce Clause \"Chaos\" Could Follow Federal Pot Legalization",
+      "outlet": "Law360",
+      "date": "September 9, 2021",
       "url": "https://www.law360.com/articles/1419930/commerce-clause-chaos-could-follow-fed-pot-legalization"
     },
     {
-      "title": "Pot Advocates Advise Careful Rollout of Federal Legalization, Law360, 9/1/2021",
+      "title": "Pot Advocates Advise Careful Rollout of Federal Legalization",
+      "outlet": "Law360",
+      "date": "September 1, 2021",
       "url": "https://www.law360.com/articles/1418034/pot-advocates-advise-careful-rollout-of-federal-legalization"
     },
     {
-      "title": "Congress Should Protect Small Marijuana Businesses From Big Tobacco Takeover, Colorado Attorney General Says, Marijuana Moment, 8/25/2021",
+      "title": "Congress Should Protect Small Marijuana Businesses From Big Tobacco Takeover, Colorado Attorney General Says",
+      "outlet": "Marijuana Moment",
+      "date": "August 25, 2021",
       "url": "https://www.marijuanamoment.net/congress-should-protect-small-marijuana-businesses-from-big-tobacco-takeover-colorado-attorney-general-says/"
     },
     {
-      "title": "Marijuana Equity Advocates Propose Changes To Federal Legalization Bill To Stop Big Business Takeover, Marijuana Moment, 6/17/2021",
+      "title": "Marijuana Equity Advocates Propose Changes To Federal Legalization Bill To Stop Big Business Takeover",
+      "outlet": "Marijuana Moment",
+      "date": "June 17, 2021",
       "url": "https://www.marijuanamoment.net/marijuana-equity-advocates-propose-changes-to-federal-legalization-bill-to-stop-big-business-takeover/"
     },
     {
-      "title": "Former Cannabis Regulator Cautions Against Bill that Would Expand Cannabis Nationally. Here's why, Boston Business Journal, 6/18/2021",
+      "title": "Former Cannabis Regulator Cautions Against Bill that Would Expand Cannabis Nationally. Here's why",
+      "outlet": "Boston Business Journal",
+      "date": "June 18, 2021",
       "url": "https://www.bizjournals.com/boston/news/2021/06/18/former-cannabis-regulator-says.html"
     }
   ]

@@ -151,6 +151,8 @@ collections:
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
+              - { label: Outlet, name: outlet, widget: string, required: false }
+              - { label: Date, name: date, widget: string, required: false }
               - { label: URL, name: url, widget: string }
       - label: "Partners Page"
         name: "partners"
