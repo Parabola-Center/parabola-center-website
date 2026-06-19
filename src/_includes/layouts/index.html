@@ -3,7 +3,11 @@ layout: base
 ---
 
 <div class="banner">
-  <a href="https://www.eventbrite.com/e/people-over-profits-cannabis-policy-crash-course-tickets-1985741982725">Join Us in Florida July 17-18 for People Over Profits 2026!</a>
+  <a href="https://www.eventbrite.com/e/people-over-profits-cannabis-policy-crash-course-tickets-1985741982725">
+    <span class="banner-tag">Event</span>
+    <span class="banner-text">Join us in Florida July 17&ndash;18 for People Over Profits 2026</span>
+    <span class="banner-arrow" aria-hidden="true">&rarr;</span>
+  </a>
 </div>
 <!-- Hero -->
 <header class="home-hero">
@@ -68,6 +72,18 @@ layout: base
     {% endfor %}
   </div>
 </section>
+
+<!-- Further Reading -->
+<section class="further-reading">
+  <h2 class="reports-heading">Further Reading</h2>
+  <ul class="further-reading-list">
+    {% for item in index.articles %}
+    <li>
+      <a href="{{item.url}}">{{item.title}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 <!-- Ways to Support -->
 <section>
   <div class="alt-grid support-grid">
@@ -118,16 +134,4 @@ layout: base
       </a>
     </div>
   </div>
-</section>
-
-<!-- Article Card Reel -->
-<section class="parabola-grid pdf">
-  {% for item in index.articles %}
-  <a
-    class="parabola-cols-full big:parabola-cols-quarter text-center"
-    href="{{item.url}}"
-  >
-    {{item.title}}
-  </a>
-  {% endfor %}
 </section>
