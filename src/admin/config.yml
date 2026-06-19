@@ -313,6 +313,15 @@ collections:
               - { label: Attribution, name: attribution, widget: string }
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: string }
+          - { label: Webinars Header, name: header5, widget: string }
+          - label: Webinars
+            name: webinars
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Date, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown, required: false }
+              - { label: URL, name: url, widget: string }
           - { label: Header 4, name: header4, widget: string }
           - label: Cheat Sheets
             name: cheatSheets

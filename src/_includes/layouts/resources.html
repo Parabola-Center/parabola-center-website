@@ -48,6 +48,20 @@ layout: base
   </div>
 </section>
 
+<h2 class="section-band">{{resources.header5}}</h2>
+<section class="resources-section">
+  <div class="resource-grid">
+    {% for item in resources.webinars %}
+    <article class="resource-card">
+      <h3>{{ item.title }}</h3>
+      <p class="resource-attribution">{{ item.attribution }}</p>
+      {% if item.snippet %}<div class="resource-snippet">{{ item.snippet | markdown | safe }}</div>{% endif %}
+      <a class="resource-link" href="{{ item.url }}" target="_blank" rel="noopener">Watch &rarr;</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 <h2 class="section-band">{{resources.header4}}</h2>
 <section class="resources-section">
   <div class="resource-grid">

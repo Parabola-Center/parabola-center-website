@@ -264,5 +264,20 @@
       "snippet": "It was valuable for us to interview Massachusetts State Representative (now Senator) Liz\nMiranda about her views on drug policy. Along with Representative Mike Connolly, she\nintroduced a bill to repeal all criminal penalties for drug possession and make them civil\ninfractions. She lives in Roxbury near the area most well-known for drug enforcement and has\nconsistently advocated for her community and for incarcerated people."
     }
   ],
-  "pageHeader": "Resources"
+  "pageHeader": "Resources",
+  "header5": "Webinars",
+  "webinars": [
+    {
+      "title": "Demystifying the Cannabis Research Process",
+      "attribution": "April 6, 2026",
+      "snippet": "",
+      "url": "https://parabolacenter.substack.com/p/demystifying-the-cannabis-research"
+    },
+    {
+      "title": "Reimagining Cannabis & Public Health: A People-First Approach to Policy, Research & Equity",
+      "attribution": "April 15, 2025",
+      "snippet": "",
+      "url": "https://www.youtube.com/watch?v=qm1FhL0HDS0"
+    }
+  ]
 }
