@@ -257,6 +257,44 @@ ul {
   background: $green;
 }
 
+.support-grid .grid-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    max-width: 30ch;
+  }
+}
+
+.support-grid a.grid-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.support-grid a.grid-card:hover {
+  transform: translateY(-4px);
+}
+
+.support-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  img {
+    height: 36px;
+    width: 36px;
+  }
+}
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;

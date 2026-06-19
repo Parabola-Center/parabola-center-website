@@ -32,19 +32,54 @@ layout: base
   <p>{{index.about}}</p>
   <a href="{{index.aboutLink}}">{{index.aboutLinkText}}</a>
 </section>
+<!-- Ways to Support -->
 <section>
-  <div class="alt-grid">
+  <div class="alt-grid support-grid">
     <div class="alt-one">
-      <div class="grid-card">{{ index.card_one | markdown | safe }}</div>
+      <a
+        class="grid-card support-card"
+        href="{{index.substackLink}}"
+        target="_blank"
+        rel="noopener"
+      >
+        <h2>Subscribe to our Substack</h2>
+        <p>Get our latest research, op-eds, and updates in your inbox.</p>
+      </a>
     </div>
     <div class="alt-two">
-      <div class="grid-card">{{ index.card_two | markdown | safe }}</div>
+      <a class="grid-card support-card" href="/donate">
+        <h2>Send a donation</h2>
+        <p>Fuel our work with a tax-deductible gift and keep the power with the people.</p>
+      </a>
     </div>
     <div class="alt-three">
-      <div class="grid-card">{{ index.card_three | markdown | safe }}</div>
+      <div class="grid-card support-card">
+        <h2>Follow us</h2>
+        <p>Stay connected on social media.</p>
+        <div class="support-social">
+          {% for social in footer.socials %}
+          <a
+            href="{{social.url}}"
+            target="_blank"
+            rel="noopener"
+            aria-label="{{social.alt}}"
+          >
+            <img
+              src="{{social.image}}"
+              alt="{{social.alt}}"
+              height="36"
+              width="36"
+            />
+          </a>
+          {% endfor %}
+        </div>
+      </div>
     </div>
     <div class="alt-four">
-      <div class="grid-card">{{ index.card_four | markdown | safe }}</div>
+      <a class="grid-card support-card" href="/contact">
+        <h2>Send us a note</h2>
+        <p>Questions, ideas, or partnerships? We'd love to hear from you.</p>
+      </a>
     </div>
   </div>
 </section>

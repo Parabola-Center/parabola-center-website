@@ -61,10 +61,6 @@ collections:
           - { label: Link Text, name: aboutLinkText, widget: string }
           - { label: Link destination, name: aboutLink, widget: string }
           - { label: Button Text, name: buttonText, widget: string }
-          - { label: Card 1, name: card_one, widget: markdown }
-          - { label: Card 2, name: card_two, widget: markdown }
-          - { label: Card 3, name: card_three, widget: markdown }
-          - { label: Card 4, name: card_four, widget: markdown }
           - label: Articles
             name: articles
             widget: list
