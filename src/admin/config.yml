@@ -69,6 +69,8 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Authors, name: authors, widget: string }
               - { label: Summary, name: summary, widget: text }
+              - { label: Cover Image, name: image, widget: image }
+              - { label: Cover Image Alt, name: imageAlt, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Link Text, name: linkText, widget: string }
           - label: Articles

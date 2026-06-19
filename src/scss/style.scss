@@ -303,16 +303,39 @@ ul {
 }
 
 .featured-report-card {
+  align-items: center;
   background: #ffffff;
   border-top: 6px solid $red;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  max-width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  max-width: 920px;
   padding: 2.5rem;
-  text-align: center;
   h2 {
     font-size: 2.25rem;
     margin-bottom: 0.5rem;
   }
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.featured-report-cover {
+  flex-shrink: 0;
+  img {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 240px;
+  }
+}
+
+.featured-report-content {
+  flex: 1;
+  min-width: 280px;
 }
 
 .featured-report-eyebrow {
@@ -333,8 +356,7 @@ ul {
 
 .featured-report-summary {
   font-size: 1.2rem;
-  margin: 0 auto 2rem auto;
-  max-width: 620px;
+  margin-bottom: 2rem;
 }
 
 .container {

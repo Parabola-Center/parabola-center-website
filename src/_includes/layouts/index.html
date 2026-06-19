@@ -30,13 +30,23 @@ layout: base
 <!-- Featured Report -->
 <section class="featured-report">
   <div class="featured-report-card">
-    <p class="featured-report-eyebrow">{{index.featuredReport.eyebrow}}</p>
-    <h2>{{index.featuredReport.title}}</h2>
-    <p class="featured-report-authors">{{index.featuredReport.authors}}</p>
-    <p class="featured-report-summary">{{index.featuredReport.summary}}</p>
-    <a href="{{index.featuredReport.link}}">
-      <button class="btn-1">{{index.featuredReport.linkText}}</button>
+    <a class="featured-report-cover" href="{{index.featuredReport.link}}">
+      <img
+        src="{{index.featuredReport.image}}"
+        alt="{{index.featuredReport.imageAlt}}"
+        width="800"
+        height="1035"
+      />
     </a>
+    <div class="featured-report-content">
+      <p class="featured-report-eyebrow">{{index.featuredReport.eyebrow}}</p>
+      <h2>{{index.featuredReport.title}}</h2>
+      <p class="featured-report-authors">{{index.featuredReport.authors}}</p>
+      <p class="featured-report-summary">{{index.featuredReport.summary}}</p>
+      <a href="{{index.featuredReport.link}}">
+        <button class="btn-1">{{index.featuredReport.linkText}}</button>
+      </a>
+    </div>
   </div>
 </section>
 <!-- First paragraph of `About` & Link -->
