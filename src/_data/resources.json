@@ -1,5 +1,4 @@
 {
-  "highlightedVideoLink": "https://www.parabolacenter.com",
   "header1": "Policy Portfolio",
   "header2": "Policy Positions",
   "header3": "Policy Videos",
@@ -214,11 +213,7 @@
       "url": "/img/interview-with-john-marks.pdf"
     }
   ],
-  "intro": "Below, you will find our policy papers along with op-eds, videos, and cheat sheets. As part of our nonprofit mission, we provide the resources necessary to advocate for concrete, equitable, workable policies that put people ahead of corporate profits. All of our resources are free and open to the public.",
-  "highlightedVideoTitle": "Highlighted Video Title",
-  "highlightedVideoImage": "/img/up-in-the-air_-residency-requirements-in-cannabis-policy.webp",
-  "highlightedPositionLink": "https://www.parabolacenter.com",
-  "policyHighlightTitle": "Highlighted Policy Title",
+  "intro": "Below you’ll find our policy papers, op-eds, videos, and cheat sheets. As part of our nonprofit mission, we provide the resources people need to advocate for concrete, equitable, workable policies across emerging industries — from cannabis to artificial intelligence — that put people ahead of corporate profits. All of our resources are free and open to the public.",
   "videos": [
     {
       "title": "Interview with Killer Mike",
@@ -251,11 +246,14 @@
       "snippet": "It was valuable for us to interview Massachusetts State Representative (now Senator) Liz\nMiranda about her views on drug policy. Along with Representative Mike Connolly, she\nintroduced a bill to repeal all criminal penalties for drug possession and make them civil\ninfractions. She lives in Roxbury near the area most well-known for drug enforcement and has\nconsistently advocated for her community and for incarcerated people."
     }
   ],
-  "content": "",
-  "policyHighlightImage": "/img/cannabis-legalization-must-address-monopoly-dangers.webp",
-  "highlightedPositionTitle": "Highlighted Position Title",
   "pageHeader": "Resources",
-  "policyHighlightLink": "https://www.parabolacenter.com",
-  "highlightedCheatSheetImage": "/img/updated-statement-on-the-use-of-race-criteria-in-equity-programs.webp",
-  "highlightedPositionImage": "/img/op_ed_-how-to-ruin-marijuana-legalization_-put-big-alcohol-and-tobacco-corporations-in-charge.webp"
+  "header5": "Artificial Intelligence",
+  "ai": [
+    {
+      "title": "It’s Time to Pause GenAI in Schools",
+      "attribution": "Co-authored by Shaleen Title, volunteer for Fairplay Screens in Schools Working Group",
+      "snippet": "Signed in 2026 by over 200 experts and organizations including Parabola Center, this open statement calls for a five-year pause on all student-facing generative AI products in PreK-12 schools. It was cited in The New York Times and in letters by the NYC City Council and other public bodies throughout the country.",
+      "url": "https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf"
+    }
+  ]
 }

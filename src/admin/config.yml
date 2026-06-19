@@ -276,12 +276,16 @@ collections:
         fields:
           - { label: Page Header, name: pageHeader, widget: string }
           - { label: Introduction, name: intro, widget: markdown }
+          - { label: AI Section Header, name: header5, widget: string }
+          - label: Artificial Intelligence
+            name: ai
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Attribution, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown }
+              - { label: URL, name: url, widget: string }
           - { label: Header 1, name: header1, widget: string }
-          - {
-              label: Highlighted Policy Image,
-              name: policyHighlightImage,
-              widget: image,
-            }
           - label: Policy Portfolio
             name: portfolio
             widget: list
@@ -291,11 +295,6 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 2, name: header2, widget: string }
-          - {
-              label: Highlighted Position Image,
-              name: highlightedPositionImage,
-              widget: image,
-            }
           - label: Policy Positions
             name: positions
             widget: list
@@ -305,11 +304,6 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 3, name: header3, widget: string }
-          - {
-              label: Highlighted Video Image,
-              name: highlightedVideoImage,
-              widget: image,
-            }
           - label: Policy Videos
             name: videos
             widget: list
@@ -319,11 +313,6 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: string }
           - { label: Header 4, name: header4, widget: string }
-          - {
-              label: Highlighted Cheat Sheet Image,
-              name: highlightedCheatSheetImage,
-              widget: image,
-            }
           - label: Cheat Sheets
             name: cheatSheets
             widget: list
