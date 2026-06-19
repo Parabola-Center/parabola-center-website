@@ -2,65 +2,76 @@
 layout: base
 ---
 
-<section class="parabola-grid donate">
+<section class="parabola-grid donate-intro">
   <div class="big:parabola-cols-half parabola-cols-full">
     {{ content | safe }}
     <h1>{{ donate.heading }}</h1>
-    <p>{{donate.patreon }}</p>
+    <p class="donate-lede">{{ donate.patreon }}</p>
+  </div>
+  <div class="big:parabola-cols-half parabola-cols-full donate-intro-img">
+    <img
+      class="max-width"
+      src="{{ donate.image }}"
+      alt="Water droplets arcing in a parabola against a blue sky"
+    />
+  </div>
+</section>
+
+<h2 class="section-band">Ways to Give</h2>
+
+<section class="donate-options">
+  <div class="donate-card">
+    <h3>Give monthly</h3>
     <p>
-      Learn more and become a monthly subscriber
-      <a href="https://parabolacenter.substack.com/">here</a>, or make a
-      one-time donation below.
+      Become a monthly supporter on Substack. Recurring gifts help us plan
+      ahead and keep the power with the people.
     </p>
+    <a
+      class="donate-cta"
+      href="https://parabolacenter.substack.com/"
+      target="_blank"
+      rel="noopener"
+    >
+      <button class="btn-1" type="button">Subscribe on Substack</button>
+    </a>
+  </div>
+
+  <div class="donate-card">
+    <h3>Give once</h3>
+    <p>Make a one-time, tax-exempt donation.</p>
     <div class="donate-buttons">
-      <p>
-        <button
-          class="submit-btn btn-1"
-          id="checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM"
-          role="link"
-          type="button"
-        >
-          Donate $25
-        </button>
-      </p>
-
-      <p>
-        <button
-          class="submit-btn btn-1"
-          id="checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm"
-          role="link"
-          type="button"
-        >
-          Donate $100
-        </button>
-      </p>
-
-      <p>
-        <button
-          class="submit-btn btn-1"
-          id="checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh"
-          role="link"
-          type="button"
-        >
-          Donate $500
-        </button>
-      </p>
-
-      <p>
-        <button
-          onclick="location.href='https://buy.stripe.com/14kbK80GrbS10FOaEI'"
-          class="submit-btn btn-1"
-          type="button"
-        >
-          Custom Amount
-        </button>
-      </p>
+      <button
+        class="submit-btn btn-1"
+        id="checkout-button-price_1LIxtqCeHdK1kOc2mr38a3RM"
+        role="link"
+        type="button"
+      >
+        Donate $25
+      </button>
+      <button
+        class="submit-btn btn-1"
+        id="checkout-button-price_1LIxtqCeHdK1kOc2Gk0tJBnm"
+        role="link"
+        type="button"
+      >
+        Donate $100
+      </button>
+      <button
+        class="submit-btn btn-1"
+        id="checkout-button-price_1LIxtqCeHdK1kOc2shJzA8wh"
+        role="link"
+        type="button"
+      >
+        Donate $500
+      </button>
+      <button
+        onclick="location.href='https://buy.stripe.com/14kbK80GrbS10FOaEI'"
+        class="submit-btn btn-1"
+        type="button"
+      >
+        Custom amount
+      </button>
     </div>
-  </div>
-  <div class="parabola-cols-full big:parabola-cols-half">
-    <img class="max-width" src="{{donate.image}}" alt="Photo of water" />
-  </div>
-  <div class="parabola-cols-full big:parabola-cols-half">
     <div id="error-message"></div>
   </div>
 </section>
