@@ -31,6 +31,12 @@
   "header4": "Cheat Sheets",
   "portfolio": [
     {
+      "title": "It’s Time to Pause GenAI in Schools",
+      "attribution": "Co-authored by Shaleen Title, volunteer for Fairplay Screens in Schools Working Group",
+      "snippet": "Signed in 2026 by over 200 experts and organizations including Parabola Center, this open statement calls for a five-year pause on all student-facing generative AI products in PreK-12 schools. It was cited in The New York Times and in letters by the NYC City Council and other public bodies throughout the country.",
+      "url": "https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf"
+    },
+    {
       "title": "Report: American Values and Beliefs on Marijuana Legalization:",
       "attribution": "(2024 by Parabola Center in collaboration with RTI International)",
       "snippet": "T﻿his survey research -- to our knowledge, the first of its type -- looks at what American adults think about legalization. American adults don't trust tobacco, alcohol, or pharmaceutical companies to create good cannabis policy. We found that they trust people who have lived experience and who use marijuana to create good cannabis policy. When we asked who should benefit from cannabis legalization, they responded that they want to see people who use marijuana, workers in the industry, and people harmed by previous enforcement to benefit. Social equity and ending arrests ranked highest among the concerns of respondents.\n\n<!--EndFragment-->",
@@ -122,6 +128,12 @@
     }
   ],
   "positions": [
+    {
+      "title": "Protect users from the harm of chatbots",
+      "attribution": "The Boston Globe",
+      "snippet": "A letter to the editor making the case for stronger regulation of AI chatbots to protect users from their harms.",
+      "url": "https://www.bostonglobe.com/2025/07/20/opinion/letters-to-the-editor-chatbots-harm-regulation/"
+    },
     {
       "title": "Letter: Unaddressed Issues in the Safe and Fair Enforcement Regulation (SAFER) Act",
       "attribution": "(2023, from the Cannabis Regulators of Color Coalition, Drug Policy Alliance, and Parabola Center for Law and Policy)",
@@ -246,20 +258,5 @@
       "snippet": "It was valuable for us to interview Massachusetts State Representative (now Senator) Liz\nMiranda about her views on drug policy. Along with Representative Mike Connolly, she\nintroduced a bill to repeal all criminal penalties for drug possession and make them civil\ninfractions. She lives in Roxbury near the area most well-known for drug enforcement and has\nconsistently advocated for her community and for incarcerated people."
     }
   ],
-  "pageHeader": "Resources",
-  "header5": "Artificial Intelligence",
-  "ai": [
-    {
-      "title": "It’s Time to Pause GenAI in Schools",
-      "attribution": "Co-authored by Shaleen Title, volunteer for Fairplay Screens in Schools Working Group",
-      "snippet": "Signed in 2026 by over 200 experts and organizations including Parabola Center, this open statement calls for a five-year pause on all student-facing generative AI products in PreK-12 schools. It was cited in The New York Times and in letters by the NYC City Council and other public bodies throughout the country.",
-      "url": "https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf"
-    },
-    {
-      "title": "Protect users from the harm of chatbots",
-      "attribution": "The Boston Globe",
-      "snippet": "A letter to the editor making the case for stronger regulation of AI chatbots to protect users from their harms.",
-      "url": "https://www.bostonglobe.com/2025/07/20/opinion/letters-to-the-editor-chatbots-harm-regulation/"
-    }
-  ]
+  "pageHeader": "Resources"
 }

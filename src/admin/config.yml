@@ -276,15 +276,6 @@ collections:
         fields:
           - { label: Page Header, name: pageHeader, widget: string }
           - { label: Introduction, name: intro, widget: markdown }
-          - { label: AI Section Header, name: header5, widget: string }
-          - label: Artificial Intelligence
-            name: ai
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Attribution, name: attribution, widget: string }
-              - { label: Snippet, name: snippet, widget: markdown }
-              - { label: URL, name: url, widget: string }
           - { label: Header 1, name: header1, widget: string }
           - label: Policy Portfolio
             name: portfolio

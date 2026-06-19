@@ -6,22 +6,6 @@ layout: base
   <div class="resources-intro-text">{{resources.intro | markdown | safe }}</div>
 </section>
 
-{% if resources.ai.size > 0 %}
-<h2 class="section-band">{{resources.header5}}</h2>
-<section class="resources-section">
-  <div class="resource-grid">
-    {% for item in resources.ai %}
-    <article class="resource-card">
-      <h3>{{ item.title }}</h3>
-      <p class="resource-attribution">{{ item.attribution }}</p>
-      <div class="resource-snippet">{{ item.snippet | markdown | safe }}</div>
-      <a class="resource-link" href="{{ item.url }}">Read more &rarr;</a>
-    </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
-
 <h2 class="section-band">{{resources.header1}}</h2>
 <section class="resources-section">
   <div class="resource-grid">
