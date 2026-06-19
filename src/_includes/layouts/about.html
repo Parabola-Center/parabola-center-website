@@ -20,71 +20,61 @@ layout: base
   </section>
 
   <h2 class="section-band">{{about.about_header}}</h2>
-  <section class="parabola-grid about-board bg-white">
-    {% for founder in about.founders limit:1 %}
-    <div class="big:parabola-cols-center parabola-cols-full">
-      <figure>
-        <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
-        <figcaption>{{founder.caption}}</figcaption>
-      </figure>
-      <p>{{founder.description | markdown | safe}}</p>
-      {% if founder.link %}
-      <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
-      {% endif %}
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% for founder in about.founders %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{founder.caption}}</p>
+          {{founder.description | markdown | safe}}
+          {% if founder.link %}
+          <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-    {% for founder in about.founders offset:1 %}
-    <div class="big:parabola-cols-half parabola-cols-full">
-      <figure>
-        <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
-        <figcaption>{{founder.caption}}</figcaption>
-      </figure>
-      <p>{{founder.description | markdown | safe}}</p>
-      {% if founder.link %}
-      <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
-      {% endif %}
-    </div>
-    {% endfor %}
   </section>
 
   <h2 class="section-band">Public Health Researchers</h2>
-  <section class="parabola-grid about-board bg-white">
-    {% if about.researchers_text %}
-    <div class="big:parabola-cols-center parabola-cols-full">
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% if about.researchers_text %}
       <p style="max-width: 650px">{{about.researchers_text | markdown | safe}}</p>
+      {% endif %}
+      {% for researcher in about.researchers %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ researcher.image }}" alt="{{researcher.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{researcher.caption}}</p>
+          {{researcher.description | markdown | safe}}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endif %}
-    {% for researcher in about.researchers %}
-    <div class="big:parabola-cols-half parabola-cols-full">
-      <figure>
-        <img class="max-width researcher-photo" src="{{ researcher.image }}" alt="{{researcher.alt}}" width="100%" />
-        <figcaption>{{researcher.caption}}</figcaption>
-      </figure>
-      <p>{{researcher.description | markdown | safe}}</p>
-    </div>
-    {% endfor %}
   </section>
 
   <h2 class="section-band">Digital Team</h2>
-  <section class="parabola-grid about-board bg-white">
-    {% if about.fellows_text %}
-    <div class="big:parabola-cols-center parabola-cols-full">
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% if about.fellows_text %}
       <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
+      {% endif %}
+      {% for fellow in about.fellows %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ fellow.image }}" alt="{{fellow.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{fellow.caption}}</p>
+          {{fellow.description | markdown | safe}}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endif %}
-    {% for fellow in about.fellows %}
-    <div class="big:parabola-cols-half parabola-cols-full">
-      <figure>
-        <img class="max-width" src="{{ fellow.image }}" alt="{{fellow.alt}}" width="100%" />
-        <figcaption>{{fellow.caption}}</figcaption>
-      </figure>
-      <p>{{fellow.description | markdown | safe}}</p>
-    </div>
-    {% endfor %}
   </section>
 
   <h2 class="section-band">Advisors</h2>
-  <section class="parabola-grid about-board bg-white">
+  <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full">
       <p style="max-width: 650px">{{about.advisors_text | markdown | safe}}</p>
       <ul>

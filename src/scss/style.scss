@@ -631,10 +631,38 @@ ul {
   text-transform: uppercase;
 }
 
-.researcher-photo {
+.team-member {
+  align-items: flex-start;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  @media only screen and (max-width: 640px) {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.team-photo {
   aspect-ratio: 4 / 5;
+  flex-shrink: 0;
+  height: auto;
   object-fit: cover;
   object-position: center top;
+  width: 170px;
+}
+
+.team-bio {
+  flex: 1;
+  min-width: 0;
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .about-board {
