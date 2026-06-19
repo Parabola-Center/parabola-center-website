@@ -815,13 +815,17 @@ ul {
 
 .about-hero {
   background: #0c0c0c;
+}
+
+.about-hero-frame {
+  margin: 0 auto;
+  max-width: 1000px;
   position: relative;
 }
 
 .about-hero-img {
   display: block;
   height: auto;
-  margin: 0 auto;
   width: 100%;
 }
 
