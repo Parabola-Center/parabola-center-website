@@ -1,25 +1,24 @@
 ---
 layout: base
 ---
-<header
-  class="about-hero"
-  style="background-image: url('{{about.main_image}}')"
-  role="img"
-  aria-label="{{about.main_image_alt}}"
->
+<header class="about-hero">
+  <img
+    class="about-hero-img"
+    src="{{about.main_image}}"
+    alt="{{about.main_image_alt}}"
+  />
   <div class="about-hero-inner">
     <h1>{{about.hero_title}}</h1>
     <p>{{about.hero_subtitle}}</p>
   </div>
 </header>
 <div class="about-cont">
-  <section class="parabola-grid about-md bg-white" style="margin-top: -10px; padding-top: 2rem;">
+  <section class="parabola-grid about-md bg-white" style="padding-top: 3rem;">
     <div class="big:parabola-cols-center parabola-cols-full">{{ about.content | markdown | safe }}</div>
   </section>
+
+  <h2 class="section-band">{{about.about_header}}</h2>
   <section class="parabola-grid about-board bg-white">
-    <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>{{about.about_header}}</h2>
-    </div>
     {% for founder in about.founders limit:1 %}
     <div class="big:parabola-cols-center parabola-cols-full">
       <figure>
@@ -44,8 +43,47 @@ layout: base
       {% endif %}
     </div>
     {% endfor %}
+  </section>
+
+  <h2 class="section-band">Public Health Researchers</h2>
+  <section class="parabola-grid about-board bg-white">
+    {% if about.researchers_text %}
     <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>Advisors</h2>
+      <p style="max-width: 650px">{{about.researchers_text | markdown | safe}}</p>
+    </div>
+    {% endif %}
+    {% for researcher in about.researchers %}
+    <div class="big:parabola-cols-half parabola-cols-full">
+      <figure>
+        <img class="max-width researcher-photo" src="{{ researcher.image }}" alt="{{researcher.alt}}" width="100%" />
+        <figcaption>{{researcher.caption}}</figcaption>
+      </figure>
+      <p>{{researcher.description | markdown | safe}}</p>
+    </div>
+    {% endfor %}
+  </section>
+
+  <h2 class="section-band">Fellows</h2>
+  <section class="parabola-grid about-board bg-white">
+    {% if about.fellows_text %}
+    <div class="big:parabola-cols-center parabola-cols-full">
+      <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
+    </div>
+    {% endif %}
+    {% for fellow in about.fellows %}
+    <div class="big:parabola-cols-half parabola-cols-full">
+      <figure>
+        <img class="max-width" src="{{ fellow.image }}" alt="{{fellow.alt}}" width="100%" />
+        <figcaption>{{fellow.caption}}</figcaption>
+      </figure>
+      <p>{{fellow.description | markdown | safe}}</p>
+    </div>
+    {% endfor %}
+  </section>
+
+  <h2 class="section-band">Advisors</h2>
+  <section class="parabola-grid about-board bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full">
       <p style="max-width: 650px">{{about.advisors_text | markdown | safe}}</p>
       <ul>
         {% for advisor in about.advisors %}
@@ -53,32 +91,5 @@ layout: base
         {% endfor %}
       </ul>
     </div>
-    <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>Public Health Researchers</h2>
-      <p style="max-width: 650px">{{about.researchers_text | markdown | safe}}</p>
-    </div>
-    {% for researcher in about.researchers %}
-    <div class="big:parabola-cols-half parabola-cols-full">
-      <figure>
-        <img class="max-width" src="{{ researcher.image }}" alt="{{researcher.alt}}" width="100%" />
-        <figcaption>{{researcher.caption}}</figcaption>
-      </figure>
-      <p>{{researcher.description | markdown | safe}}</p>
-    </div>
-    {% endfor %}
-    <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>Fellows</h2>
-      <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
-        {% for fellow in about.fellows %}
-        <div class="big:parabola-cols-half parabola-cols-full">
-          <figure>
-            <img class="max-width" src="{{ fellow.image }}" alt="{{fellow.alt}}" width="100%" />
-            <figcaption>{{fellow.caption}}</figcaption>
-          </figure>
-          <p>{{fellow.description | markdown | safe}}</p>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-</section>
+  </section>
 </div>
