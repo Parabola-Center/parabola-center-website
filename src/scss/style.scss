@@ -719,11 +719,16 @@ ul {
 }
 
 .resource-snippet {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
   font-size: 1rem;
   margin-bottom: 1.25rem;
+  overflow: hidden;
   p {
+    display: inline;
     font-size: 1rem;
-    margin-bottom: 0.75rem;
+    margin: 0;
   }
 }
 
