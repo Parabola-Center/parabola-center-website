@@ -139,8 +139,7 @@ collections:
         file: "src/_data/donate.json"
         fields:
           - { label: Heading, name: heading, widget: string }
-          - { label: Patreon, name: patreon, widget: string }
-          - { label: Content, name: content, widget: markdown }
+          - { label: Description, name: patreon, widget: text }
       - label: "Media Page"
         name: "media"
         file: "src/_data/media.json"
