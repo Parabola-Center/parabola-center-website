@@ -5,14 +5,14 @@
       "name": "Tyler Giles",
       "description": "Tyler Giles is the founder & digital strategy director at Hammerhead Strategies, LLC. With a focus on progressive campaigns, advocacy groups, nonprofits, and small businesses, he leads digital fundraising, fundraising strategy, and data‑driven communications efforts. Hammerhead Strategies leverages cutting‑edge online tools and deep internet culture insights to amplify stories, build lasting infrastructure, and drive measurable impact—having helped clients raise thousands of dollars both online and at events. Prior to launching Hammerhead, he built a reputation in the political, hospitality, and non-profit spaces. He leads Parabola Center's email, social media, outreach, and other digital marketing efforts.",
       "alt": "Tyler Giles",
-      "caption": "Tyler Giles - Digital Strategy Director",
+      "caption": "Tyler Giles: Digital Strategy Director",
       "image": "/img/tyler-giles.webp"
     },
     {
       "name": "Steve Mendez",
       "image": "/img/steve-mendez.webp",
       "alt": "Steve Mendez",
-      "caption": "Steve Mendez - Digital Marketing Fellow",
+      "caption": "Steve Mendez: Digital Marketing Fellow",
       "description": "Steve Mendez is a cannabis industry consultant and the founder of Buzz Krew LLC, a marketing and digital agency supporting cannabis businesses through branding, websites, and strategy. A University of Florida graduate with a degree in biology, Steve was pre-med and passed the MCAT before choosing to apply his scientific background to the cannabis industry to help build equitable markets. He has supported the acquisition of over fifty cannabis licenses across Massachusetts, New York, New Jersey, and Vermont, and has helped secure over $1.5 million in Social Equity grants in Massachusetts."
     }
   ],
@@ -144,15 +144,22 @@
       "name": "Meredith McGee",
       "image": "/img/meredith-mcgee.webp",
       "alt": "Meredith McGee",
-      "caption": "Meredith McGee - Public Health Researcher",
+      "caption": "Meredith McGee: Public Health Researcher",
       "description": "Meredith McGee, MPH (she/her), is a public health professional dedicated to bridging the gap between research, community, and education. Her work focuses on cannabis, health equity, and LGBTQ+ communities, with a mission to make public health research more accessible and actionable beyond academia. A seasoned grant writer and fundraiser, Meredith has helped secure over a million dollars in funding to support community-led initiatives. She is especially passionate about connecting cannabis policy to public health infrastructure in ways that center lived experience and promote health justice. Meredith authored Parabola Center's essay on the drug policy U-curve."
     },
     {
       "name": "Faith English",
       "image": "/img/faith-english.webp",
-      "caption": "Faith English - Public Health Researcher",
+      "caption": "Faith English: Public Health Researcher",
       "alt": "Faith English",
       "description": "Faith English is a Postdoctoral Fellow in the Johns Hopkins Bloomberg School of Public Health Drug Dependence and Epidemiology Training Program. She received her PhD and MPH from the University of Massachusetts Amherst School of Public Health and Health Sciences. Using both qualitative and quantitative methods, her research focuses on the intersection of cannabis legalization, health equity, and criminal justice reform. Dr. English is passionate about exploring the multiple ways in which cannabis and other drug legalization can address the public health crisis of mass incarceration and the war on drugs."
+    },
+    {
+      "name": "Andrea Sparr-Jaswa",
+      "image": "/img/andrea-sparr-jaswa.webp",
+      "alt": "Andrea Sparr-Jaswa",
+      "caption": "Andrea Sparr-Jaswa: Public Health Research Fellow",
+      "description": "Andrea Sparr-Jaswa is a researcher and educator with fifteen years of experience working at the intersection of cannabis legalization and public health. Over the course of her career, she has led data-driven educational programming and community outreach efforts within the industry, authored award-winning cannabis science and policy content, and served as an analyst for New York’s medical cannabis program. Andrea holds an MPH from Thomas Jefferson University, where her seed-to-sale experience informed solution-oriented, actionable research to guide public health-centered policy recommendations and programming. A staunch advocate for cannabis-integrated healthcare, Andrea’s work is rooted in health equity and an unwavering commitment to systems-level transformation."
     }
   ],
   "researchers_text": "",
