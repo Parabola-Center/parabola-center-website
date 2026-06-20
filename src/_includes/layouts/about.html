@@ -24,7 +24,7 @@ layout: base
     <div class="big:parabola-cols-center parabola-cols-full team-list">
       {% for founder in about.board %}
       <div class="team-member">
-        <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
+        <img class="team-photo" loading="lazy" src="{{ founder.image }}" alt="{{founder.alt}}" />
         <div class="team-bio">
           <p class="team-name">{{founder.caption}}</p>
           {{founder.description | markdown | safe}}
@@ -46,7 +46,7 @@ layout: base
     <div class="big:parabola-cols-center parabola-cols-full team-list">
       {% for founder in about.legalPolicy %}
       <div class="team-member">
-        <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
+        <img class="team-photo" loading="lazy" src="{{ founder.image }}" alt="{{founder.alt}}" />
         <div class="team-bio">
           <p class="team-name">{{founder.caption}}</p>
           {{founder.description | markdown | safe}}
@@ -63,7 +63,6 @@ layout: base
     </div>
   </section>
 
-  <h2 class="section-band">Public Health Researchers</h2>
   <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full team-list">
       {% if about.researchers_text %}
@@ -71,7 +70,7 @@ layout: base
       {% endif %}
       {% for researcher in about.researchers %}
       <div class="team-member">
-        <img class="team-photo" src="{{ researcher.image }}" alt="{{researcher.alt}}" />
+        <img class="team-photo" loading="lazy" src="{{ researcher.image }}" alt="{{researcher.alt}}" />
         <div class="team-bio">
           <p class="team-name">{{researcher.caption}}</p>
           {{researcher.description | markdown | safe}}
@@ -81,7 +80,6 @@ layout: base
     </div>
   </section>
 
-  <h2 class="section-band">Digital Team</h2>
   <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full team-list">
       {% if about.fellows_text %}
@@ -89,7 +87,7 @@ layout: base
       {% endif %}
       {% for fellow in about.fellows %}
       <div class="team-member">
-        <img class="team-photo" src="{{ fellow.image }}" alt="{{fellow.alt}}" />
+        <img class="team-photo" loading="lazy" src="{{ fellow.image }}" alt="{{fellow.alt}}" />
         <div class="team-bio">
           <p class="team-name">{{fellow.caption}}</p>
           {{fellow.description | markdown | safe}}
