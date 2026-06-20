@@ -1,19 +1,20 @@
 ---
 layout: base
 ---
-<section class="parabola-grid pdf">
-    <h1 class="parabola-cols-full big:parabola-cols-full">{{media.header}}</h1>
+<h1 class="section-band">{{media.header}}</h1>
+
+<section class="media-section">
+  <div class="media-grid">
     {% for item in media.items %}
-    <a class="parabola-cols-full big:parabola-cols-quarter"
-        href="{{ item.url }}">
-
-                {{ item.title }}
-
+    <a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+      <p class="media-meta">{{ item.outlet }}{% if item.outlet and item.date %} &middot; {% endif %}{{ item.date }}</p>
+      <h3 class="media-title">{{ item.title }}</h3>
+      <span class="media-link">Read &rarr;</span>
     </a>
     {% endfor %}
+  </div>
 </section>
-<section class="parabola-grid">
-    <div class="parabola-cols-full big:parabola-cols-full">
-        {{ media.contact | markdown | safe}}
-    </div>
+
+<section class="media-inquiries">
+  {{ media.contact | markdown | safe }}
 </section>

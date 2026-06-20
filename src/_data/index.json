@@ -1,38 +1,24 @@
 {
-  "header1": "MODEL PLAN",
-  "header2": "SURVEY RESEARCH",
   "aboutLink": "/about",
-  "about": "Parabola Center is a nonprofit think tank of legal professionals and drug policy experts coming together to protect people, not corporations. Our mission is to provide everyone with the education, access, and expertise to support cannabis legalization policies that put people and small businesses first. Parabola Center for Law and Policy is a 501(c)(3), tax-exempt organization, ID# 87-3636074.",
-  "card_three": "## Why We Do It\n\nWe make policy resources accessible to everyone, especially consumers, workers, and people impacted by the policies. In our experience, the more people who engage with policy, the better the results. We created Parabola Center so everyone can have the tools to be influential.",
-  "policy": "Read our plan for federal cannabis legalization",
+  "about": "Parabola Center is a nonprofit of legal, public health, and policy professionals coming together to put people over profits. Through research and education, we provide everyone with the tools and expertise to shape emerging fields, from marijuana to artificial intelligence.",
   "aboutLinkText": "Learn more about us",
-  "card_four": "Cannabis policy for people, not corporations.",
-  "card_one": "## Who We Are\n\nWe are a group of attorneys with the collective goal to keep the power of cannabis policy with the people. With 20+ years of experience working in government, practicing law and serving the public, we are well equipped to support the individuals advocating for equitable policies that put people over corporations.",
-  "button1Link": "https://www.parabolacenter.com/img/interstate.pdf",
-  "button2Link": "/survey/",
-  "card_two": "## What We Do\n\nOur team was the first in the nation to devise a clear path for small businesses and historically disenfranchised groups to enter the market. We are here to help create polices that reflect the needs of the millions of people who continue to form the legal cannabis movement.",
   "articles": [
     {
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3978766",
-      "title": "Fair and Square: How to Effectively Incorporate Social Equity Into Cannabis Laws and Regulations"
+      "url": "https://www.parabolacenter.com/parabola/",
+      "title": "Why are we named after a parabola?"
     },
     {
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4018493",
-      "title": "Bigger is Not Better: Preventing Monopolies in the National Cannabis Market"
+      "url": "https://www.bostonglobe.com/2025/07/20/opinion/letters-to-the-editor-chatbots-harm-regulation/",
+      "title": "Protect users from the harm of chatbots"
     },
     {
       "url": "/pdf/Big tobacco is coming for legal marijuana - The Boston Globe.pdf",
-      "title": "Big Tobacco is Coming for Legal Marijuana - The Boston Globe (PDF)"
+      "title": "Big tobacco is coming for legal marijuana"
     },
     {
-      "url": "/pdf/Congress Only Has One Chance To Legalize Marijuana The Right Way.pdf",
-      "title": "Congress Only Has Only One Chance to Legalize Marijuana the Right Way (PDF)"
+      "url": "https://fairplayforkids.org/pf/pause-genai/",
+      "title": "It’s time to pause GenAI in schools"
     }
   ],
-  "services": "Read our new report",
-  "buttonText": "Read more",
-  "substackHeader": "The Parabola Papers: Our new Substack is live!",
-  "substackText": "Subscribe today and get the latest research, op-eds, and other content from Parabola Center's team and partners.",
-  "substackLink": "https://parabolacenter.substack.com/",
-  "substackButtonText": "Subscribe"
+  "substackLink": "https://parabolacenter.substack.com/"
 }

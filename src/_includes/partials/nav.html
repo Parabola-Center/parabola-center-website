@@ -9,13 +9,6 @@
         <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
           <a href="{{nav.url}}" {% if page.url==nav.url %} class="active-nav" {% endif %}>{{nav.data.title}}</a>
         </li>
-          <!-- Original /donors, external link to Patreon
-            {% if nav.url=="/media/" %}
-            <li>
-              <a href="https://www.patreon.com/parabolacenter">Donate</a>
-            </li>
-          {% endif %}
-         -->
         {%- endfor %}
         <li>
           <a href="https://parabolacenter.substack.com/" target="_blank" rel="noopener">Substack</a>

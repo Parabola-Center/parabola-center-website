@@ -3,69 +3,134 @@ layout: base
 ---
 
 <div class="banner">
-  <a href="https://www.eventbrite.com/e/people-over-profits-cannabis-policy-crash-course-tickets-1985741982725">Join Us in Florida July 17-18 for People Over Profits 2026!</a>
+  <a href="/crashcourse/">
+    <span class="banner-tag">Event</span>
+    <span class="banner-text">Join us in Florida July 17&ndash;18 for People Over Profits 2026</span>
+    <span class="banner-arrow" aria-hidden="true">&rarr;</span>
+  </a>
 </div>
-<div class="two-column">
-  <!--Experience-->
-  <section class="index-policy">
-    <div>
-      <h1>{{index.header1}}</h1>
-      <p>{{index.policy}}</p>
-      <a href="{{index.button1Link}}"
-        ><button class="btn-1">{{index.buttonText}}</button></a
-      >
+<!-- Hero -->
+<header class="home-hero">
+  <div class="home-hero-inner">
+    <h1 class="home-hero-title">
+      Emerging industries shouldn&rsquo;t mean emerging monopolies.
+    </h1>
+    <p class="home-hero-text">{{index.about}}</p>
+    <div class="home-hero-actions">
+      <a href="{{index.aboutLink}}">
+        <button class="btn-1">{{index.aboutLinkText}}</button>
+      </a>
+      <a class="home-hero-link" href="/donate">Support our work</a>
     </div>
-  </section>
-  <!--Services-->
-  <section class="index-services">
-    <div>
-      <h1>{{index.header2}}</h1>
-      <p>{{index.services}}</p>
-      <a href="{{index.button2Link}}"
-        ><button class="btn-1">{{index.buttonText}}</button></a
-      >
-    </div>
-  </section>
-</div>
-<!-- First paragraph of `About` & Link -->
-<section class="center-copy-large index-about">
-  <p>{{index.about}}</p>
-  <a href="{{index.aboutLink}}">{{index.aboutLinkText}}</a>
-</section>
-<section>
-  <div class="alt-grid">
-    <div class="alt-one">
-      <div class="grid-card">{{ index.card_one | markdown | safe }}</div>
-    </div>
-    <div class="alt-two">
-      <div class="grid-card">{{ index.card_two | markdown | safe }}</div>
-    </div>
-    <div class="alt-three">
-      <div class="grid-card">{{ index.card_three | markdown | safe }}</div>
-    </div>
-    <div class="alt-four">
-      <div class="grid-card">{{ index.card_four | markdown | safe }}</div>
+  </div>
+</header>
+<!-- Featured Report -->
+{% assign featured = reports.items[0] %}
+<section class="featured-report">
+  <div class="featured-report-card">
+    <a class="featured-report-cover" href="{{featured.link}}">
+      <img
+        src="{{featured.image}}"
+        alt="{{featured.imageAlt}}"
+        width="800"
+        height="1035"
+      />
+    </a>
+    <div class="featured-report-content">
+      <p class="featured-report-eyebrow">{{featured.eyebrow}}</p>
+      <h2>{{featured.title}}</h2>
+      <p class="featured-report-authors">{{featured.authors}}</p>
+      <p class="featured-report-summary">{{featured.summary}}</p>
+      <a href="{{featured.link}}">
+        <button class="btn-1">{{featured.linkText}}</button>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- Substack Section -->
-<section class="center-copy-large index-substack">
-  <h2>{{index.substackHeader}}</h2>
-  <p>{{index.substackText}}</p>
-  <a href="{{index.substackLink}}" target="_blank" rel="noopener">
-    <button class="btn-1">{{index.substackButtonText}}</button>
-  </a>
+<!-- Reports & Research -->
+<h2 class="reports-heading">Reports &amp; Research</h2>
+<section class="reports">
+  <div class="reports-grid">
+    {% for report in reports.items offset:1 %}
+    <a class="report-card" href="{{report.link}}">
+      <img
+        class="report-card-cover"
+        src="{{report.image}}"
+        alt="{{report.imageAlt}}"
+        width="800"
+        height="1035"
+      />
+      <div class="report-card-body">
+        <p class="report-card-type">{{report.type}}</p>
+        <h3>{{report.title}}</h3>
+        {% if report.summary %}<p class="report-card-summary">{{report.summary}}</p>{% endif %}
+        <span class="report-card-link">{{report.linkText}} &rarr;</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </section>
 
-<!-- Article Card Reel -->
-<section class="parabola-grid pdf">
-  {% for item in index.articles %}
-  <a
-    class="parabola-cols-full big:parabola-cols-quarter text-center"
-    href="{{item.url}}"
-  >
-    {{item.title}}
-  </a>
-  {% endfor %}
+<!-- Further Reading -->
+<h2 class="reports-heading">Further Reading</h2>
+<section class="further-reading">
+  <ul class="further-reading-list">
+    {% for item in index.articles %}
+    <li>
+      <a href="{{item.url}}">{{item.title}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<!-- Ways to Support -->
+<section>
+  <div class="alt-grid support-grid">
+    <div class="alt-one">
+      <a
+        class="grid-card support-card"
+        href="{{index.substackLink}}"
+        target="_blank"
+        rel="noopener"
+      >
+        <h2>Subscribe to our Substack</h2>
+        <p>Get our latest research, op-eds, and updates in your inbox.</p>
+      </a>
+    </div>
+    <div class="alt-two">
+      <a class="grid-card support-card" href="/donate">
+        <h2>Send a donation</h2>
+        <p>Fuel our work with a tax-deductible gift and keep the power with the people.</p>
+      </a>
+    </div>
+    <div class="alt-three">
+      <div class="grid-card support-card">
+        <h2>Follow us</h2>
+        <p>Stay connected on social media.</p>
+        <div class="support-social">
+          {% for social in footer.socials %}
+          <a
+            href="{{social.url}}"
+            target="_blank"
+            rel="noopener"
+            aria-label="{{social.alt}}"
+          >
+            <img
+              src="{{social.image}}"
+              alt="{{social.alt}}"
+              height="36"
+              width="36"
+            />
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="alt-four">
+      <a class="grid-card support-card" href="/contact">
+        <h2>Send us a note</h2>
+        <p>Questions, ideas, or partnerships? We'd love to hear from you.</p>
+      </a>
+    </div>
+  </div>
 </section>

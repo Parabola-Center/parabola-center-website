@@ -1,41 +1,107 @@
 ---
 layout: base
 ---
-<img class="max-width" src="{{about.main_image}}" alt="{{about.main_image_alt}}">
+<header class="about-hero">
+  <div class="about-hero-frame">
+    <img
+      class="about-hero-img"
+      src="{{about.main_image}}"
+      alt="{{about.main_image_alt}}"
+    />
+    <div class="about-hero-inner">
+      <h1>{{about.hero_title}}</h1>
+      <p>{{about.hero_subtitle}}</p>
+    </div>
+  </div>
+</header>
 <div class="about-cont">
-  <section class="parabola-grid about-md bg-white" style="margin-top: -10px; padding-top: 2rem;">
+  <section class="parabola-grid about-md bg-white" style="padding-top: 3rem;">
     <div class="big:parabola-cols-center parabola-cols-full">{{ about.content | markdown | safe }}</div>
   </section>
-  <section class="parabola-grid about-board bg-white">
-    <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>{{about.about_header}}</h2>
+
+  <h2 class="section-band">Board of Directors</h2>
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% for founder in about.board %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{founder.caption}}</p>
+          {{founder.description | markdown | safe}}
+          {% if founder.link %}
+          {% if founder.link contains "http" %}
+          <p><a href="{{ founder.link }}" target="_blank" rel="noopener">Learn more about {{ founder.name }}</a></p>
+          {% else %}
+          <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+          {% endif %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% for founder in about.founders limit:1 %}
-    <div class="big:parabola-cols-center parabola-cols-full">
-      <figure>
-        <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
-        <figcaption>{{founder.caption}}</figcaption>
-      </figure>
-      <p>{{founder.description | markdown | safe}}</p>
-      {% if founder.link %}
-      <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+  </section>
+
+  <h2 class="section-band">Legal &amp; Policy</h2>
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% for founder in about.legalPolicy %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ founder.image }}" alt="{{founder.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{founder.caption}}</p>
+          {{founder.description | markdown | safe}}
+          {% if founder.link %}
+          {% if founder.link contains "http" %}
+          <p><a href="{{ founder.link }}" target="_blank" rel="noopener">Learn more about {{ founder.name }}</a></p>
+          {% else %}
+          <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+          {% endif %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <h2 class="section-band">Public Health Researchers</h2>
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% if about.researchers_text %}
+      <p style="max-width: 650px">{{about.researchers_text | markdown | safe}}</p>
       {% endif %}
+      {% for researcher in about.researchers %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ researcher.image }}" alt="{{researcher.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{researcher.caption}}</p>
+          {{researcher.description | markdown | safe}}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-    {% for founder in about.founders offset:1 %}
-    <div class="big:parabola-cols-half parabola-cols-full">
-      <figure>
-        <img class="max-width" src="{{ founder.image }}" alt="{{founder.alt}}" width="100%" />
-        <figcaption>{{founder.caption}}</figcaption>
-      </figure>
-      <p>{{founder.description | markdown | safe}}</p>
-      {% if founder.link %}
-      <p><a href="/{{ founder.link }}">Learn more about {{ founder.name }}</a></p>
+  </section>
+
+  <h2 class="section-band">Digital Team</h2>
+  <section class="parabola-grid bg-white">
+    <div class="big:parabola-cols-center parabola-cols-full team-list">
+      {% if about.fellows_text %}
+      <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
       {% endif %}
+      {% for fellow in about.fellows %}
+      <div class="team-member">
+        <img class="team-photo" src="{{ fellow.image }}" alt="{{fellow.alt}}" />
+        <div class="team-bio">
+          <p class="team-name">{{fellow.caption}}</p>
+          {{fellow.description | markdown | safe}}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
+  </section>
+
+  <h2 class="section-band">Advisors</h2>
+  <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>Advisors</h2>
       <p style="max-width: 650px">{{about.advisors_text | markdown | safe}}</p>
       <ul>
         {% for advisor in about.advisors %}
@@ -43,19 +109,19 @@ layout: base
         {% endfor %}
       </ul>
     </div>
+  </section>
+
+  <h2 class="section-band">Partners</h2>
+  <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full">
-      <h2>Fellows</h2>
-      <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
-        {% for fellow in about.fellows %}
-        <div class="big:parabola-cols-half parabola-cols-full">
-          <figure>
-            <img class="max-width" src="{{ fellow.image }}" alt="{{fellow.alt}}" width="100%" />
-            <figcaption>{{fellow.caption}}</figcaption>
-          </figure>
-          <p>{{fellow.description | markdown | safe}}</p>
-        </div>
-        {% endfor %}
+      <p style="max-width: 650px">
+        Parabola Center is proud to partner with more than 100 small businesses
+        and organizations who represent what these industries should look like
+        &mdash; independent, equitable, and accountable to the people. Together
+        we push for policy that prevents monopolies and protects a fair,
+        competitive marketplace.
+      </p>
+      <p><a href="/partners/"><button class="btn-1" type="button">Meet our partners</button></a></p>
     </div>
-</div>
-</section>
+  </section>
 </div>

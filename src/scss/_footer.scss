@@ -90,8 +90,9 @@ footer {
     margin: auto;
     p {
         font-size: 1rem;
-        margin-top: 5rem;
+        margin: 2rem auto 0;
+        max-width: 760px;
+        padding: 0 1rem;
         text-align: center;
-        max-width: 100%;
     }
 }

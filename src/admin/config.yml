@@ -51,37 +51,46 @@ collections:
         name: "index"
         file: "src/_data/index.json"
         fields:
-          - { label: Header 1, name: header1, widget: string }
-          - { label: Description 1, name: policy, widget: string }
-          - { label: Button 1 Link, name: button1Link, widget: string }
-          - { label: Header 2, name: header2, widget: string }
-          - { label: Description 2, name: services, widget: string }
-          - { label: Button 2 Link, name: button2Link, widget: string }
           - { label: About, name: about, widget: markdown }
           - { label: Link Text, name: aboutLinkText, widget: string }
           - { label: Link destination, name: aboutLink, widget: string }
-          - { label: Button Text, name: buttonText, widget: string }
-          - { label: Card 1, name: card_one, widget: markdown }
-          - { label: Card 2, name: card_two, widget: markdown }
-          - { label: Card 3, name: card_three, widget: markdown }
-          - { label: Card 4, name: card_four, widget: markdown }
           - label: Articles
             name: articles
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
               - { label: File, name: url, widget: file }
+      - label: "Reports"
+        name: "reports"
+        file: "src/_data/reports.json"
+        fields:
+          - label: Reports
+            name: items
+            widget: list
+            hint: "The first report is shown as the large featured report on the homepage; the rest appear in the grid below it."
+            fields:
+              - { label: Eyebrow (featured only), name: eyebrow, widget: string, required: false }
+              - { label: Type / Category, name: type, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Authors, name: authors, widget: string, required: false }
+              - { label: Date, name: date, widget: string, required: false }
+              - { label: Summary, name: summary, widget: text, required: false }
+              - { label: Cover Image, name: image, widget: image }
+              - { label: Cover Image Alt, name: imageAlt, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Link Text, name: linkText, widget: string }
       - label: "About Page"
         name: "about"
         file: "src/_data/about.json"
         fields:
-          - { label: Main Image, name: main_image, widget: image }
-          - { label: Main Image Alt, name: main_image_alt, widget: string }
+          - { label: Hero Image, name: main_image, widget: image }
+          - { label: Hero Image Alt, name: main_image_alt, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Subtitle, name: hero_subtitle, widget: string }
           - { label: Content, name: content, widget: markdown }
-          - { label: Header, name: about_header, widget: string }
           - { label: Advisors Text, name: advisors_text, widget: markdown }
-          - label: Founders
-            name: founders
+          - label: Board of Directors
+            name: board
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
@@ -90,6 +99,26 @@ collections:
               - { label: Caption, name: caption, widget: string }
               - { label: Description, name: description, widget: markdown }
               - { label: Link, name: link, widget: string }
+          - label: Legal & Policy
+            name: legalPolicy
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Image Alt, name: alt, widget: string }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Description, name: description, widget: markdown }
+              - { label: Link, name: link, widget: string }
+          - { label: Public Health Researchers Text, name: researchers_text, widget: markdown }
+          - label: Public Health Researchers
+            name: researchers
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Image Alt, name: alt, widget: string }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Description, name: description, widget: markdown }
           - { label: Fellows Text, name: fellows_text, widget: markdown }
           - label: Fellows
             name: fellows
@@ -119,8 +148,7 @@ collections:
         file: "src/_data/donate.json"
         fields:
           - { label: Heading, name: heading, widget: string }
-          - { label: Patreon, name: patreon, widget: string }
-          - { label: Content, name: content, widget: markdown }
+          - { label: Description, name: patreon, widget: text }
       - label: "Media Page"
         name: "media"
         file: "src/_data/media.json"
@@ -132,6 +160,8 @@ collections:
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
+              - { label: Outlet, name: outlet, widget: string, required: false }
+              - { label: Date, name: date, widget: string, required: false }
               - { label: URL, name: url, widget: string }
       - label: "Partners Page"
         name: "partners"
@@ -257,11 +287,6 @@ collections:
           - { label: Page Header, name: pageHeader, widget: string }
           - { label: Introduction, name: intro, widget: markdown }
           - { label: Header 1, name: header1, widget: string }
-          - {
-              label: Highlighted Policy Image,
-              name: policyHighlightImage,
-              widget: image,
-            }
           - label: Policy Portfolio
             name: portfolio
             widget: list
@@ -271,11 +296,6 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 2, name: header2, widget: string }
-          - {
-              label: Highlighted Position Image,
-              name: highlightedPositionImage,
-              widget: image,
-            }
           - label: Policy Positions
             name: positions
             widget: list
@@ -285,11 +305,6 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
           - { label: Header 3, name: header3, widget: string }
-          - {
-              label: Highlighted Video Image,
-              name: highlightedVideoImage,
-              widget: image,
-            }
           - label: Policy Videos
             name: videos
             widget: list
@@ -298,12 +313,16 @@ collections:
               - { label: Attribution, name: attribution, widget: string }
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: string }
+          - { label: Webinars Header, name: header5, widget: string }
+          - label: Webinars
+            name: webinars
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Date, name: attribution, widget: string }
+              - { label: Snippet, name: snippet, widget: markdown, required: false }
+              - { label: URL, name: url, widget: string }
           - { label: Header 4, name: header4, widget: string }
-          - {
-              label: Highlighted Cheat Sheet Image,
-              name: highlightedCheatSheetImage,
-              widget: image,
-            }
           - label: Cheat Sheets
             name: cheatSheets
             widget: list
