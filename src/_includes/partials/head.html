@@ -4,9 +4,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>{{title}} | {{site.title}}</title>
   <meta name="description" content="{{site.description}}" />
-  <meta name="og:title" content="{{title}} | {{site.title}}" />
-  <meta name="og:description" content="{{site.description}}" />
-  <meta name="og:image" content="{{navigation.logo}}" />
+  <meta property="og:title" content="{{title}} | {{site.title}}" />
+  <meta property="og:description" content="{{site.description}}" />
+  <meta property="og:image" content="{{site.url}}{{navigation.logo}}" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link
     rel="apple-touch-icon"
     sizes="180x180"
