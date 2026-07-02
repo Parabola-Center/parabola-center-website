@@ -109,7 +109,6 @@ collections:
               - { label: Caption, name: caption, widget: string }
               - { label: Description, name: description, widget: markdown }
               - { label: Link, name: link, widget: string }
-          - { label: Public Health Researchers Text, name: researchers_text, widget: markdown }
           - label: Public Health Researchers
             name: researchers
             widget: list
@@ -119,7 +118,6 @@ collections:
               - { label: Image Alt, name: alt, widget: string }
               - { label: Caption, name: caption, widget: string }
               - { label: Description, name: description, widget: markdown }
-          - { label: Fellows Text, name: fellows_text, widget: markdown }
           - label: Fellows
             name: fellows
             widget: list

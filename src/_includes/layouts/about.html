@@ -66,9 +66,6 @@ layout: base
   <h2 class="section-band">Public Health Researchers</h2>
   <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full team-list">
-      {% if about.researchers_text %}
-      <p style="max-width: 650px">{{about.researchers_text | markdown | safe}}</p>
-      {% endif %}
       {% for researcher in about.researchers %}
       <div class="team-member">
         <img class="team-photo" loading="lazy" src="{{ researcher.image }}" alt="{{researcher.alt}}" />
@@ -84,9 +81,6 @@ layout: base
   <h2 class="section-band">Digital Team</h2>
   <section class="parabola-grid bg-white">
     <div class="big:parabola-cols-center parabola-cols-full team-list">
-      {% if about.fellows_text %}
-      <p style="max-width: 650px">{{about.fellows_text | markdown | safe}}</p>
-      {% endif %}
       {% for fellow in about.fellows %}
       <div class="team-member">
         <img class="team-photo" loading="lazy" src="{{ fellow.image }}" alt="{{fellow.alt}}" />
