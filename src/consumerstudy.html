@@ -17,6 +17,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{site.favicon_32x32}}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{site.favicon_16x16}}">
   <link rel="stylesheet" href="/css/partners.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -72,64 +73,80 @@
       height: auto;
     }
 
-    .study-form {
+    /* Mailchimp form overrides */
+    #mc_embed_signup {
+      background: transparent !important;
       max-width: 500px;
       margin: 2rem auto;
       text-align: left;
+      font-family: "Rubik", sans-serif !important;
     }
 
-    .study-form label {
-      display: block;
-      color: #fff;
-      margin-bottom: 0.25rem;
-      font-size: 14px;
-      font-weight: 600;
+    #mc_embed_signup h2 {
+      color: rgba(255, 255, 255, 0.85) !important;
+      font-size: 1.05rem !important;
+      font-weight: 400 !important;
+      line-height: 1.7 !important;
+      margin-bottom: 1.5rem !important;
     }
 
-    .study-form input {
-      width: 100%;
-      padding: 10px 12px;
-      margin-bottom: 1rem;
-      border: 1px solid rgba(255, 255, 255, 0.25);
-      border-radius: 4px;
-      font-size: 15px;
-      box-sizing: border-box;
-      background: rgba(255, 255, 255, 0.95);
+    #mc_embed_signup .indicates-required {
+      color: rgba(255, 255, 255, 0.6) !important;
     }
 
-    .study-form input:focus {
-      outline: none;
-      border-color: #eab12c;
-      box-shadow: 0 0 0 2px rgba(234, 177, 44, 0.25);
+    #mc_embed_signup .asterisk {
+      color: #d42c4a !important;
     }
 
-    .study-form .required-note {
-      color: rgba(255, 255, 255, 0.6);
-      font-size: 13px;
-      margin-bottom: 1rem;
+    #mc_embed_signup label {
+      color: #fff !important;
+      font-weight: 600 !important;
+      font-size: 14px !important;
     }
 
-    .study-form .asterisk {
-      color: #d42c4a;
+    #mc_embed_signup input[type="text"],
+    #mc_embed_signup input[type="email"],
+    #mc_embed_signup select {
+      background: rgba(255, 255, 255, 0.95) !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+      border-radius: 4px !important;
+      font-size: 15px !important;
+      padding: 10px 12px !important;
     }
 
-    .study-form button[type="submit"] {
-      background: #eab12c;
-      color: #1e3a42;
-      border: none;
-      width: 100%;
-      padding: 14px 48px;
-      font-size: 16px;
-      font-weight: 700;
-      border-radius: 4px;
-      cursor: pointer;
-      display: block;
-      margin: 0.5rem auto 0;
-      letter-spacing: 0.5px;
+    #mc_embed_signup input[type="text"]:focus,
+    #mc_embed_signup input[type="email"]:focus,
+    #mc_embed_signup select:focus {
+      border-color: #eab12c !important;
+      box-shadow: 0 0 0 2px rgba(234, 177, 44, 0.25) !important;
+      outline: none !important;
     }
 
-    .study-form button[type="submit"]:hover {
-      background: #d4a028;
+    #mc_embed_signup .button {
+      background: #eab12c !important;
+      color: #1e3a42 !important;
+      border: none !important;
+      width: 100% !important;
+      padding: 14px 48px !important;
+      font-size: 16px !important;
+      font-weight: 700 !important;
+      border-radius: 4px !important;
+      height: auto !important;
+      line-height: 1 !important;
+      margin: 0.5rem 0 0 !important;
+    }
+
+    #mc_embed_signup .button:hover {
+      background: #d4a028 !important;
+    }
+
+    #mc_embed_signup .mc-field-group {
+      padding-bottom: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+
+    #mc_embed_signup div.response {
+      color: #eab12c !important;
     }
 
     #downloadLink {
@@ -214,7 +231,7 @@
         padding: 20px 24px 40px;
       }
 
-      .study-form {
+      #mc_embed_signup {
         margin: 1.5rem auto;
       }
     }
@@ -256,27 +273,30 @@
     <h1>{{consumer-study.header}}</h1>
     <div>{{consumer-study.body | markdown | safe }}</div>
 
-    <div id="studyForm" class="study-form">
-      <form name="consumer-study" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="consumer-study-form">
-        <input type="hidden" name="form-name" value="consumer-study">
-        <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
-
-        <p class="required-note"><span class="asterisk">*</span> indicates required</p>
-
-        <label for="email">Email Address <span class="asterisk">*</span></label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="state">State of Residence <span class="asterisk">*</span></label>
-        <input type="text" id="state" name="state" required>
-
-        <label for="organization">Company or Organization</label>
-        <input type="text" id="organization" name="organization">
-
-        <button type="submit">Download Report</button>
-      </form>
+    <div id="mc_embed_shell">
+      <div id="mc_embed_signup">
+        <form action="https://parabolacenter.us5.list-manage.com/subscribe/post?u=05f1b4a1bb668277775f14d00&amp;id=012f0eb868&amp;f_id=003db9edf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+          <div id="mc_embed_signup_scroll">
+            <h2>Sign up below to download the study and subscribe to our monthly newsletter.</h2>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-FNAME">First Name <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-LNAME">Last Name <span class="asterisk">*</span></label><input type="text" name="LNAME" class="required text" id="mce-LNAME" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-MMERGE12">State <span class="asterisk">*</span></label><select name="MMERGE12" class="required" id="mce-MMERGE12"><option value=""></option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticuit">Connecticuit</option><option value="Delaware">Delaware</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="District of Columbia">District of Columbia</option><option value="Puerto Rico">Puerto Rico</option><option value="U.S. Virgin Islands">U.S. Virgin Islands</option><option value="Guam">Guam</option><option value="American Samoa">American Samoa</option></select></div>
+            <div class="mc-field-group"><label for="mce-MMERGE9">Organization </label><input type="text" name="MMERGE9" class=" text" id="mce-MMERGE9" value=""></div>
+            <div hidden=""><input type="hidden" name="tags" value="4540581"></div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display: none;"></div>
+              <div class="response" id="mce-success-response" style="display: none;"></div>
+            </div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_05f1b4a1bb668277775f14d00_012f0eb868" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></div>
+          </div>
+        </form>
+      </div>
     </div>
 
-    <a href="/pdf/consumer-study.pdf" download style="display: none; color: white;" id="downloadLink">Download the Report</a>
+    <a href="/pdf/consumer-study.pdf" download id="downloadLink">Download the Report (PDF)</a>
   </main>
 
   <!-- Thank-you modal -->
@@ -289,32 +309,20 @@
   </div>
 
   <script>
-    const studyForm = document.getElementById('consumer-study-form');
-    const formContainer = document.getElementById('studyForm');
-    const downloadLink = document.getElementById('downloadLink');
-    const modal = document.getElementById('thankYouModal');
-    const modalClose = document.getElementById('modalClose');
+    // Show download link and thank-you modal after Mailchimp form submit
+    var mcForm = document.getElementById('mc-embedded-subscribe-form');
+    var mcContainer = document.getElementById('mc_embed_shell');
+    var downloadLink = document.getElementById('downloadLink');
+    var modal = document.getElementById('thankYouModal');
+    var modalClose = document.getElementById('modalClose');
 
-    studyForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      const formData = new FormData(studyForm);
-
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString()
-      }).then(function () {
-        // Hide form, show download link, show modal
-        formContainer.style.display = 'none';
+    mcForm.addEventListener('submit', function () {
+      // Small delay so Mailchimp submission goes through (opens in new tab)
+      setTimeout(function () {
+        mcContainer.style.display = 'none';
         downloadLink.style.display = 'block';
         modal.classList.add('active');
-      }).catch(function (err) {
-        // Still show download on error so user isn't stuck
-        formContainer.style.display = 'none';
-        downloadLink.style.display = 'block';
-        modal.classList.add('active');
-      });
+      }, 500);
     });
 
     modalClose.addEventListener('click', function () {
@@ -327,6 +335,7 @@
       }
     });
   </script>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 </body>
 <footer>
   <div class="footer__wrapper">
