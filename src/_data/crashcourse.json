@@ -42,6 +42,12 @@
       "image": "/img/img_2109.png"
     },
     {
+      "name": "Hector Roos",
+      "image": "/img/hector-roos.jpg",
+      "category": "HOST",
+      "bio": "Hector Roos is a cannabis policy advocate, entrepreneur, and libertarian activist committed to advancing individual liberty, free markets, and sensible cannabis reform. As Co-founder and Executive Director of the Florida Cannabis Action Network, he works to empower patients, consumers, small business owners, and advocates to shape a fair and inclusive cannabis industry in Florida. Roos has been a leading voice for policies that promote competition, expand access, reduce unnecessary government barriers, and prevent excessive market concentration. Through grassroots organizing, public education, and coalition building, he advocates for cannabis policies that protect personal freedom, expand economic opportunity, and ensure the marketplace serves consumers rather than entrenched interests."
+    },
+    {
       "name": "Margeaux Lavoie",
       "image": "/img/maggie.jpg",
       "bio": "Margeaux (Maggie) Lavoie is a Social Equity Fellow for Parabola Center and a student at the University of Maine School of Law, where she has served as Executive Editor of the Maine Law Review and president of the Maine Association of Public Interest Lawyers. She was a Rural Law Fellow of the Fort Kent Rural Practice Clinic for Spring 2024 and a student research assistant in cannabis law for Professor Scott Bloomberg. Prior to attending law school, Maggie was the Director of Operations of the Church of Safe Injection, a daytime drop-in harm reduction center and CDC-certified syringe service program located in Lewiston, Maine. ",
@@ -52,6 +58,12 @@
       "image": "/img/faith-english.jpg",
       "bio": "Faith English is a Postdoctoral Fellow in the Johns Hopkins Bloomberg School of Public Health Drug Dependence and Epidemiology Training Program. She received her PhD and MPH from the University of Massachusetts Amherst School of Public Health and Health Sciences. Using both qualitative and quantitative methods, her research focuses on the intersection of cannabis legalization, health equity, and criminal justice reform. Dr. English is passionate about exploring the multiple ways in which cannabis and other drug legalization can address the public health crisis of mass incarceration and the war on drugs.",
       "category": "HOST"
+    },
+    {
+      "name": "Meredith McGee",
+      "image": "/img/meredith-headshot-1-.jpg",
+      "category": "HOST",
+      "bio": "Meredith McGee, MPH (she/her), is a public health professional dedicated to bridging the gap between research, community, and education. Her work focuses on cannabis, health equity, and LGBTQ+ communities, with a mission to make public health research more accessible and actionable beyond academia. A seasoned grant writer and fundraiser, Meredith has helped secure over a million dollars in funding to support community-led initiatives. She is especially passionate about connecting cannabis policy to public health infrastructure in ways that center lived experience and promote health justice. Meredith authored Parabola Center's essay on the drug policy U-curve."
     },
     {
       "name": "Cat Packer, Esq.",
