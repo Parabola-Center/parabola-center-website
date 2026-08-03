@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Consumer Study | {{site.title}}</title>
+  <meta name="description" content="{{site.description}}">
+  <meta property="og:title" content="Consumer Study | {{site.title}}">
+  <meta property="og:description" content="{{site.description}}">
+  <meta property="og:image" content="{{site.url}}{{navigation.logo}}">
+  <meta property="og:url" content="{{site.url}}{{page.url}}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.apple_touch_icon}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.favicon_32x32}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{site.favicon_16x16}}">
+  <link rel="stylesheet" href="/css/partners.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5QR0NG3DS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-R5QR0NG3DS");
+  </script>
+  <script src="/js/partners.js" defer></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #1c1b2d;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    main > div {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Mailchimp form overrides */
+    #mc_embed_signup {
+      background: transparent !important;
+      max-width: 500px;
+      margin: 2rem auto;
+      text-align: left;
+      font-family: "Rubik", sans-serif !important;
+    }
+
+    #mc_embed_signup h2 {
+      color: rgba(255, 255, 255, 0.85) !important;
+      font-size: 1.05rem !important;
+      font-weight: 400 !important;
+      line-height: 1.7 !important;
+      margin-bottom: 1.5rem !important;
+    }
+
+    #mc_embed_signup .indicates-required {
+      color: rgba(255, 255, 255, 0.6) !important;
+    }
+
+    #mc_embed_signup .asterisk {
+      color: #d42c4a !important;
+    }
+
+    #mc_embed_signup label {
+      color: #fff !important;
+      font-weight: 600 !important;
+      font-size: 14px !important;
+    }
+
+    #mc_embed_signup input[type="text"],
+    #mc_embed_signup input[type="email"],
+    #mc_embed_signup select {
+      background: rgba(255, 255, 255, 0.95) !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+      border-radius: 4px !important;
+      font-size: 15px !important;
+      padding: 10px 12px !important;
+    }
+
+    #mc_embed_signup input[type="text"]:focus,
+    #mc_embed_signup input[type="email"]:focus,
+    #mc_embed_signup select:focus {
+      border-color: #eab12c !important;
+      box-shadow: 0 0 0 2px rgba(234, 177, 44, 0.25) !important;
+      outline: none !important;
+    }
+
+    #mc_embed_signup .button {
+      background: #eab12c !important;
+      color: #1e3a42 !important;
+      border: none !important;
+      width: 100% !important;
+      padding: 14px 48px !important;
+      font-size: 16px !important;
+      font-weight: 700 !important;
+      border-radius: 4px !important;
+      height: auto !important;
+      line-height: 1 !important;
+      margin: 0.5rem 0 0 !important;
+    }
+
+    #mc_embed_signup .button:hover {
+      background: #d4a028 !important;
+    }
+
+    #mc_embed_signup .mc-field-group {
+      padding-bottom: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+
+    #mc_embed_signup div.response {
+      color: #eab12c !important;
+    }
+
+    #downloadLink {
+      display: none;
+      color: #eab12c;
+      font-size: 18px;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    /* Thank-you modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-content {
+      background: #28273e;
+      color: #fff;
+      padding: 2.5rem;
+      border-radius: 8px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+      position: relative;
+      border-top: 4px solid #eab12c;
+    }
+
+    .modal-content h2 {
+      margin-top: 0;
+      color: #eab12c;
+    }
+
+    .modal-content p {
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.6;
+    }
+
+    .modal-content a {
+      color: #eab12c;
+      font-weight: 600;
+    }
+
+    .modal-content a:hover {
+      color: #d4a028;
+    }
+
+    .modal-close {
+      background: #eab12c;
+      color: #1e3a42;
+      border: none;
+      padding: 10px 30px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    .modal-close:hover {
+      background: #d4a028;
+    }
+
+    @media only screen and (max-width: 640px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      main {
+        padding: 20px 24px 40px;
+      }
+
+      #mc_embed_signup {
+        margin: 1.5rem auto;
+      }
+    }
+  </style>
+  <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', 'yrmHiisKU63En1PL99xSvg');</script>
+</head>
+<header>
+  <nav>
+    <a href="/" title="Home page link">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="229" height="84"
+        viewBox="0 0 229 84">
+        <defs>
+          <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 929 340">
+            <image width="929" height="340"
+              xlink:href="{{navigation.logo}}" />
+          </pattern>
+        </defs>
+        <rect id="PC_Header_logo" width="229" height="84" fill="url(#pattern)" />
+      </svg>
+
+    </a>
+    <ul>
+      {%- for nav in collections.nav %}
+      <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
+        <a href="{{nav.url}}" {% if page.url==nav.url %} class="active-nav" {% endif %}>{{nav.data.title}}</a>
+      </li>
+
+      {%- endfor %}
+      <li class="close__item">
+        <button id="closeButton">Close</button>
+      </li>
+    </ul>
+    <button class="mobile-button" id="navbar__mobileButton">Menu</button>
+  </nav>
+</header>
+
+<body>
+  <main>
+    <h1>{{consumer-study.header}}</h1>
+    <div>{{consumer-study.body | markdown | safe }}</div>
+
+    <div id="mc_embed_shell">
+      <div id="mc_embed_signup">
+        <form action="https://parabolacenter.us5.list-manage.com/subscribe/post?u=05f1b4a1bb668277775f14d00&amp;id=012f0eb868&amp;f_id=003db9edf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+          <div id="mc_embed_signup_scroll">
+            <h2>Sign up below to download the study and subscribe to our monthly newsletter.</h2>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-FNAME">First Name <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-LNAME">Last Name <span class="asterisk">*</span></label><input type="text" name="LNAME" class="required text" id="mce-LNAME" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-MMERGE12">State <span class="asterisk">*</span></label><select name="MMERGE12" class="required" id="mce-MMERGE12"><option value=""></option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticuit">Connecticuit</option><option value="Delaware">Delaware</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="District of Columbia">District of Columbia</option><option value="Puerto Rico">Puerto Rico</option><option value="U.S. Virgin Islands">U.S. Virgin Islands</option><option value="Guam">Guam</option><option value="American Samoa">American Samoa</option></select></div>
+            <div class="mc-field-group"><label for="mce-MMERGE9">Organization </label><input type="text" name="MMERGE9" class=" text" id="mce-MMERGE9" value=""></div>
+            <div hidden=""><input type="hidden" name="tags" value="4540581"></div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display: none;"></div>
+              <div class="response" id="mce-success-response" style="display: none;"></div>
+            </div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_05f1b4a1bb668277775f14d00_012f0eb868" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <a href="/pdf/consumer-study.pdf" download id="downloadLink">Download the Report (PDF)</a>
+  </main>
+
+  <!-- Thank-you modal -->
+  <div class="modal-overlay" id="thankYouModal">
+    <div class="modal-content">
+      <h2>Thanks for downloading our consumer study!</h2>
+      <p>If you want to support more research like this, please consider making a tax-exempt donation at <a href="https://givebutter.com/supportparabola" target="_blank" rel="noopener">givebutter.com/supportparabola</a>.</p>
+      <button class="modal-close" id="modalClose">Close</button>
+    </div>
+  </div>
+
+  <script>
+    // Show download link and thank-you modal after Mailchimp form submit
+    var mcForm = document.getElementById('mc-embedded-subscribe-form');
+    var mcContainer = document.getElementById('mc_embed_shell');
+    var downloadLink = document.getElementById('downloadLink');
+    var modal = document.getElementById('thankYouModal');
+    var modalClose = document.getElementById('modalClose');
+
+    mcForm.addEventListener('submit', function () {
+      // Small delay so Mailchimp submission goes through (opens in new tab)
+      setTimeout(function () {
+        mcContainer.style.display = 'none';
+        downloadLink.style.display = 'block';
+        modal.classList.add('active');
+      }, 500);
+    });
+
+    modalClose.addEventListener('click', function () {
+      modal.classList.remove('active');
+    });
+
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+</body>
+<footer>
+  <div class="footer__wrapper">
+    <div class="footer__info">
+      <h2>Parabola Center</h2>
+      <p>Parabola Center is a nonprofit of legal, public health, and policy professionals coming together to put people over profits. Through research and education, we provide everyone with the tools and expertise to shape emerging fields, from marijuana to artificial intelligence.</p>
+    </div>
+    <ul class="footer__menu">
+      <li>
+        <h3>Company</h3>
+      </li>
+      {%- for nav in collections.nav %}
+      <li {% if page.url==nav.url %} aria-current="page" {% endif %}>
+        <a href="{{nav.url}}" {% if page.url==nav.url %} {% endif %}>{{nav.data.title}}</a>
+      </li>
+      {%- endfor %}
+    </ul>
+    <div class="footer__meta">
+      <div class="social">
+        <a href="https://facebook.com/parabolacenterforlawandpolicy" title="Parabola Center Facebook Page">
+          <svg id="facebook-f" xmlns="http://www.w3.org/2000/svg" width="12.854" height="24" viewBox="0 0 12.854 24">
+            <path id="Path"
+              d="M12.012,13.5l.667-4.343H8.511V6.338a2.172,2.172,0,0,1,2.449-2.347h1.895V.293A23.105,23.105,0,0,0,9.491,0C6.059,0,3.815,2.08,3.815,5.846v3.31H0V13.5H3.815V24h4.7V13.5Z"
+              fill="#8b8b8b" />
+          </svg>
+        </a>
+
+        <a href="https://twitter.com/parabolacenter" title="Parabola Center Twitter Page">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22.154" height="17.993" viewBox="0 0 22.154 17.993">
+            <path id="Path"
+              d="M19.877,4.484c.014.2.014.394.014.59A12.83,12.83,0,0,1,6.972,17.993,12.831,12.831,0,0,1,0,15.955a9.393,9.393,0,0,0,1.1.056,9.093,9.093,0,0,0,5.637-1.94,4.548,4.548,0,0,1-4.245-3.149,5.726,5.726,0,0,0,.858.07,4.8,4.8,0,0,0,1.195-.155A4.541,4.541,0,0,1,.9,6.382V6.326A4.573,4.573,0,0,0,2.952,6.9,4.547,4.547,0,0,1,1.546.829a12.906,12.906,0,0,0,9.362,4.751A5.126,5.126,0,0,1,10.8,4.54a4.545,4.545,0,0,1,7.858-3.107,8.939,8.939,0,0,0,2.882-1.1,4.528,4.528,0,0,1-2,2.5,9.1,9.1,0,0,0,2.615-.7A9.76,9.76,0,0,1,19.877,4.484Z"
+              fill="#8b8b8b" />
+          </svg>
+        </a>
+
+        <a href="https://instagram.com/parabolacenter" title="Parabola Center Instagram">
+          <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="23.96" height="23.954"
+            viewBox="0 0 23.96 23.954">
+            <path id="Shape"
+              d="M7.038,23.87a7.142,7.142,0,0,1-5.018-1.935A7.09,7.09,0,0,1,.084,16.916c-.113-1.978-.113-7.906,0-9.884A7.107,7.107,0,0,1,2.019,2.014,7.123,7.123,0,0,1,7.038.084c1.978-.113,7.906-.113,9.884,0a7.129,7.129,0,0,1,5.019,1.935,7.088,7.088,0,0,1,1.935,5.018c.112,1.978.112,7.9,0,9.878a7.137,7.137,0,0,1-1.935,5.019,7.09,7.09,0,0,1-5.019,1.935c-.989.056-2.965.084-4.942.084S8.027,23.926,7.038,23.87Z"
+              transform="translate(0)" fill="#8b8b8b" />
+          </svg>
+        </a>
+      </div>
+      <p class="copyright">Copyright &copy; 2023. All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+</html>

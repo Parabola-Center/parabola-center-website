@@ -349,6 +349,12 @@ collections:
         file: "src/_data/sign-on.json"
         fields:
           - { label: Content, name: content, widget: markdown }
+      - label: "Consumer Study"
+        name: "consumer-study"
+        file: "src/_data/consumer-study.json"
+        fields:
+          - { label: Header, name: header, widget: string }
+          - { label: Body, name: body, widget: markdown }
       - label: "Toolkit"
         name: "anti-monopoly-toolkit"
         file: "src/_data/anti-monopoly-toolkit.json"

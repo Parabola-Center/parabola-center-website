@@ -146,4 +146,27 @@
   to = "/pdf/The%20Illusion%20of%20Competition.pdf"
   status = 302
   force = false
-  
+
+[[redirects]]
+  from = "/2026popfriday"
+  to = "/pdf/2026%20People%20Over%20Profits%20-%20Friday%20Schedule.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/2026popfriday/"
+  to = "/pdf/2026%20People%20Over%20Profits%20-%20Friday%20Schedule.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/2026popsaturday"
+  to = "/pdf/2026%20People%20Over%20Profits%20-%20Saturday%20Schedule.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/2026popsaturday/"
+  to = "/pdf/2026%20People%20Over%20Profits%20-%20Saturday%20Schedule.pdf"
+  status = 302
+  force = false

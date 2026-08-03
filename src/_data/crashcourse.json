@@ -42,6 +42,12 @@
       "image": "/img/img_2109.png"
     },
     {
+      "name": "Hector Roos",
+      "image": "/img/hector-roos.jpg",
+      "category": "HOST",
+      "bio": "Hector Roos is a cannabis policy advocate, entrepreneur, and libertarian activist committed to advancing individual liberty, free markets, and sensible cannabis reform. As Co-founder and Executive Director of the Florida Cannabis Action Network, he works to empower patients, consumers, small business owners, and advocates to shape a fair and inclusive cannabis industry in Florida. Roos has been a leading voice for policies that promote competition, expand access, reduce unnecessary government barriers, and prevent excessive market concentration. Through grassroots organizing, public education, and coalition building, he advocates for cannabis policies that protect personal freedom, expand economic opportunity, and ensure the marketplace serves consumers rather than entrenched interests."
+    },
+    {
       "name": "Margeaux Lavoie",
       "image": "/img/maggie.jpg",
       "bio": "Margeaux (Maggie) Lavoie is a Social Equity Fellow for Parabola Center and a student at the University of Maine School of Law, where she has served as Executive Editor of the Maine Law Review and president of the Maine Association of Public Interest Lawyers. She was a Rural Law Fellow of the Fort Kent Rural Practice Clinic for Spring 2024 and a student research assistant in cannabis law for Professor Scott Bloomberg. Prior to attending law school, Maggie was the Director of Operations of the Church of Safe Injection, a daytime drop-in harm reduction center and CDC-certified syringe service program located in Lewiston, Maine. ",
@@ -52,6 +58,12 @@
       "image": "/img/faith-english.jpg",
       "bio": "Faith English is a Postdoctoral Fellow in the Johns Hopkins Bloomberg School of Public Health Drug Dependence and Epidemiology Training Program. She received her PhD and MPH from the University of Massachusetts Amherst School of Public Health and Health Sciences. Using both qualitative and quantitative methods, her research focuses on the intersection of cannabis legalization, health equity, and criminal justice reform. Dr. English is passionate about exploring the multiple ways in which cannabis and other drug legalization can address the public health crisis of mass incarceration and the war on drugs.",
       "category": "HOST"
+    },
+    {
+      "name": "Meredith McGee",
+      "image": "/img/meredith-headshot-1-.jpg",
+      "category": "HOST",
+      "bio": "Meredith McGee, MPH (she/her), is a public health professional dedicated to bridging the gap between research, community, and education. Her work focuses on cannabis, health equity, and LGBTQ+ communities, with a mission to make public health research more accessible and actionable beyond academia. A seasoned grant writer and fundraiser, Meredith has helped secure over a million dollars in funding to support community-led initiatives. She is especially passionate about connecting cannabis policy to public health infrastructure in ways that center lived experience and promote health justice. Meredith authored Parabola Center's essay on the drug policy U-curve."
     },
     {
       "name": "Cat Packer, Esq.",
@@ -96,10 +108,10 @@
       "category": "SPEAKER"
     },
     {
-      "name": "Shekia Scott",
-      "image": "/img/img_2101.jpeg",
-      "bio": "Shekia Scott is the Senior Cannabis Industry Manager for the City of Boston, in the Mayor's Office of Economic Opportunity and Inclusion. She oversees the economic development and equitable growth initiatives for Boston's cannabis industry as well as the Boston Cannabis Equity Program. Previously, she was the Director of Equity and Community Outreach for the Massachusetts Cannabis Control Commission, pioneering the nation's first, statewide cannabis social equity program. She also serves on the Board of Directors for the Cannabis Regulators of Color Coalition.",
-      "category": "SPEAKER"
+      "bio": "Aaron Carll is the co-founder and host of Couch Lock News, an independent cannabis media platform covering the industry through investigative reporting, policy analysis, and consumer education. Based in Tampa, Aaron focuses on Florida’s medical marijuana program, dispensary accountability, patient access, and the policy fights shaping who actually benefits from legalization. Outside of media, he works in chemical and botanical supply through Ceres 14, a Tampa-based company handling bulk chemical distribution, botanical sourcing and imports, and ingredient warehousing, giving him a firsthand view of the business side of the plant economy he reports on.",
+      "category": "SPEAKER",
+      "name": "Aaron Carll",
+      "image": "/img/aaron-carll.jpg"
     },
     {
       "bio": "Kendra Thompson is a licensed hemp farmer, CBD retailer, and founder of The Honeycomb FL LLC, a Florida-based wellness shop and nursery. She specializes in cultivating hemp and creating plant-based wellness products while educating consumers about the benefits of cannabinoids and sustainable agriculture. With a background in journalism and community advocacy, Kendra combines agricultural innovation, entrepreneurship, and public education to advance the hemp industry and support local communities.",
@@ -124,6 +136,30 @@
       "image": "/img/peter-contos-executive-director-cannabis-equity-coalition-illinois.jpg",
       "bio": "Peter Contos is a policy advocate and educator based in Chicago, working to promote equity and justice through advocacy & community organizing. In his role as Deputy Director as Cannabis Equity IL Coalition, he helped develop the organization’s political education program & advocacy platform. He has hosted political education workshops across Illinois. He represents the Coalition in the State Capitol, including helping pass the Cannabis Equity Omnibus at the end of May 2026. He is also the Lead Grant Writer for the Coalition. In 2018-19, Peter organized the Speak for Safety Illinois campaign, a public education campaign designed to help inform and empower community members and stakeholders across Illinois of the recently-enacted Firearms Restraining Order. ",
       "category": "SPEAKER"
+    },
+    {
+      "name": "Robert Chlala",
+      "bio": "Robert Chlala is an Assistant Professor of Urban Sociology at California State University, Long Beach where he supports investigative projects that platform affected communities to lead conversations on economics, reparations and livable cities. He is a co-lead researcher for the California Cannabis Healthy and Responsible Markets project housed at UC Berkeley, a multi-year, mixed-methods research project examining consolidation in the industry. Prior he developed the California Cannabis Worker Collaborative, which spoke to more than 1,111 workers about life at the front lines of cannabis (report here!). He completed his PhD in Sociology in 2021 at the University of Southern California, fueled to pursue research by years of experience in drug economies and in community organizing. ",
+      "category": "SPEAKER",
+      "image": "/img/rob-chlala.jpg"
+    },
+    {
+      "name": "Scheril Murray Powell, Esq.",
+      "image": "/img/scheril-headshot-rastafari-head-back.jpg",
+      "bio": "Scheril Murray Powell, Esq., is a multifaceted legal professional renowned for her expertise in agricultural, cannabis, dietary supplement, regulatory, immigration, and trade law. Currently practicing at Doumar, Allsworth, Laystrom, Voigt, Adair, and Dishowitz LLP, Scheril was elected as the International President and Local 12 President of The Ethiopian World Federation, Inc. and is the Founder of the Cannabis HR Council. Scheril wrote the first Cannabis Social Equity Bill in the State of Florida which was introduced in 2020 by Senator Randolph Bracey and Representative Anika Omphroy. She is one of the first University of Florida hemp farmers in the State and has had hemp licenses in Pennsylvania, Maryland, South Carolina, and Florida. She sits on the ASTM International D37 Committee on Cannnabis' Executive Committee as the Chair of the Diversity, Equity, and Inclusion Subcommittee. ",
+      "category": "SPEAKER"
+    },
+    {
+      "name": "Dr. Michael McKenzie",
+      "image": "/img/dr.-michael-mckenzie.jpg",
+      "bio": "Dr. Michael J. McKenzie was one of the first physicians in Florida to become certified to recommend cannabinoids in 2015 based on Florida’s Compassionate Medical Cannabis Act of 2014. He was born and raised in East Elmhurst, N and received his B.S. in Biology from Virginia Commonwealth University and his M.D. degree from Universidad Iberoamericana (UNIBE) School of Medicine in Santo Domingo, Dominican Republic. He completed his residency in Family Medicine at the University of Oklahoma Southwest Oklahoma Family Practice Residency Program. He has been in independent private practice in South Florida since completing residency in 2003. In addition to Primary Care, Dr. McKenzie has a special interest in the practical application of cannabinoid therapeutics in the outpatient setting. He was evaluating and treating qualified patients in Florida's medical cannabis program until December 2024 and is currently the Medical Director of a provisionally-licensed MMTC called Green Street.",
+      "category": "SPECIAL GUEST"
+    },
+    {
+      "name": "KC Klens",
+      "image": "/img/kc-klens.jpg",
+      "bio": "Raised in Southwest Florida, KC Klens is a passionate advocate who has worn many hats in cannabis spaces around the country. KC recently graduated with his M.S. in Medical Cannabis Science and Therapeutics from the University of Maryland, Baltimore in 2026, and earned a 4.0 GPA as President of the Medical Cannabis Student Association. KC first became interested in drug policy reform and harm reduction advocacy in 2014 as an SSDP chapter leader at Eckerd College. His earliest industry involvement began with Florida Cannabis Coalition before expanding into other organizations across the state. After graduating in 2016 with his Biology degree, KC interned and worked in cannabis industry recruiting and career coaching with THC Staffing Group. KC also worked for five years in Florida’s medical cannabis dispensaries in many areas of retail sales, events, management, and patient consulting. He has been a mentor, a speaker, a cannabis brand representative, a consultant, a full spectrum activist and corporate critic, and is currently part of the Parabola Leadership Cohort. KC is currently open to new employment in dispensaries, compliance, clinical investigating, public health, cannabis research and development, and is planning for nursing school in the near future. ",
+      "category": "SPECIAL GUEST"
     }
   ],
   "ctaLink2": "https://forms.gle/TUN2naM37awDD1seA",
