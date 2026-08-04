@@ -14,13 +14,15 @@ layout: base
       <h3>{{ item.title }}</h3>
       <p class="resource-attribution">{{ item.attribution }}</p>
       <div class="resource-snippet">{{ item.snippet | markdown | safe }}</div>
-      <a class="resource-link" href="{{ item.url }}">Read more &rarr;</a>
-      {% if item.pressRelease %}
-      <a class="resource-link" href="{{ item.pressRelease }}">Read the press release &rarr;</a>
-      {% endif %}
-      {% if item.extraLink %}
-      <a class="resource-link" href="{{ item.extraLink }}">{{ item.extraLinkLabel }} &rarr;</a>
-      {% endif %}
+      <div class="resource-links">
+        <a class="resource-link" href="{{ item.url }}">Read more &rarr;</a>
+        {% if item.pressRelease %}
+        <a class="resource-link" href="{{ item.pressRelease }}">Read the press release &rarr;</a>
+        {% endif %}
+        {% for link in item.extraLinks %}
+        <a class="resource-link" href="{{ link.url }}">{{ link.label }} &rarr;</a>
+        {% endfor %}
+      </div>
     </article>
     {% endfor %}
   </div>

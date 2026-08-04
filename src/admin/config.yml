@@ -294,8 +294,13 @@ collections:
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
               - { label: Press Release URL, name: pressRelease, widget: string, required: false }
-              - { label: Extra Link URL, name: extraLink, widget: string, required: false }
-              - { label: Extra Link Label, name: extraLinkLabel, widget: string, required: false }
+              - label: Extra Links
+                name: extraLinks
+                widget: list
+                required: false
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
           - { label: Header 2, name: header2, widget: string }
           - label: Policy Positions
             name: positions
