@@ -753,6 +753,16 @@ ul {
   margin-top: auto;
 }
 
+.resource-links {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+
+  .resource-link {
+    margin-top: 0;
+  }
+}
+
 .media-section {
   margin: 0 auto;
   max-width: 1100px;

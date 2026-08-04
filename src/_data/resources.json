@@ -49,8 +49,16 @@
       "attribution": "Co-authored by Shaleen Title, volunteer for Fairplay Screens in Schools Working Group (2026)",
       "snippet": "Signed in 2026 by over 200 experts and organizations including Parabola Center, this open statement calls for a five-year pause on all student-facing generative AI products in PreK-12 schools. It was cited in The New York Times and in letters by the NYC City Council and other public bodies throughout the country.",
       "url": "https://fairplayforkids.org/pf/pause-genai/",
-      "extraLink": "https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf",
-      "extraLinkLabel": "Read the model policy"
+      "extraLinks": [
+        {
+          "label": "Read the position statement",
+          "url": "https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf"
+        },
+        {
+          "label": "Read the sample policy",
+          "url": "https://fairplayforkids.org/wp-content/uploads/2026/07/Model-Moratorium-on-Generative-AI-Products-in-School.pdf"
+        }
+      ]
     },
     {
       "title": "Report: American Values and Beliefs on Marijuana Legalization:",
