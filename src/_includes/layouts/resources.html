@@ -18,6 +18,9 @@ layout: base
       {% if item.pressRelease %}
       <a class="resource-link" href="{{ item.pressRelease }}">Read the press release &rarr;</a>
       {% endif %}
+      {% if item.extraLink %}
+      <a class="resource-link" href="{{ item.extraLink }}">{{ item.extraLinkLabel }} &rarr;</a>
+      {% endif %}
     </article>
     {% endfor %}
   </div>
