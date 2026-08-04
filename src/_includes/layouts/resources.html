@@ -15,6 +15,9 @@ layout: base
       <p class="resource-attribution">{{ item.attribution }}</p>
       <div class="resource-snippet">{{ item.snippet | markdown | safe }}</div>
       <a class="resource-link" href="{{ item.url }}">Read more &rarr;</a>
+      {% if item.pressRelease %}
+      <a class="resource-link" href="{{ item.pressRelease }}">Read the press release &rarr;</a>
+      {% endif %}
     </article>
     {% endfor %}
   </div>
