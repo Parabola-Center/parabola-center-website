@@ -32,9 +32,10 @@
   "portfolio": [
     {
       "title": "Consumer Perspectives in States with Established Cannabis Markets",
-      "attribution": "Parabola Center (2025)",
+      "attribution": "Parabola Center (2026)",
       "snippet": "This qualitative study draws on 37 in-depth interviews with cannabis consumers across nine states where adult-use cannabis has been legal for at least five years. Participants shared their experiences with and opinions on legal cannabis in their communities, revealing nuanced perspectives on the benefits and limitations of legalization.",
-      "url": "/consumerstudy"
+      "url": "/consumerstudy",
+      "pressRelease": "/consumer-study-press-release/"
     },
     {
       "title": "The Illusion of Competition",

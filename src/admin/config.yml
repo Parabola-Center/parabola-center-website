@@ -293,6 +293,7 @@ collections:
               - { label: Attribution, name: attribution, widget: string }
               - { label: Snippet, name: snippet, widget: markdown }
               - { label: URL, name: url, widget: file }
+              - { label: Press Release URL, name: pressRelease, widget: string, required: false }
           - { label: Header 2, name: header2, widget: string }
           - label: Policy Positions
             name: positions
