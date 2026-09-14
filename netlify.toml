@@ -182,3 +182,15 @@
   to = "/pdf/FromLegalReformToMarket_Report.pdf"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/rioreport"
+  to = "/pdf/FromLegalReformToMarket_Report.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/rioreport/"
+  to = "/pdf/FromLegalReformToMarket_Report.pdf"
+  status = 302
+  force = false
