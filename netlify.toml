@@ -170,3 +170,15 @@
   to = "/pdf/2026%20People%20Over%20Profits%20-%20Saturday%20Schedule.pdf"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/RioReport"
+  to = "/pdf/FromLegalReformToMarket_Report.pdf"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/RioReport/"
+  to = "/pdf/FromLegalReformToMarket_Report.pdf"
+  status = 302
+  force = false
