@@ -179,77 +179,30 @@
     .btn-pdf svg { width: 1.4em; height: 1.4em; flex: none; }
     .btn-pdf small { display: block; font-size: .65em; opacity: .85; }
 
-    /* Who it's for */
-    .audiences {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 28px;
-      margin-top: 36px;
-    }
-    .audience h3 { margin: 0 0 6px; font-size: 1.15rem; }
-    .audience p { margin: 0; color: #444; font-size: 1rem; }
-    .audience .bar { width: 44px; height: 6px; border-radius: 3px; background: var(--accent); margin-bottom: 14px; }
-
-    /* Resources */
-    .resources {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-      margin-top: 36px;
-    }
-    .resource {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 24px;
-      text-decoration: none;
-      transition: transform .15s ease, box-shadow .15s ease;
-    }
-    .resource:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(0,0,0,.1); }
-    .resource .type { text-transform: uppercase; letter-spacing: .1em; font-size: .75rem; color: var(--red); margin: 0; }
-    .resource h3 { margin: 0; font-size: 1.15rem; line-height: 1.3; }
-    .resource p { margin: 0; color: #444; font-size: .95rem; }
-    .resource .more { margin-top: auto; padding-top: 8px; color: var(--red); }
-
-    /* FAQ */
-    .faq { margin-top: 32px; border-top: 1px solid var(--line); }
-    .faq details { border-bottom: 1px solid var(--line); padding: 4px 0; }
-    .faq summary {
-      cursor: pointer;
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 18px 0;
-      font-size: 1.15rem;
-    }
-    .faq summary::-webkit-details-marker { display: none; }
-    .faq summary::after { content: "+"; color: var(--red); font-size: 1.5rem; line-height: 1; }
-    .faq details[open] summary::after { content: "\2212"; }
-    .faq details p { margin: 0 0 20px; color: #444; }
-
-    /* Endorse CTA */
-    .cta { background: var(--red); color: #fff; text-align: center; }
-    .cta p { max-width: 58ch; margin: 0 auto 32px; font-size: 1.1rem; }
-    .cta .actions { justify-content: center; }
-    .cta .btn-primary { background: #fff; color: var(--red); }
-    .cta .btn-primary:hover { background: var(--navy); color: #fff; }
-
     /* Footer */
     footer { background: #000; color: #bbb; padding: 36px 0; font-size: .9rem; }
     footer .row { display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: space-between; align-items: center; }
     footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 18px; margin: 0; padding: 0; }
     footer a { color: #fff; text-decoration: none; }
     footer a:hover { color: var(--gold); }
+    .footer-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px 48px;
+      padding-bottom: 32px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .logo-placeholder { width: 160px; height: 64px; color: #8a8a8a; }
 
     @media (max-width: 760px) {
       body { font-size: 17px; }
       .nav ul { display: none; }
       .hero { padding: 48px 0 72px; }
-      .hero::after { width: 300px; height: 300px; right: -120px; bottom: -150px; }
+      .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
+      .footer-logos { gap: 12px; }
+      .logo-placeholder { width: 100px; height: 40px; }
       section { padding: 56px 0; }
     }
   </style>
@@ -263,9 +216,6 @@
         <a class="brand" href="https://parabolacenter.com/"><img src="img/pc_logo.png" alt="Parabola Center" width="182" height="40" /></a>
         <ul>
           <li><a href="#principles">Lorem</a></li>
-          <li><a href="#resources">Ipsum</a></li>
-          <li><a href="#faq">Dolor</a></li>
-          <li><a href="#endorse">Amet</a></li>
         </ul>
       </nav>
     </div>
@@ -281,7 +231,7 @@
       </p>
       <div class="actions">
         <a class="btn btn-primary" href="#principles">Lorem ipsum</a>
-        <a class="btn btn-light" href="#endorse">Dolor sit amet</a>
+        <a class="btn btn-light" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">Dolor sit amet</a>
       </div>
     </div>
   </header>
@@ -329,99 +279,27 @@
     </div>
   </section>
 
-  <section>
-    <div class="wrap">
-      <p class="eyebrow">Lorem ipsum</p>
-      <h2>Dolor sit amet</h2>
-      <div class="audiences">
-        <div class="audience" style="--accent: var(--red)">
-          <div class="bar"></div>
-          <h3>Lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-        </div>
-        <div class="audience" style="--accent: var(--gold)">
-          <div class="bar"></div>
-          <h3>Dolor sit</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        </div>
-        <div class="audience" style="--accent: var(--green)">
-          <div class="bar"></div>
-          <h3>Amet consectetur</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-        </div>
-        <div class="audience" style="--accent: var(--blue)">
-          <div class="bar"></div>
-          <h3>Adipiscing elit</h3>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="resources" class="soft">
-    <div class="wrap">
-      <p class="eyebrow">Lorem ipsum</p>
-      <h2>Dolor sit amet</h2>
-      <div class="resources">
-        <a class="resource" href="#">
-          <p class="type">Lorem ipsum</p>
-          <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <span class="more">Lorem ipsum &rarr;</span>
-        </a>
-        <a class="resource" href="#">
-          <p class="type">Dolor sit</p>
-          <h3>Consectetur adipiscing elit sed do</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-          <span class="more">Lorem ipsum &rarr;</span>
-        </a>
-        <a class="resource" href="#">
-          <p class="type">Amet</p>
-          <h3>Eiusmod tempor</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <span class="more">Lorem ipsum &rarr;</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="faq">
-    <div class="wrap narrow">
-      <p class="eyebrow">Lorem</p>
-      <h2>Lorem ipsum dolor sit amet</h2>
-      <div class="faq">
-        <details>
-          <summary>Lorem ipsum dolor sit amet consectetur?</summary>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-        </details>
-        <details>
-          <summary>Sed do eiusmod tempor incididunt ut labore?</summary>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-        </details>
-        <details>
-          <summary>Ut enim ad minim veniam quis nostrud exercitation?</summary>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-        </details>
-        <details>
-          <summary>Duis aute irure dolor in reprehenderit?</summary>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <section id="endorse" class="cta">
-    <div class="wrap">
-      <h2>Lorem ipsum dolor sit amet</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <div class="actions">
-        <a class="btn btn-primary" href="#">Lorem ipsum</a>
-        <a class="btn btn-light" href="#">Dolor sit amet</a>
-      </div>
-    </div>
-  </section>
-
   <footer>
+    <div class="wrap footer-logos">
+        <svg class="logo-placeholder" viewBox="0 0 160 64" role="img" aria-label="Logo placeholder">
+          <rect x="1" y="1" width="158" height="62" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" />
+          <circle cx="36" cy="32" r="12" fill="currentColor" />
+          <rect x="56" y="24" width="76" height="6" rx="3" fill="currentColor" />
+          <rect x="56" y="36" width="52" height="5" rx="2.5" fill="currentColor" opacity=".6" />
+        </svg>
+        <svg class="logo-placeholder" viewBox="0 0 160 64" role="img" aria-label="Logo placeholder">
+          <rect x="1" y="1" width="158" height="62" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" />
+          <circle cx="36" cy="32" r="12" fill="currentColor" />
+          <rect x="56" y="24" width="76" height="6" rx="3" fill="currentColor" />
+          <rect x="56" y="36" width="52" height="5" rx="2.5" fill="currentColor" opacity=".6" />
+        </svg>
+        <svg class="logo-placeholder" viewBox="0 0 160 64" role="img" aria-label="Logo placeholder">
+          <rect x="1" y="1" width="158" height="62" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" />
+          <circle cx="36" cy="32" r="12" fill="currentColor" />
+          <rect x="56" y="24" width="76" height="6" rx="3" fill="currentColor" />
+          <rect x="56" y="36" width="52" height="5" rx="2.5" fill="currentColor" opacity=".6" />
+        </svg>
+    </div>
     <div class="wrap row">
       <span>&copy; 2026 Parabola Center for Law and Policy is a 501(c)(3) charitable organization.</span>
       <ul>
