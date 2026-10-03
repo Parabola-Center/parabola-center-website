@@ -33,3 +33,14 @@ npm run build
 ```sh
 npx netlify-cms-proxy-server
 ```
+
+## Shipsite landing page
+
+`shipsite/index.html` is a standalone landing page deployed to [shipsite.sh](https://shipsite.sh/) (not part of the Eleventy build). The deploy script bundles the page with the images and fonts it references from `src/`:
+
+```sh
+node shipsite/deploy.js --dry-run                 # list the files that would be sent
+SHIPSITE_API_KEY=sk_live_... node shipsite/deploy.js --pin
+```
+
+Without `--pin`, shipsite sites expire after 24 hours. Set `SHIPSITE_API_URL` to override the API host.
