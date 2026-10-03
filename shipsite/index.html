@@ -198,6 +198,8 @@
       background: #fff;
       border-radius: 12px;
     }
+    .partner-logo { transition: transform .15s ease, box-shadow .15s ease; }
+    .partner-logo:hover { transform: translateY(-2px); box-shadow: 0 0 0 3px var(--gold); }
     .partner-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
 
     @media (max-width: 760px) {
@@ -289,9 +291,9 @@
 
   <footer>
     <div class="wrap footer-logos">
-      <div class="partner-logo"><img src="img/pc_logo.png" alt="Parabola Center for Law and Policy" width="1400" height="511" /></div>
-      <div class="partner-logo"><img src="img/fairplay-logo.jpg" alt="Fairplay: childhood beyond brands" width="512" height="129" /></div>
-      <div class="partner-logo"><img src="img/critical-internet-studies-institute-logo.webp" alt="Critical Internet Studies Institute" width="500" height="88" /></div>
+      <a class="partner-logo" href="https://parabolacenter.com/" target="_blank" rel="noopener"><img src="img/pc_logo.png" alt="Parabola Center for Law and Policy" width="1400" height="511" /></a>
+      <a class="partner-logo" href="https://fairplayforkids.org/" target="_blank" rel="noopener"><img src="img/fairplay-logo.jpg" alt="Fairplay: childhood beyond brands" width="512" height="129" /></a>
+      <a class="partner-logo" href="https://www.criticalinternet.org/" target="_blank" rel="noopener"><img src="img/critical-internet-studies-institute-logo.webp" alt="Critical Internet Studies Institute" width="500" height="88" /></a>
     </div>
     <div class="wrap row">
       <span>&copy; 2026 Parabola Center for Law and Policy is a 501(c)(3) charitable organization.</span>
