@@ -188,7 +188,17 @@
       margin-bottom: 28px;
       border-bottom: 1px solid #2a2a2a;
     }
-    .logo-placeholder { width: 160px; height: 64px; color: #8a8a8a; }
+    .partner-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 240px;
+      height: 88px;
+      padding: 16px 22px;
+      background: #fff;
+      border-radius: 12px;
+    }
+    .partner-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
 
     @media (max-width: 760px) {
       body { font-size: 17px; }
@@ -196,7 +206,7 @@
       .hero { padding: 48px 0 72px; }
       .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
       .footer-logos { gap: 12px; }
-      .logo-placeholder { width: 100px; height: 40px; }
+      .partner-logo { width: 220px; height: 76px; }
       section { padding: 56px 0; }
     }
   </style>
@@ -279,24 +289,9 @@
 
   <footer>
     <div class="wrap footer-logos">
-        <svg class="logo-placeholder" viewBox="0 0 160 64" role="img" aria-label="Logo placeholder">
-          <rect x="1" y="1" width="158" height="62" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" />
-          <circle cx="36" cy="32" r="12" fill="currentColor" />
-          <rect x="56" y="24" width="76" height="6" rx="3" fill="currentColor" />
-          <rect x="56" y="36" width="52" height="5" rx="2.5" fill="currentColor" opacity=".6" />
-        </svg>
-        <svg class="logo-placeholder" viewBox="0 0 160 64" role="img" aria-label="Logo placeholder">
-          <rect x="1" y="1" width="158" height="62" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" />
-          <circle cx="36" cy="32" r="12" fill="currentColor" />
-          <rect x="56" y="24" width="76" height="6" rx="3" fill="currentColor" />
-          <rect x="56" y="36" width="52" height="5" rx="2.5" fill="currentColor" opacity=".6" />
-        </svg>
-        <svg class="logo-placeholder" viewBox="0 0 160 64" role="img" aria-label="Logo placeholder">
-          <rect x="1" y="1" width="158" height="62" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" />
-          <circle cx="36" cy="32" r="12" fill="currentColor" />
-          <rect x="56" y="24" width="76" height="6" rx="3" fill="currentColor" />
-          <rect x="56" y="36" width="52" height="5" rx="2.5" fill="currentColor" opacity=".6" />
-        </svg>
+      <div class="partner-logo"><img src="img/pc_logo.png" alt="Parabola Center for Law and Policy" width="1400" height="511" /></div>
+      <div class="partner-logo"><img src="img/fairplay-logo.jpg" alt="Fairplay: childhood beyond brands" width="512" height="129" /></div>
+      <div class="partner-logo"><img src="img/critical-internet-studies-institute-logo.webp" alt="Critical Internet Studies Institute" width="500" height="88" /></div>
     </div>
     <div class="wrap row">
       <span>&copy; 2026 Parabola Center for Law and Policy is a 501(c)(3) charitable organization.</span>
