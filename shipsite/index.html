@@ -158,34 +158,26 @@
       line-height: 1.4;
     }
 
-    /* Principles */
-    .principles {
-      list-style: none;
-      margin: 40px 0 0;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-      counter-reset: principle;
+    /* Policy download */
+    .policy { text-align: center; }
+    .policy p:not(.eyebrow) { max-width: 64ch; margin: 0 auto; color: #333; font-size: 1.1rem; }
+    .btn-pdf {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 40px;
+      padding: 24px 44px;
+      border-radius: 999px;
+      background: var(--red);
+      color: #fff;
+      font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+      text-decoration: none;
+      box-shadow: 0 14px 32px rgba(223, 30, 91, .35);
+      transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
     }
-    .principles li {
-      counter-increment: principle;
-      background: #fff;
-      border-radius: 14px;
-      padding: 28px;
-      border-top: 6px solid var(--accent);
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .principles li::before {
-      content: counter(principle, decimal-leading-zero);
-      font-size: 2rem;
-      line-height: 1;
-      color: var(--accent);
-    }
-    .principles h3 { margin: 0; font-size: 1.3rem; line-height: 1.25; }
-    .principles p { margin: 0; color: #444; font-size: 1rem; }
+    .btn-pdf:hover { background: #c21549; transform: translateY(-2px); box-shadow: 0 18px 40px rgba(223, 30, 91, .45); }
+    .btn-pdf svg { width: 1.4em; height: 1.4em; flex: none; }
+    .btn-pdf small { display: block; font-size: .65em; opacity: .85; }
 
     /* Who it's for */
     .audiences {
@@ -314,36 +306,26 @@
     </div>
   </section>
 
-  <section id="principles" class="soft">
-    <div class="wrap">
+  <section id="principles" class="soft policy">
+    <div class="wrap narrow">
       <p class="eyebrow">Lorem ipsum</p>
       <h2>Lorem ipsum dolor sit amet</h2>
-      <ol class="principles">
-        <li style="--accent: var(--red)">
-          <h3>Lorem ipsum dolor</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </li>
-        <li style="--accent: var(--gold)">
-          <h3>Consectetur adipiscing</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </li>
-        <li style="--accent: var(--green)">
-          <h3>Sed do eiusmod</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </li>
-        <li style="--accent: var(--blue)">
-          <h3>Tempor incididunt</h3>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </li>
-        <li style="--accent: var(--red)">
-          <h3>Ut labore et dolore</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-        </li>
-        <li style="--accent: var(--gold)">
-          <h3>Magna aliqua</h3>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
-        </li>
-      </ol>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+      </p>
+      <a class="btn-pdf" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+          <path d="M14 2v6h6" />
+          <path d="M12 12v6" />
+          <path d="m9 15 3 3 3-3" />
+        </svg>
+        <span>Lorem ipsum dolor <small>PDF</small></span>
+      </a>
     </div>
   </section>
 

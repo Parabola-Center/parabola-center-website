@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Deploys shipsite/index.html (plus the images and fonts it references from src/)
+// Deploys shipsite/index.html (plus the images, fonts and PDFs it references from src/)
 // to shipsite.sh in a single API call.
 //
 //   SHIPSITE_API_KEY=sk_live_... node shipsite/deploy.js [--pin] [--dry-run]
@@ -20,9 +20,9 @@ const pageDir = __dirname;
 const srcDir = path.join(__dirname, "..", "src");
 const html = fs.readFileSync(path.join(pageDir, "index.html"), "utf8");
 
-// Collect every relative img/ or fonts/ reference in the page.
+// Collect every relative img/, fonts/ or pdf/ reference in the page.
 const assetPaths = new Set();
-for (const match of html.matchAll(/(?:src|href)="((?:img|fonts)\/[^"]+)"|url\("((?:img|fonts)\/[^"]+)"\)/g)) {
+for (const match of html.matchAll(/(?:src|href)="((?:img|fonts|pdf)\/[^"]+)"|url\("((?:img|fonts|pdf)\/[^"]+)"\)/g)) {
   assetPaths.add(match[1] || match[2]);
 }
 
