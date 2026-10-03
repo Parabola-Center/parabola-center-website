@@ -101,9 +101,7 @@
     }
     .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
     .brand img { height: 40px; width: auto; background: #fff; border-radius: 8px; padding: 4px 8px; }
-    .nav ul { display: flex; gap: 24px; list-style: none; margin: 0; padding: 0; }
     .nav a { text-decoration: none; }
-    .nav ul a:hover { color: var(--gold); }
 
     /* Hero */
     .hero {
@@ -204,7 +202,6 @@
 
     @media (max-width: 760px) {
       body { font-size: 17px; }
-      .nav ul { display: none; }
       .hero { padding: 48px 0 72px; }
       .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
       .footer-logos { gap: 12px; }
@@ -220,9 +217,6 @@
     <div class="wrap">
       <nav class="nav" aria-label="Primary">
         <a class="brand" href="https://parabolacenter.com/"><img src="img/pc_logo.png" alt="Parabola Center" width="182" height="40" /></a>
-        <ul>
-          <li><a href="#principles">Lorem</a></li>
-        </ul>
       </nav>
     </div>
   </div>
