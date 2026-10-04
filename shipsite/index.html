@@ -199,7 +199,9 @@
     .partner-logo { transition: transform .15s ease, box-shadow .15s ease; }
     .partner-logo:hover { transform: translateY(-2px); box-shadow: 0 0 0 3px var(--gold); }
     .partner-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
-    .partner-logo.wide { padding: 16px 12px; }
+    /* Square logo on its own dark background: let it fill the card */
+    .partner-logo.dark { background: #212121; padding: 0; overflow: hidden; }
+    .partner-logo.dark img { max-height: none; height: 160%; }
 
     @media (max-width: 760px) {
       body { font-size: 17px; }
@@ -207,7 +209,7 @@
       .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
       .footer-logos { gap: 12px; }
       .partner-logo { width: calc(50% - 6px); height: 68px; padding: 10px 14px; }
-      .partner-logo.wide { padding: 10px 8px; }
+      .partner-logo.dark { padding: 0; }
       section { padding: 56px 0; }
     }
   </style>
@@ -290,7 +292,7 @@
       <a class="partner-logo" href="https://parabolacenter.com/" target="_blank" rel="noopener"><img src="img/pc_logo.png" alt="Parabola Center for Law and Policy" width="1400" height="511" /></a>
       <a class="partner-logo" href="https://fairplayforkids.org/" target="_blank" rel="noopener"><img src="img/fairplay-logo.jpg" alt="Fairplay: childhood beyond brands" width="512" height="129" /></a>
       <a class="partner-logo" href="https://www.criticalinternet.org/" target="_blank" rel="noopener"><img src="img/critical-internet-studies-institute-logo.webp" alt="Critical Internet Studies Institute" width="500" height="88" /></a>
-      <a class="partner-logo wide" href="https://www.rudicklawgroup.com" target="_blank" rel="noopener"><img src="img/rudick-law-group.webp" alt="Rudick Law Group, PLLC" width="500" height="66" /></a>
+      <a class="partner-logo dark" href="https://www.rudicklawgroup.com" target="_blank" rel="noopener"><img src="img/rudick-law-group-rlg-logo.jpg" alt="Rudick Law Group" width="200" height="200" /></a>
     </div>
     <div class="wrap row">
       <span>&copy; 2026 Parabola Center for Law and Policy is a 501(c)(3) charitable organization.</span>
