@@ -6,18 +6,18 @@
   <title>Student-First AI Policy | Parabola Center</title>
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800;900&display=swap" />
   <style>
-    @font-face {
-      font-family: "Franklin Gothic Medium";
-      src: url("fonts/framd.ttf") format("truetype");
-      font-display: swap;
-    }
-
     :root {
       --red: #df1e5b;
       --gold: #eab12c;
       --green: #2db67d;
       --blue: #12bdce;
+      --red-tint: #fdeef3;
+      --green-dark: #1d8a5c;
+      --gold-dark: #b7830b;
       --grey: #6d6e70;
       --ink: #111111;
       --navy: #14141c;
@@ -34,7 +34,7 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: "Franklin Gothic Medium", "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+      font-family: "Libre Franklin", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
       font-size: 18px;
       line-height: 1.6;
     }
@@ -49,8 +49,6 @@
       padding: 0 16px;
     }
 
-    .narrow { max-width: 760px; }
-
     .stripe {
       height: 6px;
       background: linear-gradient(90deg, var(--red) 0 25%, var(--gold) 25% 50%, var(--green) 50% 75%, var(--blue) 75% 100%);
@@ -63,6 +61,8 @@
       color: var(--red);
       margin: 0 0 14px;
     }
+
+    h1, h2, h3 { font-weight: 800; letter-spacing: -.01em; }
 
     h2 {
       font-size: clamp(1.7rem, 3.5vw, 2.5rem);
@@ -131,26 +131,38 @@
     .hero .actions { position: relative; z-index: 1; }
 
     /* Policy download */
-    .policy { text-align: center; }
-    .policy p:not(.eyebrow) { max-width: 64ch; margin: 0 auto; color: #333; font-size: 1.1rem; }
+    .policy h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 900; margin-bottom: 40px; }
+    .policy h3 { line-height: 1.1; margin: 0 0 12px; }
+    .policy p { margin: 0; font-size: 1.2rem; line-height: 1.5; }
+    .policy-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .policy-card { background: var(--red-tint); padding: 40px; }
+    .policy-card h3 { font-size: clamp(2.2rem, 4vw, 3rem); color: var(--red); }
+    .policy-credits h3 { font-size: 1.9rem; }
+    .policy-credits .developed { color: var(--green-dark); }
+    .policy-credits .consulted { color: var(--gold-dark); }
+    .policy-credits hr { border: 0; border-top: 2px solid var(--ink); margin: 32px 0; }
     .btn-pdf {
       display: inline-flex;
       align-items: center;
-      gap: 16px;
-      margin-top: 40px;
-      padding: 24px 44px;
+      gap: 14px;
+      margin-top: 32px;
+      padding: 18px 32px;
       border-radius: 999px;
       background: var(--red);
       color: #fff;
-      font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+      font-size: 1.25rem;
+      font-weight: 600;
       text-decoration: none;
-      box-shadow: 0 14px 32px rgba(223, 30, 91, .35);
-      transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
+      transition: transform .15s ease, background .15s ease;
     }
-    .btn-pdf:hover { background: #c21549; transform: translateY(-2px); box-shadow: 0 18px 40px rgba(223, 30, 91, .45); }
+    .btn-pdf:hover { background: #c21549; transform: translateY(-2px); }
     .btn-pdf svg { width: 1.4em; height: 1.4em; flex: none; }
-    .btn-pdf small { display: block; font-size: .65em; opacity: .85; }
-    .policy p.credits { margin-top: 40px; }
+    .btn-pdf small { display: block; font-size: .65em; font-weight: 400; opacity: .85; }
 
     /* Footer */
     footer { background: #000; color: #bbb; padding: 36px 0; font-size: .9rem; }
@@ -188,6 +200,9 @@
       .footer-logos { gap: 12px; }
       .partner-logo { width: 220px; height: 76px; }
       section { padding: 56px 0; }
+      .policy-grid { grid-template-columns: 1fr; gap: 40px; }
+      .policy-card { padding: 28px 22px; }
+      .policy p { font-size: 1.1rem; }
     }
   </style>
 </head>
@@ -210,32 +225,41 @@
   </header>
 
   <section id="principles" class="policy">
-    <div class="wrap narrow">
-      <p class="eyebrow">Lorem ipsum</p>
+    <div class="wrap">
       <h2>Lorem ipsum dolor sit amet</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-        anim id est laborum.
-      </p>
-      <a class="btn-pdf" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-          <path d="M14 2v6h6" />
-          <path d="M12 12v6" />
-          <path d="m9 15 3 3 3-3" />
-        </svg>
-        <span>Lorem ipsum dolor <small>PDF</small></span>
-      </a>
-      <p class="credits">
-        This policy was developed by Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies
-        Institute, in consultation with ACLU of Massachusetts, American Federation of Teachers Massachusetts, Design It
-        For Us, Distraction-Free Schools, Fight for the Future, Intersectional Innovation and Impact Labs, Massachusetts
-        Education Justice Alliance, Massachusetts Teachers Association, Rudick Law Group, Sociedad Latina, Schools
-        Beyond Screens, Turning Life On, and Dr. Faith English at Johns Hopkins Bloomberg School of Public Health.
-      </p>
+      <div class="policy-grid">
+        <div class="policy-card">
+          <h3>Model Policy</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+          <a class="btn-pdf" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <path d="M14 2v6h6" />
+              <path d="M12 12v6" />
+              <path d="m9 15 3 3 3-3" />
+            </svg>
+            <span>Lorem ipsum dolor <small>PDF</small></span>
+          </a>
+        </div>
+        <div class="policy-credits">
+          <h3 class="developed">Developed by</h3>
+          <p>Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies Institute.</p>
+          <hr />
+          <h3 class="consulted">In consultation with</h3>
+          <p>
+            ACLU of Massachusetts, American Federation of Teachers Massachusetts, Design It For Us, Distraction-Free
+            Schools, Fight for the Future, Intersectional Innovation and Impact Labs, Massachusetts Education Justice
+            Alliance, Massachusetts Teachers Association, Rudick Law Group, Sociedad Latina, Schools Beyond Screens,
+            Turning Life On, and Dr. Faith English at Johns Hopkins Bloomberg School of Public Health.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
