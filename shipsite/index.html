@@ -145,6 +145,26 @@
     .policy-side .why { color: var(--red); }
     .policy-side .how { color: var(--gold-dark); }
     .policy-side hr { border: 0; border-top: 2px solid var(--ink); margin: 32px 0; }
+    .more summary {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 16px;
+      color: var(--blue-dark);
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+    .more summary::-webkit-details-marker { display: none; }
+    .more summary::after { content: ""; width: 7px; height: 7px; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-2px) rotate(45deg); }
+    .more[open] summary::after { transform: translateY(2px) rotate(-135deg); }
+    .more summary:hover { color: var(--red); }
+    .more .less-label, .more[open] .more-label { display: none; }
+    .more[open] .less-label { display: inline; }
+    .more > p, .more > ul { margin-top: 16px; }
+    .more ul { padding-left: 1.4em; margin-bottom: 0; }
+    .more li { font-size: 1.2rem; line-height: 1.5; margin-bottom: 8px; }
+    .more a { color: var(--blue-dark); }
     .policy-credits {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -216,7 +236,7 @@
       .policy-grid, .policy-credits { grid-template-columns: 1fr; gap: 40px; }
       .policy-credits { margin-top: 48px; }
       .policy-card { padding: 28px 22px; }
-      .policy p { font-size: 1.1rem; }
+      .policy p, .more li { font-size: 1.1rem; }
     }
   </style>
 </head>
@@ -288,6 +308,27 @@
             change for students. Because district-level decisions about technology in schools are often made at the
             local level, community members can use this policy to begin a dialogue with decision-makers.
           </p>
+          <details class="more">
+            <summary><span class="more-label">See more</span><span class="less-label">See less</span></summary>
+            <p>We recommend using this model policy as one tool of many. Consider starting with these questions:</p>
+            <ul>
+              <li>While it considers long-term standards, has the district already adopted a temporary moratorium on generative AI products in schools?</li>
+              <li>While it considers long-term standards, has the district made its individual contracts with vendors accessible to the public? (Microsoft’s <a href="https://www.aft.org/sites/default/files/media/documents/2026/NAfAI-School_AI_Privacy_Standards.pdf" target="_blank" rel="noopener">Memorandum of Agreement</a> with the American Federation of Teachers may provide a helpful comparison)</li>
+              <li>Which generative AI products, if any, are currently being used in the district?</li>
+              <li>What vetting process and standards, if any, are already in place for generative AI products being used?</li>
+              <li>If the district uses lower standards for generative AI products than those in the Student-First AI Policy, what is the justification?</li>
+            </ul>
+            <p>
+              The Student-First AI Policy is the follow-up to Fairplay’s <a href="https://fairplayforkids.org/wp-content/uploads/2026/07/Model-Moratorium-on-Generative-AI-Products-in-School.pdf" target="_blank" rel="noopener">Model Moratorium on Generative AI Products in School</a>.
+              Bans and moratoriums give districts time to slow down and make informed decisions about whether AI should be
+              used in schools, while this model policy provides a starting point for communities to set their own
+              long-term standards.
+            </p>
+            <p>
+              To learn more about how you can get this policy implemented in your district, visit the
+              <a href="https://fairplayforkids.org/pf/pause-genai/" target="_blank" rel="noopener">Screen Time Action Network</a> at Fairplay.
+            </p>
+          </details>
         </div>
       </div>
       <div class="policy-credits">
