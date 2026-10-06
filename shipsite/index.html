@@ -133,12 +133,8 @@
     /* Policy download */
     .policy h3 { line-height: 1.1; margin: 0 0 12px; }
     .policy p { margin: 0; font-size: 1.2rem; line-height: 1.5; }
-    .policy-grid {
-      display: grid;
-      grid-template-columns: 1.15fr 1fr;
-      gap: 48px;
-      align-items: start;
-    }
+    .policy .wrap > * { max-width: 760px; }
+    .policy-grid { display: grid; gap: 56px; }
     .policy-card { background: var(--blue-tint); padding: 40px; }
     .policy-card h3 { font-size: clamp(2.2rem, 4vw, 3rem); color: var(--blue-dark); }
     .policy-side h3 { font-size: 1.9rem; }
@@ -167,8 +163,7 @@
     .more a { color: var(--blue-dark); }
     .policy-credits {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 48px;
+      gap: 32px;
       margin-top: 64px;
       padding-top: 40px;
       border-top: 2px solid var(--ink);
@@ -233,7 +228,7 @@
       .footer-logos { gap: 12px; }
       .partner-logo { width: 220px; height: 76px; }
       section { padding: 56px 0; }
-      .policy-grid, .policy-credits { grid-template-columns: 1fr; gap: 40px; }
+      .policy-grid { gap: 40px; }
       .policy-credits { margin-top: 48px; }
       .policy-card { padding: 28px 22px; }
       .policy p, .more li { font-size: 1.1rem; }
