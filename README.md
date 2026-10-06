@@ -40,7 +40,7 @@ npx netlify-cms-proxy-server
 
 ```sh
 node shipsite/deploy.js --dry-run                 # list the files that would be sent
-SHIPSITE_API_KEY=sk_live_... node shipsite/deploy.js --pin
+SHIPSITE_API_KEY=sk_live_... node shipsite/deploy.js --name=student-first-ai-policy --pin
 ```
 
-Without `--pin`, shipsite sites expire after 24 hours. Set `SHIPSITE_API_URL` to override the API host.
+Without `--pin`, shipsite sites expire after 24 hours. `--name` serves the site at `https://<name>.shipsite.sh`. Set `SHIPSITE_API_URL` to override the API host (default `https://api.shipsite.sh`).
