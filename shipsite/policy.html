@@ -100,7 +100,7 @@
       /* Decorative parabola */
       content: "";
       position: absolute;
-      right: -120px;
+      right: min(-120px, calc(50% - 910px));
       bottom: -260px;
       width: 560px;
       height: 560px;
@@ -129,6 +129,7 @@
       z-index: 1;
     }
     .hero .actions { position: relative; z-index: 1; }
+    .hero .wrap { max-width: 792px; }
 
     .pdf-actions { display: grid; justify-content: start; gap: 14px; margin-top: 32px; }
     .btn-pdf {
@@ -159,7 +160,7 @@
 
     /* Document */
     .doc { padding: 64px 0 88px; }
-    .doc-body { max-width: 760px; }
+    .doc-body { max-width: 760px; margin: 0 auto; }
     .doc-body [id] { scroll-margin-top: 24px; }
     .doc-body h2 { font-size: clamp(1.7rem, 3.5vw, 2.3rem); margin: 56px 0 16px; }
     .doc-body h2.part { margin-top: 80px; padding-top: 32px; border-top: 2px solid var(--ink); }
@@ -176,7 +177,7 @@
     .doc-body a:hover { color: var(--red); }
     .doc-body > :first-child { margin-top: 0; }
 
-    .toc { max-width: 760px; background: var(--blue-tint); padding: 32px 40px; margin-bottom: 64px; }
+    .toc { max-width: 760px; background: var(--blue-tint); padding: 32px 40px; margin: 0 auto 64px; }
     .toc h2 { font-size: 1.5rem; margin: 0 0 16px; }
     .toc-cols { display: grid; gap: 14px; }
     .toc h3 { font-size: 1rem; margin: 0 0 8px; color: var(--blue-dark); }

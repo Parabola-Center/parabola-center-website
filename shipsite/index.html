@@ -100,7 +100,7 @@
       /* Decorative parabola */
       content: "";
       position: absolute;
-      right: -120px;
+      right: min(-120px, calc(50% - 910px));
       bottom: -260px;
       width: 560px;
       height: 560px;
@@ -129,11 +129,12 @@
       z-index: 1;
     }
     .hero .actions { position: relative; z-index: 1; }
+    .hero .wrap { max-width: 792px; }
 
     /* Policy download */
     .policy h3 { line-height: 1.1; margin: 0 0 12px; }
     .policy p { margin: 0; font-size: 1.2rem; line-height: 1.5; }
-    .policy .wrap > * { max-width: 760px; }
+    .policy .wrap > * { max-width: 760px; margin-left: auto; margin-right: auto; }
     .policy-grid { display: grid; gap: 56px; }
     .policy-card { background: var(--blue-tint); padding: 40px; }
     .policy-card h3 { font-size: clamp(2.2rem, 4vw, 3rem); color: var(--blue-dark); }
