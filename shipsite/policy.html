@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Summary and Model Policy | Student-First AI Policy</title>
+  <meta name="description" content="The Student-First AI Policy is a model policy that protects students by providing strict criteria to review and evaluate the use of AI products in schools." />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap" />
+  <style>
+    :root {
+      --red: #df1e5b;
+      --gold: #eab12c;
+      --green: #2db67d;
+      --blue: #12bdce;
+      --blue-tint: #e6f7f9;
+      --blue-dark: #0a7884;
+      --gold-dark: #b7830b;
+      --grey: #6d6e70;
+      --ink: #111111;
+      --navy: #14141c;
+      --paper: #ffffff;
+      --line: #e4e0d6;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Libre Franklin", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+
+    a { color: inherit; }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    .stripe {
+      height: 6px;
+      background: linear-gradient(90deg, var(--red) 0 25%, var(--gold) 25% 50%, var(--green) 50% 75%, var(--blue) 75% 100%);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .8rem;
+      color: var(--red);
+      margin: 0 0 14px;
+    }
+
+    h1, h2, h3 { font-weight: 800; letter-spacing: -.01em; }
+
+    h2 {
+      font-size: clamp(1.7rem, 3.5vw, 2.5rem);
+      line-height: 1.15;
+      margin: 0 0 18px;
+    }
+
+    section { padding: 80px 0; }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      border-radius: 999px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform .15s ease, background .15s ease, color .15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-primary:hover { background: #c21549; }
+    .btn-light { border: 2px solid #fff; color: #fff; }
+    .btn-light:hover { background: #fff; color: var(--navy); }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; }
+
+    /* Hero */
+    .hero {
+      background: var(--navy);
+      color: #fff;
+      padding: 72px 0 96px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      /* Decorative parabola */
+      content: "";
+      position: absolute;
+      right: -120px;
+      bottom: -260px;
+      width: 560px;
+      height: 560px;
+      border: 12px solid var(--gold);
+      border-bottom-color: transparent;
+      border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+      opacity: .5;
+      pointer-events: none;
+    }
+    .hero .eyebrow { color: var(--gold); }
+    .hero h1 {
+      font-size: clamp(2.6rem, 7vw, 5rem);
+      line-height: 1.02;
+      margin: 0 0 24px;
+      max-width: 12ch;
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 span { color: var(--red); }
+    .hero p.lede {
+      max-width: 56ch;
+      color: #d8d8e0;
+      font-size: 1.2rem;
+      margin: 0 0 36px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero .actions { position: relative; z-index: 1; }
+
+    .pdf-actions { display: grid; justify-content: start; gap: 14px; margin-top: 32px; }
+    .btn-pdf {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 24px;
+      border: 2px solid var(--red);
+      border-radius: 999px;
+      background: var(--red);
+      color: #fff;
+      font-size: 1.05rem;
+      line-height: 1.3;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .15s ease, background .15s ease;
+    }
+    .btn-pdf:hover { background: #c21549; border-color: #c21549; transform: translateY(-2px); }
+    .btn-pdf-outline { background: transparent; color: #c21549; }
+    .nowrap { white-space: nowrap; }
+    .btn-pdf svg { width: 1.4em; height: 1.4em; flex: none; }
+    .btn-pdf small { display: block; font-size: .65em; font-weight: 400; opacity: .85; }
+    .hero .back { display: inline-block; margin-bottom: 28px; color: #d8d8e0; font-size: .95rem; text-decoration: none; }
+    .hero .back:hover { color: #fff; }
+    .hero .pdf-actions { position: relative; z-index: 1; }
+    .hero .btn-pdf-outline { border-color: #fff; color: #fff; }
+    .hero .btn-pdf-outline:hover { background: #fff; border-color: #fff; color: var(--navy); }
+
+    /* Document */
+    .doc { padding: 64px 0 88px; }
+    .doc-body { max-width: 760px; }
+    .doc-body [id] { scroll-margin-top: 24px; }
+    .doc-body h2 { font-size: clamp(1.7rem, 3.5vw, 2.3rem); margin: 56px 0 16px; }
+    .doc-body h2.part { margin-top: 80px; padding-top: 32px; border-top: 2px solid var(--ink); }
+    .doc-body h3 { font-size: 1.3rem; line-height: 1.3; margin: 36px 0 10px; }
+    .doc-body h3.section { font-size: 1.6rem; color: var(--blue-dark); margin-top: 56px; }
+    .doc-body h4 { font-size: 1.15rem; margin: 28px 0 8px; }
+    .doc-body p, .doc-body li { font-size: 1.15rem; line-height: 1.6; }
+    .doc-body p { margin: 0 0 16px; }
+    .doc-body p.lede { font-size: 1.3rem; font-weight: 600; line-height: 1.45; }
+    .doc-body ul { margin: 0 0 20px; padding-left: 1.4em; }
+    .doc-body ul ul { margin: 8px 0 0; }
+    .doc-body li { margin-bottom: 8px; }
+    .doc-body a { color: var(--blue-dark); }
+    .doc-body a:hover { color: var(--red); }
+    .doc-body > :first-child { margin-top: 0; }
+
+    .toc { background: var(--blue-tint); padding: 32px 40px; margin-bottom: 64px; }
+    .toc h2 { font-size: 1.5rem; margin: 0 0 16px; }
+    .toc-cols { display: grid; grid-template-columns: 1fr 1fr 1.4fr; gap: 32px; }
+    .toc h3 { font-size: 1rem; margin: 0 0 8px; color: var(--blue-dark); }
+    .toc ul { list-style: none; margin: 0; padding: 0; }
+    .toc li { margin: 0 0 6px; font-size: 1rem; line-height: 1.4; }
+    .toc a { color: var(--ink); text-decoration: none; }
+    .toc h3 a { color: inherit; }
+    .toc a:hover { color: var(--red); text-decoration: underline; }
+
+    /* Footer */
+    footer { background: #000; color: #bbb; padding: 36px 0; font-size: .9rem; }
+    footer .row { display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: space-between; align-items: center; }
+    footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 18px; margin: 0; padding: 0; }
+    footer a { color: #fff; text-decoration: none; }
+    footer a:hover { color: var(--gold); }
+    .footer-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px 48px;
+      padding-bottom: 32px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .partner-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 240px;
+      height: 88px;
+      padding: 16px 22px;
+      background: #fff;
+      border-radius: 12px;
+    }
+    .partner-logo { transition: transform .15s ease, box-shadow .15s ease; }
+    .partner-logo:hover { transform: translateY(-2px); box-shadow: 0 0 0 3px var(--gold); }
+    .partner-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+    @media (max-width: 760px) {
+      body { font-size: 17px; }
+      .hero { padding: 48px 0 72px; }
+      .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
+      .footer-logos { gap: 12px; }
+      .partner-logo { width: 220px; height: 76px; }
+      section { padding: 56px 0; }
+      .doc { padding: 40px 0 56px; }
+      .toc { padding: 24px 22px; }
+      .toc-cols { grid-template-columns: 1fr; gap: 20px; }
+      .doc-body p, .doc-body li { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stripe" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="wrap">
+      <a class="back" href="index.html">&larr; Back to overview</a>
+      <p class="eyebrow">For local school districts</p>
+      <h1>Student-First <span>AI</span> Policy</h1>
+      <p class="lede">Summary and Model Policy</p>
+      <div class="pdf-actions">
+        <a class="btn-pdf" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <path d="M14 2v6h6" />
+                <path d="M12 12v6" />
+                <path d="m9 15 3 3 3-3" />
+              </svg>
+          <span>Download Summary and Model Policy <small>PDF</small></span>
+        </a>
+        <a class="btn-pdf btn-pdf-outline" href="pdf/student-first-ai-policy-legislation.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <path d="M14 2v6h6" />
+                <path d="M12 12v6" />
+                <path d="m9 15 3 3 3-3" />
+              </svg>
+          <span>Legislation Only <span class="nowrap">(Printer-Friendly)</span> <small>PDF</small></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="doc">
+    <div class="wrap">
+      <nav class="toc" aria-labelledby="toc-title">
+        <h2 id="toc-title">Contents</h2>
+        <div class="toc-cols">
+          <div>
+            <h3>Overview</h3>
+            <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#the-problem">The Problem</a></li>
+            <li><a href="#the-solution">The Solution</a></li>
+            <li><a href="#why-now">Why Now?</a></li>
+            <li><a href="#how-to-use">How to Use This Model Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Summary</h3>
+            <ul>
+            <li><a href="#executive-summary">Executive Summary</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3><a href="#model-policy">The Model Policy</a></h3>
+            <ul>
+            <li><a href="#section-1">Section 1. Purpose</a></li>
+            <li><a href="#section-2">Section 2. Definitions</a></li>
+            <li><a href="#section-3">Section 3. Applicability and Exceptions</a></li>
+            <li><a href="#section-4">Section 4. Digital Literacy Instruction</a></li>
+            <li><a href="#section-5">Section 5. Criteria for Product Approval for Student Use</a></li>
+            <li><a href="#section-6">Section 6. Conditional Approval for Student Use</a></li>
+            <li><a href="#section-7">Section 7. Educator and Staff Use</a></li>
+            <li><a href="#section-8">Section 8. Expiration</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <article class="doc-body">
+      <h2 id="introduction">Introduction</h2>
+      <p>Increasing reports about AI-driven security incidents and existential risks posed by this emerging technology have rightfully alarmed communities across the country. As we engage in important conversations about the future of AI, we risk missing something that is happening right in front of us: Big Tech’s aggressive push to embed unsafe and untested generative AI products in K-12 schools. We have the power to use collective action as parents, teachers, students, and civil society organizations to demand more. The Student-First AI Policy is a model for local school districts that reframes the debate on our own terms for our own communities. It gives our local school districts the tools they need to ensure that any AI educational product rolled out to students meets rigorous, evidence-based standards for safety, privacy, and efficacy.</p>
+      <h2 id="the-problem">The Problem</h2>
+      <p>The risks of cognitive and emotional harm to children from generative AI have been well documented. For example, the <a href="https://www.brookings.edu/wp-content/uploads/2026/01/A-New-Direction-for-Students-in-an-AI-World-RECOMMENDATIONS.pdf" target="_blank" rel="noopener">Brookings Institution</a> concluded that the risks of utilizing AI in education overshadow its benefits, and <a href="https://www.commonsensemedia.org/press-releases/googles-ai-search-poses-unacceptable-risk-to-kids-common-sense-media-finds" target="_blank" rel="noopener">Common Sense Media</a> rated Google’s AI search features as an “unacceptable risk.” Widespread adoption of generative AI in schools also poses serious risks to privacy and equity, according to the <a href="https://nepc.colorado.edu/sites/default/files/publications/PB%20Williamson_1.pdf" target="_blank" rel="noopener">National Education Policy Center</a>.</p>
+      <p>Despite these clear risks, developers of education technology, including Google, Microsoft, and OpenAI are pushing to deploy generative AI products into schools. Google has turned generative AI features on by <a href="https://chromeunboxed.com/google-is-officially-bringing-gemini-in-classroom-to-students-of-all-ages/" target="_blank" rel="noopener">default</a> for some schools that already use Google education products. Education technology providers companies can claim that generative AI tools are being used effectively and "with guardrails" to ready students for the workforce, but often fail to back up their claims with independent data.</p>
+      <p>Their stated motivations vary, but an internal Google <a href="https://www.nbcnews.com/tech/social-media/google-schools-aims-pipeline-future-users-internal-documents-rcna255175" target="_blank" rel="noopener">slide deck</a> released in court documents put the concept plainly: “You get that loyalty early, and potentially for life.”</p>
+      <h2 id="the-solution">The Solution</h2>
+      <p>An April 2026 <a href="https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf" target="_blank" rel="noopener">position statement</a> signed by more than 250 experts and organizations laid out the risks and called for a five-year pause on student-facing generative AI in PreK-12 schools. It was followed in September by AI moratoriums in the nation's two largest school districts, New York City and Los Angeles Unified. Both school districts had previously allowed students to use generative AI but reversed course following local advocacy.</p>
+      <p>The Student-First AI Policy is the long-term next step. It provides a model vetting process for any AI tool a district considers for student use by requiring independent evidence that an AI product meets rigorous standards. While these standards to evaluate AI tools are high, they are necessary and appropriate to protect our children’s education.</p>
+      <h2 id="why-now">Why Now?</h2>
+      <p>As researchers at the National Education Policy Center <a href="https://nepc.colorado.edu/sites/default/files/publications/PB%20Williamson_1.pdf" target="_blank" rel="noopener">noted</a>, there is a danger in allowing AI to “become enmeshed in school processes and procedures in ways that allow private entities to increasingly control the structure and content of public education, to reinforce surveillance practices, and to amplify existing biases and inequalities.”</p>
+      <p>Once generative AI products are entangled in students’ and educators’ daily lives, it will be difficult to disentangle them – something many school districts are currently experiencing as they reevaluate their use of educational technology generally. This makes now the ideal time for school board members, superintendents, parents, educators, and students to organize and demand a voice in the standards set for AI products, both for their own benefit and for future generations.</p>
+      <h2 id="how-to-use">How to Use This Model Policy</h2>
+      <p>Taking lessons from the successful uprising around data centers and AI-powered surveillance cameras, the Student-First AI Policy provides a way for ordinary people to make meaningful change in their communities. The model policy offers tangible suggestions advocates can bring to their districts to create concrete change for students. Because district-level decisions about technology in schools are often made at the local level, community members can use this policy to begin a dialogue with decision-makers.</p>
+      <p>We recommend using this model policy as one tool of many. Consider starting with these questions:</p>
+      <ul>
+      <li>While it considers long-term standards, has the district already adopted a temporary moratorium on generative AI products in schools?
+      </li>
+      <li>While it considers long-term standards, has the district made its individual contracts with vendors accessible to the public? (Microsoft’s <a href="https://www.aft.org/sites/default/files/media/documents/2026/NAfAI-School_AI_Privacy_Standards.pdf" target="_blank" rel="noopener">Memorandum of Agreement</a> with the American Federation of Teachers may provide a helpful comparison)
+      </li>
+      <li>Which generative AI products, if any, are currently being used in the district?
+      </li>
+      <li>What vetting process and standards, if any, are already in place for generative AI products being used?
+      </li>
+      <li>If the district uses lower standards for generative AI products than those in the Student-First AI Policy, what is the justification?
+      </li></ul>
+      <p>The Student-First AI Policy is the follow-up to Fairplay’s <a href="https://fairplayforkids.org/wp-content/uploads/2026/07/Model-Moratorium-on-Generative-AI-Products-in-School.pdf" target="_blank" rel="noopener">Model Moratorium on Generative AI Products in School</a>. Bans and moratoriums give districts time to slow down and make informed decisions about whether AI should be used in schools, while this model policy provides a starting point for communities to set their own long-term standards.</p>
+      <p>To learn more about how you can get this policy implemented in your district, visit the <a href="https://fairplayforkids.org/pf/pause-genai/" target="_blank" rel="noopener">Screen Time Action Network</a> at Fairplay.</p>
+      <h2 id="executive-summary" class="part">Executive Summary</h2>
+      <p class="lede">The Student-First AI Policy is a model policy that protects students by providing strict criteria to review and evaluate the use of AI products in schools.</p>
+      <p>The policy's vetting process requires independent evidence that an AI product meets rigorous standards in three areas:</p>
+      <ul>
+      <li>Evidence that the product improves learning outcomes better than existing methods;
+      </li>
+      <li>Strong protection of student privacy with design free of addictive or unsafe features; and
+      </li>
+      <li>Demonstration that the product will not perpetuate discrimination or existing inequities.
+      </li></ul>
+      <h3>The policy applies to generative AI products and product features that are used by students or collect or process student data.</h3>
+      <p>All student-facing applications and features are covered, including those used for assessment and evaluation. Under the policy, unapproved products and features are phased out over three months.</p>
+      <h3>There are two exceptions: legally mandated accommodations and products strictly necessary for curriculum.</h3>
+      <p>Accommodation-related exceptions may include generative AI products that are necessary to treat the health condition of a student. Strictly necessary products may include generative AI products for which no educationally equivalent alternative exists, such as an AI product used in a class to specifically teach AI coding.</p>
+      <h3>The introduction of generative AI products into schools is led by members of the school community, not technology companies.</h3>
+      <p>Any student, school administrator, educator, or parent/caregiver of an enrolled student may petition the school board or committee to consider whether a generative AI product meets the standards.</p>
+      <h3>Any decision to approve a generative AI product is based on independent evidence.</h3>
+      <p>Independent auditors must be qualified and free of conflicts of interest, and research must be peer-reviewed and published without funding or material involvement from the developer or vendor of the product.</p>
+      <h3>Districts may approve generative AI products for use by educators and staff with certain restrictions.</h3>
+      <p>Educators may use approved generative AI products to support differentiation planning and instructional planning, as long as they review the output and disclose their AI use. Generative AI products may not be used for grading or behavior monitoring.</p>
+      <h3>Students and staff must be provided with digital literacy instruction related to generative AI.</h3>
+      <p>Digital literacy instruction must include training to identify potential misinformation and to understand cognitive, social, and privacy risks, among other topics. The companies or organizations providing digital literacy instruction must be independent.</p>
+      <h3>Unsanctioned use of generative AI is outside the scope of the policy, but any enforcement related to alleged unsanctioned use of generative AI by a student must be documented and subject to appeal.</h3>
+      <p>The district should document any investigations or enforcement actions related to unsanctioned use of generative AI products by students, including the gender, race, disability status, and English learner status of the student and the type of discipline.</p>
+      <h2 id="model-policy" class="part">Student-First AI Policy</h2>
+      <p>This policy was developed by Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies Institute, in consultation with ACLU of Massachusetts, American Federation of Teachers Massachusetts, Design It For Us, Distraction-Free Schools, Fight for the Future, Intersectional Innovation and Impact Labs, Massachusetts Education Justice Alliance, Massachusetts Teachers Association, Rudick Law Group, Sociedad Latina, Schools Beyond Screens, Turning Life On, and Dr. Faith English at Johns Hopkins Bloomberg School of Public Health.</p>
+      <h3 id="section-1" class="section">Section 1. Purpose</h3>
+      <p>The purpose of this policy is to define the criteria and process under which the use of Generative Artificial Intelligence (AI) Products may be approved by the District.</p>
+      <p>By evaluating Generative AI Products against clear criteria, the District enables students to gain any proven benefits of these products while protecting them from associated risks.</p>
+      <p>Unsanctioned use of Generative AI by students, as well as home and out-of-school use, is outside the scope of this policy.</p>
+      <h3 id="section-2" class="section">Section 2. Definitions</h3>
+      <h4>2.1 Addictive Design</h4>
+      <p>Addictive Design means any feature, mechanic, or combination of features whose purpose or reasonably foreseeable effect is to maximize the amount of time a student spends in the product, or the frequency with which they return to it, beyond what the product's educational function requires. Addictive Design includes but is not limited to: features, mechanics, or a combination of features that utilize known psychological susceptibilities, such as social comparison, loss aversion, fear of missing out, and parasocial attachment, as well as features, mechanics, or a combination of features known to exploit children's developmental vulnerabilities, such as excessive notifications, sycophancy, mirroring, anthropomorphism, or other features which instigate emotional attachment.</p>
+      <h4>2.2 Advertisement</h4>
+      <p>Advertisement means any written or oral statement, illustration, or depiction that promotes the sale or use of a good or service or is designed to increase interest in a brand, good, or service where such statement, illustration, or depiction is displayed in exchange for monetary or other valuable consideration, including access to data, between the vendor and the brand, good, or service.</p>
+      <h4>2.3 Approved List</h4>
+      <p>An Approved List means a list maintained by the District of software, applications, platforms, and other digital products authorized for use by students and staff. The use of approved products is subject to all applicable data privacy laws, including any consent required prior to data collection or processing. The Approved List should specify whether products are approved for use by students, staff, or both.</p>
+      <h4>2.4 Biometric Data</h4>
+      <p>Biometric Data means data reflecting measurements of a student’s biological characteristics, such as a fingerprint, a voiceprint or vocal biomarker, eye retinas, irises, gait or personally identifying physical movement or patterns, or other unique biological patterns or characteristics that allow or confirm the unique identification of the student.</p>
+      <h4>2.5 Generative AI Product</h4>
+      <p>For the purposes of this policy, a Generative AI Product means any software, application, platform, or tool that uses large language models or other generative artificial intelligence systems to produce text, images, audio, video, code, or other content, whether offered as a standalone product or embedded within broader educational software (e.g., AI chatbots, AI writing assistants, AI-generated content tools, or AI tutoring systems powered by large language models).</p>
+      <p>For purposes of this section, “generative artificial intelligence system” means the class of AI models that emulate the structure and characteristics of input data in order to generate derived synthetic content. This can include images, videos, audio, text, and other digital content.</p>
+      <h4>2.6 Independent Auditor</h4>
+      <p>Independent Auditor means a person or organization engaged to evaluate a Generative AI Product that:</p>
+      <ul>
+      <li>Is not the developer or vendor of the product, and is not owned by, affiliated with, controlled by, or under common ownership with the developer or vendor;
+      </li>
+      <li>Was not involved in designing, developing, marketing, or selling the product;
+      </li>
+      <li>Has no financial interest in the product or in the outcome of the audit, and whose compensation is not contingent on the audit's findings;
+      </li>
+      <li>Has not received funding from companies who produce or sell educational technology or Generative AI Products, other than payment for audits;
+      </li>
+      <li>Possesses demonstrated expertise in evaluating algorithmic or AI systems for bias, fairness, and disparate impact; and
+      </li>
+      <li>Retains control over the scope and methodology of the audit and is free to report its findings, including adverse findings, without restriction by the developer or vendor.
+      </li></ul>
+      <p>At any point, the School Committee may consider and grant a waiver request from prospective Independent Auditors who have previously received funding from companies who produce or sell educational technology or Generative AI Products. Such a waiver may be granted by the School Committee only if it determines that: (1) the prospective Independent Auditor no longer receives compensation or benefits from the company, including stock or payments for consulting, speaking, or other services, either directly or indirectly (2) the prospective Independent Auditor does not have an ongoing consulting, advisory or other relationship with the company, and (3) the prospective Independent Auditor agrees to disclose in audit reports all previous funding from companies who produce or sell educational technology or Generative AI Products, including the most recent date funding was received. The purpose of this waiver is to allow whistleblowers, former researchers, and other independent qualified technology experts to serve as Independent Auditors.</p>
+      <h4>2.7 Independent Research</h4>
+      <p>Independent Research means peer-reviewed, published studies conducted without funding or material involvement from the company or vendor whose Generative AI Product is being evaluated, or any entity which would benefit financially from the use of such products, and which are reproducible by other independent researchers.</p>
+      <h4>2.8 Process</h4>
+      <p>Process or Processing means any operation or set of operations performed, whether by manual or automated means, on personal data or input data or on sets of personal data or input data, such as the use, storage, disclosure, analysis, deletion, or modification of such data.</p>
+      <h4>2.9 Student Data</h4>
+      <p>Student Data means any information, including derived data, inferences, or unique identifiers, that is linked or reasonably linkable, alone or in combination with other information, to an identified or identifiable student or a device that identifies or is linked or reasonably linkable to a student, regardless of whether it is de-identified, aggregated, or anonymized.</p>
+      <h3 id="section-3" class="section">Section 3. Applicability and Exceptions</h3>
+      <h4>3.1 Unapproved Generative AI Products</h4>
+      <p>Effective upon adoption of this policy, the District may only proceed with the procurement, licensing, or acquisition of any Generative AI Products, or education technology products which contain Generative AI features, approved for use by students as outlined in this policy.</p>
+      <p>If Generative AI Products that have not been evaluated under this policy are currently approved for use by students, those products are considered unapproved for student use. Within three months of the adoption of this policy, the District shall:</p>
+      <ul>
+      <li>Cease piloting or deployment of those AI products in any instructional capacity;
+      </li>
+      <li>Decline to renew existing contracts for those AI products;
+      </li>
+      <li>Remove those AI products from the Approved List; and
+      </li>
+      <li>Take any actions required by existing contracts to trigger any Generative AI Product vendors to cease processing Student Data, to destroy or return such data, and to provide certification of deletion or return.
+      </li></ul>
+      <p>If products currently approved for use by students include generative AI features, the District shall instruct technology staff to disable the use of those features. If the generative AI features cannot be disabled, then the product is considered unapproved for student use.</p>
+      <h4>3.2 Student-Facing Products</h4>
+      <p>This policy applies to all Generative AI Products or product features approved for use by students within the District, including for assessments. This includes products that interact directly with students, collect or process Student Data, or are used in any context where students are the end users of the Generative AI Product.</p>
+      <h4>3.3 Generative AI Use by Educators and Staff</h4>
+      <p>Educators and staff within the District may use District-approved Generative AI Products only in accordance with this policy.</p>
+      <h4>3.4 Exception for Legally Mandated Accommodations</h4>
+      <p>This policy does not apply to any products that are required to be used to fulfill the District’s obligations to provide legally mandated accommodations under applicable federal or state law.</p>
+      <p>A student or educator may be permitted to use and possess a Generative AI Product, in accordance with District policy, if:</p>
+      <ul>
+      <li>Used in accordance with an individualized education program or an education plan implemented pursuant to section 504 of the Rehabilitation Act of 1973, 29 U.S.C. § 701 et seq.;
+      </li>
+      <li>Necessary under any accommodations under state or federal law, including, but not limited to, title II of the Americans with Disabilities Act, 42 U.S.C. sections 12131 et seq.; or
+      </li>
+      <li>A healthcare provider provides in writing that the use of a Generative AI Product is necessary to treat a health condition of a student.
+      </li></ul>
+      <h4>3.5 Exception for Products Strictly Necessary for Curriculum</h4>
+      <p>The District may grant a time-limited exception to this policy where an authorized school administrator has provided a written exemption because student use of a Generative AI Product is strictly necessary to achieve a specific, defined curriculum objective, such as an AI coding class where no educationally equivalent alternative to a Generative AI Product exists. For purposes of this section, “strictly necessary” means the defined curriculum objective at issue cannot be met without student use of a Generative AI Product. Any exceptions granted under this section must be listed by the District in the Approved List as an authorized exception, including: the name of the authorized school administrator who provided the written exemption; the applicable grade level(s); the curriculum objective; and the specific product that is deemed strictly necessary to achieve that objective. Exceptions automatically expire at the end of the academic year.</p>
+      <h4>3.6 Restriction on Generative AI Features</h4>
+      <p>Before signing or renewing a contract for any digital product, the District will ensure that vendors are prohibited under the contract from adding Generative AI features to their products, including adding Generative AI features to existing portals or tools, without explicit permission from the District under the process outlined in this policy.</p>
+      <h3 id="section-4" class="section">Section 4. Digital Literacy Instruction</h3>
+      <p>The District shall provide appropriate instruction in digital literacy to both students and staff. Students within the District will receive instruction in digital literacy in accordance with current state standards.</p>
+      <p>Digital literacy instruction for students will cover foundational knowledge about emerging digital technologies, including Generative AI Products, with material including but not limited to:</p>
+      <ul>
+      <li>Age-appropriate instruction to help students think critically about AI
+      </li>
+      <li>Information about how AI works and its limitations
+      </li>
+      <li>Training to identify potential bias, misinformation, and disinformation in AI-generated content
+      </li>
+      <li>Training to evaluate AI-generated content
+      </li>
+      <li>Potential benefits of AI use for students
+      </li>
+      <li>Potential risks of AI use for students, including:
+      <ul>
+      <li>Risks of dependency and inability to perform tasks without AI
+      </li>
+      <li>Privacy and cybersecurity risks
+      </li>
+      <li>Cognitive risks related to critical thinking, reading, writing, and executive function
+      </li>
+      <li>Social and emotional risks related to resilience after setbacks, forming and maintaining relationships, and maintaining mental health
+      </li>
+      <li>Risks related to exposure to harmful content
+      </li>
+      <li>Risks related to advertising targeted at youth
+      </li>
+      <li>Risks of relying on misinformation or fabricated “facts” presented authoritatively
+      </li></ul>
+      </li>
+      <li>Environmental impacts of AI use
+      </li>
+      <li>Labor concerns, including unauthorized use of creative work and labor practices for content moderation
+      </li></ul>
+      <p>Companies or organizations providing digital literacy instruction may not have any financial interest in educational technology or Generative AI Products and must disclose any current or past partnerships with educational technology or Generative AI Products. Digital literacy instruction for students may not be provided or funded by educational technology or Generative AI companies, nor companies that are owned by, affiliated with, controlled by, funded by, or under common ownership with educational technology or Generative AI companies.</p>
+      <h3 id="section-5" class="section">Section 5. Criteria for Product Approval for Student Use</h3>
+      <p>No Generative AI Product shall be approved for student use unless the following criteria have been met, as determined through the process outlined in Section 6:</p>
+      <h4>5.1 Learning Outcomes</h4>
+      <p>The specific Generative AI Product being considered for use has been demonstrated to improve learning outcomes more than existing methods. The School Committee shall require:</p>
+      <ul>
+      <li>Independent Research, as defined under this policy, that satisfies the “strong evidence” standard of the federal Every Student Succeeds Act and demonstrates that the product improves student learning outcomes compared to existing instructional practices;
+      </li>
+      <li>Documentation that the research methodology is reproducible and has been conducted by independent researchers;
+      </li>
+      <li>Confirmation that the study is specific to the product being considered, not Generative AI Products generally; and
+      </li>
+      <li>Evidence that the product ensures academic integrity and is developmentally appropriate to the grade level of students who would use it.
+      </li></ul>
+      <h4>5.2 Data Privacy and Design</h4>
+      <p>To be approved for use by students, the Generative AI Product must protect student privacy and remain free of ads and Addictive Design. Accordingly, the School Committee shall require the following certifications and contractual guarantees for all Generative AI Products:</p>
+      <ul>
+      <li>Written certification from the vendor that the product contains no advertisements and does not collect or use Student Data for advertising purposes;
+      </li>
+      <li>Written certification from the vendor that the product is not associated with an advertising-based business model, and that Student Data will not be used for advertising;
+      </li>
+      <li>Written certification from the developer and vendor that the product does not include any Addictive Design features;
+      </li>
+      <li>Written certification from the vendor that the product does not collect, process, store, retain, or transmit Biometric Data;
+      </li>
+      <li>Written certification from the vendor that Student Data will be deleted or retained in accordance with applicable state privacy laws;
+      </li>
+      <li>Contractual guarantee that the vendor will provide a mechanism for automated and on-demand deletion of all Student Data and metadata at a frequency determined by the District, including usage logs, input and output content, and backups, with written vendor certification upon each deletion event and the right of the District to audit compliance
+      </li>
+      <li>Contractual guarantee that the vendor may not unilaterally amend applicable contract terms without express approval of the school district
+      </li>
+      <li>Contractual guarantees that Student Data and metadata will never be sold or used for commercial purposes, including model training, product research and development, or targeted marketing; and:
+      </li>
+      <li>Contractual guarantees that the vendor will provide a schedule of all subcontractors and subprocessors to whom Student Data will be disclosed, with contractual guarantee that subcontractors and subprocessors are bound to the same requirements as the vendor
+      </li>
+      <li>Guarantee that contract with vendor shall not mandate arbitration or other case resolution outside of court as the sole means of resolving any legal dispute between the District and the vendor
+      </li></ul>
+      <p>Under this section, written certification must be provided by an authorized representative of the developer or vendor and must include the developer’s or vendor’s commitment to notify the District of any change to the certified information promptly, and in any event within 30 days.</p>
+      <h4>5.3 Fairness</h4>
+      <p>A petitioner seeking student use approval for a Generative AI Product must demonstrate through reports by an Independent Auditor that the product will not perpetuate discrimination or existing inequities. The School Committee shall require:</p>
+      <ul>
+      <li>Written certification from an Independent Auditor that the platform has been audited for bias and does not generate content that stereotypes, discriminates against, or disadvantages any group of students, and does not disadvantage any group of students based on their inclusion in any protected class;
+      </li>
+      <li>Specific documentation demonstrating that the platform performs equitably for neurodivergent learners, multi-language learners and monolingual speakers of non-academic English dialects, and students in underserved communities including rural communities; and
+      </li>
+      <li>Written certification from the vendor committing to:
+      <ul>
+      <li>Conduct regular and timely audits to detect and mitigate any discriminatory purpose or effects, with results to be made publicly available on a regular basis;
+      </li>
+      <li>Maintain documentation of the system’s design, training, and evaluation data, decision-making processes, audit outcomes, and any actions taken as a result of an audit.
+      </li></ul>
+      </li></ul>
+      <h3 id="section-6" class="section">Section 6. Conditional Approval for Student Use</h3>
+      <h4>6.1 Who May Petition</h4>
+      <p>Any student enrolled in the District or school administrator, educator, or parent/caregiver of an enrolled student may submit a petition requesting a Generative AI Product be conditionally approved for student use.</p>
+      <h4>6.2 Contents</h4>
+      <p>The petition shall be submitted to the Technology Subcommittee of the School Committee in writing and shall include:</p>
+      <ul>
+      <li>The name of the product, its developer(s), and the vendor providing it to the District
+      </li>
+      <li>The intended educational use and the grade level(s) of students who would use it
+      </li>
+      <li>An explanation of how the product satisfies each of the approval criteria set forth in this policy, including evidence, certifications, and documentation as outlined in Section 5.
+      </li></ul>
+      <h4>6.3 Review and Determination</h4>
+      <p>Within 60 days of receiving a completed petition, the Technology Subcommittee shall evaluate it against the criteria and forward a recommendation to the School Committee. The School Committee shall make a final determination within 30 days of receiving the recommendation.</p>
+      <h4>6.4 Notice and Outcome</h4>
+      <p>The petitioner shall be notified of the determination in writing. If the petition is granted, the petition shall be referred to the Superintendent to consider further facts, such as cost and necessary training, and determine whether the product will be approved for student use and added to the Approved List. If the petition is denied, the notice shall state the reasons for denial. A denied petition may be resubmitted after one year if material new information is provided.</p>
+      <h4>6.5 Delegation of Review</h4>
+      <p>After the conditional approval of the first Generative AI Product under this policy, the Technology Subcommittee may delegate the evaluation process for additional products to the Superintendent, who shall apply the same evaluation criteria and recommend conditional approval or denial to the School Committee.</p>
+      <h4>6.6 Transparency</h4>
+      <p>All petitions and School Committee determinations made pursuant to this policy, including exceptions granted pursuant to Section 3.5, shall be made publicly available, with information that is confidential or otherwise exempt from disclosure redacted.</p>
+      <p>If a Generative AI Product is approved for student use, the District will notify parents in plain, non-technical language and include:</p>
+      <ul>
+      <li>The name of the product
+      </li>
+      <li>The grade level(s) and subject area(s) for which the tool is approved for use
+      </li>
+      <li>The intended nature of student interaction with the tool
+      </li></ul>
+      <p>Nothing in this policy limits the existing rights of parents and caregivers under the Children’s Online Privacy Protection Act, Family Educational Rights and Privacy Act, or any other applicable law.</p>
+      <h3 id="section-7" class="section">Section 7. Educator and Staff Use</h3>
+      <h4>7.1 Approved Products</h4>
+      <p>Within their professional roles, educators and staff may only use Generative AI Products that have been approved by the District in accordance with this Policy and any additional standards applicable by state law.</p>
+      <h4>7.2 District Data</h4>
+      <p>Under no circumstances may educators or staff enter personally identifiable information (PII), including student names, IDs, IEPs, 504 plans, health records, or any confidential information, into unapproved Generative AI Products. The use of personal, non-approved Generative AI Products for school-related work is prohibited when it involves district data or student information.</p>
+      <h4>7.3 Use of Generative AI Products for Instruction</h4>
+      <p>Educators and staff may use approved Generative AI Products to support differentiation planning and instructional planning, provided that they apply their professional expertise to review AI-generated outputs before implementing them and disclose their use.</p>
+      <p>Educators shall have discretion and autonomy to determine whether to use products that have been approved under this Policy for instruction. Educator and staff review should focus on accuracy, developmental appropriateness, inclusivity, and ethical application.</p>
+      <p>All instruction shall be delivered by a human being who holds state certification in the academic subject area.</p>
+      <h4>7.4 Use of Generative AI Products for Grading and Assessment</h4>
+      <p>Generative AI Products may not be used for grading or behavior monitoring. Nor may Generative AI Products be used for placement, evaluation, promotion, graduation, and other decisions about students.</p>
+      <h4>7.5 Use of AI Detection Products</h4>
+      <p>AI detection products must not be used as the sole or primary basis for determining academic dishonesty. Output from these tools is not considered definitive evidence of AI misuse and may not be used independently to assign any penalties. The school committee shall ensure that students have meaningful access to appeal procedures in any academic dishonesty determination involving AI detection tools.</p>
+      <h4>7.6 Enforcement Process and Documentation</h4>
+      <p>Parents/caregivers should be notified of any investigations or enforcement actions related to alleged unsanctioned use of Generative AI Products by students and given an opportunity to participate in appeal procedures.</p>
+      <p>Data on any investigations or enforcement actions related to unsanctioned use of Generative AI Products by students should be documented by the District, including but not limited to the grade level, the demographic data of the student (including gender, race, disability status, and English learner status), and the type of discipline, and this information should be made publicly available to allow researchers to monitor trends.</p>
+      <h3 id="section-8" class="section">Section 8. Expiration</h3>
+      <p>This policy shall undergo mandatory review by the School Committee five years after adoption. While it remains in effect, the Committee may amend, readopt, or extend it as appropriate.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap footer-logos">
+      <a class="partner-logo" href="https://parabolacenter.com/" target="_blank" rel="noopener"><img src="img/pc_logo.png" alt="Parabola Center for Law and Policy" width="1400" height="511" /></a>
+      <a class="partner-logo" href="https://fairplayforkids.org/" target="_blank" rel="noopener"><img src="img/fairplay-logo.jpg" alt="Fairplay: childhood beyond brands" width="512" height="129" /></a>
+      <a class="partner-logo" href="https://www.criticalinternet.org/" target="_blank" rel="noopener"><img src="img/critical-internet-studies-institute-logo.webp" alt="Critical Internet Studies Institute" width="500" height="88" /></a>
+    </div>
+    <div class="wrap row">
+      <span>&copy; 2026 Parabola Center for Law and Policy is a 501(c)(3) charitable organization.</span>
+      <ul>
+        <li><a href="https://parabolacenter.com/">parabolacenter.com</a></li>
+        <li><a href="https://www.facebook.com/theparabolacenter" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com/parabolacenter" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@ParabolaCenter" target="_blank" rel="noopener">YouTube</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

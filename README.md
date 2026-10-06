@@ -36,7 +36,7 @@ npx netlify-cms-proxy-server
 
 ## Shipsite landing page
 
-`shipsite/index.html` is the standalone Student-First AI Policy landing page, deployed to [shipsite.sh](https://shipsite.sh/) (not part of the Eleventy build). The deploy script bundles the page with the images and fonts it references from `src/`:
+`shipsite/` holds the standalone Student-First AI Policy site: the landing page (`index.html`) and the web version of the summary and model policy (`policy.html`). It is deployed to [shipsite.sh](https://shipsite.sh/) (not part of the Eleventy build). The deploy script bundles every page with the images, fonts and PDFs it references from `src/`:
 
 ```sh
 node shipsite/deploy.js --dry-run                 # list the files that would be sent

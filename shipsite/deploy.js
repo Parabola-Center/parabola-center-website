@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Deploys shipsite/index.html (plus the images, fonts and PDFs it references from src/)
+// Deploys the pages in shipsite/ (plus the images, fonts and PDFs they reference from src/)
 // to shipsite.sh in a single API call.
 //
 //   SHIPSITE_API_KEY=sk_live_... node shipsite/deploy.js [--pin] [--dry-run]
@@ -18,19 +18,23 @@ const dryRun = args.includes("--dry-run");
 
 const pageDir = __dirname;
 const srcDir = path.join(__dirname, "..", "src");
-const html = fs.readFileSync(path.join(pageDir, "index.html"), "utf8");
+const pages = fs.readdirSync(pageDir).filter((name) => name.endsWith(".html"));
 
-// Collect every relative img/, fonts/ or pdf/ reference in the page.
-const assetPaths = new Set();
-for (const match of html.matchAll(/(?:src|href)="((?:img|fonts|pdf)\/[^"]+)"|url\("((?:img|fonts|pdf)\/[^"]+)"\)/g)) {
-  assetPaths.add(match[1] || match[2]);
+// Collect every relative img/, fonts/ or pdf/ reference in the pages.
+const files = {};
+const assetPaths = new Map();
+for (const page of pages) {
+  const html = fs.readFileSync(path.join(pageDir, page), "utf8");
+  files[page] = html;
+  for (const match of html.matchAll(/(?:src|href)="((?:img|fonts|pdf)\/[^"]+)"|url\("((?:img|fonts|pdf)\/[^"]+)"\)/g)) {
+    assetPaths.set(match[1] || match[2], page);
+  }
 }
 
-const files = { "index.html": html };
-for (const assetPath of assetPaths) {
+for (const [assetPath, page] of assetPaths) {
   const filePath = path.join(srcDir, assetPath);
   if (!fs.existsSync(filePath)) {
-    console.error(`Missing asset referenced by index.html: src/${assetPath}`);
+    console.error(`Missing asset referenced by ${page}: src/${assetPath}`);
     process.exit(1);
   }
   files[assetPath] = "base64:" + fs.readFileSync(filePath).toString("base64");
