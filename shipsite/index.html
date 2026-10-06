@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap" />
   <style>
     :root {
       --red: #df1e5b;
@@ -17,7 +17,6 @@
       --blue: #12bdce;
       --blue-tint: #e6f7f9;
       --blue-dark: #0a7884;
-      --green-dark: #1d8a5c;
       --gold-dark: #b7830b;
       --grey: #6d6e70;
       --ink: #111111;
@@ -132,7 +131,6 @@
     .hero .actions { position: relative; z-index: 1; }
 
     /* Policy download */
-    .policy h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 900; margin-bottom: 40px; }
     .policy h3 { line-height: 1.1; margin: 0 0 12px; }
     .policy p { margin: 0; font-size: 1.2rem; line-height: 1.5; }
     .policy-grid {
@@ -143,10 +141,19 @@
     }
     .policy-card { background: var(--blue-tint); padding: 40px; }
     .policy-card h3 { font-size: clamp(2.2rem, 4vw, 3rem); color: var(--blue-dark); }
-    .policy-credits h3 { font-size: 1.9rem; }
-    .policy-credits .developed { color: var(--green-dark); }
-    .policy-credits .consulted { color: var(--gold-dark); }
-    .policy-credits hr { border: 0; border-top: 2px solid var(--ink); margin: 32px 0; }
+    .policy-side h3 { font-size: 1.9rem; }
+    .policy-side .why { color: var(--red); }
+    .policy-side .how { color: var(--gold-dark); }
+    .policy-side hr { border: 0; border-top: 2px solid var(--ink); margin: 32px 0; }
+    .policy-credits {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-top: 64px;
+      padding-top: 40px;
+      border-top: 2px solid var(--ink);
+    }
+    .policy-credits h3 { font-size: 1.5rem; }
     .btn-pdf {
       display: inline-flex;
       align-items: center;
@@ -201,7 +208,8 @@
       .footer-logos { gap: 12px; }
       .partner-logo { width: 220px; height: 76px; }
       section { padding: 56px 0; }
-      .policy-grid { grid-template-columns: 1fr; gap: 40px; }
+      .policy-grid, .policy-credits { grid-template-columns: 1fr; gap: 40px; }
+      .policy-credits { margin-top: 48px; }
       .policy-card { padding: 28px 22px; }
       .policy p { font-size: 1.1rem; }
     }
@@ -226,16 +234,15 @@
 
   <section id="principles" class="policy">
     <div class="wrap">
-      <h2>Lorem ipsum dolor sit amet</h2>
       <div class="policy-grid">
         <div class="policy-card">
           <h3>Model Policy</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            We have the power to use collective action as parents, teachers, students, and civil society organizations
+            to demand more. The Student-First AI Policy is a model for local school districts that reframes the debate
+            on our own terms for our own communities. It gives our local school districts the tools they need to ensure
+            that any AI educational product rolled out to students meets rigorous, evidence-based standards for safety,
+            privacy, and efficacy.
           </p>
           <a class="btn-pdf" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -247,11 +254,33 @@
             <span>Lorem ipsum dolor <small>PDF</small></span>
           </a>
         </div>
-        <div class="policy-credits">
-          <h3 class="developed">Developed by</h3>
-          <p>Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies Institute.</p>
+        <div class="policy-side">
+          <h3 class="why">Why Now?</h3>
+          <p>
+            Once generative AI products are entangled in students’ and educators’ daily lives, it will be difficult to
+            disentangle them – something many school districts are currently experiencing as they reevaluate their use
+            of educational technology generally. This makes now the ideal time for school board members,
+            superintendents, parents, educators, and students to organize and demand a voice in the standards set for AI
+            products, both for their own benefit and for future generations.
+          </p>
           <hr />
-          <h3 class="consulted">In consultation with</h3>
+          <h3 class="how">How to Use This Model Policy</h3>
+          <p>
+            Taking lessons from the successful uprising around data centers and AI-powered surveillance cameras, the
+            Student-First AI Policy provides a way for ordinary people to make meaningful change in their communities.
+            The model policy offers tangible suggestions advocates can bring to their districts to create concrete
+            change for students. Because district-level decisions about technology in schools are often made at the
+            local level, community members can use this policy to begin a dialogue with decision-makers.
+          </p>
+        </div>
+      </div>
+      <div class="policy-credits">
+        <div>
+          <h3>Developed by</h3>
+          <p>Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies Institute.</p>
+        </div>
+        <div>
+          <h3>In consultation with</h3>
           <p>
             ACLU of Massachusetts, American Federation of Teachers Massachusetts, Design It For Us, Distraction-Free
             Schools, Fight for the Future, Intersectional Innovation and Impact Labs, Massachusetts Education Justice
