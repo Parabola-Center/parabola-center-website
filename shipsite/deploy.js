@@ -25,14 +25,14 @@ const pageDir = __dirname;
 const srcDir = path.join(__dirname, "..", "src");
 const pages = fs.readdirSync(pageDir).filter((name) => name.endsWith(".html"));
 
-// Collect every relative img/, fonts/ or pdf/ reference in the pages.
+// Collect every relative img/, fonts/ or pdf/ reference in the pages, plus the og:image.
 const files = {};
 const assetPaths = new Map();
 for (const page of pages) {
   const html = fs.readFileSync(path.join(pageDir, page), "utf8");
   files[page] = html;
-  for (const match of html.matchAll(/(?:src|href)="((?:img|fonts|pdf)\/[^"]+)"|url\("((?:img|fonts|pdf)\/[^"]+)"\)/g)) {
-    assetPaths.set(match[1] || match[2], page);
+  for (const match of html.matchAll(/(?:src|href)="((?:img|fonts|pdf)\/[^"]+)"|url\("((?:img|fonts|pdf)\/[^"]+)"\)|property="og:image" content="https?:\/\/[^/"]+\/(img\/[^"]+)"/g)) {
+    assetPaths.set(match[1] || match[2] || match[3], page);
   }
 }
 
