@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "eyebrow": "New Model Policy",
+      "type": "Model Policy",
+      "title": "Student-First AI Policy",
+      "authors": "By Shaleen Title, Brendan Bouffard, and Joan Donovan, PhD",
+      "date": "October 2026",
+      "summary": "The Student-First AI Policy gives local school districts a vetting process for any AI tool they consider putting in front of students. Before a product reaches students, it requires independent evidence that it improves learning, protects student privacy, and will not perpetuate discrimination or existing inequities.",
+      "image": "/img/student-first-ai-policy-cover.webp",
+      "imageAlt": "Cover of the Student-First AI Policy",
+      "link": "https://studentfirstaipolicy.com",
+      "linkText": "Read the policy"
+    },
+    {
       "eyebrow": "New Report",
       "type": "Report",
       "title": "The Illusion of Competition",
@@ -31,16 +43,6 @@
       "imageAlt": "Cover of American Values and Beliefs on Marijuana Legalization",
       "link": "/survey",
       "linkText": "See the research"
-    },
-    {
-      "type": "Policy Framework",
-      "title": "How to Federally Legalize Cannabis",
-      "authors": "Parabola Center",
-      "summary": "A blueprint for ending federal prohibition without violating the Constitution, while protecting equity, small businesses, and the communities most affected.",
-      "image": "/img/how-to-federally-legalize-cover.webp",
-      "imageAlt": "Cover of How to Federally Legalize Cannabis report",
-      "link": "/img/interstate.pdf",
-      "linkText": "Read the report"
     }
   ]
 }
