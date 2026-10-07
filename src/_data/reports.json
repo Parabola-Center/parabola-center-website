@@ -13,7 +13,17 @@
       "linkText": "Read the policy"
     },
     {
-      "eyebrow": "New Report",
+      "type": "Report",
+      "title": "From Legal Reform to Market Formation",
+      "authors": "By Damian Fagon and Shanel Lindsay",
+      "date": "September 2026",
+      "summary": "Drawing on international expert convenings in Salem, Prague, and Rio de Janeiro, this report separates the regulatory capacity that can transfer between jurisdictions from the commercial market structures that don’t, and identifies design levers that reduce exclusion in emerging cannabis markets.",
+      "image": "/img/from-legal-reform-to-market-formation-cover.webp",
+      "imageAlt": "Cover of the From Legal Reform to Market Formation report",
+      "link": "/rioreport",
+      "linkText": "Read the report"
+    },
+    {
       "type": "Report",
       "title": "The Illusion of Competition",
       "authors": "By Damian Fagon and Hedy Yang",
@@ -25,24 +35,15 @@
       "linkText": "Read the report"
     },
     {
-      "type": "Toolkit",
-      "title": "Anti-Monopoly Toolkit",
-      "authors": "Parabola Center",
-      "summary": "A practical toolkit for legislators, regulators, patients, and advocates who want to stop big corporations from taking over the cannabis industry.",
-      "image": "/img/anti-monopoly-toolkit-cover.webp",
-      "imageAlt": "Cover of the Parabola Center Anti-Monopoly Toolkit",
-      "link": "/toolkit",
-      "linkText": "Explore the toolkit"
-    },
-    {
-      "type": "Survey Research",
-      "title": "American Values and Beliefs on Marijuana Legalization",
-      "authors": "Parabola Center",
-      "summary": "Survey research on what American adults believe about who should shape marijuana policy — and who should benefit from legalization.",
-      "image": "/img/american-values-cover.webp",
-      "imageAlt": "Cover of American Values and Beliefs on Marijuana Legalization",
-      "link": "/survey",
-      "linkText": "See the research"
+      "type": "Research Study",
+      "title": "Consumer Perspectives in States with Established Cannabis Markets",
+      "authors": "By Faith English and Meredith McGee",
+      "date": "July 2026",
+      "summary": "Drawing on 37 in-depth interviews with cannabis consumers across nine states where adult-use cannabis has been legal for at least five years, this study shows how consumers see the benefits and limits of legalization in their communities.",
+      "image": "/img/consumer-study-cover.webp",
+      "imageAlt": "Cover of the consumer research study, “I Like Not Having to Go Behind the Dumpster at a Taco Bell”",
+      "link": "/consumerstudy",
+      "linkText": "Read the study"
     }
   ]
 }
