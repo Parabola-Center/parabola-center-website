@@ -158,6 +158,31 @@
     .hero .btn-pdf-outline { border-color: #fff; color: #fff; }
     .hero .btn-pdf-outline:hover { background: #fff; border-color: #fff; color: var(--navy); }
 
+    /* Compact header on the policy page so the document starts above the fold */
+    .hero-compact { padding: 48px 0 40px; }
+    .hero-compact .back { margin-bottom: 20px; }
+    .hero-compact h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); max-width: none; margin-bottom: 12px; }
+    .hero-compact p.lede { margin-bottom: 0; }
+    .hero-compact .pdf-actions { display: flex; flex-wrap: wrap; margin-top: 24px; }
+    .hero-compact .btn-pdf { padding: 10px 20px; font-size: .95rem; }
+    .hero-compact::after { width: 360px; height: 360px; bottom: -220px; }
+    .scroll-cue {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 32px;
+      color: var(--gold);
+      font-weight: 600;
+      text-decoration: none;
+      position: relative;
+      z-index: 1;
+    }
+    .scroll-cue:hover { color: #fff; }
+    .scroll-cue .arrow { display: inline-block; animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+    @media (prefers-reduced-motion: reduce) { .scroll-cue .arrow { animation: none; } }
+    .toc { scroll-margin-top: 24px; }
+
     /* Document */
     .doc { padding: 64px 0 88px; }
     .doc-body { max-width: 760px; margin: 0 auto; }
@@ -219,6 +244,8 @@
     @media (max-width: 760px) {
       body { font-size: 17px; }
       .hero { padding: 48px 0 72px; }
+      .hero-compact { padding: 36px 0 32px; }
+      .hero-compact::after { width: 220px; height: 220px; right: -150px; bottom: -150px; }
       .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
       .footer-logos { gap: 12px; }
       .partner-logo { width: 220px; height: 76px; }
@@ -232,7 +259,7 @@
 <body>
   <div class="stripe" aria-hidden="true"></div>
 
-  <header class="hero">
+  <header class="hero hero-compact">
     <div class="wrap">
       <a class="back" href="index.html">&larr; Back to overview</a>
       <p class="eyebrow">For local school districts</p>
@@ -258,12 +285,13 @@
           <span>Legislation Only <span class="nowrap">(Printer-Friendly)</span> <small>PDF</small></span>
         </a>
       </div>
+      <a class="scroll-cue" href="#contents">Read the policy below <span class="arrow" aria-hidden="true">&darr;</span></a>
     </div>
   </header>
 
   <main class="doc">
     <div class="wrap">
-      <nav class="toc" aria-labelledby="toc-title">
+      <nav class="toc" id="contents" aria-labelledby="toc-title">
         <h2 id="toc-title">Contents</h2>
         <div class="toc-cols">
           <div>
