@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student-First AI Policy | Parabola Center</title>
+  <meta name="description" content="The Student-First AI Policy is a model policy that protects students by providing strict criteria to review and evaluate the use of AI products in schools." />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap" />
+  <style>
+    :root {
+      --red: #df1e5b;
+      --gold: #eab12c;
+      --green: #2db67d;
+      --blue: #12bdce;
+      --blue-tint: #e6f7f9;
+      --blue-dark: #0a7884;
+      --gold-dark: #b7830b;
+      --grey: #6d6e70;
+      --ink: #111111;
+      --navy: #14141c;
+      --paper: #ffffff;
+      --line: #e4e0d6;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Libre Franklin", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+
+    a { color: inherit; }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    .stripe {
+      height: 6px;
+      background: linear-gradient(90deg, var(--red) 0 25%, var(--gold) 25% 50%, var(--green) 50% 75%, var(--blue) 75% 100%);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .8rem;
+      color: var(--red);
+      margin: 0 0 14px;
+    }
+
+    h1, h2, h3 { font-weight: 800; letter-spacing: -.01em; }
+
+    h2 {
+      font-size: clamp(1.7rem, 3.5vw, 2.5rem);
+      line-height: 1.15;
+      margin: 0 0 18px;
+    }
+
+    section { padding: 80px 0; }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      border-radius: 999px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform .15s ease, background .15s ease, color .15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-primary:hover { background: #c21549; }
+    .btn-light { border: 2px solid #fff; color: #fff; }
+    .btn-light:hover { background: #fff; color: var(--navy); }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; }
+
+    /* Hero */
+    .hero {
+      background: var(--navy);
+      color: #fff;
+      padding: 72px 0 96px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      /* Decorative parabola */
+      content: "";
+      position: absolute;
+      right: min(-120px, calc(50% - 910px));
+      bottom: -260px;
+      width: 560px;
+      height: 560px;
+      border: 12px solid var(--gold);
+      border-bottom-color: transparent;
+      border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+      opacity: .5;
+      pointer-events: none;
+    }
+    .hero .eyebrow { color: var(--gold); }
+    .hero h1 {
+      font-size: clamp(2.6rem, 7vw, 5rem);
+      line-height: 1.02;
+      margin: 0 0 24px;
+      max-width: 12ch;
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 span { color: var(--red); }
+    .hero p.lede {
+      max-width: 56ch;
+      color: #d8d8e0;
+      font-size: 1.2rem;
+      margin: 0 0 36px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero .actions { position: relative; z-index: 1; }
+    .hero .wrap { max-width: 792px; }
+
+    /* Policy download */
+    .policy h3 { line-height: 1.1; margin: 0 0 12px; }
+    .policy p { margin: 0; font-size: 1.2rem; line-height: 1.5; }
+    .policy .wrap > * { max-width: 760px; margin-left: auto; margin-right: auto; }
+    .policy-grid { display: grid; gap: 56px; }
+    .policy-card { background: var(--blue-tint); padding: 40px; }
+    .policy-card h3 { font-size: clamp(2.2rem, 4vw, 3rem); color: var(--blue-dark); }
+    .policy-side h3 { font-size: 1.9rem; }
+    .policy-side .why { color: var(--red); }
+    .policy-side .how { color: var(--gold-dark); }
+    .policy-side hr { border: 0; border-top: 2px solid var(--ink); margin: 32px 0; }
+    .more summary {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 16px;
+      color: var(--blue-dark);
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+    .more summary::-webkit-details-marker { display: none; }
+    .more summary::after { content: ""; width: 7px; height: 7px; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-2px) rotate(45deg); }
+    .more[open] summary::after { transform: translateY(2px) rotate(-135deg); }
+    .more summary:hover { color: var(--red); }
+    .more .less-label, .more[open] .more-label { display: none; }
+    .more[open] .less-label { display: inline; }
+    .more > p, .more > ul { margin-top: 16px; }
+    .more ul { padding-left: 1.4em; margin-bottom: 0; }
+    .more li { font-size: 1.2rem; line-height: 1.5; margin-bottom: 8px; }
+    .more a { color: var(--blue-dark); }
+    .more h4 { font-size: 1.4rem; line-height: 1.2; margin: 28px 0 0; }
+    .policy-credits {
+      display: grid;
+      gap: 32px;
+      margin-top: 64px;
+      padding-top: 40px;
+      border-top: 2px solid var(--ink);
+    }
+    .policy-credits h3 { font-size: 1.5rem; }
+    .pdf-actions { display: grid; justify-content: start; gap: 14px; margin-top: 32px; }
+    .btn-pdf {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 24px;
+      border: 2px solid var(--red);
+      border-radius: 999px;
+      background: var(--red);
+      color: #fff;
+      font-size: 1.05rem;
+      line-height: 1.3;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .15s ease, background .15s ease;
+    }
+    .btn-pdf:hover { background: #c21549; border-color: #c21549; transform: translateY(-2px); }
+    .btn-pdf-outline { background: transparent; color: #c21549; }
+    .nowrap { white-space: nowrap; }
+    .btn-pdf-outline:hover { color: #fff; }
+    .btn-pdf svg { width: 1.4em; height: 1.4em; flex: none; }
+    .btn-pdf small { display: block; font-size: .65em; font-weight: 400; opacity: .85; }
+
+    /* Footer */
+    footer { background: #000; color: #bbb; padding: 36px 0; font-size: .9rem; }
+    footer .row { display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: space-between; align-items: center; }
+    footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 18px; margin: 0; padding: 0; }
+    footer a { color: #fff; text-decoration: none; }
+    footer a:hover { color: var(--gold); }
+    .footer-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px 48px;
+      padding-bottom: 32px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .partner-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 240px;
+      height: 88px;
+      padding: 16px 22px;
+      background: #fff;
+      border-radius: 12px;
+    }
+    .partner-logo { transition: transform .15s ease, box-shadow .15s ease; }
+    .partner-logo:hover { transform: translateY(-2px); box-shadow: 0 0 0 3px var(--gold); }
+    .partner-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+    @media (max-width: 760px) {
+      body { font-size: 17px; }
+      .hero { padding: 48px 0 72px; }
+      .hero::after { width: 300px; height: 300px; right: -200px; bottom: -170px; }
+      .footer-logos { gap: 12px; }
+      .partner-logo { width: 220px; height: 76px; }
+      section { padding: 56px 0; }
+      .policy-grid { gap: 40px; }
+      .policy-credits { margin-top: 48px; }
+      .policy-card { padding: 28px 22px; }
+      .policy p, .more li { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stripe" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">For local school districts</p>
+      <h1>Student-First <span>AI</span> Policy</h1>
+      <p class="lede">
+        The Student-First AI Policy is a model policy that protects students by providing strict criteria to review and evaluate the use of AI products in schools.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="policy.html">Read the Model Policy <span aria-hidden="true">&rarr;</span></a>
+        <a class="btn btn-light" href="https://parabolacenter.com/student-first-ai-policy-press-release/">Press Release</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="principles" class="policy">
+    <div class="wrap">
+      <div class="policy-grid">
+        <div class="policy-card">
+          <h3>Model Policy</h3>
+          <p>
+            We have the power to use collective action as parents, teachers, students, and civil society organizations
+            to demand more. The Student-First AI Policy is a model for local school districts that reframes the debate
+            on our own terms for our own communities. It gives our local school districts the tools they need to ensure
+            that any AI educational product rolled out to students meets rigorous, evidence-based standards for safety,
+            privacy, and efficacy.
+          </p>
+          <details class="more">
+            <summary><span class="more-label">See more</span><span class="less-label">See less</span></summary>
+            <h4>The Problem</h4>
+            <p>The risks of cognitive and emotional harm to children from generative AI have been well documented. For example, the <a href="https://www.brookings.edu/wp-content/uploads/2026/01/A-New-Direction-for-Students-in-an-AI-World-RECOMMENDATIONS.pdf" target="_blank" rel="noopener">Brookings Institution</a> concluded that the risks of utilizing AI in education overshadow its benefits, and <a href="https://www.commonsensemedia.org/press-releases/googles-ai-search-poses-unacceptable-risk-to-kids-common-sense-media-finds" target="_blank" rel="noopener">Common Sense Media</a> rated Google’s AI search features as an “unacceptable risk.” Widespread adoption of generative AI in schools also poses serious risks to privacy and equity, according to the <a href="https://nepc.colorado.edu/sites/default/files/publications/PB%20Williamson_1.pdf" target="_blank" rel="noopener">National Education Policy Center</a>.</p>
+            <p>Despite these clear risks, developers of education technology, including Google, Microsoft, and OpenAI are pushing to deploy generative AI products into schools. Google has turned generative AI features on by <a href="https://chromeunboxed.com/google-is-officially-bringing-gemini-in-classroom-to-students-of-all-ages/" target="_blank" rel="noopener">default</a> for some schools that already use Google education products. Education technology companies can claim that generative AI tools are being used effectively and "with guardrails" to ready students for the workforce, but often fail to back up their claims with independent data.</p>
+            <p>Their stated motivations vary, but an internal Google <a href="https://www.nbcnews.com/tech/social-media/google-schools-aims-pipeline-future-users-internal-documents-rcna255175" target="_blank" rel="noopener">slide deck</a> released in court documents put the concept plainly: “You get that loyalty early, and potentially for life.”</p>
+            <h4>The Solution</h4>
+            <p>An April 2026 <a href="https://fairplayforkids.org/wp-content/uploads/2026/05/Fairplay-AI-Moratorium-April-2026.pdf" target="_blank" rel="noopener">position statement</a> signed by more than 250 experts and organizations laid out the risks and called for a five-year pause on student-facing generative AI in PreK-12 schools. It was followed in September by AI moratoriums in the nation's two largest school districts, New York City and Los Angeles Unified. Both school districts had previously allowed students to use generative AI but reversed course following local advocacy.</p>
+            <p>The Student-First AI Policy is the long-term next step. It provides a model vetting process for any AI tool a district considers for student use by requiring independent evidence that an AI product meets rigorous standards. While these standards to evaluate AI tools are high, they are necessary and appropriate to protect our children’s education.</p>
+          </details>
+          <div class="pdf-actions">
+            <a class="btn-pdf" href="pdf/student-first-ai-policy.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <path d="M14 2v6h6" />
+                <path d="M12 12v6" />
+                <path d="m9 15 3 3 3-3" />
+              </svg>
+              <span>Download Summary and Model Policy <small>PDF</small></span>
+            </a>
+            <a class="btn-pdf btn-pdf-outline" href="pdf/student-first-ai-policy-legislation.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <path d="M14 2v6h6" />
+                <path d="M12 12v6" />
+                <path d="m9 15 3 3 3-3" />
+              </svg>
+              <span>Legislation Only <span class="nowrap">(Printer-Friendly)</span> <small>PDF</small></span>
+            </a>
+          </div>
+        </div>
+        <div class="policy-side">
+          <h3 class="why">Why Now?</h3>
+          <p>
+            Once generative AI products are entangled in students’ and educators’ daily lives, it will be difficult to
+            disentangle them – something many school districts are currently experiencing as they reevaluate their use
+            of educational technology generally. This makes now the ideal time for school board members,
+            superintendents, parents, educators, and students to organize and demand a voice in the standards set for AI
+            products, both for their own benefit and for future generations.
+          </p>
+          <details class="more">
+            <summary><span class="more-label">See more</span><span class="less-label">See less</span></summary>
+            <p>
+              As researchers at the National Education Policy Center
+              <a href="https://nepc.colorado.edu/sites/default/files/publications/PB%20Williamson_1.pdf" target="_blank" rel="noopener">noted</a>,
+              there is a danger in allowing AI to “become enmeshed in school processes and procedures in ways that allow
+              private entities to increasingly control the structure and content of public education, to reinforce
+              surveillance practices, and to amplify existing biases and inequalities.”
+            </p>
+          </details>
+          <hr />
+          <h3 class="how">How to Use This Model Policy</h3>
+          <p>
+            Taking lessons from the successful uprising around data centers and AI-powered surveillance cameras, the
+            Student-First AI Policy provides a way for ordinary people to make meaningful change in their communities.
+            The model policy offers tangible suggestions advocates can bring to their districts to create concrete
+            change for students. Because district-level decisions about technology in schools are often made at the
+            local level, community members can use this policy to begin a dialogue with decision-makers.
+          </p>
+          <details class="more">
+            <summary><span class="more-label">See more</span><span class="less-label">See less</span></summary>
+            <p>We recommend using this model policy as one tool of many. Consider starting with these questions:</p>
+            <ul>
+              <li>While it considers long-term standards, has the district already adopted a temporary moratorium on generative AI products in schools?</li>
+              <li>While it considers long-term standards, has the district made its individual contracts with vendors accessible to the public? (Microsoft’s <a href="https://www.aft.org/sites/default/files/media/documents/2026/NAfAI-School_AI_Privacy_Standards.pdf" target="_blank" rel="noopener">Memorandum of Agreement</a> with the American Federation of Teachers may provide a helpful comparison)</li>
+              <li>Which generative AI products, if any, are currently being used in the district?</li>
+              <li>What vetting process and standards, if any, are already in place for generative AI products being used?</li>
+              <li>If the district uses lower standards for generative AI products than those in the Student-First AI Policy, what is the justification?</li>
+            </ul>
+            <p>
+              The Student-First AI Policy is the follow-up to Fairplay’s <a href="https://fairplayforkids.org/wp-content/uploads/2026/07/Model-Moratorium-on-Generative-AI-Products-in-School.pdf" target="_blank" rel="noopener">Model Moratorium on Generative AI Products in School</a>.
+              Bans and moratoriums give districts time to slow down and make informed decisions about whether AI should be
+              used in schools, while this model policy provides a starting point for communities to set their own
+              long-term standards.
+            </p>
+            <p>
+              To learn more about how you can get this policy implemented in your district, visit the
+              <a href="https://fairplayforkids.org/pf/pause-genai/" target="_blank" rel="noopener">Screen Time Action Network</a> at Fairplay.
+            </p>
+          </details>
+        </div>
+      </div>
+      <div class="policy-credits">
+        <div>
+          <h3>Developed by</h3>
+          <p>Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies Institute.</p>
+        </div>
+        <div>
+          <h3>In consultation with</h3>
+          <p>
+            ACLU of Massachusetts, American Federation of Teachers Massachusetts, Design It For Us, Distraction-Free
+            Schools, Fight for the Future, Intersectional Innovation and Impact Labs, Massachusetts Education Justice
+            Alliance, Massachusetts Teachers Association, Rudick Law Group, Sociedad Latina, Schools Beyond Screens,
+            Turning Life On, and Dr. Faith English at Johns Hopkins Bloomberg School of Public Health.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-logos">
+      <a class="partner-logo" href="https://parabolacenter.com/" target="_blank" rel="noopener"><img src="img/pc_logo.png" alt="Parabola Center for Law and Policy" width="1400" height="511" /></a>
+      <a class="partner-logo" href="https://fairplayforkids.org/" target="_blank" rel="noopener"><img src="img/fairplay-logo.jpg" alt="Fairplay: childhood beyond brands" width="512" height="129" /></a>
+      <a class="partner-logo" href="https://www.criticalinternet.org/" target="_blank" rel="noopener"><img src="img/critical-internet-studies-institute-logo.webp" alt="Critical Internet Studies Institute" width="500" height="88" /></a>
+    </div>
+    <div class="wrap row">
+      <span>&copy; 2026 Parabola Center for Law and Policy is a 501(c)(3) charitable organization.</span>
+      <ul>
+        <li><a href="https://parabolacenter.com/">parabolacenter.com</a></li>
+        <li><a href="https://www.facebook.com/theparabolacenter" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com/parabolacenter" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@ParabolaCenter" target="_blank" rel="noopener">YouTube</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
