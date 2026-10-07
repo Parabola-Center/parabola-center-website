@@ -178,7 +178,7 @@
       z-index: 1;
     }
     .scroll-cue:hover { color: #fff; }
-    .scroll-cue .arrow { display: inline-block; animation: nudge 1.6s ease-in-out infinite; }
+    .scroll-cue .arrow { display: block; width: 1.25em; height: 1.25em; flex: none; animation: nudge 1.6s ease-in-out infinite; }
     @keyframes nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
     @media (prefers-reduced-motion: reduce) { .scroll-cue .arrow { animation: none; } }
     .toc { scroll-margin-top: 24px; }
@@ -285,7 +285,7 @@
           <span>Legislation Only <span class="nowrap">(Printer-Friendly)</span> <small>PDF</small></span>
         </a>
       </div>
-      <a class="scroll-cue" href="#contents">Read the policy below <span class="arrow" aria-hidden="true">&darr;</span></a>
+      <a class="scroll-cue" href="#contents">Read the policy below <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v15" /><path d="m5 12 7 7 7-7" /></svg></a>
     </div>
   </header>
 
