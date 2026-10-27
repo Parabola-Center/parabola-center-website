@@ -283,9 +283,11 @@
     }
     .signup-form button:hover { background: #c21549; transform: translateY(-1px); }
     .signup-form button:disabled { opacity: .7; cursor: default; transform: none; }
-    .signup-status { margin: 14px 0 0; font-size: 1rem; min-height: 1.5em; }
+    .signup p.signup-status { margin: 10px 0 0; font-size: 1rem; }
+    .signup p.signup-status:empty { display: none; }
     .signup-status.is-error { color: #b0103f; }
     .signup-status.is-success { color: var(--blue-dark); font-weight: 600; }
+    .signup p.signup-note { margin: 12px 0 0; font-size: .9rem; color: var(--grey); }
 
     @media (max-width: 760px) {
       body { font-size: 17px; }
@@ -636,6 +638,7 @@
           <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_05f1b4a1bb668277775f14d00_8c40c3470c" tabindex="-1" value="" /></div>
           <button type="submit">Sign up</button>
         </form>
+        <p class="signup-note">We won’t share your email address beyond the three organizations that wrote this policy: Parabola Center for Law and Policy, Fairplay, and the Critical Internet Studies Institute.</p>
         <p class="signup-status" id="signup-status" role="status" aria-live="polite"></p>
       </div>
     </div>
