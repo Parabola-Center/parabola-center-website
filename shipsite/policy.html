@@ -665,7 +665,7 @@
         show("Signing you up…");
         var url = form.action.replace("/post?", "/post-json?") + "&EMAIL=" + encodeURIComponent(email) + "&c=" + cb;
         script.src = url;
-        script.onerror = function () { if (!done) { finish(); form.submit(); } };
+        script.onerror = function () { if (!done) { finish(); show("Your browser blocked the signup on this page, so we opened Mailchimp’s signup page in a new tab. Please finish signing up there."); form.submit(); } };
         document.body.appendChild(script);
         setTimeout(function () { if (!done) { finish(); show("Something went wrong. Please try again.", "error"); } }, 10000);
       });
