@@ -10,16 +10,26 @@
   <meta property="og:title" content="Student-First AI Policy" />
   <meta property="og:description" content="The Student-First AI Policy is a model policy that protects students by providing strict criteria to review and evaluate the use of AI products in schools." />
   <meta property="og:url" content="https://studentfirstaipolicy.com/" />
-  <meta property="og:image" content="https://studentfirstai.shipsite.sh/img/student-first-ai-policy-og-v2.png" />
+  <meta property="og:image" content="https://studentfirstai.shipsite.sh/img/student-first-ai-policy-og-v3.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Student-First AI Policy, with the report cover." />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap" />
   <style>
+    @font-face {
+      font-family: "FranklinGothic";
+      src: url("fonts/framd.ttf") format("truetype");
+      font-display: swap;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "FranklinGothic";
+      src: url("fonts/framdit.ttf") format("truetype");
+      font-display: swap;
+      font-style: italic;
+    }
+
     :root {
       --red: #df1e5b;
       --gold: #eab12c;
@@ -44,7 +54,7 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: "Libre Franklin", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+      font-family: "FranklinGothic", "Franklin Gothic Medium", "Franklin Gothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
       font-size: 18px;
       line-height: 1.6;
     }
@@ -233,6 +243,45 @@
     .partner-logo:hover { transform: translateY(-2px); box-shadow: 0 0 0 3px var(--gold); }
     .partner-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
 
+    /* Email signup */
+    .signup { background: var(--blue-tint); padding: 64px 0; }
+    .signup-inner { max-width: 760px; margin: 0 auto; }
+    .signup h2 { font-size: clamp(1.6rem, 3.5vw, 2.1rem); line-height: 1.2; margin: 0 0 10px; color: var(--blue-dark); }
+    .signup p { margin: 0 0 22px; font-size: 1.1rem; }
+    .signup-form { display: flex; flex-wrap: wrap; gap: 12px; }
+    .signup-form label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .signup-form input[type="email"] {
+      flex: 1 1 260px;
+      min-width: 0;
+      padding: 14px 20px;
+      border: 2px solid var(--blue-dark);
+      border-radius: 999px;
+      font: inherit;
+      font-size: 1rem;
+      background: #fff;
+      color: var(--ink);
+    }
+    .signup-form input[type="email"]:focus { outline: 3px solid var(--gold); outline-offset: 2px; }
+    .signup-form button {
+      padding: 14px 28px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--red);
+      color: #fff;
+      font: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s ease, transform .15s ease;
+    }
+    .signup-form button:hover { background: #c21549; transform: translateY(-1px); }
+    .signup-form button:disabled { opacity: .7; cursor: default; transform: none; }
+    .signup p.signup-status { margin: 10px 0 0; font-size: 1rem; }
+    .signup p.signup-status:empty { display: none; }
+    .signup-status.is-error { color: #b0103f; }
+    .signup-status.is-success { color: var(--blue-dark); font-weight: 600; }
+    .signup p.signup-note { margin: 12px 0 0; font-size: .9rem; color: var(--grey); }
+
     @media (max-width: 760px) {
       body { font-size: 17px; }
       .hero { padding: 48px 0 72px; }
@@ -360,7 +409,7 @@
       <div class="policy-credits">
         <div>
           <h3>Developed by</h3>
-          <p>Parabola Center for Law and Policy, Fairplay, and The Critical Internet Studies Institute.</p>
+          <p>Parabola Center for Law and Policy, Fairplay, and the Critical Internet Studies Institute.</p>
         </div>
         <div>
           <h3>In consultation with</h3>
@@ -373,6 +422,54 @@
       </div>
     </div>
   </section>
+
+  <section class="signup" aria-labelledby="signup-title">
+    <div class="wrap">
+      <div class="signup-inner">
+        <h2 id="signup-title">Get updates</h2>
+        <p>Sign up for occasional updates on the Student-First AI Policy and efforts to get it adopted.</p>
+        <form class="signup-form" id="signup-form" action="https://parabolacenter.us5.list-manage.com/subscribe/post?u=05f1b4a1bb668277775f14d00&amp;id=8c40c3470c&amp;f_id=00cabeedf0" method="post" target="_blank" novalidate>
+          <label for="signup-email">Email address</label>
+          <input type="email" name="EMAIL" id="signup-email" placeholder="Your email address" autocomplete="email" required />
+          <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_05f1b4a1bb668277775f14d00_8c40c3470c" tabindex="-1" value="" /></div>
+          <button type="submit">Sign up</button>
+        </form>
+        <p class="signup-note">We won’t share your email address beyond the three organizations that wrote this policy: Parabola Center for Law and Policy, Fairplay, and the Critical Internet Studies Institute.</p>
+        <p class="signup-status" id="signup-status" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+  <script>
+    (function () {
+      var form = document.getElementById("signup-form");
+      var status = document.getElementById("signup-status");
+      var input = document.getElementById("signup-email");
+      var button = form.querySelector("button");
+      function show(msg, kind) { status.textContent = msg; status.className = "signup-status" + (kind ? " is-" + kind : ""); }
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var email = input.value.trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { show("Please enter a valid email address.", "error"); input.focus(); return; }
+        var cb = "signupCb" + Date.now();
+        var script = document.createElement("script");
+        var done = false;
+        function finish() { done = true; delete window[cb]; script.remove(); button.disabled = false; }
+        window[cb] = function (res) {
+          finish();
+          if (res && res.result === "success") { show("Thanks! Please check your inbox to confirm your subscription.", "success"); form.reset(); }
+          else if (res && /already subscribed/i.test(res.msg || "")) { show("You’re already signed up. Thank you!", "success"); }
+          else { show("Something went wrong. Please try again.", "error"); }
+        };
+        button.disabled = true;
+        show("Signing you up…");
+        var url = form.action.replace("/post?", "/post-json?") + "&EMAIL=" + encodeURIComponent(email) + "&c=" + cb;
+        script.src = url;
+        script.onerror = function () { if (!done) { finish(); show("Your browser blocked the signup on this page, so we opened Mailchimp’s signup page in a new tab. Please finish signing up there."); form.submit(); } };
+        document.body.appendChild(script);
+        setTimeout(function () { if (!done) { finish(); show("Something went wrong. Please try again.", "error"); } }, 10000);
+      });
+    })();
+  </script>
 
   <footer>
     <div class="wrap footer-logos">
